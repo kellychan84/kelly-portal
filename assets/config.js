@@ -24,10 +24,10 @@ window.SITE_CONFIG = {
   whatsapp: '60122147388',
 
   // Instagram username without the @, e.g. 'kellychan.finance' (leave '' to hide)
-  instagram: '',
+  instagram: 'kelly_chan84',
 
   // Facebook page link, e.g. 'https://facebook.com/yourpage' (leave '' to hide)
-  facebook: '',
+  facebook: 'https://www.facebook.com/myKellyChan',
 
   // Public contact email shown on the site (leave '' to hide)
   contactEmail: ''
