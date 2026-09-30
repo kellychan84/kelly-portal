@@ -12,7 +12,7 @@ window.SITE_CONFIG = {
 
   // Google Apps Script Web App URL (see apps-script/SETUP.md).
   // Until this is filled in, forms run in "demo mode" and nothing is saved.
-  leadEndpoint: '',
+  leadEndpoint: 'https://script.google.com/macros/s/AKfycbwLo9AWbTvdOe1eNOxzkjh8R1Rw1j6XYnmji6PzuljNSk5qJLQ0O4hA3yA6cgniMUgr/exec',
 
   // Google Calendar appointment schedule booking-page link, e.g.
   // 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ...'
@@ -24,5 +24,5 @@ window.SITE_CONFIG = {
   whatsapp: '60122147388',
 
   // Public contact email shown on the site (leave '' to hide)
-  contactEmail: 'kelly.chan1413@gmail.com'
+  contactEmail: 'kelly.chan84@gmail.com'
 };

@@ -128,18 +128,17 @@
       console.warn('leadEndpoint is not set in assets/config.js — lead NOT saved', payload);
       return local ? { ok: true, demo: true } : { ok: false };
     }
-    try {
-      await fetch(cfg.leadEndpoint, {
-        method: 'POST',
-        mode: 'no-cors',
-        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-        body: JSON.stringify(payload)
-      });
-      return { ok: true, demo: false };
-    } catch (e) {
-      console.error(e);
-      return { ok: false };
-    }
+    // Apps Script takes 5-10 s to answer, and with no-cors we can't read the reply anyway.
+    // Send in the background (keepalive survives the visitor leaving the page) and only
+    // wait briefly so an immediate network failure can still be reported.
+    const send = fetch(cfg.leadEndpoint, {
+      method: 'POST',
+      mode: 'no-cors',
+      keepalive: true,
+      headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+      body: JSON.stringify(payload)
+    }).then(() => ({ ok: true, demo: false }), e => { console.error(e); return { ok: false }; });
+    return Promise.race([send, new Promise(r => setTimeout(() => r({ ok: true, demo: false }), 1200))]);
   };
 
   window.kpSavedContact = function () {
