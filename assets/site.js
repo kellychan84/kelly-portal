@@ -123,8 +123,10 @@
     store.set('kp-contact', JSON.stringify({ name: data.name, phone: data.phone, email: data.email }));
 
     if (!cfg.leadEndpoint) {
-      console.info('[demo mode] lead not sent — set leadEndpoint in assets/config.js', payload);
-      return { ok: true, demo: true };
+      // Local preview: pretend it worked. Live site: refuse, so a real lead is never silently dropped.
+      const local = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname) || location.protocol === 'file:';
+      console.warn('leadEndpoint is not set in assets/config.js — lead NOT saved', payload);
+      return local ? { ok: true, demo: true } : { ok: false };
     }
     try {
       await fetch(cfg.leadEndpoint, {
