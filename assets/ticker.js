@@ -2,6 +2,7 @@
 // Only symbols TradingView allows in free widgets work here — tested 2026-09-30:
 //   OK:  FOREXCOM:SPXUSD, FOREXCOM:DJI, FOREXCOM:NSXUSD, OANDA:XAUUSD, TVC:USOIL, FX_IDC:USDMYR
 //   NOT: SP:SPX, DJ:DJI, NASDAQ:IXIC, NASDAQ:NDX, FTSEMYX:FBMKLCI ("only available on TradingView")
+// A static KLCI close card was tried beside the tape (2026-10-01) and removed: stale data next to live quotes looked out of place.
 (function () {
   const MARKETS = [
     { proName: 'FOREXCOM:SPXUSD', zh: '标普 500', en: 'S&P 500' },
@@ -43,31 +44,6 @@
   }
   document.addEventListener('kp:lang', sync);
 
-  // ---- KLCI: TradingView doesn't allow it in free widgets, so show the last verified close from the daily brief ----
-  const card = document.getElementById('klciCard');
-  let klci = null;
-  function drawKlci() {
-    if (!card || !klci) return;
-    const zh = (window.kpLang ? kpLang() : 'zh') === 'zh';
-    const up = klci.change >= 0, sign = up ? '+' : '';
-    const [y, m, d] = klci.date.split('-').map(Number);
-    const dateTxt = zh ? `${m}月${d}日收盘` : `Close ${new Date(Date.UTC(y, m - 1, d)).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', timeZone: 'UTC' })}`;
-    card.href = klci.brief ? 'briefs/' + klci.brief : 'briefs/index.html';
-    card.title = zh ? `数据来源：${klci.source}（经每日简报核实）` : `Source: ${klci.source} (verified in the daily brief)`;
-    card.innerHTML = `
-      <span class="klci-name">${zh ? '富时大马 KLCI' : 'FBM KLCI'}</span>
-      <span class="klci-price">${klci.close.toLocaleString('en-MY', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
-      <span class="klci-chg ${up ? 'up' : 'dn'}">${sign}${klci.change.toFixed(2)} (${sign}${klci.changePct.toFixed(2)}%)</span>
-      <span class="klci-date">${dateTxt}</span>`;
-    card.hidden = false;
-  }
-  if (card) {
-    // cache-bust: GitHub Pages caches files for 10 minutes
-    fetch('markets/klci.json?t=' + Date.now()).then(r => r.ok ? r.json() : null).then(j => {
-      if (j && isFinite(j.close) && isFinite(j.change) && isFinite(j.changePct) && j.date) { klci = j; drawKlci(); }
-    }).catch(() => {});
-    document.addEventListener('kp:lang', drawKlci);
-  }
   wide.addEventListener ? wide.addEventListener('change', sync) : wide.addListener(sync);
   sync();
 })();
