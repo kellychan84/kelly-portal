@@ -115,6 +115,17 @@ section { padding: 56px 0; }
 .btn[disabled] { opacity: .6; cursor: progress; }
 .btn-block { width: 100%; }
 
+/* ---------- Live market strip ---------- */
+.mkt-bar { background: var(--surface); border-bottom: 1px solid var(--border); padding: 12px 0 6px; }
+.mkt-head { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 4px; }
+.mkt-title { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; font-size: 14px; }
+.mkt-dot { width: 8px; height: 8px; border-radius: 50%; background: #1A6B3C; box-shadow: 0 0 0 3px rgba(26, 107, 60, .18); animation: mktPulse 2s ease-in-out infinite; }
+@keyframes mktPulse { 50% { box-shadow: 0 0 0 6px rgba(26, 107, 60, 0); } }
+@media (prefers-reduced-motion: reduce) { .mkt-dot { animation: none; } }
+.mkt-note { font-size: 11.5px; color: var(--muted2); }
+.mkt-strip.is-row { min-height: 72px; }
+.mkt-strip.is-tape { min-height: 46px; margin: 2px -16px 0; }
+@media (min-width: 1112px) { .mkt-strip.is-tape { margin: 2px 0 0; } }
 /* ---------- Hero ---------- */
 .hero { padding: 72px 0 56px; border-bottom: 1px solid var(--border); }
 .hero-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 40px; align-items: center; }
