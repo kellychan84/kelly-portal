@@ -44,8 +44,7 @@
       <span class="brand-sub"><span class="zh">${cfg.advisorTitleZh || ''}</span><span class="en">${cfg.advisorTitleEn || ''}</span></span>
     </a>
     <nav class="nav" id="siteNav">
-      <a href="${root}insights.html"${cur('insights')}><span class="zh">市场洞察</span><span class="en">Insights</span></a>
-      <a href="${root}briefs/index.html"${cur('briefs')}><span class="zh">市场简报</span><span class="en">Market Briefs</span></a>
+      <a href="${root}insights.html"${cur('insights') || cur('briefs')}><span class="zh">市场洞察</span><span class="en">Insights</span></a>
       <a href="${root}calculator.html"${cur('calculator')}><span class="zh">退休计算器</span><span class="en">Retirement Calculator</span></a>
       <a href="${root}book.html"${cur('book')}><span class="zh">预约咨询</span><span class="en">Book a Consult</span></a>
     </nav>
@@ -100,7 +99,7 @@
       </div>
       <div>
         <a href="${root}insights.html"><span class="zh">市场洞察</span><span class="en">Insights</span></a>
-        <a href="${root}briefs/index.html"><span class="zh">市场简报</span><span class="en">Briefs</span></a>
+        <a href="${root}briefs/index.html"><span class="zh">简报存档</span><span class="en">Brief archive</span></a>
         <a href="${root}calculator.html"><span class="zh">退休计算器</span><span class="en">Calculator</span></a>
         <a href="${root}book.html"><span class="zh">预约咨询</span><span class="en">Book</span></a>
         <a href="${root}privacy.html"><span class="zh">隐私政策</span><span class="en">Privacy</span></a>

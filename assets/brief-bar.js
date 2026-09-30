@@ -26,7 +26,7 @@
   const bar = document.createElement('div');
   bar.className = 'kp-bar';
   bar.innerHTML = `
-    <a href="index.html">← 全部简报 · All briefs</a>
+    <a href="../insights.html">← 市场洞察 · Insights</a>
     <a class="kp-name" href="../index.html">Kelly Chan</a>
     <a class="kp-book" href="../book.html">📅 预约咨询 · Book</a>`;
   document.body.insertBefore(bar, document.body.firstChild);

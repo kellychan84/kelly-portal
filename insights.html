@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/site.css?v=7">
+<link rel="stylesheet" href="assets/site.css?v=8">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%239A7B3E'/><text x='32' y='44' font-size='34' text-anchor='middle' fill='white' font-family='Georgia'>K</text></svg>">
 </head>
 <body data-page="insights" data-root="">
@@ -40,6 +40,12 @@
     <p class="icount" id="count" aria-live="polite"></p>
     <div id="feed"></div>
     <div style="text-align:center;margin-top:18px"><button class="btn btn-ghost" id="more" hidden><span class="zh">显示更多</span><span class="en">Show more</span></button></div>
+    <a class="archive-link" href="briefs/index.html">
+      <span class="archive-ico" aria-hidden="true">📁</span>
+      <span><b><span class="zh">完整简报存档</span><span class="en">Full brief archive</span></b>
+      <span class="zh">每一份早报、午后速递与周末版的完整版本，包括计分板与 Kelly 的分析。</span><span class="en">Every morning, afternoon and weekend brief in full, with the scorecard and Kelly's takeaways.</span></span>
+      <span class="archive-go" aria-hidden="true">→</span>
+    </a>
   </div>
 
   <section class="cta-band">
@@ -60,7 +66,7 @@
 <script src="assets/config.js?v=5"></script>
 <script src="insights/insights.js"></script>
 <script src="assets/insights-ui.js?v=2"></script>
-<script src="assets/site.js?v=5"></script>
+<script src="assets/site.js?v=6"></script>
 <script>
 (function () {
   const PAGE = 10;

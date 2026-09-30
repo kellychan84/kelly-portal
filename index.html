@@ -14,7 +14,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/site.css?v=7">
+<link rel="stylesheet" href="assets/site.css?v=8">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%239A7B3E'/><text x='32' y='44' font-size='34' text-anchor='middle' fill='white' font-family='Georgia'>K</text></svg>">
 </head>
 <body data-page="home" data-root="">
@@ -28,7 +28,10 @@
         <span class="mkt-title"><span class="mkt-dot" aria-hidden="true"></span><span class="zh">市场行情</span><span class="en">Markets</span></span>
         <span class="mkt-note"><span class="zh">实时报价（或有延迟）· 美股指数为差价合约报价，仅供参考 · 数据来源 <a href="https://www.tradingview.com/" target="_blank" rel="noopener">TradingView</a></span><span class="en">Live quotes (may be delayed) · US indices shown via CFD prices, for reference only · Data: <a href="https://www.tradingview.com/" target="_blank" rel="noopener">TradingView</a></span></span>
       </div>
-      <div class="mkt-strip" id="marketStrip" aria-label="Market quotes"></div>
+      <div class="mkt-row">
+        <a class="klci-card" id="klciCard" hidden></a>
+        <div class="mkt-strip" id="marketStrip" aria-label="Market quotes"></div>
+      </div>
     </div>
   </div>
 
@@ -47,7 +50,7 @@
         </p>
         <div class="hero-ctas">
           <a class="btn btn-primary" href="calculator.html"><span class="zh">免费计算退休缺口</span><span class="en">Calculate my retirement gap</span></a>
-          <a class="btn btn-ghost" href="briefs/index.html"><span class="zh">阅读今日简报</span><span class="en">Read today's brief</span></a>
+          <a class="btn btn-ghost" href="insights.html"><span class="zh">今日市场洞察</span><span class="en">Today's insights</span></a>
         </div>
         <div class="trust-row">
           <span class="zh">中英双语</span><span class="en">Bilingual 中/EN</span>
@@ -79,20 +82,6 @@
     </div>
   </section>
 
-  <!-- LATEST BRIEFS -->
-  <section>
-    <div class="container">
-      <div class="row-between">
-        <div>
-          <p class="section-eyebrow"><span class="zh">市场简报</span><span class="en">Market Briefs</span></p>
-          <h2 class="section-title"><span class="zh">最近更新</span><span class="en">Recent updates</span></h2>
-          <p class="section-lead"><span class="zh">每天早上 9 点与下午 5 点（马来西亚时间）更新，周末另有一周回顾。</span><span class="en">Updated at 9 AM and 5 PM Malaysia time on weekdays, with a weekly recap at the weekend.</span></p>
-        </div>
-        <a class="btn btn-ghost" href="briefs/index.html"><span class="zh">全部简报</span><span class="en">All briefs</span></a>
-      </div>
-      <div class="brief-grid" id="recentBriefs"></div>
-    </div>
-  </section>
 
   <!-- CALCULATOR BAND -->
   <section class="band">
@@ -162,8 +151,8 @@
 <script src="assets/briefs-ui.js"></script>
 <script src="insights/insights.js"></script>
 <script src="assets/insights-ui.js?v=2"></script>
-<script src="assets/site.js?v=5"></script>
-<script src="assets/ticker.js?v=2"></script>
+<script src="assets/site.js?v=6"></script>
+<script src="assets/ticker.js?v=3"></script>
 <script>
   (function () {
     const list = kpInsights.all();
@@ -174,12 +163,7 @@
 <script>
   (function () {
     const list = kpBriefs.all();
-    const grid = document.getElementById('recentBriefs');
-    if (!list.length) {
-      grid.innerHTML = '<p class="empty"><span class="zh">简报即将上线。</span><span class="en">Briefs coming soon.</span></p>';
-      return;
-    }
-    grid.innerHTML = list.slice(0, 6).map(b => kpBriefs.card(b, '')).join('');
+    if (!list.length) { document.getElementById('latestCard').remove(); return; }
     const b = list[0], s = kpBriefs.SLOT[b.slot], d = kpBriefs.dateParts(b.date);
     const esc = t => String(t || '').replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
     document.getElementById('latestTitle').innerHTML =

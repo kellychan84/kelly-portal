@@ -12,7 +12,7 @@ $root = Split-Path -Parent $PSScriptRoot
 $utf8 = New-Object System.Text.UTF8Encoding($false)
 
 $html = [IO.File]::ReadAllText((Resolve-Path $Source), $utf8)
-$tag = '<script src="../assets/brief-bar.js" defer></script>'
+$tag = '<script src="../assets/brief-bar.js?v=2" defer></script>'
 if ($html -notmatch [regex]::Escape('assets/brief-bar.js')) {
     if ($html -match '</body>') { $html = $html -replace '</body>', "$tag`n</body>" } else { $html += "`n$tag`n" }
 }
