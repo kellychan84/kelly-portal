@@ -24,5 +24,5 @@ window.SITE_CONFIG = {
   whatsapp: '60122147388',
 
   // Public contact email shown on the site (leave '' to hide)
-  contactEmail: 'kelly.chan84@gmail.com'
+  contactEmail: ''
 };
