@@ -34,11 +34,11 @@ licenceLine:  'FIMM Reg. No. ... · Distributor: ...'   // optional
 ```
 
 ### 4. Publish on GitHub Pages
-1. Create a free account at github.com, then a **new public repository**, e.g. `kelly-portal`.
+1. Create a free account at github.com, then a **new public repository**, e.g. `your-wealth-compass`.
 2. On the repository page: **Add file → Upload files** → drag in *everything inside this folder* → **Commit**.
    (Or install **GitHub Desktop** and publish this folder. That makes daily updates easier.)
 3. **Settings → Pages** → Source: *Deploy from a branch* → Branch: `main` / root → **Save**.
-4. After ~1 minute your site is live at `https://<your-username>.github.io/kelly-portal/`.
+4. After ~1 minute your site is live at `https://<your-username>.github.io/your-wealth-compass/`.
 5. Optional: buy a domain (e.g. `kellychan.my`) and add it under **Settings → Pages → Custom domain**.
 
 ---

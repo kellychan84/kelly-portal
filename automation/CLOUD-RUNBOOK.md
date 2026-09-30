@@ -4,7 +4,7 @@ This file is followed by the scheduled **cloud routines** (Claude Code in Anthro
 The routine prompt tells you the **slot**: `morning`, `afternoon` or `weekend`. Everything else is here.
 
 Kelly Chan is a Malaysian **信托基金顾问 (unit trust consultant)**. The briefs go on her public website
-(https://kellychan84.github.io/kelly-portal/) for her clients and prospects.
+(https://kellychan84.github.io/your-wealth-compass/) for her clients and prospects.
 
 ---
 
