@@ -17,11 +17,12 @@ window.SITE_CONFIG = {
   // Google Calendar appointment schedule booking-page link, e.g.
   // 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ...'
   // Leave '' to fall back to "I'll contact you to confirm a time".
-  bookingUrl: '',
+  // (full form of https://calendar.app.google/o9wokMkLTfEzNbc2A; the short link can't be embedded)
+  bookingUrl: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2fQR5mSLS62Bdp19kBAMOb0Wbyb3cg0ZBRseMgLy4xyaEs85rexoQhsBppC0rAzTrIAOJNaZIQ',
 
   // WhatsApp number in international format, digits only, e.g. '60123456789'
-  whatsapp: '',
+  whatsapp: '60122147388',
 
   // Public contact email shown on the site (leave '' to hide)
-  contactEmail: ''
+  contactEmail: 'kelly.chan1413@gmail.com'
 };

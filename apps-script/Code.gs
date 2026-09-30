@@ -80,14 +80,87 @@ function doGet() {
 
 function getSheet() {
   const ss = SpreadsheetApp.getActiveSpreadsheet();
+  return ss.getSheetByName(SHEET_NAME) || setupSheet();
+}
+
+const STATUSES = ['New', 'Contacted', 'Booked', 'Met', 'Client', 'Not now'];
+
+/**
+ * ▶ RUN THIS ONCE from the editor. Builds and formats the "Leads" tab and a "Summary" tab.
+ * Safe to run again: it never deletes lead rows.
+ */
+function setupSheet() {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
   let sheet = ss.getSheetByName(SHEET_NAME);
-  if (!sheet) sheet = ss.insertSheet(SHEET_NAME);
-  if (sheet.getLastRow() === 0) {
-    sheet.appendRow(COLUMNS.map(([h]) => h));
-    sheet.setFrozenRows(1);
-    sheet.getRange(1, 1, 1, COLUMNS.length).setFontWeight('bold').setBackground('#FBF7EE');
+  if (!sheet) {
+    // Reuse the blank first tab ("Sheet1") if nothing is in it
+    const first = ss.getSheets()[0];
+    sheet = first.getLastRow() === 0 && first.getName() !== 'Summary' ? first.setName(SHEET_NAME) : ss.insertSheet(SHEET_NAME, 0);
   }
+  const n = COLUMNS.length, col = h => COLUMNS.findIndex(([x]) => x === h) + 1;
+  sheet.getRange(1, 1, 1, n).setValues([COLUMNS.map(([h]) => h)])
+    .setFontWeight('bold').setBackground('#9A7B3E').setFontColor('#FFFFFF').setWrap(true).setVerticalAlignment('middle');
+  sheet.setFrozenRows(1);
+  sheet.setFrozenColumns(3);
+  sheet.setRowHeight(1, 36);
+  if (sheet.getMaxColumns() > n) sheet.deleteColumns(n + 1, sheet.getMaxColumns() - n);
+
+  const rows = sheet.getMaxRows() - 1;
+  sheet.getRange(2, col('Received'), rows, 1).setNumberFormat('yyyy-mm-dd hh:mm');
+  ['Monthly spend (RM)', 'EPF balance', 'EPF monthly', 'Savings balance', 'Savings monthly', 'Needed at retirement',
+   'Projected at retirement', 'Gap (-) / Surplus', 'Required monthly'].forEach(h =>
+    sheet.getRange(2, col(h), rows, 1).setNumberFormat('"RM "#,##0;[Red]"-RM "#,##0'));
+
+  const widths = { 'Received': 130, 'Source': 150, 'Name': 150, 'Phone': 120, 'WhatsApp link': 200, 'Email': 200,
+                   'Topics': 180, 'Message': 260, 'Status': 110 };
+  COLUMNS.forEach(([h], i) => sheet.setColumnWidth(i + 1, widths[h] || 110));
+
+  // Status dropdown + colours
+  const status = sheet.getRange(2, col('Status'), rows, 1);
+  status.setDataValidation(SpreadsheetApp.newDataValidation().requireValueInList(STATUSES, true).setAllowInvalid(false).build());
+  const colours = { 'New': '#FEF9EC', 'Contacted': '#EBF5FB', 'Booked': '#F0EDFD', 'Met': '#E8F8F5', 'Client': '#EDF7F1', 'Not now': '#F1F1F1' };
+  const rules = Object.keys(colours).map(s => SpreadsheetApp.newConditionalFormatRule()
+    .whenTextEqualTo(s).setBackground(colours[s]).setRanges([status]).build());
+  // Highlight people who asked for a consultation
+  rules.push(SpreadsheetApp.newConditionalFormatRule().whenTextEqualTo('yes').setBold(true).setFontColor('#1A6B3C')
+    .setRanges([sheet.getRange(2, col('Wants consult'), rows, 1)]).build());
+  sheet.setConditionalFormatRules(rules);
+
+  buildSummary(ss, col);
+  SpreadsheetApp.flush();
   return sheet;
+}
+
+function buildSummary(ss, col) {
+  let s = ss.getSheetByName('Summary') || ss.insertSheet('Summary');
+  s.clear();
+  const L = c => String.fromCharCode(64 + c); // column letter (fine for < 27 columns)
+  const letter = h => { const i = col(h); return i <= 26 ? L(i) : 'A' + L(i - 26); };
+  const R = `${SHEET_NAME}!${letter('Received')}2:${letter('Received')}`;
+  const SRC = `${SHEET_NAME}!${letter('Source')}2:${letter('Source')}`;
+  const ST = `${SHEET_NAME}!${letter('Status')}2:${letter('Status')}`;
+  const WC = `${SHEET_NAME}!${letter('Wants consult')}2:${letter('Wants consult')}`;
+  const GAP = `${SHEET_NAME}!${letter('Gap (-) / Surplus')}2:${letter('Gap (-) / Surplus')}`;
+  const data = [
+    ['Kelly Chan · Website Leads', ''],
+    ['', ''],
+    ['Total leads', `=COUNTA(${R})`],
+    ['Last 7 days', `=COUNTIF(${R},">="&(TODAY()-7))`],
+    ['This month', `=COUNTIFS(${R},">="&EOMONTH(TODAY(),-1)+1)`],
+    ['From calculator', `=COUNTIF(${SRC},"calculator")`],
+    ['From booking page', `=COUNTIF(${SRC},"booking*")`],
+    ['Asked for a consultation', `=COUNTIF(${WC},"yes")`],
+    ['Average retirement gap (calculator)', `=IFERROR(AVERAGEIF(${GAP},"<0"),0)`],
+    ['', ''],
+    ['Pipeline', 'Count']
+  ].concat(STATUSES.map(x => [x, `=COUNTIF(${ST},"${x}")`]));
+  s.getRange(1, 1, data.length, 2).setValues(data);
+  s.getRange('A1').setFontSize(16).setFontWeight('bold').setFontColor('#9A7B3E');
+  s.getRange('A11:B11').setFontWeight('bold').setBackground('#FBF7EE');
+  s.getRange('B9').setNumberFormat('"RM "#,##0;[Red]"-RM "#,##0');
+  s.getRange('B3:B8').setFontWeight('bold');
+  s.setColumnWidth(1, 260); s.setColumnWidth(2, 120);
+  ss.setActiveSheet(ss.getSheetByName(SHEET_NAME));
 }
 
 function notify(r) {
