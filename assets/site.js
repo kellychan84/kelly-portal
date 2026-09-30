@@ -61,6 +61,28 @@
     });
   }
 
+  // ---------- social links (Instagram / Facebook / WhatsApp) ----------
+  const ICONS = {
+    instagram: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2Zm0 1.8c-3.1 0-3.5 0-4.7.1-1.1.1-1.7.2-2.1.4-.5.2-.9.4-1.2.8-.4.4-.6.7-.8 1.2-.2.4-.3 1-.4 2.1-.1 1.2-.1 1.6-.1 4.7s0 3.5.1 4.7c.1 1.1.2 1.7.4 2.1.2.5.4.9.8 1.2.4.4.7.6 1.2.8.4.2 1 .3 2.1.4 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1.1-.1 1.7-.2 2.1-.4.5-.2.9-.4 1.2-.8.4-.4.6-.7.8-1.2.2-.4.3-1 .4-2.1.1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c-.1-1.1-.2-1.7-.4-2.1-.2-.5-.4-.9-.8-1.2-.4-.4-.7-.6-1.2-.8-.4-.2-1-.3-2.1-.4-1.2-.1-1.6-.1-4.7-.1Zm0 3.1a4.9 4.9 0 1 1 0 9.8 4.9 4.9 0 0 1 0-9.8Zm0 8a3.1 3.1 0 1 0 0-6.2 3.1 3.1 0 0 0 0 6.2Zm6.2-8.2a1.1 1.1 0 1 1-2.3 0 1.1 1.1 0 0 1 2.3 0Z"/></svg>',
+    facebook: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-8.2h2.8l.4-3.2h-3.2V8.5c0-.9.3-1.6 1.6-1.6h1.7V4.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.4H7.3v3.2h2.8V22h3.4Z"/></svg>',
+    whatsapp: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Z"/></svg>'
+  };
+  function socialLinks() {
+    const links = [];
+    if (cfg.instagram) links.push(['instagram', 'https://instagram.com/' + cfg.instagram.replace(/^@/, ''), 'Instagram', '@' + cfg.instagram.replace(/^@/, '')]);
+    if (cfg.facebook) links.push(['facebook', cfg.facebook, 'Facebook', 'Facebook']);
+    if (cfg.whatsapp) links.push(['whatsapp', 'https://wa.me/' + cfg.whatsapp, 'WhatsApp', 'WhatsApp']);
+    return links;
+  }
+  window.kpSocialHtml = function (withLabels) {
+    return socialLinks().map(([k, href, name, label]) =>
+      `<a class="social-link social-${k}" href="${href}" target="_blank" rel="noopener" aria-label="${name}">${ICONS[k]}${withLabels ? `<span>${label}</span>` : ''}</a>`).join('');
+  };
+  document.querySelectorAll('[data-social]').forEach(el => {
+    const html = kpSocialHtml(el.dataset.social === 'labels');
+    if (html) el.innerHTML = html; else el.remove();
+  });
+
   const footer = document.getElementById('site-footer');
   if (footer) {
     const year = new Date().getFullYear();
@@ -73,6 +95,7 @@
         <span class="zh">${cfg.advisorTitleZh || ''}</span><span class="en">${cfg.advisorTitleEn || ''}</span>
         ${cfg.licenceLine ? `<div>${cfg.licenceLine}</div>` : ''}
         ${cfg.contactEmail ? `<div><a href="mailto:${cfg.contactEmail}">${cfg.contactEmail}</a></div>` : ''}
+        ${socialLinks().length ? `<div class="social-row" style="margin-top:10px">${kpSocialHtml(false)}</div>` : ''}
       </div>
       <div>
         <a href="${root}briefs/index.html"><span class="zh">市场简报</span><span class="en">Briefs</span></a>

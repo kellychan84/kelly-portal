@@ -23,6 +23,12 @@ window.SITE_CONFIG = {
   // WhatsApp number in international format, digits only, e.g. '60123456789'
   whatsapp: '60122147388',
 
+  // Instagram username without the @, e.g. 'kellychan.finance' (leave '' to hide)
+  instagram: '',
+
+  // Facebook page link, e.g. 'https://facebook.com/yourpage' (leave '' to hide)
+  facebook: '',
+
   // Public contact email shown on the site (leave '' to hide)
   contactEmail: ''
 };

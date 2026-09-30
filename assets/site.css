@@ -210,6 +210,19 @@ section { padding: 56px 0; }
 .pill-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
 .pill { background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 6px 12px; font-size: 13.5px; }
 
+/* ---------- Social links ---------- */
+.social-row { display: flex; flex-wrap: wrap; gap: 8px; }
+.social-link {
+  display: inline-flex; align-items: center; gap: 7px; text-decoration: none;
+  color: var(--text); background: var(--surface); border: 1px solid var(--border);
+  border-radius: 999px; padding: 7px 10px; font-size: 13.5px; font-weight: 500;
+}
+.social-link svg { width: 18px; height: 18px; fill: currentColor; flex-shrink: 0; }
+.social-link span { padding-right: 4px; }
+.social-link:hover { border-color: var(--gold); color: var(--gold); }
+.social-instagram:hover { color: #C13584; border-color: #C13584; }
+.site-footer .footer-grid .social-link { margin-right: 0; padding: 7px; }
+
 /* ---------- CTA band ---------- */
 .cta-band { background: #1F1B14; color: #F3EBDA; text-align: center; }
 .cta-band .section-title { color: #fff; }
