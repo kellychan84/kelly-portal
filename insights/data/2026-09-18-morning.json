@@ -1,0 +1,83 @@
+[
+  {
+    "id": "2026-09-18-m1",
+    "time": "2026-09-18T09:00:00+08:00",
+    "brief": "2026-09-18-morning.html",
+    "tags": ["fed", "my"],
+    "title": {
+      "zh": "加息后道指重挫631点，隔天标普大涨1.14%收复部分失地",
+      "en": "Dow sheds 631 points after the hike, then the S&P rebounds 1.14% the next day"
+    },
+    "analysis": {
+      "zh": "美联储加息当天，点阵图的鹰派信号让道指暴跌631点（-1.21%）；DoubleLine 的 Gundlach 直言这波利率周期\"几乎不可能已见顶\"。但隔天油价回落、收益率走软，标普500大涨1.14%至7,629.77点，纳指100涨1.73%。马来西亚综指则收报约1,675点，单日跌0.27%，月内累跌3.38%，区域投资者仍在消化联储的鹰派立场。一天暴跌、一天反弹，正是加息周期里常见的节奏。",
+      "en": "On hike day, the hawkish dot plot sent the Dow down 631 points (-1.21%); DoubleLine's Gundlach said this rate cycle has \"almost certainly not peaked\". The next day oil eased and yields softened, and the S&P 500 jumped 1.14% to 7,629.77 while the Nasdaq 100 rose 1.73%. Malaysia's KLCI closed near 1,675, down 0.27% on the day and 3.38% for the month as regional investors digested the Fed's stance. A plunge one day, a rebound the next — typical of a hiking cycle."
+    },
+    "dda": {
+      "zh": "如果在暴跌那天停掉扣款，就会错过隔天的反弹。定期定额的纪律，正是为这种日子而设。",
+      "en": "Stopping contributions on the plunge day would have missed the next day's rebound. Regular investing's discipline exists for days like these."
+    },
+    "lump": {
+      "zh": "单日大跌后容易想\"抄底\"，单日大涨后又想\"追高\"。分批投入能减少被单日情绪左右。",
+      "en": "Big down-days tempt you to buy the dip; big up-days tempt you to chase. Phasing in reduces the pull of any single day's mood."
+    },
+    "prs": {
+      "zh": "退休资产最怕在恐慌中卖出。事先设定好配置与供款计划，能帮助你在波动中守住长期目标。",
+      "en": "The biggest risk to retirement money is selling in a panic. A pre-set allocation and contribution plan helps you hold your course through volatility."
+    },
+    "source": { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-16-2026" }
+  },
+  {
+    "id": "2026-09-18-m2",
+    "time": "2026-09-18T09:00:00+08:00",
+    "brief": "2026-09-18-morning.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "油价续跌至101美元，沙特管道抢修缓解供应担忧；和谈说法仍待证实",
+      "en": "Oil slips to $101 as Saudi pipeline repairs ease supply fears; peace talk claims still unconfirmed"
+    },
+    "analysis": {
+      "zh": "WTI 原油报101.16美元、布兰特104.07美元，一周累跌约3.2%。沙特正把部分出口改道，并计划数天内恢复约一半东西向管道产能、六周内完全修复。同时特朗普声称已与德黑兰\"直接对话\"、战事\"有望接近尾声\"，但伊朗方面未证实，前伊朗外交官也认为这说法\"难以置信\"。油价的喘息是真的，但和平叙事还没落实。",
+      "en": "WTI settled at $101.16 and Brent at $104.07, down about 3.2% on the week. Saudi Arabia is rerouting some exports and plans to restore about half its East-West pipeline capacity within days, fully within six weeks. Trump claimed \"direct\" talks with Tehran and said the war is \"hopefully\" nearing its end, but Iran hasn't confirmed and a former Iranian diplomat called it hard to believe. The relief in oil is real; the peace narrative isn't settled yet."
+    },
+    "dda": {
+      "zh": "油价在消息面之间来回，定期定额让你不必判断哪一则新闻才是真的。",
+      "en": "With oil bouncing between headlines, regular investing spares you from judging which story is true."
+    },
+    "lump": {
+      "zh": "若和平说法最终落空，油价可能反复。单笔投入能源相关资产前，宜保持耐心、分段进行。",
+      "en": "If the peace claims fall through, oil could reverse. Be patient and phase in before any lump sum into energy-related assets."
+    },
+    "prs": {
+      "zh": "油价影响通胀，也影响退休后的生活成本。组合中保留一定的抗通胀资产，有助长期购买力。",
+      "en": "Oil feeds inflation and retirement living costs. Holding some inflation-resilient assets helps protect long-term purchasing power."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil" }
+  },
+  {
+    "id": "2026-09-18-m3",
+    "time": "2026-09-18T09:00:00+08:00",
+    "brief": "2026-09-18-morning.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "美光9月30日财报将成AI内存风向标，EPS预估跳升至31美元",
+      "en": "Micron's Sept 30 report seen as a bellwether for AI memory, with EPS forecast at $31"
+    },
+    "analysis": {
+      "zh": "市场预期美光每股盈余31.16美元（去年同期3.03美元），营收约504亿美元。背后是AI服务器对DRAM与HBM的强劲需求，但增速正放缓：DRAM合约价第一季环比涨90%–95%，第三季预计只涨13%–18%。美光股价年内已涨约240%，期权市场预计财报后波动约11%。AI内存红利正从短期抢购，过渡到依赖长期合约的稳定增长阶段。",
+      "en": "Consensus sees Micron EPS at $31.16 (vs $3.03 a year ago) on revenue of about $50.4B, driven by AI-server demand for DRAM and HBM. But growth is slowing: DRAM contract prices rose 90–95% in Q1 and are expected to rise only 13–18% in Q3. The stock is up about 240% this year, and options imply an ~11% post-earnings move. The AI-memory boom is shifting from a buying frenzy to steadier, contract-driven growth."
+    },
+    "dda": {
+      "zh": "单一公司财报前后波动大，通过基金定期投入，可以分享产业成长而不必押注单日结果。",
+      "en": "Single-company earnings swing hard. Investing regularly through a fund shares in industry growth without betting on one day's result."
+    },
+    "lump": {
+      "zh": "年内已大涨的板块，单笔进场要特别留意估值与集中度，避免一次性追高。",
+      "en": "For a sector already up sharply this year, watch valuation and concentration before a lump sum, and avoid chasing in one go."
+    },
+    "prs": {
+      "zh": "增速放缓不等于趋势结束，但提醒我们成长主题在退休组合中宜适度、不宜过重。",
+      "en": "Slower growth isn't the end of a trend, but it's a reminder that growth themes belong in a retirement portfolio in moderation."
+    },
+    "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/large-cap/26/09/61855575/micron-earnings-preview-31-per-share-vs-3-a-year-ago" }
+  }
+]

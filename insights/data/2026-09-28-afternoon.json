@@ -1,0 +1,56 @@
+[
+  {
+    "id": "2026-09-28-a1",
+    "time": "2026-09-28T17:00:00+08:00",
+    "brief": "2026-09-28-afternoon.html",
+    "tags": ["fed"],
+    "title": {
+      "zh": "加息机率午后走高至73.5%；30年期美债收益率升至5.52%，逼近2004年以来高点",
+      "en": "Hike odds climb to 73.5% by the afternoon; the 30-year yield rises to 5.52%, near its highest since 2004"
+    },
+    "analysis": {
+      "zh": "Investing.com 显示，10月28日加息机率从早上的66.6%升至73.5%，维持不变降至26.5%。没有单一戏剧性新闻，更像市场在消化一整天的信号：油价与收益率同步攀升。Yahoo Finance 指出，30年期美债收益率升至5.5185%，本月累升27个基点，2年期更暴涨55个基点——典型的\"好消息也是坏消息\"：经济数据偏强，反而让联储更有理由维持鹰派。",
+      "en": "Investing.com shows Oct 28 hike odds up from 66.6% this morning to 73.5%, with hold odds down to 26.5%. No single dramatic headline — more the market digesting a day of signals as oil and yields rose together. Yahoo Finance notes the 30-year yield climbed to 5.5185%, up 27bp this month, and the 2-year jumped 55bp — a classic \"good news is bad news\" dynamic where strong data gives the Fed more reason to stay hawkish."
+    },
+    "dda": {
+      "zh": "与其追着每一次机率数字跳动，不如维持定期定额的节奏——利率高位震荡本来就是这几个月的常态。",
+      "en": "Rather than chasing every move in the odds, keep your regular-investing rhythm — high, choppy rates have been the norm for months."
+    },
+    "lump": {
+      "zh": "收益率曲线整体上移，固定收益的收益机会增加。单笔资金可考虑在股债之间均衡配置。",
+      "en": "With the whole yield curve higher, fixed-income opportunities improve. Consider a balanced equity–bond split for a lump sum."
+    },
+    "prs": {
+      "zh": "对退休族来说，较高的收益率意味着未来收益来源更多元。组合中的固定收益比例可随年龄逐步提高。",
+      "en": "For retirees, higher yields mean more varied future income. The fixed-income share can rise gradually with age."
+    },
+    "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
+  },
+  {
+    "id": "2026-09-28-a2",
+    "time": "2026-09-28T17:00:00+08:00",
+    "brief": "2026-09-28-afternoon.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "WTI 午后升破94美元，布兰特站上106美元：市场持续为地缘风险定价",
+      "en": "WTI breaks $94 by the afternoon and Brent tops $106 as markets keep pricing geopolitical risk"
+    },
+    "analysis": {
+      "zh": "早上WTI报93.35美元、布兰特105.82美元；到午后WTI已涨1.90%至94.17美元，布兰特涨2.46%至106.88美元，延续而非反转早上的走势。推动力仍是特朗普拒绝伊朗的霍尔木兹七日方案：谈判虽可能本周重启，但军事选项未被排除。海峡僵局没有新进展，也没有缓解，油价持续上行本身就是市场对\"风险尚未解除\"的投票。",
+      "en": "WTI was $93.35 and Brent $105.82 this morning; by the afternoon WTI had risen 1.90% to $94.17 and Brent 2.46% to $106.88, extending the morning move. The driver remains Trump's rejection of Iran's seven-day Hormuz plan — talks may resume this week, but military options aren't ruled out. The standoff hasn't improved or worsened, and rising oil is the market's vote that the risk hasn't cleared."
+    },
+    "dda": {
+      "zh": "油价上行时，定期定额的纪律能避免你因通胀担忧而中断长期计划。",
+      "en": "When oil climbs, regular investing's discipline keeps inflation worries from derailing your long-term plan."
+    },
+    "lump": {
+      "zh": "地缘溢价上升时追入能源资产风险较高。单笔配置宜维持分散，避免追高。",
+      "en": "Chasing energy assets while the geopolitical premium rises is risky. Keep lump sums diversified and avoid buying the spike."
+    },
+    "prs": {
+      "zh": "退休规划应把通胀视为长期因素。适度的抗通胀配置，能帮助守住退休后的生活水平。",
+      "en": "Retirement plans should treat inflation as a long-term factor. Some inflation-resilient holdings help protect your standard of living later."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil" }
+  }
+]

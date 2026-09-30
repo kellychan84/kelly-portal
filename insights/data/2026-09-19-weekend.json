@@ -1,0 +1,83 @@
+[
+  {
+    "id": "2026-09-19-w1",
+    "time": "2026-09-19T09:00:00+08:00",
+    "brief": "2026-09-19-weekend.html",
+    "tags": ["prs"],
+    "title": {
+      "zh": "96岁巴菲特卸任伯克希尔董事长：\"时间永远是赢家\"",
+      "en": "Buffett, 96, steps down as Berkshire chairman: \"Father Time always wins\""
+    },
+    "analysis": {
+      "zh": "巴菲特于9月18日卸下执掌逾五十年的伯克希尔董事长职位，转任名誉董事长；71岁的儿子霍华德出任非执行董事长，Greg Abel 继续担任CEO。这是多年前就写好的接班计划，霍华德的角色更像\"文化守门人\"。再伟大的投资旅程，最终考验的也是有没有提前把\"传承的规则\"写好——就像家庭理财，重要的不是谁最会赚，而是你不在场时，原则能不能被守住。",
+      "en": "On Sept 18 Buffett stepped down after more than five decades as Berkshire's chairman, becoming chairman emeritus; his son Howard, 71, becomes non-executive chairman and Greg Abel stays CEO. It's a succession plan written years ago, with Howard as a \"culture guardian\". Even the greatest investing journey is ultimately tested by whether the rules for passing it on were set in advance — just as in family finances, what matters is whether your principles hold when you're not there."
+    },
+    "dda": {
+      "zh": "巴菲特的财富来自几十年的复利。定期定额是普通人最容易上手的\"时间复利\"工具。",
+      "en": "Buffett's wealth came from decades of compounding. Regular investing is the most accessible way for ordinary savers to put time to work."
+    },
+    "lump": {
+      "zh": "大笔资金的安排，不只是买什么，也包括未来由谁管理、如何传承。投资时一并考虑受益人与文件安排。",
+      "en": "Planning a large sum isn't just about what to buy, but who manages it later and how it passes on. Consider nominees and documentation alongside the investment."
+    },
+    "prs": {
+      "zh": "退休规划与传承规划是一体两面。PRS 可设定受益人，每年最高 RM3,000 税务减免，适合作为长期计划的一部分。",
+      "en": "Retirement and legacy planning go hand in hand. PRS lets you nominate beneficiaries and offers up to RM3,000 in annual tax relief — a good part of a long-term plan."
+    },
+    "source": { "name": "CBS News", "url": "https://www.cbsnews.com/news/warren-buffett-stepping-aside-berkshire-hathaway-chairman/" }
+  },
+  {
+    "id": "2026-09-19-w2",
+    "time": "2026-09-19T09:00:00+08:00",
+    "brief": "2026-09-19-weekend.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "AI 是泡沫吗？高盛：更像\"有序的周期性顶峰\"，但要留意循环融资",
+      "en": "Is AI a bubble? Goldman: more an \"orderly cyclical peak\" — but watch the circular financing"
+    },
+    "analysis": {
+      "zh": "高盛策略师 Ben Snider 反驳\"AI泡沫论\"，认为目前更像有序的周期性顶峰。他预测标普500企业盈利增速将从今年二季度的51%放缓至2027、2028年的11%，低于市场预期。支撑盈利的因素包括云厂商约8000亿美元资本开支、记忆体毛利率逼近80%等，并警告云厂商、芯片商与AI开发商之间\"互相输血\"的循环融资存在传导风险。同一周，博通重申2027财年AI芯片收入达1150亿美元、AMD 称AI仍处\"早期阶段\"——乐观与谨慎并存。",
+      "en": "Goldman strategist Ben Snider rejects the AI-bubble narrative, calling it an orderly cyclical peak. He expects S&P 500 earnings growth to slow from 51% in Q2 to 11% in 2027 and 2028, below consensus, noting temporary supports such as ~$800B in hyperscaler capex and memory margins near 80%, and warning that circular financing among cloud firms, chipmakers and AI developers carries contagion risk. The same week, Broadcom reaffirmed $115B in fiscal-2027 AI chip revenue and AMD said AI is still \"early\" — optimism and caution side by side."
+    },
+    "dda": {
+      "zh": "盈利增速放缓的阶段，市场波动可能加大。定期定额能在不同价位持续累积，平滑进场成本。",
+      "en": "As earnings growth slows, volatility may rise. Regular investing keeps accumulating across price levels and smooths entry cost."
+    },
+    "lump": {
+      "zh": "高盛的提醒不是\"要不要退出AI\"，而是\"仓位够不够分散\"。单笔加码前，先检视科技占比。",
+      "en": "Goldman's point isn't \"should I exit AI\" but \"is my position diversified enough\". Check your tech weighting before adding a lump sum."
+    },
+    "prs": {
+      "zh": "长期退休组合可以参与科技成长，但应与其他行业和地区平衡，降低单一主题的周期风险。",
+      "en": "A long-term retirement portfolio can share in tech growth, balanced with other sectors and regions to limit single-theme cycle risk."
+    },
+    "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/09/61878323/goldman-sachs-profits-bubble-cyclical-peak" }
+  },
+  {
+    "id": "2026-09-19-w3",
+    "time": "2026-09-19T09:00:00+08:00",
+    "brief": "2026-09-19-weekend.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "两艘油轮霍尔木兹海峡遇袭，布兰特原油却连续第三日回落至103美元",
+      "en": "Two tankers struck in the Strait of Hormuz, yet Brent falls for a third day to $103"
+    },
+    "analysis": {
+      "zh": "9月18日伊朗革命卫队宣称打击一艘多哥籍油轮，英国海事贸易行动组织也通报同一水域另一艘油轮遭不明抛射物击中；特朗普表示正考虑重大军事行动，\"任何事都可能发生\"。然而布兰特原油周五连续第三日回落至103.21美元（-1.54%），因沙特通过替代路线维持出口。市场已部分消化海峡紧张的风险溢价，但局势随时可能再起变化。",
+      "en": "On Sept 18, Iran's IRGC claimed a strike on a Togo-flagged tanker, and UKMTO separately reported another tanker hit by an unidentified projectile in the same waters; Trump said he's weighing major military action and \"anything could happen\". Yet Brent fell for a third day on Friday to $103.21 (-1.54%) as Saudi Arabia kept exports flowing via alternative routes. The market has partly priced in the Hormuz risk, but the situation can shift at any time."
+    },
+    "dda": {
+      "zh": "地缘事件往往来得突然。定期定额让你不必在每一则突发新闻后调整计划。",
+      "en": "Geopolitical events come suddenly. Regular investing means you don't have to rework your plan after every breaking headline."
+    },
+    "lump": {
+      "zh": "风险溢价随时可能重新扩大。单笔投入前，确认组合不过度依赖能源或单一地区。",
+      "en": "Risk premiums can widen again at any time. Before a lump sum, make sure your portfolio doesn't lean too heavily on energy or one region."
+    },
+    "prs": {
+      "zh": "退休计划要能承受突发事件。适度分散、预留应急资金，比预测局势更可靠。",
+      "en": "A retirement plan should withstand shocks. Sensible diversification and an emergency buffer are more reliable than forecasting events."
+    },
+    "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/liveblog/2026/9/18/iran-war-live-trump-weighs-big-decision-on-iran-tanker-hit-in-hormuz" }
+  }
+]

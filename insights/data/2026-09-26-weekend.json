@@ -1,0 +1,83 @@
+[
+  {
+    "id": "2026-09-26-w1",
+    "time": "2026-09-26T09:00:00+08:00",
+    "brief": "2026-09-26-weekend.html",
+    "tags": ["fed"],
+    "title": {
+      "zh": "10年期收益率触及5.225%创近20年高点，美股却仍收高：\"不是危机，而是警钟\"",
+      "en": "10-year yield touches 5.225%, a near-20-year high, yet stocks close higher: \"not a crisis, a wake-up call\""
+    },
+    "analysis": {
+      "zh": "9月25日10年期美债收益率一度冲上5.225%，是2007年以来最高，30年期触及5.502%。但标普500、道指、纳指仍靠科技巨头撑起涨势收高。有分析师总结：\"企业盈利是撑住市场的地板，地缘政治与政策不确定性则是压住市场的天花板。\"贝莱德固定收益主管 Rick Rieder 说：\"这不是一场危机，而是一记警钟。\"市场还没慌，但已开始留意。",
+      "en": "On Sept 25 the 10-year yield touched 5.225%, the highest since 2007, and the 30-year hit 5.502%. Yet the S&P 500, Dow and Nasdaq still closed higher on megacap tech strength. One analyst summed it up: \"Corporate earnings are the floor holding the market up; geopolitical and policy uncertainty is the ceiling pressing it down.\" BlackRock's Rick Rieder said: \"This isn't a crisis, it's a wake-up call.\" Markets aren't panicking, but they're paying attention."
+    },
+    "dda": {
+      "zh": "地板与天花板之间的震荡，最适合用定期定额慢慢累积，而不是一次性判断方向。",
+      "en": "Swings between a floor and a ceiling suit gradual regular investing better than one directional call."
+    },
+    "lump": {
+      "zh": "高收益率让债券与货币市场类工具更有吸引力。单笔资金可按目标在股债之间合理分配。",
+      "en": "High yields make bonds and money-market tools more attractive. Split a lump sum sensibly between equities and fixed income according to your goals."
+    },
+    "prs": {
+      "zh": "\"警钟\"的意义在于检视，而不是恐慌。这是检视退休组合风险水平是否仍适合你的好时机。",
+      "en": "A wake-up call is a prompt to review, not to panic — a good time to check your retirement portfolio's risk still suits you."
+    },
+    "source": { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-25-2026" }
+  },
+  {
+    "id": "2026-09-26-w2",
+    "time": "2026-09-26T09:00:00+08:00",
+    "brief": "2026-09-26-weekend.html",
+    "tags": ["my"],
+    "title": {
+      "zh": "KLCI 几乎持平收1,672点，令吉逆势走强：市场对马来西亚基本面仍有信心",
+      "en": "KLCI closes nearly flat at 1,672 while the ringgit firms against the trend: confidence in Malaysia's fundamentals holds"
+    },
+    "analysis": {
+      "zh": "富时大马综指周五收报约1,672点，单日仅跌0.04%，在外围债市动荡下相对稳健。更值得留意的是令吉：USD/MYR 报4.0706，单日走强0.36%。在美债收益率飙至多年高点、美元理应更受追捧的背景下，令吉并未明显走弱，过去一个月贬值仅1.10%，同比仍升值3.58%。这说明市场并没有因外部风声就一味抛售马来西亚资产。",
+      "en": "The KLCI closed Friday around 1,672, down just 0.04%, relatively steady amid global bond turmoil. The ringgit stood out: USD/MYR was 4.0706, with the ringgit firming 0.36% on the day. With US yields at multi-year highs that would normally favour the dollar, the ringgit barely weakened — down only 1.10% over the month and still up 3.58% year on year. Markets aren't dumping Malaysian assets just because of outside noise."
+    },
+    "dda": {
+      "zh": "本地市场相对稳定，是维持定期定额纪律的理想环境。",
+      "en": "A relatively steady local market is an ideal setting to keep your regular-investing discipline."
+    },
+    "lump": {
+      "zh": "外部动荡时，本地资产可以发挥稳定作用。单笔配置时，可检视本地与海外的比例是否平衡。",
+      "en": "Local assets can steady a portfolio during outside turmoil. Check your local-vs-overseas balance before a lump sum."
+    },
+    "prs": {
+      "zh": "PRS 可以同时持有本地与海外基金，每年最高 RM3,000 税务减免，是建立稳健退休组合的好工具。",
+      "en": "PRS can hold both local and overseas funds, with up to RM3,000 in annual tax relief — a good tool for a steady retirement portfolio."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/stock-market" }
+  },
+  {
+    "id": "2026-09-26-w3",
+    "time": "2026-09-26T09:00:00+08:00",
+    "brief": "2026-09-26-weekend.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "特朗普-习近平会晤落幕：贸易休战延至明年1月、设AI\"红色热线\"，但台湾与伊朗议题原地踏步",
+      "en": "Trump–Xi visit ends: trade truce extended to January and an AI \"red phone\" set up, but no movement on Taiwan or Iran"
+    },
+    "analysis": {
+      "zh": "国事访问周五落幕，美方把中美关税休战再延长两个月至2027年1月，并将成立\"美中贸易委员会\"；中方提出\"更大的协议\"构想。AI方面，双方建立对话热线，格里尔形容它像冷战时期的\"红色电话\"，用于在AI风险事件上互相通报。但分析人士评价这更像\"排场大于实质\"的一场表演：台湾、伊朗与更广泛的贸易协议均未见进展。",
+      "en": "The state visit ended Friday with the US extending the tariff truce two more months to January 2027 and planning a \"US-China Board of Trade\", while China floated a \"bigger deal\". On AI, the two sides set up a hotline that USTR Greer likened to the Cold War \"red phone\", for notifying each other of AI risk incidents. Analysts called it more pageantry than substance: no progress on Taiwan, Iran or a broader trade deal."
+    },
+    "dda": {
+      "zh": "中美关系的起伏会持续牵动市场。定期定额让你不需要押注每一次会谈的成果。",
+      "en": "US–China ups and downs will keep moving markets. Regular investing means you don't have to bet on each summit's outcome."
+    },
+    "lump": {
+      "zh": "\"排场大于实质\"的消息，短期利好可能消退。单笔配置前，别只依据峰会新闻做决定。",
+      "en": "When summits are more show than substance, the short-term lift can fade. Don't base a lump-sum decision on summit headlines alone."
+    },
+    "prs": {
+      "zh": "长期退休组合应能承受中美关系的反复，区域与行业分散是关键。",
+      "en": "A long-term retirement portfolio should withstand swings in US–China relations; regional and sector diversification is key."
+    },
+    "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/trump-china-xi-jinping-state-visit-dinner-tariffs-ai/" }
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "2026-09-23-a1",
+    "time": "2026-09-23T17:00:00+08:00",
+    "brief": "2026-09-23-afternoon.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "联合国场边：伊朗外交出现具体进展，油价连续第二天守在100美元下方",
+      "en": "At the UN: Iran diplomacy gets more concrete as oil stays under $100 for a second day"
+    },
+    "analysis": {
+      "zh": "伊朗总统佩泽希齐扬抵达纽约准备在联大发言，誓言\"坚定捍卫\"伊朗立场；美国特使威特科夫形容会谈\"具建设性且充满希望\"，并证实下一轮会谈已安排。同时，美国对伊朗航空业的制裁于9月23日生效，伊拉克与阿曼随即暂停伊朗航班。油价方面，WTI 进一步回落至89.86美元，布兰特报99.10美元，连续第二天守在100美元下方，反映市场对外交进展的正面消化。",
+      "en": "Iranian President Pezeshkian arrived in New York for his UN address, vowing to \"firmly defend\" Iran's positions, while US envoy Witkoff called the talks \"constructive and promising\" and confirmed another round is scheduled. US aviation sanctions on Iran took effect on Sept 23, and Iraq and Oman suspended Iranian flights. WTI slipped to $89.86 and Brent held at $99.10, under $100 for a second straight day as markets priced in diplomatic progress."
+    },
+    "dda": {
+      "zh": "油价回落对进口成本与通胀预期是好消息。若组合含能源敏感型基金，这类波动正是定期定额摊薄成本的时候。",
+      "en": "Falling oil is good news for import costs and inflation expectations. If your holdings include energy-sensitive funds, this is when regular investing lowers your average cost."
+    },
+    "lump": {
+      "zh": "真正的风险不是消息反复，而是因为反复的消息而频繁进出。单笔投入宜有计划、分阶段进行。",
+      "en": "The real risk isn't flip-flopping headlines but trading in and out because of them. Make lump sums planned and staged."
+    },
+    "prs": {
+      "zh": "外交进展是分秒变化的新闻，不是调整退休配置的理由。PRS 应以10年、20年的周期来看。",
+      "en": "Diplomatic news changes by the hour — not a reason to touch a retirement allocation. PRS is built for a 10–20 year horizon."
+    },
+    "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-decision-tehran-warns-of-expansion/" }
+  },
+  {
+    "id": "2026-09-23-a2",
+    "time": "2026-09-23T17:00:00+08:00",
+    "brief": "2026-09-23-afternoon.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "美光股价单日大涨5%至1,096美元创新高，距财报只剩一周",
+      "en": "Micron jumps 5% to a record $1,096, one week before earnings"
+    },
+    "analysis": {
+      "zh": "美光9月22日收盘大涨5.00%至1,096.16美元，比早前分析师预览引用的约975美元又跳升一大截，是AI内存供应紧俏叙事持续发酵的体现。研究机构 Lynx Research 本月稍早把目标价上调至1,325美元，认为\"5–6月由炒作驱动的剧烈波动已经过去\"，取而代之的是\"更冷静、更有纪律的机构建仓\"。美光年内涨幅已超过250%。",
+      "en": "Micron closed Sept 22 up 5.00% at $1,096.16, well above the roughly $975 cited in earlier previews, as the AI-memory shortage story kept building. Lynx Research raised its target to $1,325 earlier this month, saying \"the wild, hype-driven volatility of May and June is behind us\", replaced by \"calmer, more deliberate institutional buying\". The stock is up more than 250% this year."
+    },
+    "dda": {
+      "zh": "若定期定额组合含AI或半导体基金，近期表现是纪律的成果；但财报周波动可能放大，要有心理准备。",
+      "en": "If your regular investments include AI or semiconductor funds, recent gains reflect that discipline — but brace for bigger swings in earnings week."
+    },
+    "lump": {
+      "zh": "单一个股大涨不代表应该重押。单笔投入科技主题前，先检视组合是否已偏重。",
+      "en": "One stock surging isn't a reason to load up. Check whether your portfolio is already tech-heavy before a lump sum."
+    },
+    "prs": {
+      "zh": "PRS 的价值在于分散，而不是追逐当红个股的短期动能。长期要看的是需求周期能撑多久。",
+      "en": "PRS's value is diversification, not chasing today's momentum stock. Long term, the question is how long the demand cycle lasts."
+    },
+    "source": { "name": "TheStreet", "url": "https://www.thestreet.com/investing/stocks/mu-micron-sndk-sandisk-lynx-research-stock-price-targets-september-2026" }
+  }
+]

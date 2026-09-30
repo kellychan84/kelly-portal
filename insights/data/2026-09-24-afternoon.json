@@ -1,0 +1,56 @@
+[
+  {
+    "id": "2026-09-24-a1",
+    "time": "2026-09-24T17:00:00+08:00",
+    "brief": "2026-09-24-afternoon.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "伊朗总统联大强硬发言、美方代表离场，油价重返涨势：WTI 涨破94美元",
+      "en": "Iran's defiant UN speech prompts a US walkout, and oil snaps back: WTI clears $94"
+    },
+    "analysis": {
+      "zh": "伊朗总统佩泽希齐扬在联合国大会强硬发声，称\"我们才是恐怖主义的受害者\"，强调伊朗\"从未屈膝\"；美方一名代表中途离席，以色列代表团缺席。这冲淡了稍早美伊三小时会谈带来的乐观情绪。WTI 原油随即上涨2.11%至94.11美元，布兰特涨2.78%至105.95美元，收复前一天因外交乐观而出现的跌幅。市场对海峡局势缓解的期待，再次因外交不确定性而降温。",
+      "en": "Iranian President Pezeshkian gave a defiant UN speech, saying \"we are the victims of terrorists\" and that Iran never bowed; a US representative walked out and Israel's delegation stayed away. It dampened optimism from the earlier three-hour US–Iran talks. WTI rose 2.11% to $94.11 and Brent 2.78% to $105.95, reversing the previous day's diplomacy-driven dip. Hopes for easing in Hormuz cooled again on diplomatic uncertainty."
+    },
+    "dda": {
+      "zh": "一天跌、一天涨，油价的反复正是定期定额\"不追不杀\"最能发挥作用的场景。",
+      "en": "Down one day, up the next — oil's back-and-forth is where regular investing's \"no chasing, no panic\" approach shines."
+    },
+    "lump": {
+      "zh": "外交消息反复时，单笔投入宜拉长时间、分段完成，避免在单一消息后做决定。",
+      "en": "With diplomatic news flipping, stretch a lump sum over time and phase it in rather than deciding after one headline."
+    },
+    "prs": {
+      "zh": "油价反弹会重燃通胀担忧。退休组合保留适度抗通胀资产，能帮助守住长期购买力。",
+      "en": "An oil rebound revives inflation worries. Keeping some inflation-resilient assets in a retirement portfolio helps protect purchasing power."
+    },
+    "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/9/23/irans-president-slams-trumps-bullying-in-defiant-unga-speech" }
+  },
+  {
+    "id": "2026-09-24-a2",
+    "time": "2026-09-24T17:00:00+08:00",
+    "brief": "2026-09-24-afternoon.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "中美贸易休战延长至2027年1月10日，AI巨头齐聚白宫国宴",
+      "en": "US–China trade truce extended to Jan 10, 2027 as AI leaders gather for the White House dinner"
+    },
+    "analysis": {
+      "zh": "习近平抵美之际，美国财长贝森特宣布中美\"釜山协议\"贸易休战延长至2027年1月10日，比原定11月10日到期多出约两个月。消息为被通胀与美债收益率忧虑笼罩的市场带来一丝喘息。扎克伯格、黄仁勋、奥特曼与库克等预计出席国宴，Meta 的 Muse 迅速登顶热门应用榜，也为AI情绪注入强心针。但在10年期收益率创逾15年新高的背景下，乐观情绪能否延续仍需观察。",
+      "en": "As Xi Jinping arrived, Treasury Secretary Bessent announced the US–China \"Busan Agreement\" truce would run to January 10, 2027 — about two months past its Nov 10 expiry. It gave some relief to markets weighed down by inflation and Treasury-yield worries. Zuckerberg, Huang, Altman and Cook were expected at the state dinner, and Meta's Muse topping the app charts lifted AI sentiment. With the 10-year yield at a 15-plus-year high, whether the optimism lasts remains to be seen."
+    },
+    "dda": {
+      "zh": "贸易休战延长降低了短期不确定性，但市场仍有利率压力。定期定额让你不用挑时机。",
+      "en": "The truce extension lowers near-term uncertainty, but rate pressure remains. Regular investing means you don't have to pick the moment."
+    },
+    "lump": {
+      "zh": "政策利好往往短期推升情绪。单笔进场前，先确认估值与组合中亚洲、科技的比重。",
+      "en": "Policy good news often lifts sentiment briefly. Before a lump sum, check valuations and your Asia and tech weightings."
+    },
+    "prs": {
+      "zh": "中美关系稳定对亚洲市场有利。退休组合适度配置亚洲资产，并维持地区分散。",
+      "en": "Stable US–China relations help Asian markets. Hold a sensible share of Asian assets in retirement savings, with regional diversification."
+    },
+    "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-24-dow-sp-500-nasdaq-080352893.html" }
+  }
+]

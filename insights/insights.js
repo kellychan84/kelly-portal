@@ -192,5 +192,1588 @@ window.INSIGHTS = [].concat(
     },
     "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-strait-of-hormuz/" }
   }
+],
+[
+  {
+    "id": "2026-09-29-m1",
+    "time": "2026-09-29T09:00:00+08:00",
+    "brief": "2026-09-29-morning.html",
+    "tags": ["fed"],
+    "title": {
+      "zh": "美股收黑，10年期收益率触及5.24%创19年高点；高盛：估值泡沫正被慢慢挤出",
+      "en": "Stocks fall as the 10-year yield hits 5.24%, a 19-year high; Goldman: valuation froth is being squeezed out"
+    },
+    "analysis": {
+      "zh": "9月28日道指跌0.67%、标普500跌0.77%、纳指跌0.92%，主因是10年期美债收益率升至5.24%，创2007年以来新高，30年期触及5.56%。市场同时把10月加息机率推高至72.3%，理事 Barr 表示\"仍需进一步的政策调整\"。高盛策略师 Ben Snider 指出，标普500远期本益比已从22倍降至19倍，回到十年均值水平——估值的\"泡沫\"正随着利率上升被慢慢挤出。",
+      "en": "On Sept 28 the Dow fell 0.67%, the S&P 500 0.77% and the Nasdaq 0.92% as the 10-year yield rose to 5.24%, its highest since 2007, and the 30-year hit 5.56%. October hike odds rose to 72.3%, with Governor Barr saying further policy adjustment is needed. Goldman's Ben Snider notes the S&P 500 forward P/E has fallen from 22x to 19x, back to its ten-year average — froth being squeezed out as rates rise."
+    },
+    "dda": {
+      "zh": "估值回到长期均值附近时，定期定额能以更合理的价格持续累积。",
+      "en": "With valuations back near long-term averages, regular investing keeps accumulating at more reasonable prices."
+    },
+    "lump": {
+      "zh": "估值下修让进场条件更合理，但利率仍可能再升。单笔投入宜分段，而非一次到位。",
+      "en": "Lower valuations make entry more reasonable, but rates could rise further. Phase a lump sum in rather than all at once."
+    },
+    "prs": {
+      "zh": "估值回归常态是健康的调整。退休组合持续供款，能在这段时间以较合理的价格累积资产。",
+      "en": "Valuations normalising is a healthy adjustment. Steady retirement contributions build assets at fairer prices through it."
+    },
+    "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-28-dow-sp-500-nasdaq-080420627.html" }
+  },
+  {
+    "id": "2026-09-29-m2",
+    "time": "2026-09-29T09:00:00+08:00",
+    "brief": "2026-09-29-morning.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "英伟达加码回购至2,350亿美元，同步推出AI安全\"急煞车\"系统",
+      "en": "Nvidia lifts its buyback to $235 billion and launches an AI safety \"emergency brake\""
+    },
+    "analysis": {
+      "zh": "英伟达董事会批准回购计划再加码1,500亿美元，累计授权达2,350亿美元。黄仁勋表示，现金创造能力让公司\"既能投资推动变革的技术，也能回馈股东\"。同日英伟达发布\"Open Agent Safety Platform\"，可在AI代理逾越设定边界时于毫秒级\"隔离并叫停\"。这项发布正值一起AI模型\"逃逸\"沙盒的安全事件引发担忧之际。周二亚太股市分化，韩股重挫2.70%，恒指则逆势上涨0.54%。",
+      "en": "Nvidia's board approved a $150 billion increase to its buyback, bringing the total to $235 billion. Jensen Huang said cash generation lets the company both invest in transformative technology and return capital to shareholders. The same day it launched its Open Agent Safety Platform, able to isolate and halt AI agents within milliseconds if they cross set boundaries — amid concern over an AI model escaping its sandbox. Asia was mixed on Tuesday: the Kospi fell 2.70% while the Hang Seng rose 0.54%."
+    },
+    "dda": {
+      "zh": "AI 安全疑虑可能带来短期波动，定期定额能在情绪起伏中持续累积。",
+      "en": "AI safety worries can cause short-term swings; regular investing keeps accumulating through the mood changes."
+    },
+    "lump": {
+      "zh": "大型回购显示现金流强劲，但不代表股价不会波动。单笔投入科技主题仍宜控制比重。",
+      "en": "Big buybacks show strong cash flow, but don't stop prices swinging. Keep lump sums into tech themes appropriately sized."
+    },
+    "prs": {
+      "zh": "今天韩股跌、港股涨，说明区域分散的重要。退休组合不宜集中于单一市场。",
+      "en": "Korea down, Hong Kong up on the same day shows why regional diversification matters. Don't concentrate retirement savings in one market."
+    },
+    "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-upsizes-share-buyback-program-124458222.html" }
+  },
+  {
+    "id": "2026-09-29-m3",
+    "time": "2026-09-29T09:00:00+08:00",
+    "brief": "2026-09-29-morning.html",
+    "tags": ["my", "prs"],
+    "title": {
+      "zh": "富时大马综指企稳1,670点，年内仍涨3.67%；令吉本月贬值1.38%",
+      "en": "KLCI steadies near 1,670, still up 3.67% this year; the ringgit is down 1.38% for the month"
+    },
+    "analysis": {
+      "zh": "富时大马综指9月28日收报1,670点，单日跌0.10%，本月累跌1.79%，全年仍上涨3.67%。Trading Economics 预测季末约1,670点，12个月目标看至1,569点，反映短线偏审慎。令吉报4.0813，本月贬值1.38%，但过去一年仍升值3.17%；预测显示令吉季末可能回到约4.07，一年内有望升至4.00附近。",
+      "en": "The KLCI closed Sept 28 at 1,670, down 0.10% on the day and 1.79% for the month, still up 3.67% for the year. Trading Economics forecasts about 1,670 by quarter-end and 1,569 over 12 months — a cautious near-term view. The ringgit was at 4.0813, down 1.38% for the month but up 3.17% over the year, with forecasts pointing to about 4.07 by quarter-end and near 4.00 within a year."
+    },
+    "dda": {
+      "zh": "预测偏审慎的阶段，定期定额可以在较低位置持续累积，而不必等\"确定好转\"。",
+      "en": "When forecasts are cautious, regular investing keeps accumulating at lower levels instead of waiting for a clear upturn."
+    },
+    "lump": {
+      "zh": "预测只是参考，未来走势仍有变数。单笔配置本地资产时，宜与海外资产平衡，并分段进行。",
+      "en": "Forecasts are only a guide and can be wrong. Balance lump sums into local assets with overseas ones, and phase them in."
+    },
+    "prs": {
+      "zh": "PRS 是长期计划，短期预测不影响它的核心价值。持续供款，并善用每年最高 RM3,000 税务减免。",
+      "en": "PRS is a long-term plan; short-term forecasts don't change its core value. Keep contributing and use the up to RM3,000 annual tax relief."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/stock-market" }
+  }
+],
+[
+  {
+    "id": "2026-09-29-a1",
+    "time": "2026-09-29T17:00:00+08:00",
+    "brief": "2026-09-29-afternoon.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "伊朗外长会晤卡塔尔调解人，美方称谈判\"积极且具建设性\"，但时序分歧仍在",
+      "en": "Iran's FM meets Qatari mediators; the US calls talks \"positive and constructive\", but sequencing gaps remain"
+    },
+    "analysis": {
+      "zh": "伊朗外长阿拉格齐周一在纽约与卡塔尔调解人会面，讨论重开霍尔木兹海峡，随后离开纽约，表示\"卡塔尔知道如何联系我\"。美方官员形容谈判\"积极且具建设性\"，伊朗在核问题上展现一定弹性，但承诺的先后顺序仍有分歧；特朗普则否认曾提出解除制裁。WTI 原油报92.81美元，较早上略回软——沙特东西管道已恢复运作，抵消了部分担忧。这不是突破，但语气比上周末缓和。",
+      "en": "Iranian FM Araghchi met Qatari mediators in New York on Monday about reopening Hormuz, then left, saying \"Qatar knows how to reach me\". A US official called the talks \"positive and constructive\", noting some Iranian flexibility on the nuclear issue, though sequencing remains disputed; Trump denied offering sanctions relief. WTI eased slightly to $92.81 as Saudi Arabia's East-West pipeline resumed operations. Not a breakthrough, but the tone is softer than last weekend."
+    },
+    "dda": {
+      "zh": "语气缓和不等于问题解决。定期定额让你在局势未明时也能稳步前进。",
+      "en": "A softer tone isn't a solution. Regular investing lets you keep moving forward while things remain unclear."
+    },
+    "lump": {
+      "zh": "在谈判结果明朗前，单笔资金宜均衡配置，避免押注单一情景。",
+      "en": "Until talks resolve, keep lump sums balanced rather than betting on one scenario."
+    },
+    "prs": {
+      "zh": "局势时紧时松，退休计划更需要稳定的纪律：定期供款、定期检视。",
+      "en": "As tensions rise and ease, retirement plans need steady discipline: regular contributions and regular reviews."
+    },
+    "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/9/29/irans-araghchi-meets-qatari-mediators-as-us-insists-on-nuclear-talks" }
+  },
+  {
+    "id": "2026-09-29-a2",
+    "time": "2026-09-29T17:00:00+08:00",
+    "brief": "2026-09-29-afternoon.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "美光财报最后倒数：分析师预期营收增长353%，共识目标价约1,515美元",
+      "en": "Micron's final countdown: analysts expect 353% revenue growth and a consensus target near $1,515"
+    },
+    "analysis": {
+      "zh": "Yahoo Finance 汇总显示，分析师预期美光第四财季营收增长353%至512.4亿美元，为有记录以来最高增速；调整后每股盈利预期增长943%至31.59美元。华尔街共识目标价1,515.54美元，富国银行与花旗分别上调至1,525美元与1,300美元。美光股价年内已上涨279%。期待值已经很高，这本身也意味着\"利多出尽\"的风险不能排除。",
+      "en": "Yahoo Finance's compilation shows analysts expecting Micron's fiscal Q4 revenue to jump 353% to $51.24B, the fastest growth on record, with adjusted EPS up 943% to $31.59. The consensus target is $1,515.54, with Wells Fargo at $1,525 and Citi at $1,300. The stock is already up 279% this year. Expectations are high, which itself means \"priced for perfection\" risk can't be ruled out."
+    },
+    "dda": {
+      "zh": "高期待的财报前后波动通常较大。定期定额能帮你平滑这种事件带来的起伏。",
+      "en": "Earnings with sky-high expectations tend to bring big swings. Regular investing smooths event-driven ups and downs."
+    },
+    "lump": {
+      "zh": "年内已大涨、期待又高的标的，单笔追入风险较高。宜分段进行并控制比重。",
+      "en": "For names already up sharply with high expectations, chasing with a lump sum is risky. Phase in and keep the size in check."
+    },
+    "prs": {
+      "zh": "退休资产不宜押注单一财报。通过分散基金参与科技成长，更符合长期目标。",
+      "en": "Retirement money shouldn't ride on one earnings report. Participating in tech growth through diversified funds fits long-term goals better."
+    },
+    "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/micron-earnings-preview-analysts-see-022234081.html" }
+  }
+],
+[
+  {
+    "id": "2026-09-28-m1",
+    "time": "2026-09-28T09:00:00+08:00",
+    "brief": "2026-09-28-morning.html",
+    "tags": ["prs"],
+    "title": {
+      "zh": "美股三大指数录得周涨幅，道指终结三连跌；贝莱德：债市波动\"不是危机，而是一次提醒\"",
+      "en": "All three US indices post weekly gains as the Dow ends a three-week skid; BlackRock: bond volatility is \"a reminder, not a crisis\""
+    },
+    "analysis": {
+      "zh": "9月25日收盘，道指报51,828.62点，单周涨0.93%，终结连续三周下跌；标普500报7,743.41点，纳指报27,068.72点，三大指数集体录得周涨幅。贝莱德的 Rick Rieder 形容当前债市波动\"不是危机，而是一次提醒\"。这句话也很适合正在准备退休的朋友：市场起伏本来就是常态，重点是有没有一套经得起波动的长期配置。",
+      "en": "At the Sept 25 close the Dow stood at 51,828.62, up 0.93% for the week and ending a three-week losing streak, with the S&P 500 at 7,743.41 and the Nasdaq at 27,068.72 — all three up for the week. BlackRock's Rick Rieder called the bond-market volatility \"a reminder, not a crisis\". The same applies to anyone preparing for retirement: ups and downs are normal; what matters is a long-term allocation built to withstand them."
+    },
+    "dda": {
+      "zh": "连跌三周后反弹，若中途停止扣款就会错过。定期定额的价值，正在于持续。",
+      "en": "Stopping contributions during the three-week slide would have missed the rebound. Regular investing's value lies in staying consistent."
+    },
+    "lump": {
+      "zh": "短期反弹不代表趋势确立。单笔投入仍宜分段，并与长期目标对齐。",
+      "en": "A short rebound doesn't confirm a trend. Keep phasing lump sums in and aligned with long-term goals."
+    },
+    "prs": {
+      "zh": "一套经得起波动的退休配置，加上持续的 PRS 供款（每年最高 RM3,000 税务减免），比猜测市场更可靠。",
+      "en": "A retirement allocation built for volatility, plus steady PRS contributions (up to RM3,000 in annual tax relief), beats trying to guess the market."
+    },
+    "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-25-dow-sp-500-nasdaq-081738529.html" }
+  },
+  {
+    "id": "2026-09-28-m2",
+    "time": "2026-09-28T09:00:00+08:00",
+    "brief": "2026-09-28-morning.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "特朗普正式拒绝伊朗\"七日方案\"，谈判仍可能重启，油价周一反弹至93美元上方",
+      "en": "Trump formally rejects Iran's seven-day plan; talks may resume, and oil rebounds above $93 on Monday"
+    },
+    "analysis": {
+      "zh": "伊朗原本以七日方案换取美国解除海军封锁、豁免石油制裁、释放120亿美元冻结资产；特朗普拒绝，称伊朗急于达成协议是因为\"输得太惨\"。不过他也表示本周谈判\"很可能\"重启，但不排除中期选举前采取军事行动。WTI 原油周一反弹至93.35美元，布兰特涨1.44%至105.82美元；沙特也拦截了胡塞武装针对能源设施的攻击，供应端不确定性增加。",
+      "en": "Iran had offered its seven-day plan for an end to the US naval blockade, oil-sanction relief and $12 billion in unfrozen assets; Trump rejected it, saying Iran wants a deal because it's \"losing so badly\". He said talks would \"likely\" resume this week but didn't rule out military action before the midterms. WTI rebounded to $93.35 on Monday and Brent rose 1.44% to $105.82, while Saudi Arabia intercepted Houthi attacks on energy facilities, adding supply uncertainty."
+    },
+    "dda": {
+      "zh": "谈判拒绝与重启交替出现，定期定额让你不必在每次转折后调整计划。",
+      "en": "With talks rejected and revived in turn, regular investing spares you from reworking your plan at every twist."
+    },
+    "lump": {
+      "zh": "油价对谈判消息高度敏感。单笔配置能源或周期性资产前，宜控制比重并分段进场。",
+      "en": "Oil is highly sensitive to negotiation news. Size and phase any lump sum into energy or cyclical assets."
+    },
+    "prs": {
+      "zh": "油价反复会影响通胀与生活成本。退休组合保留适度抗通胀资产，并保持整体分散。",
+      "en": "Swinging oil prices affect inflation and living costs. Keep some inflation-resilient assets in retirement savings, within a diversified whole."
+    },
+    "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/9/27/better-deal-whats-behind-trumps-rejection-of-irans-truce-offer" }
+  },
+  {
+    "id": "2026-09-28-m3",
+    "time": "2026-09-28T09:00:00+08:00",
+    "brief": "2026-09-28-morning.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "美光财报倒数：研究机构给出\"超越所有华尔街预测\"80%机率，但涨势集中在少数龙头",
+      "en": "Micron countdown: a research firm gives 80% odds of beating every Wall Street estimate — but gains are concentrated in a few leaders"
+    },
+    "analysis": {
+      "zh": "美光将于9月30日公布财报，官方指引营收500亿美元；独立研究机构 Tessara 给出80%机率认为营收将超越所有22家华尔街预测、突破520.8亿美元，基本情境看至562亿美元。但嘉信理财周报也提醒，上周标普与纳指的涨势主要靠AI相关个股撑盘，等权重标普与罗素2000却走弱——涨势广度偏窄。Schwab 整体判断\"温和看多\"，前提是美债收益率能够企稳。",
+      "en": "Micron reports on Sept 30 with revenue guidance of $50B; independent firm Tessara gives 80% odds that revenue beats all 22 Wall Street estimates, topping $52.08B, with a base case of $56.2B. Schwab's weekly note cautions that last week's S&P and Nasdaq gains leaned on AI names while the equal-weight S&P and Russell 2000 slipped — thin breadth. Schwab is \"moderately bullish\", provided Treasury yields stabilise."
+    },
+    "dda": {
+      "zh": "涨势集中在少数股票时，通过分散的基金定期投入，可以降低押错个股的风险。",
+      "en": "When gains are concentrated in a few stocks, investing regularly through diversified funds reduces the risk of backing the wrong one."
+    },
+    "lump": {
+      "zh": "广度偏窄的市场较脆弱。单笔投入前，检视组合是否过度集中在少数科技龙头。",
+      "en": "Narrow markets are more fragile. Before a lump sum, check whether your portfolio is over-concentrated in a few tech leaders."
+    },
+    "prs": {
+      "zh": "退休组合需要广度，而不只是热门股。行业与地区分散，是长期稳健的基础。",
+      "en": "Retirement portfolios need breadth, not just hot stocks. Sector and regional diversification is the base of long-term stability."
+    },
+    "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/equities/26/09/61997060/micron-earnings-80-odds-beat-every-analyst-estimate" }
+  }
+],
+[
+  {
+    "id": "2026-09-28-a1",
+    "time": "2026-09-28T17:00:00+08:00",
+    "brief": "2026-09-28-afternoon.html",
+    "tags": ["fed"],
+    "title": {
+      "zh": "加息机率午后走高至73.5%；30年期美债收益率升至5.52%，逼近2004年以来高点",
+      "en": "Hike odds climb to 73.5% by the afternoon; the 30-year yield rises to 5.52%, near its highest since 2004"
+    },
+    "analysis": {
+      "zh": "Investing.com 显示，10月28日加息机率从早上的66.6%升至73.5%，维持不变降至26.5%。没有单一戏剧性新闻，更像市场在消化一整天的信号：油价与收益率同步攀升。Yahoo Finance 指出，30年期美债收益率升至5.5185%，本月累升27个基点，2年期更暴涨55个基点——典型的\"好消息也是坏消息\"：经济数据偏强，反而让联储更有理由维持鹰派。",
+      "en": "Investing.com shows Oct 28 hike odds up from 66.6% this morning to 73.5%, with hold odds down to 26.5%. No single dramatic headline — more the market digesting a day of signals as oil and yields rose together. Yahoo Finance notes the 30-year yield climbed to 5.5185%, up 27bp this month, and the 2-year jumped 55bp — a classic \"good news is bad news\" dynamic where strong data gives the Fed more reason to stay hawkish."
+    },
+    "dda": {
+      "zh": "与其追着每一次机率数字跳动，不如维持定期定额的节奏——利率高位震荡本来就是这几个月的常态。",
+      "en": "Rather than chasing every move in the odds, keep your regular-investing rhythm — high, choppy rates have been the norm for months."
+    },
+    "lump": {
+      "zh": "收益率曲线整体上移，固定收益的收益机会增加。单笔资金可考虑在股债之间均衡配置。",
+      "en": "With the whole yield curve higher, fixed-income opportunities improve. Consider a balanced equity–bond split for a lump sum."
+    },
+    "prs": {
+      "zh": "对退休族来说，较高的收益率意味着未来收益来源更多元。组合中的固定收益比例可随年龄逐步提高。",
+      "en": "For retirees, higher yields mean more varied future income. The fixed-income share can rise gradually with age."
+    },
+    "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
+  },
+  {
+    "id": "2026-09-28-a2",
+    "time": "2026-09-28T17:00:00+08:00",
+    "brief": "2026-09-28-afternoon.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "WTI 午后升破94美元，布兰特站上106美元：市场持续为地缘风险定价",
+      "en": "WTI breaks $94 by the afternoon and Brent tops $106 as markets keep pricing geopolitical risk"
+    },
+    "analysis": {
+      "zh": "早上WTI报93.35美元、布兰特105.82美元；到午后WTI已涨1.90%至94.17美元，布兰特涨2.46%至106.88美元，延续而非反转早上的走势。推动力仍是特朗普拒绝伊朗的霍尔木兹七日方案：谈判虽可能本周重启，但军事选项未被排除。海峡僵局没有新进展，也没有缓解，油价持续上行本身就是市场对\"风险尚未解除\"的投票。",
+      "en": "WTI was $93.35 and Brent $105.82 this morning; by the afternoon WTI had risen 1.90% to $94.17 and Brent 2.46% to $106.88, extending the morning move. The driver remains Trump's rejection of Iran's seven-day Hormuz plan — talks may resume this week, but military options aren't ruled out. The standoff hasn't improved or worsened, and rising oil is the market's vote that the risk hasn't cleared."
+    },
+    "dda": {
+      "zh": "油价上行时，定期定额的纪律能避免你因通胀担忧而中断长期计划。",
+      "en": "When oil climbs, regular investing's discipline keeps inflation worries from derailing your long-term plan."
+    },
+    "lump": {
+      "zh": "地缘溢价上升时追入能源资产风险较高。单笔配置宜维持分散，避免追高。",
+      "en": "Chasing energy assets while the geopolitical premium rises is risky. Keep lump sums diversified and avoid buying the spike."
+    },
+    "prs": {
+      "zh": "退休规划应把通胀视为长期因素。适度的抗通胀配置，能帮助守住退休后的生活水平。",
+      "en": "Retirement plans should treat inflation as a long-term factor. Some inflation-resilient holdings help protect your standard of living later."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil" }
+  }
+],
+[
+  {
+    "id": "2026-09-27-w1",
+    "time": "2026-09-27T09:00:00+08:00",
+    "brief": "2026-09-27-weekend.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "特朗普：\"我拒绝他们的提案\"——伊朗\"7天重开霍尔木兹\"方案被否，地缘风险重新抬头",
+      "en": "Trump: \"I'm rejecting their deal\" — Iran's 7-day Hormuz plan is turned down and geopolitical risk returns"
+    },
+    "analysis": {
+      "zh": "伊朗外长阿拉格齐提出的方案，把6月协议中60天的过渡期压缩到7天，条件包括美国解除对伊朗港口的海军封锁、石油出口制裁豁免，以及涵盖黎巴嫩的停火。但特朗普周六只说了一句\"我拒绝他们的提案\"便离开。据报道，他私下怀疑伊朗能否兑现承诺，甚至预告中期选举后可能重启军事行动；伊朗总统则称德黑兰\"不再信任与华盛顿的谈判\"。本已趋缓的局势，一夜之间又绷紧了。",
+      "en": "Iranian FM Araghchi's plan compressed the June deal's 60-day interim period into seven days, conditioned on the US lifting its naval blockade of Iranian ports, oil-sanction relief and a ceasefire including Lebanon. On Saturday Trump said only \"I reject their proposal\" and left. He reportedly doubts Iran will deliver and expects renewed military action after the midterms, while Iran's president said Tehran \"no longer trusts\" talks with Washington. A situation that had been easing tightened again overnight."
+    },
+    "dda": {
+      "zh": "局势一夜转折，正是定期定额\"不必预测\"的价值所在。",
+      "en": "An overnight reversal shows exactly why regular investing's \"no forecasting needed\" approach is valuable."
+    },
+    "lump": {
+      "zh": "谈判反复时，单笔投入宜等消息面稳定后分段进行，并确保组合不过度集中于能源。",
+      "en": "With talks on and off, phase a lump sum in once things settle, and avoid over-concentrating in energy."
+    },
+    "prs": {
+      "zh": "地缘风险会时起时落。退休计划应建立在分散配置与持续供款上，而不是押注谈判结果。",
+      "en": "Geopolitical risk ebbs and flows. Retirement plans should rest on diversification and steady contributions, not on how talks end."
+    },
+    "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/9/26/trump-rejects-irans-seven-day-roadmap-to-reopen-strait-of-hormuz" }
+  },
+  {
+    "id": "2026-09-27-w2",
+    "time": "2026-09-27T09:00:00+08:00",
+    "brief": "2026-09-27-weekend.html",
+    "tags": ["fed", "prs"],
+    "title": {
+      "zh": "10月加息机率升至66.6%：借贷成本可能再升，货币市场与固定收益收益仍有支撑",
+      "en": "October hike odds rise to 66.6%: borrowing costs may climb, while money-market and fixed-income yields stay supported"
+    },
+    "analysis": {
+      "zh": "Investing.com 数据显示，市场预期10月28日把利率从3.75%–4.00%上调至4.00%–4.25%的机率为66.6%，维持不变33.4%，延续9月加息后的鹰派路径。这意味着房贷与企业融资等借贷成本可能进一步上升，但同时货币市场基金与固定收益产品的收益率仍有支撑。同一天10年期收益率达5.225%、30年期5.502%，双双创多年新高。",
+      "en": "Investing.com shows 66.6% odds that the Fed lifts rates from 3.75%–4.00% to 4.00%–4.25% on Oct 28, versus 33.4% for a hold, extending the hawkish path after September's hike. Borrowing costs such as mortgages and business loans may rise further, while money-market fund and fixed-income yields stay supported. The same day the 10-year yield reached 5.225% and the 30-year 5.502%, both multi-year highs."
+    },
+    "dda": {
+      "zh": "利率高位震荡期，定期定额分批进场，能避免被单一时间点的波动牵着走。",
+      "en": "While rates chop around at high levels, investing in regular instalments keeps any single moment's swing from steering you."
+    },
+    "lump": {
+      "zh": "高利率环境下，应急资金与短期所需可放在货币市场类工具；长期资金再按计划配置。",
+      "en": "With rates high, emergency and short-term money can sit in money-market-type tools, while long-term money follows your plan."
+    },
+    "prs": {
+      "zh": "利率上升提高了固定收益部分的收益潜力。退休组合中股债比例，可按年龄与风险承受度调整。",
+      "en": "Higher rates raise the income potential of fixed income. Adjust the equity–bond mix of your retirement savings to your age and risk tolerance."
+    },
+    "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
+  },
+  {
+    "id": "2026-09-27-w3",
+    "time": "2026-09-27T09:00:00+08:00",
+    "brief": "2026-09-27-weekend.html",
+    "tags": ["fed", "tech"],
+    "title": {
+      "zh": "下周数据密集：PCE、非农、ISM接连登场，美光9月30日公布财报",
+      "en": "A data-heavy week ahead: PCE, payrolls and ISM back to back, with Micron reporting Sept 30"
+    },
+    "analysis": {
+      "zh": "嘉信理财每周展望显示，下周二有消费者信心与职位空缺数据；周三是PCE物价指数、个人收支与GDP第三次修正值，美光同日公布财报；周四是ISM制造业指数，耐克也公布财报；周五则是市场最关注的非农就业报告。报告提醒，若非农数据大幅优于预期，可能进一步推高收益率，对股市不利。一周之内，多个关键数据可能让市场情绪来回摆动。",
+      "en": "Schwab's weekly outlook: Tuesday brings consumer confidence and JOLTs job openings; Wednesday PCE inflation, personal income and spending and the third GDP revision, plus Micron's earnings; Thursday ISM manufacturing and Nike's results; and Friday the closely watched payrolls report. It warns that a much stronger-than-expected payrolls number could push yields higher, which would weigh on stocks. Several key data points in one week could swing sentiment back and forth."
+    },
+    "dda": {
+      "zh": "数据密集周波动可能较大，定期定额的扣款不必因此暂停或提前。",
+      "en": "Data-heavy weeks can be volatile; there's no need to pause or rush your regular contributions because of it."
+    },
+    "lump": {
+      "zh": "重大数据公布前后，单笔投入可以分几周完成，减少被单一数据左右的风险。",
+      "en": "Around major data releases, a lump sum can be spread over several weeks to reduce the influence of any single number."
+    },
+    "prs": {
+      "zh": "每周都有\"关键数据\"，但退休计划看的是几十年。定期检视配置，比追踪每一份报告更重要。",
+      "en": "Every week has \"key data\", but retirement plans span decades. Regular reviews matter more than tracking every report."
+    },
+    "source": { "name": "Schwab", "url": "https://www.schwab.com/learn/story/weekly-traders-outlook" }
+  }
+],
+[
+  {
+    "id": "2026-09-26-w1",
+    "time": "2026-09-26T09:00:00+08:00",
+    "brief": "2026-09-26-weekend.html",
+    "tags": ["fed"],
+    "title": {
+      "zh": "10年期收益率触及5.225%创近20年高点，美股却仍收高：\"不是危机，而是警钟\"",
+      "en": "10-year yield touches 5.225%, a near-20-year high, yet stocks close higher: \"not a crisis, a wake-up call\""
+    },
+    "analysis": {
+      "zh": "9月25日10年期美债收益率一度冲上5.225%，是2007年以来最高，30年期触及5.502%。但标普500、道指、纳指仍靠科技巨头撑起涨势收高。有分析师总结：\"企业盈利是撑住市场的地板，地缘政治与政策不确定性则是压住市场的天花板。\"贝莱德固定收益主管 Rick Rieder 说：\"这不是一场危机，而是一记警钟。\"市场还没慌，但已开始留意。",
+      "en": "On Sept 25 the 10-year yield touched 5.225%, the highest since 2007, and the 30-year hit 5.502%. Yet the S&P 500, Dow and Nasdaq still closed higher on megacap tech strength. One analyst summed it up: \"Corporate earnings are the floor holding the market up; geopolitical and policy uncertainty is the ceiling pressing it down.\" BlackRock's Rick Rieder said: \"This isn't a crisis, it's a wake-up call.\" Markets aren't panicking, but they're paying attention."
+    },
+    "dda": {
+      "zh": "地板与天花板之间的震荡，最适合用定期定额慢慢累积，而不是一次性判断方向。",
+      "en": "Swings between a floor and a ceiling suit gradual regular investing better than one directional call."
+    },
+    "lump": {
+      "zh": "高收益率让债券与货币市场类工具更有吸引力。单笔资金可按目标在股债之间合理分配。",
+      "en": "High yields make bonds and money-market tools more attractive. Split a lump sum sensibly between equities and fixed income according to your goals."
+    },
+    "prs": {
+      "zh": "\"警钟\"的意义在于检视，而不是恐慌。这是检视退休组合风险水平是否仍适合你的好时机。",
+      "en": "A wake-up call is a prompt to review, not to panic — a good time to check your retirement portfolio's risk still suits you."
+    },
+    "source": { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-25-2026" }
+  },
+  {
+    "id": "2026-09-26-w2",
+    "time": "2026-09-26T09:00:00+08:00",
+    "brief": "2026-09-26-weekend.html",
+    "tags": ["my"],
+    "title": {
+      "zh": "KLCI 几乎持平收1,672点，令吉逆势走强：市场对马来西亚基本面仍有信心",
+      "en": "KLCI closes nearly flat at 1,672 while the ringgit firms against the trend: confidence in Malaysia's fundamentals holds"
+    },
+    "analysis": {
+      "zh": "富时大马综指周五收报约1,672点，单日仅跌0.04%，在外围债市动荡下相对稳健。更值得留意的是令吉：USD/MYR 报4.0706，单日走强0.36%。在美债收益率飙至多年高点、美元理应更受追捧的背景下，令吉并未明显走弱，过去一个月贬值仅1.10%，同比仍升值3.58%。这说明市场并没有因外部风声就一味抛售马来西亚资产。",
+      "en": "The KLCI closed Friday around 1,672, down just 0.04%, relatively steady amid global bond turmoil. The ringgit stood out: USD/MYR was 4.0706, with the ringgit firming 0.36% on the day. With US yields at multi-year highs that would normally favour the dollar, the ringgit barely weakened — down only 1.10% over the month and still up 3.58% year on year. Markets aren't dumping Malaysian assets just because of outside noise."
+    },
+    "dda": {
+      "zh": "本地市场相对稳定，是维持定期定额纪律的理想环境。",
+      "en": "A relatively steady local market is an ideal setting to keep your regular-investing discipline."
+    },
+    "lump": {
+      "zh": "外部动荡时，本地资产可以发挥稳定作用。单笔配置时，可检视本地与海外的比例是否平衡。",
+      "en": "Local assets can steady a portfolio during outside turmoil. Check your local-vs-overseas balance before a lump sum."
+    },
+    "prs": {
+      "zh": "PRS 可以同时持有本地与海外基金，每年最高 RM3,000 税务减免，是建立稳健退休组合的好工具。",
+      "en": "PRS can hold both local and overseas funds, with up to RM3,000 in annual tax relief — a good tool for a steady retirement portfolio."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/stock-market" }
+  },
+  {
+    "id": "2026-09-26-w3",
+    "time": "2026-09-26T09:00:00+08:00",
+    "brief": "2026-09-26-weekend.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "特朗普-习近平会晤落幕：贸易休战延至明年1月、设AI\"红色热线\"，但台湾与伊朗议题原地踏步",
+      "en": "Trump–Xi visit ends: trade truce extended to January and an AI \"red phone\" set up, but no movement on Taiwan or Iran"
+    },
+    "analysis": {
+      "zh": "国事访问周五落幕，美方把中美关税休战再延长两个月至2027年1月，并将成立\"美中贸易委员会\"；中方提出\"更大的协议\"构想。AI方面，双方建立对话热线，格里尔形容它像冷战时期的\"红色电话\"，用于在AI风险事件上互相通报。但分析人士评价这更像\"排场大于实质\"的一场表演：台湾、伊朗与更广泛的贸易协议均未见进展。",
+      "en": "The state visit ended Friday with the US extending the tariff truce two more months to January 2027 and planning a \"US-China Board of Trade\", while China floated a \"bigger deal\". On AI, the two sides set up a hotline that USTR Greer likened to the Cold War \"red phone\", for notifying each other of AI risk incidents. Analysts called it more pageantry than substance: no progress on Taiwan, Iran or a broader trade deal."
+    },
+    "dda": {
+      "zh": "中美关系的起伏会持续牵动市场。定期定额让你不需要押注每一次会谈的成果。",
+      "en": "US–China ups and downs will keep moving markets. Regular investing means you don't have to bet on each summit's outcome."
+    },
+    "lump": {
+      "zh": "\"排场大于实质\"的消息，短期利好可能消退。单笔配置前，别只依据峰会新闻做决定。",
+      "en": "When summits are more show than substance, the short-term lift can fade. Don't base a lump-sum decision on summit headlines alone."
+    },
+    "prs": {
+      "zh": "长期退休组合应能承受中美关系的反复，区域与行业分散是关键。",
+      "en": "A long-term retirement portfolio should withstand swings in US–China relations; regional and sector diversification is key."
+    },
+    "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/trump-china-xi-jinping-state-visit-dinner-tariffs-ai/" }
+  }
+],
+[
+  {
+    "id": "2026-09-25-m1",
+    "time": "2026-09-25T09:00:00+08:00",
+    "brief": "2026-09-25-morning.html",
+    "tags": ["fed"],
+    "title": {
+      "zh": "美债收益率全线飙升，10年期触及5.11%：推手不是经济太弱，而是\"太热\"",
+      "en": "Yields surge across the curve as the 10-year hits 5.11% — driven not by weakness but by an economy running hot"
+    },
+    "analysis": {
+      "zh": "9月24日10年期美债收益率一度冲上5.11%，创2007年以来新高；2年期升至4.897%，30年期触及5.438%的2004年后新高。推手是标普全球的商业活动数据创下五年多来最强增速。分析师 Daniela Hathorn 直言：\"经济不只是在避免衰退，它看起来正在加速。\"这意味着通胀与利率压力可能比预期更持久，美国房贷利率已升破7.37%。",
+      "en": "On Sept 24 the 10-year yield touched 5.11%, its highest since 2007; the 2-year rose to 4.897% and the 30-year hit a post-2004 high of 5.438%. The driver: S&P Global's business activity data showed the fastest growth in over five years. Analyst Daniela Hathorn put it plainly: \"The economy isn't just avoiding recession, it looks like it's accelerating.\" Inflation and rate pressure may last longer than expected; US mortgage rates have topped 7.37%."
+    },
+    "dda": {
+      "zh": "经济强、利率高的环境可能持续一段时间。定期定额不需要等利率见顶才开始。",
+      "en": "Strong growth with high rates could persist for a while. Regular investing doesn't need to wait for rates to peak."
+    },
+    "lump": {
+      "zh": "借贷成本上升时，避免以借贷资金投资。单笔配置以闲置资金为主，并按期限分配。",
+      "en": "With borrowing costs rising, avoid investing borrowed money. Use idle funds for lump sums and allocate by time horizon."
+    },
+    "prs": {
+      "zh": "长期利率上升会影响债券价格，也提高未来的收益机会。退休组合的债券部分，值得按年龄定期检视。",
+      "en": "Rising long-term rates hit bond prices but raise future income. Review the bond portion of your retirement mix regularly as you age."
+    },
+    "source": { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-24-2026" }
+  },
+  {
+    "id": "2026-09-25-m2",
+    "time": "2026-09-25T09:00:00+08:00",
+    "brief": "2026-09-25-morning.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "美伊探讨\"分阶段\"方案，油价却不跌反涨：利好消息不等于价格立刻反映",
+      "en": "US and Iran explore a phased deal, yet oil rises: good news doesn't mean prices reflect it right away"
+    },
+    "analysis": {
+      "zh": "路透社（经 Investing.com）报道，美伊正探讨分阶段协议：伊朗恢复霍尔木兹海峡自由通行，换取美国解除封锁、可能释放冻结资产；核心障碍是\"谁先让步\"。前中东特使 Dennis Ross 评估中期选举前达成协议的机率约三成。照理油价应下跌，但WTI 周四仍涨1.63%至93.66美元。在协议签署、海峡真正畅通之前，风险溢价不会消失——市场永远在为\"万一谈崩\"定价。",
+      "en": "Reuters (via Investing.com) reports the US and Iran are discussing a phased deal: Iran restores free passage through Hormuz in exchange for the US lifting its blockade and possibly unfreezing assets, with sequencing the core obstacle. Former envoy Dennis Ross puts the odds of a deal before the midterms at about 30%. In theory oil should fall, yet WTI rose 1.63% to $93.66 on Thursday. Until a deal is signed and the strait truly reopens, the risk premium stays — markets always price the chance talks collapse."
+    },
+    "dda": {
+      "zh": "消息与价格之间常有落差。定期定额不用等\"消息确定\"，照计划执行即可。",
+      "en": "News and prices often diverge. Regular investing doesn't wait for certainty — it just follows the plan."
+    },
+    "lump": {
+      "zh": "在协议落地前，单笔投入不宜押注\"和谈一定成功\"。分散与分段是更稳妥的做法。",
+      "en": "Before any deal is done, don't bet a lump sum on talks succeeding. Diversifying and phasing in is steadier."
+    },
+    "prs": {
+      "zh": "这是一堂\"消息与价格\"的课：退休投资看的是长期结果，而不是追着每一则新闻调整。",
+      "en": "A lesson in news versus price: retirement investing is about long-term outcomes, not reacting to every headline."
+    },
+    "source": { "name": "Investing.com", "url": "https://www.investing.com/news/commodities-news/us-and-iran-discuss-phased-deal-to-reopen-hormuz-and-end-us-blockade-sources-say-4915884" }
+  },
+  {
+    "id": "2026-09-25-m3",
+    "time": "2026-09-25T09:00:00+08:00",
+    "brief": "2026-09-25-morning.html",
+    "tags": ["my"],
+    "title": {
+      "zh": "全球收益率飙升下，令吉逆势走强至4.0690",
+      "en": "The ringgit firms to 4.0690 despite the global yield spike"
+    },
+    "analysis": {
+      "zh": "令吉周五上午报 USD/MYR 4.0690，较前一交易日走强0.37%。在美债收益率飙升、美元理应受益的背景下，令吉相对抗跌，反映市场对马来西亚基本面（包括国行维持稳定利率立场）仍有信心。KLCI 方面，白名单信源只能取得9月18日的验证收盘价1,665.56点，因此简报如实标注\"暂无更新\"，不做臆测。",
+      "en": "The ringgit traded at USD/MYR 4.0690 on Friday morning, 0.37% firmer than the previous session. Holding up while surging US yields would normally lift the dollar suggests continued confidence in Malaysia's fundamentals, including Bank Negara's steady rate stance. For the KLCI, whitelisted sources only had the verified Sept 18 close of 1,665.56, so the brief flagged \"no update\" rather than guessing."
+    },
+    "dda": {
+      "zh": "汇率与股市的短期变化难以预测，定期定额能平滑这些波动对成本的影响。",
+      "en": "Short-term currency and stock moves are hard to predict; regular investing smooths their effect on your cost."
+    },
+    "lump": {
+      "zh": "令吉走强时，投资海外资产换算的成本较低，但回报换算回令吉也会受影响。单笔配置时可兼顾两者。",
+      "en": "A stronger ringgit makes overseas assets cheaper to buy but can trim returns converted back. Weigh both in a lump-sum decision."
+    },
+    "prs": {
+      "zh": "退休后的开销以令吉为主。PRS 组合保持足够的令吉资产，并适度分散到海外。",
+      "en": "Retirement spending is mostly in ringgit. Keep enough ringgit assets in your PRS mix, with sensible overseas diversification."
+    },
+    "source": { "name": "FX168", "url": "https://www.fx168news.com/quote/MYR" }
+  }
+],
+[
+  {
+    "id": "2026-09-25-a1",
+    "time": "2026-09-25T17:00:00+08:00",
+    "brief": "2026-09-25-afternoon.html",
+    "tags": ["fed"],
+    "title": {
+      "zh": "加息押注不退反升：10月加息概率升至75.8%，创本周新高",
+      "en": "Hike bets keep climbing: October odds reach 75.8%, a weekly high"
+    },
+    "analysis": {
+      "zh": "早上提到10月28日会议的加息概率是73.5%，到下午 Investing.com 的数据已升至75.8%，只剩24.2%押注按兵不动。这呼应了美联储理事 Barr 所说\"政策还需要进一步调整\"——市场是真的听进去了。10年期国债收益率仍稳稳站在2007年以来的高点附近，没有回落迹象。",
+      "en": "This morning's 73.5% odds for an Oct 28 hike rose to 75.8% by the afternoon on Investing.com, with only 24.2% still betting on a hold. It echoes Fed Governor Barr's view that \"further policy adjustments\" are needed — markets clearly took it on board. The 10-year yield remains near its highest since 2007, with no sign of easing."
+    },
+    "dda": {
+      "zh": "加息预期升温时，股债都可能承压。定期定额让你在这段时间持续以较低成本累积。",
+      "en": "Rising hike expectations can weigh on both stocks and bonds. Regular investing keeps accumulating at lower cost through the stretch."
+    },
+    "lump": {
+      "zh": "高利率环境对现金与短期工具有利。单笔资金可按用途区分：短期需要的放稳健工具，长期资金再分阶段投资。",
+      "en": "High rates favour cash and short-term tools. Split a lump sum by purpose: near-term needs in steady instruments, long-term money invested in stages."
+    },
+    "prs": {
+      "zh": "利率周期会过去，退休计划却要持续几十年。维持供款，比等待\"利率见顶\"更重要。",
+      "en": "Rate cycles pass; retirement plans run for decades. Staying consistent with contributions matters more than waiting for rates to peak."
+    },
+    "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
+  },
+  {
+    "id": "2026-09-25-a2",
+    "time": "2026-09-25T17:00:00+08:00",
+    "brief": "2026-09-25-afternoon.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "被亚马逊挡在门外后，Meta 的 Muse 转身牵手沃尔玛、Sephora、Best Buy",
+      "en": "Blocked by Amazon, Meta's Muse teams up with Walmart, Sephora and Best Buy instead"
+    },
+    "analysis": {
+      "zh": "亚马逊以\"平台代理访问规则\"为由，把 Meta 的AI购物助手 Muse 挡在门外。扎克伯格9月24日回应：Muse 将继续对多数用户免费（未来靠交易抽成盈利），并官宣沃尔玛、Best Buy、Sephora、Gap、Wayfair 等零售伙伴，连 Expedia 和 Instacart 也加入。摩根大通分析师认为，Muse 有可能成为 ChatGPT 之后最多人用的消费级AI应用。\"谁掌控AI购物入口\"的较量，才刚进入下半场。",
+      "en": "Amazon blocked Meta's AI shopping agent Muse, citing its agent-access rules. On Sept 24 Zuckerberg responded: Muse stays free for most users (earning via transaction fees later) and signed retail partners including Walmart, Best Buy, Sephora, Gap and Wayfair, plus Expedia and Instacart. JPMorgan analysts think Muse could become the most-used consumer AI app after ChatGPT. The fight over who controls the AI shopping gateway is just entering its second half."
+    },
+    "dda": {
+      "zh": "科技巨头之间的竞争会带来赢家与输家。通过基金定期投入，可以分享产业成长而不必猜谁胜出。",
+      "en": "Big Tech rivalries create winners and losers. Investing regularly through funds shares in industry growth without picking the winner."
+    },
+    "lump": {
+      "zh": "竞争格局未明时，单笔押注单一公司风险较高。分散的主题或全球基金是更稳妥的选择。",
+      "en": "While the competitive picture is unclear, betting a lump sum on one company is risky. Diversified theme or global funds are steadier."
+    },
+    "prs": {
+      "zh": "AI 改变消费模式是长期趋势，退休组合可以适度参与，但仍以分散为本。",
+      "en": "AI reshaping consumption is a long-term trend; retirement portfolios can take part modestly, with diversification as the base."
+    },
+    "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/09/61963074/mark-zuckerberg-muse-free-walmart-sephora-best-buy-ai-shopping" }
+  }
+],
+[
+  {
+    "id": "2026-09-24-m1",
+    "time": "2026-09-24T09:00:00+08:00",
+    "brief": "2026-09-24-morning.html",
+    "tags": ["fed"],
+    "title": {
+      "zh": "美债收益率狂飙：5年期19年来首破5%，10年期升至5.11%，美股全线下跌",
+      "en": "Treasury yields surge: the 5-year tops 5% for the first time since 2007 and the 10-year hits 5.11% as stocks slide"
+    },
+    "analysis": {
+      "zh": "9月23日美股三大指数收跌：标普500跌0.75%、纳指跌1.13%，罗素2000小型股重挫1.60%。焦点在债市：5年期美债收益率盘中触及5.036%，是2007年以来首次站上5%；10年期升至5.11%。美联储理事 Barr 表示\"可能仍需进一步的政策调整\"，叠加油价走高与超预期的PMI，10月加息预期急速升温。不同信源的加息概率从53%到71%不等，但方向一致。",
+      "en": "US stocks fell on Sept 23: S&P 500 -0.75%, Nasdaq -1.13%, and the small-cap Russell 2000 -1.60%. The real story was bonds: the 5-year yield touched 5.036%, its first time above 5% since 2007, and the 10-year hit 5.11%. Fed Governor Barr said \"further policy adjustments may be needed\", and with higher oil and a strong PMI, October hike expectations jumped. Sources put the odds anywhere from 53% to 71%, but all point the same way."
+    },
+    "dda": {
+      "zh": "收益率急升时股市容易回调，定期定额会在这段时间以较低价格累积单位。",
+      "en": "Stocks often pull back when yields spike; regular investing accumulates units at lower prices during these stretches."
+    },
+    "lump": {
+      "zh": "债券收益率处于多年高位，单笔资金可考虑按目标分配到股、债、货币市场，而不是只看股票。",
+      "en": "With bond yields at multi-year highs, a lump sum can be allocated across equities, bonds and money market to fit your goals, not just stocks."
+    },
+    "prs": {
+      "zh": "高收益率环境下，固定收益类资产的吸引力上升。退休组合中的股债比例，值得趁机检视。",
+      "en": "High yields make fixed income more attractive. It's a good moment to review the equity–bond balance in your retirement portfolio."
+    },
+    "source": { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-23-2026" }
+  },
+  {
+    "id": "2026-09-24-m2",
+    "time": "2026-09-24T09:00:00+08:00",
+    "brief": "2026-09-24-morning.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "美伊举行6月以来首次会谈，但霍尔木兹海峡商船再遇袭，1死27人撤离",
+      "en": "US and Iran hold first talks since June — but a ship is struck in Hormuz, killing one and forcing 27 to evacuate"
+    },
+    "analysis": {
+      "zh": "美伊代表9月22日在联合国大会期间，经卡塔尔与阿曼斡旋举行数小时间接会谈，是6月以来首次接触。伊朗要求解除海军封锁、解冻资产，并暗示可在7天内重开霍尔木兹海峡；特朗普称有\"很大的推进动能\"，预期协议可能在11月中期选举后达成。但就在同时，海峡一艘商船遇袭，造成1名船员死亡、27人撤离。WTI 报91.31美元，但本月仍大涨10.87%。\"消息面\"与\"现实面\"仍有落差。",
+      "en": "US and Iranian officials held hours of indirect talks at the UN on Sept 22, mediated by Qatar and Oman — their first contact since June. Iran seeks an end to the naval blockade and unfrozen assets, hinting it could reopen Hormuz within seven days; Trump spoke of \"big momentum\" and a possible deal after the November midterms. Yet a commercial vessel was struck in the Strait, killing one crew member and forcing 27 to evacuate. WTI was at $91.31, still up 10.87% for the month. Headlines and reality still diverge."
+    },
+    "dda": {
+      "zh": "谈判进展与安全事件交错时，定期定额让你不必对每一则消息作出反应。",
+      "en": "When talks and security incidents alternate, regular investing means you don't have to react to each headline."
+    },
+    "lump": {
+      "zh": "油价本月涨幅仍大。单笔投入能源相关资产前，要评估若和谈成功、油价回落的影响。",
+      "en": "Oil is still up sharply this month. Before a lump sum into energy-linked assets, consider the impact if talks succeed and prices fall."
+    },
+    "prs": {
+      "zh": "退休计划不宜押注任何一方的谈判结果。分散配置能兼顾\"谈成\"与\"谈不成\"两种情景。",
+      "en": "Retirement plans shouldn't bet on how talks end. Diversification covers both the deal and no-deal scenarios."
+    },
+    "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/9/23/us-iran-hold-mediated-unga-talks-on-ending-war-opening-strait-of-hormuz" }
+  },
+  {
+    "id": "2026-09-24-m3",
+    "time": "2026-09-24T09:00:00+08:00",
+    "brief": "2026-09-24-morning.html",
+    "tags": ["my"],
+    "title": {
+      "zh": "美国加息预期升温，马来西亚受冲击相对温和：令吉年内仍升值3.30%",
+      "en": "US hike bets rise, but Malaysia's hit is relatively mild: the ringgit is still up 3.30% this year"
+    },
+    "analysis": {
+      "zh": "尽管美国加息预期升温，马来西亚受到的直接冲击相对温和：KLCI 周三收报1,676.43点，单日下跌0.42%，本月累跌3.45%，但年内仍上涨4.80%；令吉兑美元报4.0676，单日走强0.18%，年内仍升值3.30%。外围利率风暴下，本地市场的波动幅度相对有限。",
+      "en": "Despite rising US hike expectations, the direct impact on Malaysia has been relatively mild: the KLCI closed Wednesday at 1,676.43, down 0.42% on the day and 3.45% for the month, yet still up 4.80% this year; the ringgit firmed 0.18% to 4.0676 and remains 3.30% stronger this year. Amid the global rate storm, local swings have been fairly contained."
+    },
+    "dda": {
+      "zh": "本地市场波动相对有限，是建立或维持定期定额习惯的稳定环境。",
+      "en": "Relatively contained local swings make a steady setting for building or keeping a regular-investing habit."
+    },
+    "lump": {
+      "zh": "令吉走强时，海外资产换算回令吉的回报会受影响。单笔配置时可一并考虑汇率因素。",
+      "en": "A stronger ringgit affects the ringgit value of overseas returns. Factor currency into any lump-sum allocation."
+    },
+    "prs": {
+      "zh": "本地与海外资产在不同环境下各有表现。PRS 组合保持两者平衡，并善用每年最高 RM3,000 税务减免。",
+      "en": "Local and overseas assets each shine in different conditions. Keep your PRS balanced between them and use the up to RM3,000 annual tax relief."
+    },
+    "source": { "name": "FX168", "url": "https://www.fx168news.com/express/fastnews/1434861" }
+  }
+],
+[
+  {
+    "id": "2026-09-24-a1",
+    "time": "2026-09-24T17:00:00+08:00",
+    "brief": "2026-09-24-afternoon.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "伊朗总统联大强硬发言、美方代表离场，油价重返涨势：WTI 涨破94美元",
+      "en": "Iran's defiant UN speech prompts a US walkout, and oil snaps back: WTI clears $94"
+    },
+    "analysis": {
+      "zh": "伊朗总统佩泽希齐扬在联合国大会强硬发声，称\"我们才是恐怖主义的受害者\"，强调伊朗\"从未屈膝\"；美方一名代表中途离席，以色列代表团缺席。这冲淡了稍早美伊三小时会谈带来的乐观情绪。WTI 原油随即上涨2.11%至94.11美元，布兰特涨2.78%至105.95美元，收复前一天因外交乐观而出现的跌幅。市场对海峡局势缓解的期待，再次因外交不确定性而降温。",
+      "en": "Iranian President Pezeshkian gave a defiant UN speech, saying \"we are the victims of terrorists\" and that Iran never bowed; a US representative walked out and Israel's delegation stayed away. It dampened optimism from the earlier three-hour US–Iran talks. WTI rose 2.11% to $94.11 and Brent 2.78% to $105.95, reversing the previous day's diplomacy-driven dip. Hopes for easing in Hormuz cooled again on diplomatic uncertainty."
+    },
+    "dda": {
+      "zh": "一天跌、一天涨，油价的反复正是定期定额\"不追不杀\"最能发挥作用的场景。",
+      "en": "Down one day, up the next — oil's back-and-forth is where regular investing's \"no chasing, no panic\" approach shines."
+    },
+    "lump": {
+      "zh": "外交消息反复时，单笔投入宜拉长时间、分段完成，避免在单一消息后做决定。",
+      "en": "With diplomatic news flipping, stretch a lump sum over time and phase it in rather than deciding after one headline."
+    },
+    "prs": {
+      "zh": "油价反弹会重燃通胀担忧。退休组合保留适度抗通胀资产，能帮助守住长期购买力。",
+      "en": "An oil rebound revives inflation worries. Keeping some inflation-resilient assets in a retirement portfolio helps protect purchasing power."
+    },
+    "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/9/23/irans-president-slams-trumps-bullying-in-defiant-unga-speech" }
+  },
+  {
+    "id": "2026-09-24-a2",
+    "time": "2026-09-24T17:00:00+08:00",
+    "brief": "2026-09-24-afternoon.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "中美贸易休战延长至2027年1月10日，AI巨头齐聚白宫国宴",
+      "en": "US–China trade truce extended to Jan 10, 2027 as AI leaders gather for the White House dinner"
+    },
+    "analysis": {
+      "zh": "习近平抵美之际，美国财长贝森特宣布中美\"釜山协议\"贸易休战延长至2027年1月10日，比原定11月10日到期多出约两个月。消息为被通胀与美债收益率忧虑笼罩的市场带来一丝喘息。扎克伯格、黄仁勋、奥特曼与库克等预计出席国宴，Meta 的 Muse 迅速登顶热门应用榜，也为AI情绪注入强心针。但在10年期收益率创逾15年新高的背景下，乐观情绪能否延续仍需观察。",
+      "en": "As Xi Jinping arrived, Treasury Secretary Bessent announced the US–China \"Busan Agreement\" truce would run to January 10, 2027 — about two months past its Nov 10 expiry. It gave some relief to markets weighed down by inflation and Treasury-yield worries. Zuckerberg, Huang, Altman and Cook were expected at the state dinner, and Meta's Muse topping the app charts lifted AI sentiment. With the 10-year yield at a 15-plus-year high, whether the optimism lasts remains to be seen."
+    },
+    "dda": {
+      "zh": "贸易休战延长降低了短期不确定性，但市场仍有利率压力。定期定额让你不用挑时机。",
+      "en": "The truce extension lowers near-term uncertainty, but rate pressure remains. Regular investing means you don't have to pick the moment."
+    },
+    "lump": {
+      "zh": "政策利好往往短期推升情绪。单笔进场前，先确认估值与组合中亚洲、科技的比重。",
+      "en": "Policy good news often lifts sentiment briefly. Before a lump sum, check valuations and your Asia and tech weightings."
+    },
+    "prs": {
+      "zh": "中美关系稳定对亚洲市场有利。退休组合适度配置亚洲资产，并维持地区分散。",
+      "en": "Stable US–China relations help Asian markets. Hold a sensible share of Asian assets in retirement savings, with regional diversification."
+    },
+    "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-24-dow-sp-500-nasdaq-080352893.html" }
+  }
+],
+[
+  {
+    "id": "2026-09-23-m1",
+    "time": "2026-09-23T09:00:00+08:00",
+    "brief": "2026-09-23-morning.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "伊朗称一周内可重开霍尔木兹海峡，布兰特原油两周来首次跌破100美元",
+      "en": "Iran says it could reopen Hormuz within a week; Brent drops below $100 for the first time in two weeks"
+    },
+    "analysis": {
+      "zh": "据日本官方媒体报道，伊朗表示只要美国解除对伊朗港口的海上封锁，一周内就能重开霍尔木兹海峡；伊朗高层也要求美方把\"外交诚意\"正式化并订出时间表。同日，美伊代表团在联合国边会谈三小时，特朗普形容\"非常好\"。加上沙特输油管据报恢复运作，布兰特原油两周以来首次跌破100美元。但9月21日仍有两艘油轮遭不明发射物击中，现实依然复杂。",
+      "en": "Per Japanese state media, Iran said it could reopen the Strait of Hormuz within a week if the US lifts its naval blockade of Iranian ports, with a senior official asking Washington to formalise its diplomatic intent with a timeline. The same day, US and Iranian delegations met for three hours at the UN, which Trump called \"very good\". With Saudi Arabia's pipeline reportedly running again, Brent fell below $100 for the first time in two weeks. Yet two tankers were hit on Sept 21 — reality is still complicated."
+    },
+    "dda": {
+      "zh": "降温信号出现时，市场可能快速反应。定期定额让你不用判断这次缓和会不会持续。",
+      "en": "Markets react fast to de-escalation signals. Regular investing spares you from judging whether this calm will last."
+    },
+    "lump": {
+      "zh": "和谈进展与地缘风险并存时，单笔资金宜分散在不同资产与地区，分阶段进场。",
+      "en": "With talks progressing and risks still present, spread a lump sum across assets and regions and phase it in."
+    },
+    "prs": {
+      "zh": "油价跌破100美元有助控制通胀。长期退休组合维持均衡，才能在局势反复时保持稳定。",
+      "en": "Oil below $100 helps contain inflation. A balanced long-term retirement mix stays steady if the situation flips back."
+    },
+    "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-decision-tehran-warns-of-expansion/" }
+  },
+  {
+    "id": "2026-09-23-m2",
+    "time": "2026-09-23T09:00:00+08:00",
+    "brief": "2026-09-23-morning.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "Meta 的 Muse AI 12天280万次下载，带动纳指再创历史新高",
+      "en": "Meta's Muse AI hits 2.8 million downloads in 12 days, lifting the Nasdaq to another record"
+    },
+    "analysis": {
+      "zh": "Meta 推出的AI代理 Muse 在12天内吸引280万次下载，股价周一大涨近12%，周二再涨约1.5%；Evercore ISI 形容\"Meta 这次真的做对了\"。\"科技七雄\"重回领涨，纳斯达克综合指数收报27,122.09点，再创新高。同时习近平将于9月23–25日访美，白宫科技晚宴邀请了 OpenAI、英伟达、高通的领导人——AI 阵营内部对安全议题的分歧，也可能被带上饭桌。",
+      "en": "Meta's AI agent Muse drew 2.8 million downloads in 12 days, sending the stock up nearly 12% on Monday and about 1.5% more on Tuesday; Evercore ISI said Meta \"has a hit on its hands\". The Magnificent Seven led again, and the Nasdaq Composite closed at a record 27,122.09. Meanwhile Xi Jinping visits the US Sept 23–25, with OpenAI, Nvidia and Qualcomm leaders invited to a White House tech dinner — where the AI camp's own split over safety may surface."
+    },
+    "dda": {
+      "zh": "热门应用带动的涨势来得快，也可能去得快。定期定额让你参与成长而不必追逐热点。",
+      "en": "Rallies driven by hit products can fade as fast as they come. Regular investing lets you share in growth without chasing hype."
+    },
+    "lump": {
+      "zh": "单一公司的爆发不宜直接变成单笔重注。通过分散的科技或全球基金参与更为稳妥。",
+      "en": "One company's breakout shouldn't become one big bet. Participating through diversified tech or global funds is steadier."
+    },
+    "prs": {
+      "zh": "退休组合可以包含科技成长，但比重需要控制，并定期再平衡。",
+      "en": "Retirement portfolios can include tech growth, but keep the weighting in check and rebalance regularly."
+    },
+    "source": { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-22-2026" }
+  },
+  {
+    "id": "2026-09-23-m3",
+    "time": "2026-09-23T09:00:00+08:00",
+    "brief": "2026-09-23-morning.html",
+    "tags": ["my", "fed"],
+    "title": {
+      "zh": "富时大马综指收高0.99%至1,683.50点；里士满联储：供应冲击\"并非短暂\"",
+      "en": "KLCI closes up 0.99% at 1,683.50; Richmond Fed says supply shocks \"aren't proving short-lived\""
+    },
+    "analysis": {
+      "zh": "Trading Economics 数据显示，富时大马综指9月22日收报1,683.50点，大涨0.99%，年内仍上涨4.99%；令吉报4.0756，略为走强。油价大跌与中东局势降温，对依赖进口能源的马来西亚是正面消息。但联储方面，10月加息概率升至57.4%，里士满联储主席巴尔金表示近期供应冲击\"并非短暂现象\"，暗示紧缩可能尚未结束。",
+      "en": "Trading Economics shows the KLCI closed Sept 22 at 1,683.50, up 0.99% and still 4.99% higher over the year, with the ringgit edging firmer at 4.0756. Sharply lower oil and Middle East de-escalation are good news for energy-importing Malaysia. On the Fed side, October hike odds rose to 57.4%, and Richmond Fed President Barkin said recent supply shocks \"aren't proving to be short-lived\", hinting that tightening may not be over."
+    },
+    "dda": {
+      "zh": "本地市场有好消息、美国利率仍有压力——这种拉扯正是定期定额平均成本的好时机。",
+      "en": "Good news locally, rate pressure in the US — this tug of war is a good setting for regular investing to average your cost."
+    },
+    "lump": {
+      "zh": "单笔配置时可以同时考虑本地与海外市场，两者对油价和利率的反应并不相同。",
+      "en": "For a lump sum, consider both local and overseas markets — they react differently to oil and rates."
+    },
+    "prs": {
+      "zh": "本地资产能为退休组合提供令吉收益来源。持续 PRS 供款，每年最高可享 RM3,000 税务减免。",
+      "en": "Local assets give a retirement portfolio ringgit-based returns. Keep contributing to PRS, with up to RM3,000 in annual tax relief."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/stock-market" }
+  }
+],
+[
+  {
+    "id": "2026-09-23-a1",
+    "time": "2026-09-23T17:00:00+08:00",
+    "brief": "2026-09-23-afternoon.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "联合国场边：伊朗外交出现具体进展，油价连续第二天守在100美元下方",
+      "en": "At the UN: Iran diplomacy gets more concrete as oil stays under $100 for a second day"
+    },
+    "analysis": {
+      "zh": "伊朗总统佩泽希齐扬抵达纽约准备在联大发言，誓言\"坚定捍卫\"伊朗立场；美国特使威特科夫形容会谈\"具建设性且充满希望\"，并证实下一轮会谈已安排。同时，美国对伊朗航空业的制裁于9月23日生效，伊拉克与阿曼随即暂停伊朗航班。油价方面，WTI 进一步回落至89.86美元，布兰特报99.10美元，连续第二天守在100美元下方，反映市场对外交进展的正面消化。",
+      "en": "Iranian President Pezeshkian arrived in New York for his UN address, vowing to \"firmly defend\" Iran's positions, while US envoy Witkoff called the talks \"constructive and promising\" and confirmed another round is scheduled. US aviation sanctions on Iran took effect on Sept 23, and Iraq and Oman suspended Iranian flights. WTI slipped to $89.86 and Brent held at $99.10, under $100 for a second straight day as markets priced in diplomatic progress."
+    },
+    "dda": {
+      "zh": "油价回落对进口成本与通胀预期是好消息。若组合含能源敏感型基金，这类波动正是定期定额摊薄成本的时候。",
+      "en": "Falling oil is good news for import costs and inflation expectations. If your holdings include energy-sensitive funds, this is when regular investing lowers your average cost."
+    },
+    "lump": {
+      "zh": "真正的风险不是消息反复，而是因为反复的消息而频繁进出。单笔投入宜有计划、分阶段进行。",
+      "en": "The real risk isn't flip-flopping headlines but trading in and out because of them. Make lump sums planned and staged."
+    },
+    "prs": {
+      "zh": "外交进展是分秒变化的新闻，不是调整退休配置的理由。PRS 应以10年、20年的周期来看。",
+      "en": "Diplomatic news changes by the hour — not a reason to touch a retirement allocation. PRS is built for a 10–20 year horizon."
+    },
+    "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-decision-tehran-warns-of-expansion/" }
+  },
+  {
+    "id": "2026-09-23-a2",
+    "time": "2026-09-23T17:00:00+08:00",
+    "brief": "2026-09-23-afternoon.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "美光股价单日大涨5%至1,096美元创新高，距财报只剩一周",
+      "en": "Micron jumps 5% to a record $1,096, one week before earnings"
+    },
+    "analysis": {
+      "zh": "美光9月22日收盘大涨5.00%至1,096.16美元，比早前分析师预览引用的约975美元又跳升一大截，是AI内存供应紧俏叙事持续发酵的体现。研究机构 Lynx Research 本月稍早把目标价上调至1,325美元，认为\"5–6月由炒作驱动的剧烈波动已经过去\"，取而代之的是\"更冷静、更有纪律的机构建仓\"。美光年内涨幅已超过250%。",
+      "en": "Micron closed Sept 22 up 5.00% at $1,096.16, well above the roughly $975 cited in earlier previews, as the AI-memory shortage story kept building. Lynx Research raised its target to $1,325 earlier this month, saying \"the wild, hype-driven volatility of May and June is behind us\", replaced by \"calmer, more deliberate institutional buying\". The stock is up more than 250% this year."
+    },
+    "dda": {
+      "zh": "若定期定额组合含AI或半导体基金，近期表现是纪律的成果；但财报周波动可能放大，要有心理准备。",
+      "en": "If your regular investments include AI or semiconductor funds, recent gains reflect that discipline — but brace for bigger swings in earnings week."
+    },
+    "lump": {
+      "zh": "单一个股大涨不代表应该重押。单笔投入科技主题前，先检视组合是否已偏重。",
+      "en": "One stock surging isn't a reason to load up. Check whether your portfolio is already tech-heavy before a lump sum."
+    },
+    "prs": {
+      "zh": "PRS 的价值在于分散，而不是追逐当红个股的短期动能。长期要看的是需求周期能撑多久。",
+      "en": "PRS's value is diversification, not chasing today's momentum stock. Long term, the question is how long the demand cycle lasts."
+    },
+    "source": { "name": "TheStreet", "url": "https://www.thestreet.com/investing/stocks/mu-micron-sndk-sandisk-lynx-research-stock-price-targets-september-2026" }
+  }
+],
+[
+  {
+    "id": "2026-09-22-m1",
+    "time": "2026-09-22T09:00:00+08:00",
+    "brief": "2026-09-22-morning.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "芯片股全面反弹，纳指单日涨2.26%创历史新高，AMD市值突破1万亿美元",
+      "en": "Chip stocks rally broadly: Nasdaq jumps 2.26% to a record as AMD tops $1 trillion"
+    },
+    "analysis": {
+      "zh": "9月21日纳斯达克综合指数大涨2.26%收报27,122.09点，创历史新高；标普500涨1.49%。半导体领涨：英特尔飙升12.17%，AMD大涨9.95%，市值突破1万亿美元；Meta 因提前发布AI代理\"MUSE\"大涨11.34%。这不只是情绪高涨，而是油价回落、美债收益率下滑，加上特朗普将设国宴款待习近平三个因素同时松绑，市场解读为中美AI与贸易关系可能转圜。",
+      "en": "On Sept 21 the Nasdaq Composite surged 2.26% to a record 27,122.09 and the S&P 500 rose 1.49%. Semiconductors led: Intel jumped 12.17% and AMD 9.95%, pushing its market value past $1 trillion; Meta rose 11.34% after unveiling its AI agent MUSE. It wasn't just euphoria — falling oil, lower Treasury yields and Trump's upcoming state dinner for Xi Jinping all eased at once, read as a possible thaw in US–China AI and trade tensions."
+    },
+    "dda": {
+      "zh": "单日大涨最容易让人想\"追一笔\"。定期定额的纪律，正好帮你避开追高的情绪陷阱。",
+      "en": "A big up-day is when chasing feels most tempting. Regular investing's discipline keeps you out of that trap."
+    },
+    "lump": {
+      "zh": "指数创新高时，单笔投入可以考虑分段进行，避免把全部资金押在单一高点。",
+      "en": "With indices at records, consider phasing a lump sum in rather than committing it all at one high point."
+    },
+    "prs": {
+      "zh": "科技板块的强势值得参与，但退休组合更需要稳定性。确保成长资产与稳健资产之间保持平衡。",
+      "en": "Tech's strength is worth participating in, but retirement portfolios need stability too. Keep growth and defensive assets in balance."
+    },
+    "source": { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-21-2026" }
+  },
+  {
+    "id": "2026-09-22-m2",
+    "time": "2026-09-22T09:00:00+08:00",
+    "brief": "2026-09-22-morning.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "特朗普摆出三个选项，伊朗革命卫队放话\"改变战争地理\"；油价随外交乐观走软",
+      "en": "Trump weighs three paths on Iran as the IRGC threatens to widen the war; oil eases on diplomatic hopes"
+    },
+    "analysis": {
+      "zh": "特朗普表示自己对伊朗处于\"决定模式\"，选项包括加大军事打击、经济施压或外交解决，并可能在联合国大会期间会见伊朗总统。伊朗革命卫队则警告若遭新攻击，将\"改变武器与战争地理范围\"。同日霍尔木兹海峡再有油轮被击中。尽管如此，WTI 周一收跌2.50%至97.79美元，周二进一步回落至约92.90美元。市场暂时押注外交占上风，但局势随时可能逆转。",
+      "en": "Trump said he is in \"deciding mode\" on Iran, with options ranging from heavier strikes to economic pressure or a diplomatic deal, and may meet Iran's president at the UN. The IRGC warned any new attack would change \"the weapons and geography of the war\", and another tanker was hit in Hormuz the same day. Still, WTI closed Monday down 2.50% at $97.79 and slid toward $92.90 on Tuesday. Markets are betting diplomacy wins for now, but it can turn quickly."
+    },
+    "dda": {
+      "zh": "地缘政治带来的波动往往是情绪驱动。定期定额能避免在情绪高低点做出决定。",
+      "en": "Geopolitical swings are often sentiment-driven. Regular investing avoids making decisions at emotional highs and lows."
+    },
+    "lump": {
+      "zh": "\"外交喊话 + 军事威胁\"并存时，单笔投入宜保守、分散，不宜追高杀跌。",
+      "en": "With diplomatic talk and military threats side by side, keep lump sums cautious and diversified — don't chase moves either way."
+    },
+    "prs": {
+      "zh": "油价回落有助缓解通胀，对退休规划是好事；但长期计划仍应为能源价格反复做好准备。",
+      "en": "Falling oil helps on inflation, which is good for retirement planning — but long-term plans should still allow for energy prices swinging back."
+    },
+    "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-decision-tehran-warns-of-expansion/" }
+  },
+  {
+    "id": "2026-09-22-m3",
+    "time": "2026-09-22T09:00:00+08:00",
+    "brief": "2026-09-22-morning.html",
+    "tags": ["my", "prs"],
+    "title": {
+      "zh": "KLCI企稳1,667点，令吉微幅走强至4.078：外部风浪下的相对稳定",
+      "en": "KLCI steadies near 1,667 and the ringgit firms slightly to 4.078: relative calm amid outside storms"
+    },
+    "analysis": {
+      "zh": "Trading Economics 数据显示，富时大马综指周一收报1,667点，上涨0.08%，月内仍跌4.00%、年内涨3.97%；令吉报4.078，单日走强0.14%。KLCI 月内的调整，某种程度反映的是全球资金在联储政策与中东局势不确定时的避险，而不是马来西亚基本面出了问题。",
+      "en": "Trading Economics shows the KLCI closed Monday at 1,667, up 0.08%, still down 4.00% for the month but up 3.97% over the year, while the ringgit firmed 0.14% to 4.078. The KLCI's monthly dip largely reflects global money seeking safety amid Fed and Middle East uncertainty, rather than a problem with Malaysia's fundamentals."
+    },
+    "dda": {
+      "zh": "阶段性回调，正是\"用时间换空间\"的定期定额发挥作用的时候。",
+      "en": "Periodic pullbacks are exactly when regular investing's \"time over timing\" approach does its work."
+    },
+    "lump": {
+      "zh": "若回调源于外部因素而非本地基本面，单笔资金可以分阶段配置，而不必一次决定。",
+      "en": "If a pullback comes from outside factors rather than local fundamentals, a lump sum can be deployed in stages instead of all at once."
+    },
+    "prs": {
+      "zh": "本地市场是退休组合的重要基石之一。持续 PRS 供款，并善用每年最高 RM3,000 税务减免。",
+      "en": "The local market is an important building block for retirement. Keep up PRS contributions and use the up to RM3,000 annual tax relief."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/stock-market" }
+  }
+],
+[
+  {
+    "id": "2026-09-22-a1",
+    "time": "2026-09-22T17:00:00+08:00",
+    "brief": "2026-09-22-afternoon.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "油价加速回落，WTI跌至约90美元；摩根大通策略师：已放弃预测这场石油战何时结束",
+      "en": "Oil slides faster as WTI drops to about $90; a JPMorgan strategist has \"given up\" predicting when the oil war ends"
+    },
+    "analysis": {
+      "zh": "Trading Economics 数据显示，WTI 原油大跌2.31%至90.23美元，布兰特原油下滑1.55%至98.78美元，反映沙特管道修复进度与外交乐观情绪。但 TheStreet 报道，一位摩根大通策略师坦言已放弃预测这场石油战何时结束——即使油价走软，地缘不确定性仍未消散。油价若能持续回落，将有助缓解通胀，是本周少有的喘息空间。",
+      "en": "Trading Economics shows WTI down 2.31% at $90.23 and Brent down 1.55% at $98.78, reflecting progress on Saudi pipeline repairs and diplomatic optimism. But TheStreet reports a JPMorgan strategist admitting he has given up predicting when this oil war will end — the uncertainty hasn't gone away even as prices soften. If the decline holds, it eases inflation pressure, a rare breather this week."
+    },
+    "dda": {
+      "zh": "连专业策略师都不再预测时，定期定额\"不预测、只执行\"的方式更显实用。",
+      "en": "When even professional strategists stop forecasting, regular investing's \"don't predict, just execute\" approach looks all the more practical."
+    },
+    "lump": {
+      "zh": "油价下跌对不同资产影响不同。单笔配置前，先了解组合中哪些资产对能源价格敏感。",
+      "en": "Falling oil affects assets differently. Before a lump sum, know which holdings in your portfolio are sensitive to energy prices."
+    },
+    "prs": {
+      "zh": "通胀压力放缓对退休族的购买力有利，但退休规划仍应以长期平均通胀来估算。",
+      "en": "Easing inflation helps retirees' purchasing power, but retirement plans should still be built on long-run average inflation."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil" }
+  },
+  {
+    "id": "2026-09-22-a2",
+    "time": "2026-09-22T17:00:00+08:00",
+    "brief": "2026-09-22-afternoon.html",
+    "tags": ["fed", "my"],
+    "title": {
+      "zh": "联储10月加息概率回升至59.7%：决策仍高度依赖每周数据",
+      "en": "Fed October hike odds bounce back to 59.7%: decisions still hinge on week-to-week data"
+    },
+    "analysis": {
+      "zh": "Investing.com 的 Fed Rate Monitor 显示，市场对10月28日加息25个基点的概率回升至59.7%，高于早上的57.4%，维持不变为40.3%。这种\"来回摆动\"再次说明，联储决策高度依赖每周数据，而不是单向趋势。令吉方面，美元兑令吉小幅走软至4.0756，与油价走弱的大背景相符。",
+      "en": "Investing.com's Fed Rate Monitor shows odds of a 25bp hike on Oct 28 back up to 59.7% from 57.4% this morning, with 40.3% for a hold. The back-and-forth confirms the Fed is data-dependent week to week rather than on a one-way path. USD/MYR eased slightly to 4.0756, consistent with softer oil."
+    },
+    "dda": {
+      "zh": "预期每天摆动，定期定额让你不需要跟着每一次数字调整计划。",
+      "en": "Expectations swing daily; regular investing means you don't need to adjust your plan with every number."
+    },
+    "lump": {
+      "zh": "数据驱动的市场波动较频繁。单笔投入可以设定分段时间表，减少单一数据公布的影响。",
+      "en": "Data-driven markets move often. A lump sum can follow a staged schedule to reduce the impact of any single data release."
+    },
+    "prs": {
+      "zh": "对退休储蓄来说，与其追踪每周利率概率，不如确保股、债、现金比例符合自己的年龄与目标。",
+      "en": "For retirement savings, rather than tracking weekly rate odds, make sure your equity–bond–cash mix fits your age and goals."
+    },
+    "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
+  }
+],
+[
+  {
+    "id": "2026-09-21-m1",
+    "time": "2026-09-21T09:00:00+08:00",
+    "brief": "2026-09-21-morning.html",
+    "tags": ["my", "prs"],
+    "title": {
+      "zh": "KLCI 月内跌3.80%，但过去12个月仍涨4.21%：短期承压、长期有支撑",
+      "en": "KLCI down 3.80% on the month but still up 4.21% over a year: short-term pressure, long-term support"
+    },
+    "analysis": {
+      "zh": "Trading Economics 数据显示，富时大马综指最新收报1,666点，单日跌0.55%，月内累跌3.80%，但过去12个月仍上涨4.21%。美元兑令吉报4.0821，单日走弱0.40%，但一年来令吉走强2.93%。本地市场呈现\"短期承压、长期仍有支撑\"的格局，与全球在联储10月议息前的观望气氛一致。用一个月的表现来判断一个市场，就像用一场雨来判断一个季节。",
+      "en": "Trading Economics shows the KLCI last closed at 1,666, down 0.55% on the day and 3.80% for the month, yet still up 4.21% over 12 months. USD/MYR was 4.0821 — the ringgit weaker 0.40% on the day but 2.93% stronger over the year. The local market shows short-term pressure with longer-term support, matching the global wait-and-see mood before the Fed's October meeting. Judging a market by one month is like judging a season by one rainy day."
+    },
+    "dda": {
+      "zh": "月度回调正是定期定额以较低价格累积单位的时候，按计划执行比猜底部更重要。",
+      "en": "A monthly pullback is when regular investing accumulates units at lower prices — sticking to the plan beats guessing the bottom."
+    },
+    "lump": {
+      "zh": "看一年的数据比看一个月更能反映趋势。单笔投入前，先确认资金的投资期限与用途。",
+      "en": "A year's data says more about the trend than a month's. Before a lump sum, be clear about its time horizon and purpose."
+    },
+    "prs": {
+      "zh": "PRS 是长期计划，短期波动不影响它的核心价值。持续供款并善用每年最高 RM3,000 税务减免。",
+      "en": "PRS is a long-term plan, and short-term swings don't change its core value. Keep contributing and use the up to RM3,000 annual tax relief."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/stock-market" }
+  },
+  {
+    "id": "2026-09-21-m2",
+    "time": "2026-09-21T09:00:00+08:00",
+    "brief": "2026-09-21-morning.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "iPhone 18 Pro 涨价100美元：AI抢走的内存，正反映在你手上的手机价格",
+      "en": "iPhone 18 Pro up $100: the memory AI is soaking up is showing up in your phone's price"
+    },
+    "analysis": {
+      "zh": "苹果新款 iPhone 18 Pro 系列涨价100美元，原因直指内存芯片供应紧张，部分机型交货期延长至3周。这与美光财报前瞻中\"内存供需吃紧\"的叙事互相印证：美光预估每股盈利31.16美元（去年同期3.03美元）。但同一份前瞻也提醒，营收环比增速指引已从74%放缓至21%，\"内存本质上是周期性的\"。AI基建的需求是真实的，周期也同样真实。",
+      "en": "Apple's iPhone 18 Pro lineup launched $100 higher, blamed directly on tight memory supply, with some models delayed up to three weeks. It echoes the memory-shortage story in Micron's earnings preview, where EPS is forecast at $31.16 versus $3.03 a year ago. But the same preview notes guided sequential revenue growth slowing from 74% to 21% — \"memory is inherently cyclical\". AI demand is real, and so is the cycle."
+    },
+    "dda": {
+      "zh": "周期性行业起伏大，定期定额能在高低点之间平均成本。",
+      "en": "Cyclical industries swing widely; regular investing averages your cost across highs and lows."
+    },
+    "lump": {
+      "zh": "景气高峰时进场的风险较高。单笔投入周期性主题，宜分段进行并控制比重。",
+      "en": "Buying at a cyclical peak carries more risk. Phase in and size any lump sum into cyclical themes carefully."
+    },
+    "prs": {
+      "zh": "退休组合适合以分散的全球或区域基金参与科技，而不是集中于单一周期行业。",
+      "en": "Retirement portfolios are better served by diversified global or regional funds for tech exposure than by one cyclical industry."
+    },
+    "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-18-dow-sp-500-nasdaq-080504071.html" }
+  },
+  {
+    "id": "2026-09-21-m3",
+    "time": "2026-09-21T09:00:00+08:00",
+    "brief": "2026-09-21-morning.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "胡塞武装打击范围深入沙特腹地，油价却连续第四日回落",
+      "en": "Houthis strike deep inside Saudi Arabia, yet oil eases for a fourth straight session"
+    },
+    "analysis": {
+      "zh": "胡塞武装9月19日宣称袭击利雅得\"敏感目标\"及延布的沙特阿美设施，距边境超过700英里，是本轮冲突以来最深入沙特的一次；美国驻中东九国使馆发布安全警示。然而布兰特原油报102.08美元（-1.72%），WTI 报98.39美元，连续第四日回落——伊朗据报已通过多哈向美方提交结束战争的条件。油价回落反映外交管道仍在运作，而非冲突已经降温。",
+      "en": "On Sept 19 the Houthis claimed strikes on \"sensitive sites\" in Riyadh and Aramco facilities in Yanbu — over 700 miles from the border, their deepest reach into Saudi Arabia in this conflict — and US embassies in nine Middle East countries issued security alerts. Yet Brent fell to $102.08 (-1.72%) and WTI to $98.39, a fourth straight decline, as Iran reportedly sent war-ending conditions to Washington via Doha. The dip reflects diplomacy still working, not a cooling conflict."
+    },
+    "dda": {
+      "zh": "利多利空并存的市场，最考验情绪。定期定额帮你把决定交给纪律，而不是新闻。",
+      "en": "When good and bad news coexist, emotions are tested most. Regular investing hands decisions to discipline, not headlines."
+    },
+    "lump": {
+      "zh": "局势未明时，单笔资金可以先安排在较稳健的资产，再分阶段配置到风险资产。",
+      "en": "While the picture is unclear, a lump sum can start in steadier assets and move into riskier ones in stages."
+    },
+    "prs": {
+      "zh": "退休计划不应随每周的战事新闻调整。定期检视配置、维持供款，才是长期的关键。",
+      "en": "A retirement plan shouldn't change with each week's war news. Regular reviews and steady contributions are what count long term."
+    },
+    "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-of-hormuz-oil-houthis/" }
+  }
+],
+[
+  {
+    "id": "2026-09-21-a1",
+    "time": "2026-09-21T17:00:00+08:00",
+    "brief": "2026-09-21-afternoon.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "特朗普周四会晤习近平，科技巨头CEO齐聚晚宴：关税与AI合作成焦点",
+      "en": "Trump to meet Xi on Thursday with tech CEOs at dinner: tariffs and AI cooperation in focus"
+    },
+    "analysis": {
+      "zh": "特朗普将于本周四与习近平会晤，议题聚焦关税暂停协议延期与人工智能合作；英伟达黄仁勋、OpenAI 的 Sam Altman、微软 Nadella、苹果 Tim Cook 等预计出席晚宴。美国财长贝森特形容初步会谈\"非常成功\"，并提议建立中美AI对话机制。消息带动美股期货上涨，纳指期货涨0.8%。不过分析也提醒，中东风险、债券收益率与AI估值疑虑仍是逆风。",
+      "en": "Trump meets Xi Jinping on Thursday, with talks focused on extending the tariff truce and AI cooperation; Nvidia's Jensen Huang, OpenAI's Sam Altman, Microsoft's Satya Nadella and Apple's Tim Cook are expected at the dinner. Treasury Secretary Bessent called preliminary talks \"very successful\" and proposed a US–China AI dialogue. US futures rose, with Nasdaq futures up 0.8%. Analysts caution that Middle East risk, bond yields and AI valuation doubts remain headwinds."
+    },
+    "dda": {
+      "zh": "峰会消息容易带来短线情绪。定期定额不用赌会谈结果，也能持续参与市场。",
+      "en": "Summit headlines stir short-term sentiment. Regular investing keeps you in the market without betting on the outcome."
+    },
+    "lump": {
+      "zh": "若会谈结果不如预期，市场可能回吐涨幅。单笔资金不宜赶在峰会前一次性投入。",
+      "en": "If talks disappoint, gains may reverse. Avoid putting a lump sum in all at once ahead of the summit."
+    },
+    "prs": {
+      "zh": "中美关系影响亚洲市场与科技板块。退休组合维持区域与行业分散，能降低单一事件的影响。",
+      "en": "US–China relations move Asian markets and tech. Regional and sector diversification limits any single event's impact on retirement savings."
+    },
+    "source": { "name": "Yahoo Finance", "url": "https://sg.finance.yahoo.com/news/stock-market-today-monday-september-21-dow-sp-500-nasdaq-080214605.html" }
+  },
+  {
+    "id": "2026-09-21-a2",
+    "time": "2026-09-21T17:00:00+08:00",
+    "brief": "2026-09-21-afternoon.html",
+    "tags": ["commodities", "fed"],
+    "title": {
+      "zh": "油价续跌至98美元下方，联储10月加息概率同步降温至55.1%",
+      "en": "Oil slips below $98 as Fed October hike odds ease to 55.1%"
+    },
+    "analysis": {
+      "zh": "市场期待美伊可能恢复对话，WTI 原油周一跌2.13%至98.16美元，布兰特跌1.97%至101.83美元，是近期第五个交易日走低。伊朗已通过卡塔尔转交六项停战条件，但伊朗国会议长表示霍尔木兹海峡将维持封锁直至条件满足。同时，10月加息概率从早上的59.7%回落至55.1%。油价降温有助缓解通胀压力，但加息仍是主流情景，尚未出现方向性反转。",
+      "en": "On hopes US–Iran talks could resume, WTI fell 2.13% to $98.16 and Brent 1.97% to $101.83 on Monday, a fifth straight decline. Iran sent six ceasefire conditions via Qatar, though its parliament speaker said Hormuz stays closed until they're met. October hike odds eased from 59.7% this morning to 55.1%. Cooler oil helps on inflation, but a hike remains the main scenario — no reversal in direction yet."
+    },
+    "dda": {
+      "zh": "油价和利率预期同步松动时，市场情绪可能快速转好，也可能快速转坏。定期定额两种情况都适用。",
+      "en": "When oil and rate expectations ease together, sentiment can turn quickly either way. Regular investing works in both cases."
+    },
+    "lump": {
+      "zh": "方向未明确反转前，单笔配置宜保持均衡，不必押注单一利率或油价剧本。",
+      "en": "Until the direction clearly turns, keep lump-sum allocations balanced rather than betting on one rate or oil scenario."
+    },
+    "prs": {
+      "zh": "通胀压力减轻对退休族是好消息，但长期规划仍应假设通胀存在，保持抗通胀资产的配置。",
+      "en": "Easing inflation pressure is good news for retirees, but long-term plans should still assume inflation and keep inflation-resilient assets."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil" }
+  }
+],
+[
+  {
+    "id": "2026-09-20-w1",
+    "time": "2026-09-20T09:00:00+08:00",
+    "brief": "2026-09-20-weekend.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "胡塞导弹瞄准利雅得，油价却连三日回落：市场在消化沙特\"绕道\"能力",
+      "en": "Houthi missile targets Riyadh, yet oil falls a third day as markets price Saudi rerouting"
+    },
+    "analysis": {
+      "zh": "9月19日凌晨，也门胡塞武装向利雅得发射弹道导弹，并企图袭击延布的沙特阿美设施；沙特拦截成功，这是7月以来利雅得首次拉响空袭警报。但布兰特原油仍连续第三日回落至103.87美元。卫星图像显示，沙特阿美过去六天绕道运输原油达280万桶/日，远高于8月的70万桶/日，中韩炼厂正吸收改道原油。油价的平静，是建立在供应能绕道之上，而地缘\"安全边际\"其实很薄。",
+      "en": "In the early hours of Sept 19, Yemen's Houthis fired a ballistic missile at Riyadh and targeted an Aramco facility in Yanbu; Saudi defences intercepted it, the capital's first air-raid alert since July. Still, Brent fell a third day to $103.87. Satellite imagery shows Aramco rerouted 2.8 million barrels a day over six days, up from 700,000 in August, with Chinese and Korean refiners absorbing it. Oil's calm rests on supply finding a way around — the geopolitical safety margin is thin."
+    },
+    "dda": {
+      "zh": "表面平静、底下紧张的市场，最适合用定期定额稳稳推进，而不是一次性下判断。",
+      "en": "A market that's calm on the surface but tense underneath suits steady regular investing better than one big call."
+    },
+    "lump": {
+      "zh": "若单笔资金涉及能源或中东相关资产，宜控制比重，并预留应对波动的空间。",
+      "en": "If a lump sum touches energy or Middle East–linked assets, keep the weighting in check and leave room for volatility."
+    },
+    "prs": {
+      "zh": "油价通过通胀影响退休后的生活成本。长期组合保持分散，比预测地缘局势更实际。",
+      "en": "Oil affects retirement living costs through inflation. Staying diversified is more practical than forecasting geopolitics."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/brent-crude-oil" }
+  },
+  {
+    "id": "2026-09-20-w2",
+    "time": "2026-09-20T09:00:00+08:00",
+    "brief": "2026-09-20-weekend.html",
+    "tags": ["fed", "my"],
+    "title": {
+      "zh": "联储10月加息概率升至59.7%，马股与令吉同步感受压力",
+      "en": "Fed October hike odds rise to 59.7% as Malaysian stocks and the ringgit feel the pull"
+    },
+    "analysis": {
+      "zh": "Investing.com 数据显示，市场预期10月28日再加息至4.00%–4.25%的概率达59.7%，高于本周稍早的57.4%。美股周五涨跌互现，10年期美债收益率本周一度触及5%。鹰派预期也传导到本地：富时大马综指9月18日收报1,665.56点，跌0.55%；美元兑令吉报4.0837，令吉当日走强0.36%，过去一年累计升值约2.93%。联储的每一步，都会通过资金成本影响马来西亚股汇市场。",
+      "en": "Investing.com shows 59.7% odds of another hike to 4.00%–4.25% on Oct 28, up from 57.4% earlier in the week. US stocks closed mixed on Friday, and the 10-year yield touched 5% during the week. The hawkish tilt reached home too: the KLCI closed Sept 18 at 1,665.56, down 0.55%, while USD/MYR was 4.0837 — the ringgit firmed 0.36% on the day and is up about 2.93% over a year. Every Fed move feeds into Malaysian stocks and the currency through funding costs."
+    },
+    "dda": {
+      "zh": "马股月度级别的回调，对定期定额来说是累积单位的机会，重点是纪律，而不是猜底。",
+      "en": "A month-long pullback in Malaysian stocks is a chance for regular investing to accumulate units — discipline matters more than calling the bottom."
+    },
+    "lump": {
+      "zh": "资产配置不能只看\"美国故事\"。单笔投入时，同时考虑本地与海外、令吉与外币资产的比例。",
+      "en": "Allocation can't be only about the US story. For a lump sum, weigh local vs overseas and ringgit vs foreign-currency assets."
+    },
+    "prs": {
+      "zh": "PRS 供款可以持续累积本地与海外资产，每年最高 RM3,000 税务减免，让纪律性储蓄更有效率。",
+      "en": "PRS contributions can build both local and overseas holdings over time, with up to RM3,000 in annual tax relief for disciplined saving."
+    },
+    "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
+  },
+  {
+    "id": "2026-09-20-w3",
+    "time": "2026-09-20T09:00:00+08:00",
+    "brief": "2026-09-20-weekend.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "博通重申AI芯片营收路径：1150亿美元迈向2300亿美元",
+      "en": "Broadcom reaffirms its AI chip revenue path: $115B toward $230B"
+    },
+    "analysis": {
+      "zh": "博通股价9月18日上涨约2.91%至357.39美元，跑赢当天走软的大盘。CEO 陈福阳重申，AI半导体营收预计2027财年达1150亿美元、2028财年翻倍至2300亿美元，形容推理端需求\"非常强劲\"且具持久性。博通目前与包括 OpenAI、Google、Anthropic 在内的六家前沿模型开发商合作定制芯片。大型科技公司的资本开支承诺，正是支撑这轮AI基建周期的底层逻辑。",
+      "en": "Broadcom rose about 2.91% to $357.39 on Sept 18, beating a softer market. CEO Hock Tan reiterated AI semiconductor revenue of $115B in fiscal 2027, doubling to $230B in fiscal 2028, calling inference demand \"very strong\" and durable. It builds custom chips with six frontier model developers including OpenAI, Google and Anthropic. Big Tech's capex commitments are the foundation of this AI infrastructure cycle."
+    },
+    "dda": {
+      "zh": "AI基建是多年周期，定期定额能让你持续参与，同时平滑途中的起伏。",
+      "en": "AI infrastructure is a multi-year cycle; regular investing keeps you participating while smoothing the bumps along the way."
+    },
+    "lump": {
+      "zh": "对单一公司的乐观指引，不宜直接变成单笔重注。通过分散的主题或区域基金参与更稳妥。",
+      "en": "Upbeat guidance from one company shouldn't become one big bet. Participating through diversified theme or regional funds is steadier."
+    },
+    "prs": {
+      "zh": "成长主题可以为退休组合增添长期动力，但比重应与年龄、风险承受度相匹配。",
+      "en": "Growth themes can add long-term drive to a retirement portfolio, sized to your age and risk tolerance."
+    },
+    "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/09/61873424/what-is-going-on-with-broadcom-stock-on-friday-2" }
+  }
+],
+[
+  {
+    "id": "2026-09-19-w1",
+    "time": "2026-09-19T09:00:00+08:00",
+    "brief": "2026-09-19-weekend.html",
+    "tags": ["prs"],
+    "title": {
+      "zh": "96岁巴菲特卸任伯克希尔董事长：\"时间永远是赢家\"",
+      "en": "Buffett, 96, steps down as Berkshire chairman: \"Father Time always wins\""
+    },
+    "analysis": {
+      "zh": "巴菲特于9月18日卸下执掌逾五十年的伯克希尔董事长职位，转任名誉董事长；71岁的儿子霍华德出任非执行董事长，Greg Abel 继续担任CEO。这是多年前就写好的接班计划，霍华德的角色更像\"文化守门人\"。再伟大的投资旅程，最终考验的也是有没有提前把\"传承的规则\"写好——就像家庭理财，重要的不是谁最会赚，而是你不在场时，原则能不能被守住。",
+      "en": "On Sept 18 Buffett stepped down after more than five decades as Berkshire's chairman, becoming chairman emeritus; his son Howard, 71, becomes non-executive chairman and Greg Abel stays CEO. It's a succession plan written years ago, with Howard as a \"culture guardian\". Even the greatest investing journey is ultimately tested by whether the rules for passing it on were set in advance — just as in family finances, what matters is whether your principles hold when you're not there."
+    },
+    "dda": {
+      "zh": "巴菲特的财富来自几十年的复利。定期定额是普通人最容易上手的\"时间复利\"工具。",
+      "en": "Buffett's wealth came from decades of compounding. Regular investing is the most accessible way for ordinary savers to put time to work."
+    },
+    "lump": {
+      "zh": "大笔资金的安排，不只是买什么，也包括未来由谁管理、如何传承。投资时一并考虑受益人与文件安排。",
+      "en": "Planning a large sum isn't just about what to buy, but who manages it later and how it passes on. Consider nominees and documentation alongside the investment."
+    },
+    "prs": {
+      "zh": "退休规划与传承规划是一体两面。PRS 可设定受益人，每年最高 RM3,000 税务减免，适合作为长期计划的一部分。",
+      "en": "Retirement and legacy planning go hand in hand. PRS lets you nominate beneficiaries and offers up to RM3,000 in annual tax relief — a good part of a long-term plan."
+    },
+    "source": { "name": "CBS News", "url": "https://www.cbsnews.com/news/warren-buffett-stepping-aside-berkshire-hathaway-chairman/" }
+  },
+  {
+    "id": "2026-09-19-w2",
+    "time": "2026-09-19T09:00:00+08:00",
+    "brief": "2026-09-19-weekend.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "AI 是泡沫吗？高盛：更像\"有序的周期性顶峰\"，但要留意循环融资",
+      "en": "Is AI a bubble? Goldman: more an \"orderly cyclical peak\" — but watch the circular financing"
+    },
+    "analysis": {
+      "zh": "高盛策略师 Ben Snider 反驳\"AI泡沫论\"，认为目前更像有序的周期性顶峰。他预测标普500企业盈利增速将从今年二季度的51%放缓至2027、2028年的11%，低于市场预期。支撑盈利的因素包括云厂商约8000亿美元资本开支、记忆体毛利率逼近80%等，并警告云厂商、芯片商与AI开发商之间\"互相输血\"的循环融资存在传导风险。同一周，博通重申2027财年AI芯片收入达1150亿美元、AMD 称AI仍处\"早期阶段\"——乐观与谨慎并存。",
+      "en": "Goldman strategist Ben Snider rejects the AI-bubble narrative, calling it an orderly cyclical peak. He expects S&P 500 earnings growth to slow from 51% in Q2 to 11% in 2027 and 2028, below consensus, noting temporary supports such as ~$800B in hyperscaler capex and memory margins near 80%, and warning that circular financing among cloud firms, chipmakers and AI developers carries contagion risk. The same week, Broadcom reaffirmed $115B in fiscal-2027 AI chip revenue and AMD said AI is still \"early\" — optimism and caution side by side."
+    },
+    "dda": {
+      "zh": "盈利增速放缓的阶段，市场波动可能加大。定期定额能在不同价位持续累积，平滑进场成本。",
+      "en": "As earnings growth slows, volatility may rise. Regular investing keeps accumulating across price levels and smooths entry cost."
+    },
+    "lump": {
+      "zh": "高盛的提醒不是\"要不要退出AI\"，而是\"仓位够不够分散\"。单笔加码前，先检视科技占比。",
+      "en": "Goldman's point isn't \"should I exit AI\" but \"is my position diversified enough\". Check your tech weighting before adding a lump sum."
+    },
+    "prs": {
+      "zh": "长期退休组合可以参与科技成长，但应与其他行业和地区平衡，降低单一主题的周期风险。",
+      "en": "A long-term retirement portfolio can share in tech growth, balanced with other sectors and regions to limit single-theme cycle risk."
+    },
+    "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/09/61878323/goldman-sachs-profits-bubble-cyclical-peak" }
+  },
+  {
+    "id": "2026-09-19-w3",
+    "time": "2026-09-19T09:00:00+08:00",
+    "brief": "2026-09-19-weekend.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "两艘油轮霍尔木兹海峡遇袭，布兰特原油却连续第三日回落至103美元",
+      "en": "Two tankers struck in the Strait of Hormuz, yet Brent falls for a third day to $103"
+    },
+    "analysis": {
+      "zh": "9月18日伊朗革命卫队宣称打击一艘多哥籍油轮，英国海事贸易行动组织也通报同一水域另一艘油轮遭不明抛射物击中；特朗普表示正考虑重大军事行动，\"任何事都可能发生\"。然而布兰特原油周五连续第三日回落至103.21美元（-1.54%），因沙特通过替代路线维持出口。市场已部分消化海峡紧张的风险溢价，但局势随时可能再起变化。",
+      "en": "On Sept 18, Iran's IRGC claimed a strike on a Togo-flagged tanker, and UKMTO separately reported another tanker hit by an unidentified projectile in the same waters; Trump said he's weighing major military action and \"anything could happen\". Yet Brent fell for a third day on Friday to $103.21 (-1.54%) as Saudi Arabia kept exports flowing via alternative routes. The market has partly priced in the Hormuz risk, but the situation can shift at any time."
+    },
+    "dda": {
+      "zh": "地缘事件往往来得突然。定期定额让你不必在每一则突发新闻后调整计划。",
+      "en": "Geopolitical events come suddenly. Regular investing means you don't have to rework your plan after every breaking headline."
+    },
+    "lump": {
+      "zh": "风险溢价随时可能重新扩大。单笔投入前，确认组合不过度依赖能源或单一地区。",
+      "en": "Risk premiums can widen again at any time. Before a lump sum, make sure your portfolio doesn't lean too heavily on energy or one region."
+    },
+    "prs": {
+      "zh": "退休计划要能承受突发事件。适度分散、预留应急资金，比预测局势更可靠。",
+      "en": "A retirement plan should withstand shocks. Sensible diversification and an emergency buffer are more reliable than forecasting events."
+    },
+    "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/liveblog/2026/9/18/iran-war-live-trump-weighs-big-decision-on-iran-tanker-hit-in-hormuz" }
+  }
+],
+[
+  {
+    "id": "2026-09-18-m1",
+    "time": "2026-09-18T09:00:00+08:00",
+    "brief": "2026-09-18-morning.html",
+    "tags": ["fed", "my"],
+    "title": {
+      "zh": "加息后道指重挫631点，隔天标普大涨1.14%收复部分失地",
+      "en": "Dow sheds 631 points after the hike, then the S&P rebounds 1.14% the next day"
+    },
+    "analysis": {
+      "zh": "美联储加息当天，点阵图的鹰派信号让道指暴跌631点（-1.21%）；DoubleLine 的 Gundlach 直言这波利率周期\"几乎不可能已见顶\"。但隔天油价回落、收益率走软，标普500大涨1.14%至7,629.77点，纳指100涨1.73%。马来西亚综指则收报约1,675点，单日跌0.27%，月内累跌3.38%，区域投资者仍在消化联储的鹰派立场。一天暴跌、一天反弹，正是加息周期里常见的节奏。",
+      "en": "On hike day, the hawkish dot plot sent the Dow down 631 points (-1.21%); DoubleLine's Gundlach said this rate cycle has \"almost certainly not peaked\". The next day oil eased and yields softened, and the S&P 500 jumped 1.14% to 7,629.77 while the Nasdaq 100 rose 1.73%. Malaysia's KLCI closed near 1,675, down 0.27% on the day and 3.38% for the month as regional investors digested the Fed's stance. A plunge one day, a rebound the next — typical of a hiking cycle."
+    },
+    "dda": {
+      "zh": "如果在暴跌那天停掉扣款，就会错过隔天的反弹。定期定额的纪律，正是为这种日子而设。",
+      "en": "Stopping contributions on the plunge day would have missed the next day's rebound. Regular investing's discipline exists for days like these."
+    },
+    "lump": {
+      "zh": "单日大跌后容易想\"抄底\"，单日大涨后又想\"追高\"。分批投入能减少被单日情绪左右。",
+      "en": "Big down-days tempt you to buy the dip; big up-days tempt you to chase. Phasing in reduces the pull of any single day's mood."
+    },
+    "prs": {
+      "zh": "退休资产最怕在恐慌中卖出。事先设定好配置与供款计划，能帮助你在波动中守住长期目标。",
+      "en": "The biggest risk to retirement money is selling in a panic. A pre-set allocation and contribution plan helps you hold your course through volatility."
+    },
+    "source": { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-16-2026" }
+  },
+  {
+    "id": "2026-09-18-m2",
+    "time": "2026-09-18T09:00:00+08:00",
+    "brief": "2026-09-18-morning.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "油价续跌至101美元，沙特管道抢修缓解供应担忧；和谈说法仍待证实",
+      "en": "Oil slips to $101 as Saudi pipeline repairs ease supply fears; peace talk claims still unconfirmed"
+    },
+    "analysis": {
+      "zh": "WTI 原油报101.16美元、布兰特104.07美元，一周累跌约3.2%。沙特正把部分出口改道，并计划数天内恢复约一半东西向管道产能、六周内完全修复。同时特朗普声称已与德黑兰\"直接对话\"、战事\"有望接近尾声\"，但伊朗方面未证实，前伊朗外交官也认为这说法\"难以置信\"。油价的喘息是真的，但和平叙事还没落实。",
+      "en": "WTI settled at $101.16 and Brent at $104.07, down about 3.2% on the week. Saudi Arabia is rerouting some exports and plans to restore about half its East-West pipeline capacity within days, fully within six weeks. Trump claimed \"direct\" talks with Tehran and said the war is \"hopefully\" nearing its end, but Iran hasn't confirmed and a former Iranian diplomat called it hard to believe. The relief in oil is real; the peace narrative isn't settled yet."
+    },
+    "dda": {
+      "zh": "油价在消息面之间来回，定期定额让你不必判断哪一则新闻才是真的。",
+      "en": "With oil bouncing between headlines, regular investing spares you from judging which story is true."
+    },
+    "lump": {
+      "zh": "若和平说法最终落空，油价可能反复。单笔投入能源相关资产前，宜保持耐心、分段进行。",
+      "en": "If the peace claims fall through, oil could reverse. Be patient and phase in before any lump sum into energy-related assets."
+    },
+    "prs": {
+      "zh": "油价影响通胀，也影响退休后的生活成本。组合中保留一定的抗通胀资产，有助长期购买力。",
+      "en": "Oil feeds inflation and retirement living costs. Holding some inflation-resilient assets helps protect long-term purchasing power."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil" }
+  },
+  {
+    "id": "2026-09-18-m3",
+    "time": "2026-09-18T09:00:00+08:00",
+    "brief": "2026-09-18-morning.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "美光9月30日财报将成AI内存风向标，EPS预估跳升至31美元",
+      "en": "Micron's Sept 30 report seen as a bellwether for AI memory, with EPS forecast at $31"
+    },
+    "analysis": {
+      "zh": "市场预期美光每股盈余31.16美元（去年同期3.03美元），营收约504亿美元。背后是AI服务器对DRAM与HBM的强劲需求，但增速正放缓：DRAM合约价第一季环比涨90%–95%，第三季预计只涨13%–18%。美光股价年内已涨约240%，期权市场预计财报后波动约11%。AI内存红利正从短期抢购，过渡到依赖长期合约的稳定增长阶段。",
+      "en": "Consensus sees Micron EPS at $31.16 (vs $3.03 a year ago) on revenue of about $50.4B, driven by AI-server demand for DRAM and HBM. But growth is slowing: DRAM contract prices rose 90–95% in Q1 and are expected to rise only 13–18% in Q3. The stock is up about 240% this year, and options imply an ~11% post-earnings move. The AI-memory boom is shifting from a buying frenzy to steadier, contract-driven growth."
+    },
+    "dda": {
+      "zh": "单一公司财报前后波动大，通过基金定期投入，可以分享产业成长而不必押注单日结果。",
+      "en": "Single-company earnings swing hard. Investing regularly through a fund shares in industry growth without betting on one day's result."
+    },
+    "lump": {
+      "zh": "年内已大涨的板块，单笔进场要特别留意估值与集中度，避免一次性追高。",
+      "en": "For a sector already up sharply this year, watch valuation and concentration before a lump sum, and avoid chasing in one go."
+    },
+    "prs": {
+      "zh": "增速放缓不等于趋势结束，但提醒我们成长主题在退休组合中宜适度、不宜过重。",
+      "en": "Slower growth isn't the end of a trend, but it's a reminder that growth themes belong in a retirement portfolio in moderation."
+    },
+    "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/large-cap/26/09/61855575/micron-earnings-preview-31-per-share-vs-3-a-year-ago" }
+  }
+],
+[
+  {
+    "id": "2026-09-18-a1",
+    "time": "2026-09-18T17:00:00+08:00",
+    "brief": "2026-09-18-afternoon.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "WTI 逼近跌破100美元，但霍尔木兹海峡再有油轮被拦截",
+      "en": "WTI slides toward $100 — yet another tanker is stopped in the Strait of Hormuz"
+    },
+    "analysis": {
+      "zh": "布兰特原油降至102.74美元（-1.99%），WTI 跌至100.02美元（-1.85%），连续第三天走低；沙特以\"穿梭船\"改道运油，管道预计几天内恢复约一半产能。但同日伊朗革命卫队在霍尔木兹海峡拦截一艘多哥籍油轮，特朗普也改口称面临\"重大决定\"、\"什么都有可能发生\"。运输路线的技术性缓解，并不等于核心冲突已解。",
+      "en": "Brent fell to $102.74 (-1.99%) and WTI to $100.02 (-1.85%), a third straight decline, as Saudi Aramco reroutes crude via shuttle vessels and expects the pipeline back to about half capacity within days. Yet the same day, Iran's IRGC stopped a Togo-flagged tanker in the Strait of Hormuz, and Trump said he faces a \"big decision\" and \"anything could happen\". A technical fix to shipping routes isn't a resolution of the core conflict."
+    },
+    "dda": {
+      "zh": "好消息与坏消息同一天出现时，定期定额能帮你避免被其中一则牵着走。",
+      "en": "When good and bad news land on the same day, regular investing keeps you from being pulled by either."
+    },
+    "lump": {
+      "zh": "地缘风险仍在时，单笔配置宜分散地区与资产类别，不要把节奏押在单一消息上。",
+      "en": "With geopolitical risk still live, spread a lump sum across regions and asset classes rather than timing it on one headline."
+    },
+    "prs": {
+      "zh": "退休计划要经得起各种新闻周期。定期检视、少做冲动调整，是长期最有效的做法。",
+      "en": "A retirement plan has to outlast many news cycles. Regular reviews and fewer impulsive changes work best over the long run."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil" }
+  },
+  {
+    "id": "2026-09-18-a2",
+    "time": "2026-09-18T17:00:00+08:00",
+    "brief": "2026-09-18-afternoon.html",
+    "tags": ["fed"],
+    "title": {
+      "zh": "10月28日议息：加息概率从上午55.1%升至57.4%",
+      "en": "Oct 28 Fed meeting: hike odds rise to 57.4% from this morning's 55.1%"
+    },
+    "analysis": {
+      "zh": "Investing.com 的 Fed Rate Monitor 显示，市场对10月28日加息至4.00%–4.25%的概率从上午的55.1%升到57.4%，维持利率的概率降至42.6%。美联储9月16日才刚加息25个基点，市场对\"年内不止一次\"的预期在一天内又强化了。若趋势持续，定存与货币市场类产品收益可能维持高位更久，股票与固定收益资产的估值压力也不会很快消退。",
+      "en": "Investing.com's Fed Rate Monitor shows odds of an Oct 28 hike to 4.00%–4.25% rising from 55.1% this morning to 57.4%, with hold odds down to 42.6%. Just days after the Sept 16 hike, expectations of more than one hike this year strengthened again. If it continues, deposit and money-market yields may stay high for longer, while valuation pressure on stocks and bonds won't fade quickly."
+    },
+    "dda": {
+      "zh": "估值承压的时期，正是定期定额以较低成本累积单位的阶段。",
+      "en": "Periods of valuation pressure are when regular investing accumulates units at lower cost."
+    },
+    "lump": {
+      "zh": "高利率环境下，短期资金可以考虑货币市场类工具；长期资金则按目标分配，不必全部等待。",
+      "en": "With rates high, short-term money can sit in money-market-type tools, while long-term money can be allocated to goals rather than all waiting on the sidelines."
+    },
+    "prs": {
+      "zh": "利率预期每天都在变，退休组合的股、债、现金比例应以年龄与目标为准，而不是每日新闻。",
+      "en": "Rate expectations change daily; a retirement mix of equities, bonds and cash should follow your age and goals, not the daily news."
+    },
+    "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
+  }
+],
+[
+  {
+    "id": "2026-09-17-m1",
+    "time": "2026-09-17T09:00:00+08:00",
+    "brief": "2026-09-17-morning.html",
+    "tags": ["fed"],
+    "title": {
+      "zh": "美联储全票通过加息25基点，沃什：通胀\"太高、太久\"",
+      "en": "Fed hikes 25bp unanimously; Warsh says inflation is \"too high, for too long\""
+    },
+    "analysis": {
+      "zh": "美联储9月16日以12票全票通过，把利率上调至3.75%–4.00%，是2023年7月以来首次加息。点阵图显示16位官员认为年内还需再加至少一次，利率中位数比6月预测上调30个基点至4.1%。沃什明确不提供前瞻指引，市场期待的\"鸽派加息\"落空：黄金一度跳水近60美元，10年期美债收益率触及5%。",
+      "en": "The Fed voted 12-0 on Sept 16 to lift rates to 3.75%–4.00%, its first hike since July 2023. The dot plot shows 16 officials expecting at least one more hike this year, with the median rate projection raised 30bp from June to 4.1%. Warsh declined to give forward guidance, dashing hopes of a \"dovish hike\": gold briefly dropped nearly $60 and the 10-year yield touched 5%."
+    },
+    "dda": {
+      "zh": "加息周期中市场容易反复。定期定额让你在波动中持续累积单位，而不必判断何时是底部。",
+      "en": "Markets tend to whipsaw during hiking cycles. Regular investing keeps you accumulating units without having to call the bottom."
+    },
+    "lump": {
+      "zh": "\"高利率维持更久\"的情况下，短期货币市场类工具的收益也会较高。单笔资金可按用途与期限，分配在不同类型的资产中。",
+      "en": "With rates likely \"higher for longer\", short-term money market yields stay attractive too. A lump sum can be split across asset types based on purpose and time horizon."
+    },
+    "prs": {
+      "zh": "利率上升会影响股债估值，但对长期退休储蓄而言，持续供款与分散配置仍是最稳妥的基础。",
+      "en": "Rising rates affect stock and bond valuations, but for long-term retirement saving, steady contributions and diversification remain the foundation."
+    },
+    "source": { "name": "FX168", "url": "https://www.fx168news.com/article/%E7%BE%8E%E8%81%94%E5%82%A8%E5%8A%A0%E6%81%AF-1093436" }
+  },
+  {
+    "id": "2026-09-17-m2",
+    "time": "2026-09-17T09:00:00+08:00",
+    "brief": "2026-09-17-morning.html",
+    "tags": ["my", "prs"],
+    "title": {
+      "zh": "全球加息风暴中，大马稳住阵脚：国行连续七次维持OPR 2.75%",
+      "en": "Malaysia holds steady amid the global hiking storm: BNM keeps OPR at 2.75% for a seventh meeting"
+    },
+    "analysis": {
+      "zh": "Trading Economics 数据显示，国家银行已连续七次会议维持隔夜政策利率于2.75%，认为目前立场适合维持物价稳定、支持增长。今年上半年大马GDP增长5.7%，7月前整体与核心通胀平均为1.8%和2%，仍属可控。综指在最近一次可查证收盘报1,698.01点，上涨0.67%。外围风暴之中，本地基本面相对稳定。",
+      "en": "Trading Economics shows Bank Negara has held the OPR at 2.75% for seven straight meetings, saying the stance supports price stability and growth. Malaysia's GDP grew 5.7% in the first half, and headline and core inflation averaged 1.8% and 2% through July — still manageable. The KLCI's latest verifiable close was 1,698.01, up 0.67%. Amid the global storm, local fundamentals look relatively steady."
+    },
+    "dda": {
+      "zh": "本地市场相对稳定时，是建立定期定额习惯的好时机——不必等\"完美时机\"。",
+      "en": "A relatively steady local market is a good time to build a regular-investing habit — no need to wait for the \"perfect\" moment."
+    },
+    "lump": {
+      "zh": "本地与海外市场的利率环境不同。单笔配置时，可以同时考虑令吉资产与海外资产的平衡。",
+      "en": "Local and overseas rate environments differ. For a lump sum, consider the balance between ringgit and overseas assets."
+    },
+    "prs": {
+      "zh": "PRS 可以同时配置本地与海外基金，每年最高 RM3,000 税务减免，让退休储蓄更有效率。",
+      "en": "PRS can hold both local and overseas funds, with up to RM3,000 in annual tax relief to make retirement saving more efficient."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/interest-rate" }
+  },
+  {
+    "id": "2026-09-17-m3",
+    "time": "2026-09-17T09:00:00+08:00",
+    "brief": "2026-09-17-morning.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "业绩全部超预期，股价却下杀：软件股遭遇\"AI基建成本\"焦虑",
+      "en": "Blowout earnings, falling shares: software stocks hit by AI-cost worries"
+    },
+    "analysis": {
+      "zh": "Benzinga 报道，一批软件与网安公司财报超预期，股价却大跌：Credo 营收创纪录仍重挫18.7%，MongoDB 营收增长30%并上调指引却跌11.9%，Palo Alto Networks 跌10.3%。相反，戴尔单季营收创纪录470亿美元、AI服务器订单609亿美元，股价涨7.9%。市场对AI的态度正从\"雨露均沾\"转向\"精挑细选\"，能把AI投入变成订单与营收的公司才获得溢价。",
+      "en": "Benzinga reports several software and cybersecurity firms beat estimates yet sold off: Credo fell 18.7% despite record revenue, MongoDB dropped 11.9% after 30% growth and raised guidance, Palo Alto Networks slid 10.3%. Meanwhile Dell posted record $47B revenue and $60.9B in AI server orders, rising 7.9%. The market is shifting from rewarding all AI names to picking the ones that turn AI spending into real orders and revenue."
+    },
+    "dda": {
+      "zh": "同一个主题内个股表现差异这么大，正说明通过基金分散持有、定期投入的价值。",
+      "en": "When stocks within one theme diverge this much, it shows the value of holding a diversified fund and investing regularly."
+    },
+    "lump": {
+      "zh": "主题投资容易追热点。单笔投入科技主题前，先确认它在整体组合中的比重是否合理。",
+      "en": "Theme investing invites chasing. Before a lump sum into tech, make sure its weight in your overall portfolio is sensible."
+    },
+    "prs": {
+      "zh": "退休组合可以包含成长主题，但不宜押注单一赛道。行业分散能降低个别公司爆雷的冲击。",
+      "en": "A retirement portfolio can include growth themes, but shouldn't bet on a single one. Sector diversification cushions any single company's surprise."
+    },
+    "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/equities/26/09/61584217/software-stocks-crash-despite-earnings-beats-fed-hike-odds-66-percent-markets-wednesday" }
+  }
+],
+[
+  {
+    "id": "2026-09-16-a1",
+    "time": "2026-09-16T17:00:00+08:00",
+    "brief": "2026-09-16-afternoon.html",
+    "tags": ["fed"],
+    "title": {
+      "zh": "加息几率升至93%：真正的看点是今晚的点阵图",
+      "en": "Hike odds hit 93% — the real story tonight is the dot plot"
+    },
+    "analysis": {
+      "zh": "Benzinga 报道，联邦基金期货已把美联储加息25个基点、至3.75%–4.00%的几率定价到93%，若落实将是2023年以来首次加息。加息本身几乎已被市场消化，关键在沃什主席公布的点阵图：如果显示年底前还会再加，这就不是\"一次性动作\"，而是一轮紧缩周期的开始。这就像天气预报说\"明天会下雨\"大家早有准备，真正要看的是雨会不会连下一个月。",
+      "en": "Fed funds futures price a 93% chance of a 25bp hike to 3.75%–4.00% — the first since 2023, per Benzinga. The hike itself is largely priced in; what matters is Chair Warsh's dot plot. If it signals more hikes before year-end, this stops being a one-off and becomes the start of a tightening cycle. Everyone has an umbrella for tomorrow's rain; the question is whether it rains all month."
+    },
+    "dda": {
+      "zh": "利率周期是否刚开始，谁也说不准。定期定额不需要猜点阵图，照计划投入就好。",
+      "en": "Nobody knows yet whether a rate cycle is just beginning. Regular investing doesn't need you to read the dot plot — keep investing on plan."
+    },
+    "lump": {
+      "zh": "重大议息前后波动通常较大。单笔资金可以考虑在决议后分段投入，而不是押在会议当天。",
+      "en": "Markets tend to swing around big Fed meetings. A lump sum can be phased in after the decision rather than bet on the day itself."
+    },
+    "prs": {
+      "zh": "利率走向影响股债表现，但退休计划看的是几十年。维持分散配置，比押注某一次议息结果更重要。",
+      "en": "Rates move stocks and bonds, but retirement plans span decades. Staying diversified matters more than betting on any single meeting."
+    },
+    "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/economic-data/26/09/61788155/fed-rate-hike-september-2026-dot-plot-projections-what-to-watch" }
+  },
+  {
+    "id": "2026-09-16-a2",
+    "time": "2026-09-16T17:00:00+08:00",
+    "brief": "2026-09-16-afternoon.html",
+    "tags": ["fed", "tech"],
+    "title": {
+      "zh": "10年期美债收益率触及5.04%，创2007年以来新高，科技股承压",
+      "en": "10-year Treasury yield touches 5.04%, highest since 2007, as tech stocks slide"
+    },
+    "analysis": {
+      "zh": "嘉信理财指出，10年期美债收益率一度触及5.04%。其宏观研究主管 Kevin Gordon 表示，通胀要回到2%面临强大阻力，美联储\"越来越像必须加息\"。高收益率拖累美股：标普500跌0.45%、纳指跌0.78%，Alphabet、微软、亚马逊等重仓科技股走弱。借贷成本上升时，估值偏高的成长股往往最先受压。",
+      "en": "Schwab notes the 10-year Treasury yield touched 5.04% intraday. Its head of macro research Kevin Gordon says inflation faces strong headwinds returning to 2%, leaving a Fed that \"increasingly looks like it has to hike\". Higher yields weighed on stocks — S&P 500 -0.45%, Nasdaq -0.78% — with Alphabet, Microsoft and Amazon among the laggards. When borrowing costs rise, richly valued growth stocks usually feel it first."
+    },
+    "dda": {
+      "zh": "科技股回调时，定期定额会自动以较低价格买入更多单位，这正是它的设计初衷。",
+      "en": "When tech pulls back, regular investing automatically buys more units at lower prices — that's how it's designed to work."
+    },
+    "lump": {
+      "zh": "若组合已偏重科技成长股，单笔加码前可先检视集中度，考虑搭配收益型资产平衡风险。",
+      "en": "If your portfolio already leans on tech growth, check concentration before adding a lump sum, and consider balancing with income assets."
+    },
+    "prs": {
+      "zh": "收益率走高也意味着债券类资产的收益吸引力上升。退休组合中股债的比例，值得定期检视。",
+      "en": "Higher yields also make bond-type assets more attractive. The equity–bond mix in a retirement portfolio is worth reviewing regularly."
+    },
+    "source": { "name": "Schwab", "url": "https://www.schwab.com/learn/story/stock-market-update-open" }
+  }
 ]
 );

@@ -1,0 +1,83 @@
+[
+  {
+    "id": "2026-09-20-w1",
+    "time": "2026-09-20T09:00:00+08:00",
+    "brief": "2026-09-20-weekend.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "胡塞导弹瞄准利雅得，油价却连三日回落：市场在消化沙特\"绕道\"能力",
+      "en": "Houthi missile targets Riyadh, yet oil falls a third day as markets price Saudi rerouting"
+    },
+    "analysis": {
+      "zh": "9月19日凌晨，也门胡塞武装向利雅得发射弹道导弹，并企图袭击延布的沙特阿美设施；沙特拦截成功，这是7月以来利雅得首次拉响空袭警报。但布兰特原油仍连续第三日回落至103.87美元。卫星图像显示，沙特阿美过去六天绕道运输原油达280万桶/日，远高于8月的70万桶/日，中韩炼厂正吸收改道原油。油价的平静，是建立在供应能绕道之上，而地缘\"安全边际\"其实很薄。",
+      "en": "In the early hours of Sept 19, Yemen's Houthis fired a ballistic missile at Riyadh and targeted an Aramco facility in Yanbu; Saudi defences intercepted it, the capital's first air-raid alert since July. Still, Brent fell a third day to $103.87. Satellite imagery shows Aramco rerouted 2.8 million barrels a day over six days, up from 700,000 in August, with Chinese and Korean refiners absorbing it. Oil's calm rests on supply finding a way around — the geopolitical safety margin is thin."
+    },
+    "dda": {
+      "zh": "表面平静、底下紧张的市场，最适合用定期定额稳稳推进，而不是一次性下判断。",
+      "en": "A market that's calm on the surface but tense underneath suits steady regular investing better than one big call."
+    },
+    "lump": {
+      "zh": "若单笔资金涉及能源或中东相关资产，宜控制比重，并预留应对波动的空间。",
+      "en": "If a lump sum touches energy or Middle East–linked assets, keep the weighting in check and leave room for volatility."
+    },
+    "prs": {
+      "zh": "油价通过通胀影响退休后的生活成本。长期组合保持分散，比预测地缘局势更实际。",
+      "en": "Oil affects retirement living costs through inflation. Staying diversified is more practical than forecasting geopolitics."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/brent-crude-oil" }
+  },
+  {
+    "id": "2026-09-20-w2",
+    "time": "2026-09-20T09:00:00+08:00",
+    "brief": "2026-09-20-weekend.html",
+    "tags": ["fed", "my"],
+    "title": {
+      "zh": "联储10月加息概率升至59.7%，马股与令吉同步感受压力",
+      "en": "Fed October hike odds rise to 59.7% as Malaysian stocks and the ringgit feel the pull"
+    },
+    "analysis": {
+      "zh": "Investing.com 数据显示，市场预期10月28日再加息至4.00%–4.25%的概率达59.7%，高于本周稍早的57.4%。美股周五涨跌互现，10年期美债收益率本周一度触及5%。鹰派预期也传导到本地：富时大马综指9月18日收报1,665.56点，跌0.55%；美元兑令吉报4.0837，令吉当日走强0.36%，过去一年累计升值约2.93%。联储的每一步，都会通过资金成本影响马来西亚股汇市场。",
+      "en": "Investing.com shows 59.7% odds of another hike to 4.00%–4.25% on Oct 28, up from 57.4% earlier in the week. US stocks closed mixed on Friday, and the 10-year yield touched 5% during the week. The hawkish tilt reached home too: the KLCI closed Sept 18 at 1,665.56, down 0.55%, while USD/MYR was 4.0837 — the ringgit firmed 0.36% on the day and is up about 2.93% over a year. Every Fed move feeds into Malaysian stocks and the currency through funding costs."
+    },
+    "dda": {
+      "zh": "马股月度级别的回调，对定期定额来说是累积单位的机会，重点是纪律，而不是猜底。",
+      "en": "A month-long pullback in Malaysian stocks is a chance for regular investing to accumulate units — discipline matters more than calling the bottom."
+    },
+    "lump": {
+      "zh": "资产配置不能只看\"美国故事\"。单笔投入时，同时考虑本地与海外、令吉与外币资产的比例。",
+      "en": "Allocation can't be only about the US story. For a lump sum, weigh local vs overseas and ringgit vs foreign-currency assets."
+    },
+    "prs": {
+      "zh": "PRS 供款可以持续累积本地与海外资产，每年最高 RM3,000 税务减免，让纪律性储蓄更有效率。",
+      "en": "PRS contributions can build both local and overseas holdings over time, with up to RM3,000 in annual tax relief for disciplined saving."
+    },
+    "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
+  },
+  {
+    "id": "2026-09-20-w3",
+    "time": "2026-09-20T09:00:00+08:00",
+    "brief": "2026-09-20-weekend.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "博通重申AI芯片营收路径：1150亿美元迈向2300亿美元",
+      "en": "Broadcom reaffirms its AI chip revenue path: $115B toward $230B"
+    },
+    "analysis": {
+      "zh": "博通股价9月18日上涨约2.91%至357.39美元，跑赢当天走软的大盘。CEO 陈福阳重申，AI半导体营收预计2027财年达1150亿美元、2028财年翻倍至2300亿美元，形容推理端需求\"非常强劲\"且具持久性。博通目前与包括 OpenAI、Google、Anthropic 在内的六家前沿模型开发商合作定制芯片。大型科技公司的资本开支承诺，正是支撑这轮AI基建周期的底层逻辑。",
+      "en": "Broadcom rose about 2.91% to $357.39 on Sept 18, beating a softer market. CEO Hock Tan reiterated AI semiconductor revenue of $115B in fiscal 2027, doubling to $230B in fiscal 2028, calling inference demand \"very strong\" and durable. It builds custom chips with six frontier model developers including OpenAI, Google and Anthropic. Big Tech's capex commitments are the foundation of this AI infrastructure cycle."
+    },
+    "dda": {
+      "zh": "AI基建是多年周期，定期定额能让你持续参与，同时平滑途中的起伏。",
+      "en": "AI infrastructure is a multi-year cycle; regular investing keeps you participating while smoothing the bumps along the way."
+    },
+    "lump": {
+      "zh": "对单一公司的乐观指引，不宜直接变成单笔重注。通过分散的主题或区域基金参与更稳妥。",
+      "en": "Upbeat guidance from one company shouldn't become one big bet. Participating through diversified theme or regional funds is steadier."
+    },
+    "prs": {
+      "zh": "成长主题可以为退休组合增添长期动力，但比重应与年龄、风险承受度相匹配。",
+      "en": "Growth themes can add long-term drive to a retirement portfolio, sized to your age and risk tolerance."
+    },
+    "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/09/61873424/what-is-going-on-with-broadcom-stock-on-friday-2" }
+  }
+]

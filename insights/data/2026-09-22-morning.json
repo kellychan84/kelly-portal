@@ -1,0 +1,83 @@
+[
+  {
+    "id": "2026-09-22-m1",
+    "time": "2026-09-22T09:00:00+08:00",
+    "brief": "2026-09-22-morning.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "芯片股全面反弹，纳指单日涨2.26%创历史新高，AMD市值突破1万亿美元",
+      "en": "Chip stocks rally broadly: Nasdaq jumps 2.26% to a record as AMD tops $1 trillion"
+    },
+    "analysis": {
+      "zh": "9月21日纳斯达克综合指数大涨2.26%收报27,122.09点，创历史新高；标普500涨1.49%。半导体领涨：英特尔飙升12.17%，AMD大涨9.95%，市值突破1万亿美元；Meta 因提前发布AI代理\"MUSE\"大涨11.34%。这不只是情绪高涨，而是油价回落、美债收益率下滑，加上特朗普将设国宴款待习近平三个因素同时松绑，市场解读为中美AI与贸易关系可能转圜。",
+      "en": "On Sept 21 the Nasdaq Composite surged 2.26% to a record 27,122.09 and the S&P 500 rose 1.49%. Semiconductors led: Intel jumped 12.17% and AMD 9.95%, pushing its market value past $1 trillion; Meta rose 11.34% after unveiling its AI agent MUSE. It wasn't just euphoria — falling oil, lower Treasury yields and Trump's upcoming state dinner for Xi Jinping all eased at once, read as a possible thaw in US–China AI and trade tensions."
+    },
+    "dda": {
+      "zh": "单日大涨最容易让人想\"追一笔\"。定期定额的纪律，正好帮你避开追高的情绪陷阱。",
+      "en": "A big up-day is when chasing feels most tempting. Regular investing's discipline keeps you out of that trap."
+    },
+    "lump": {
+      "zh": "指数创新高时，单笔投入可以考虑分段进行，避免把全部资金押在单一高点。",
+      "en": "With indices at records, consider phasing a lump sum in rather than committing it all at one high point."
+    },
+    "prs": {
+      "zh": "科技板块的强势值得参与，但退休组合更需要稳定性。确保成长资产与稳健资产之间保持平衡。",
+      "en": "Tech's strength is worth participating in, but retirement portfolios need stability too. Keep growth and defensive assets in balance."
+    },
+    "source": { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-21-2026" }
+  },
+  {
+    "id": "2026-09-22-m2",
+    "time": "2026-09-22T09:00:00+08:00",
+    "brief": "2026-09-22-morning.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "特朗普摆出三个选项，伊朗革命卫队放话\"改变战争地理\"；油价随外交乐观走软",
+      "en": "Trump weighs three paths on Iran as the IRGC threatens to widen the war; oil eases on diplomatic hopes"
+    },
+    "analysis": {
+      "zh": "特朗普表示自己对伊朗处于\"决定模式\"，选项包括加大军事打击、经济施压或外交解决，并可能在联合国大会期间会见伊朗总统。伊朗革命卫队则警告若遭新攻击，将\"改变武器与战争地理范围\"。同日霍尔木兹海峡再有油轮被击中。尽管如此，WTI 周一收跌2.50%至97.79美元，周二进一步回落至约92.90美元。市场暂时押注外交占上风，但局势随时可能逆转。",
+      "en": "Trump said he is in \"deciding mode\" on Iran, with options ranging from heavier strikes to economic pressure or a diplomatic deal, and may meet Iran's president at the UN. The IRGC warned any new attack would change \"the weapons and geography of the war\", and another tanker was hit in Hormuz the same day. Still, WTI closed Monday down 2.50% at $97.79 and slid toward $92.90 on Tuesday. Markets are betting diplomacy wins for now, but it can turn quickly."
+    },
+    "dda": {
+      "zh": "地缘政治带来的波动往往是情绪驱动。定期定额能避免在情绪高低点做出决定。",
+      "en": "Geopolitical swings are often sentiment-driven. Regular investing avoids making decisions at emotional highs and lows."
+    },
+    "lump": {
+      "zh": "\"外交喊话 + 军事威胁\"并存时，单笔投入宜保守、分散，不宜追高杀跌。",
+      "en": "With diplomatic talk and military threats side by side, keep lump sums cautious and diversified — don't chase moves either way."
+    },
+    "prs": {
+      "zh": "油价回落有助缓解通胀，对退休规划是好事；但长期计划仍应为能源价格反复做好准备。",
+      "en": "Falling oil helps on inflation, which is good for retirement planning — but long-term plans should still allow for energy prices swinging back."
+    },
+    "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-decision-tehran-warns-of-expansion/" }
+  },
+  {
+    "id": "2026-09-22-m3",
+    "time": "2026-09-22T09:00:00+08:00",
+    "brief": "2026-09-22-morning.html",
+    "tags": ["my", "prs"],
+    "title": {
+      "zh": "KLCI企稳1,667点，令吉微幅走强至4.078：外部风浪下的相对稳定",
+      "en": "KLCI steadies near 1,667 and the ringgit firms slightly to 4.078: relative calm amid outside storms"
+    },
+    "analysis": {
+      "zh": "Trading Economics 数据显示，富时大马综指周一收报1,667点，上涨0.08%，月内仍跌4.00%、年内涨3.97%；令吉报4.078，单日走强0.14%。KLCI 月内的调整，某种程度反映的是全球资金在联储政策与中东局势不确定时的避险，而不是马来西亚基本面出了问题。",
+      "en": "Trading Economics shows the KLCI closed Monday at 1,667, up 0.08%, still down 4.00% for the month but up 3.97% over the year, while the ringgit firmed 0.14% to 4.078. The KLCI's monthly dip largely reflects global money seeking safety amid Fed and Middle East uncertainty, rather than a problem with Malaysia's fundamentals."
+    },
+    "dda": {
+      "zh": "阶段性回调，正是\"用时间换空间\"的定期定额发挥作用的时候。",
+      "en": "Periodic pullbacks are exactly when regular investing's \"time over timing\" approach does its work."
+    },
+    "lump": {
+      "zh": "若回调源于外部因素而非本地基本面，单笔资金可以分阶段配置，而不必一次决定。",
+      "en": "If a pullback comes from outside factors rather than local fundamentals, a lump sum can be deployed in stages instead of all at once."
+    },
+    "prs": {
+      "zh": "本地市场是退休组合的重要基石之一。持续 PRS 供款，并善用每年最高 RM3,000 税务减免。",
+      "en": "The local market is an important building block for retirement. Keep up PRS contributions and use the up to RM3,000 annual tax relief."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/stock-market" }
+  }
+]

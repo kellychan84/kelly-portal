@@ -1,0 +1,83 @@
+[
+  {
+    "id": "2026-09-27-w1",
+    "time": "2026-09-27T09:00:00+08:00",
+    "brief": "2026-09-27-weekend.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "特朗普：\"我拒绝他们的提案\"——伊朗\"7天重开霍尔木兹\"方案被否，地缘风险重新抬头",
+      "en": "Trump: \"I'm rejecting their deal\" — Iran's 7-day Hormuz plan is turned down and geopolitical risk returns"
+    },
+    "analysis": {
+      "zh": "伊朗外长阿拉格齐提出的方案，把6月协议中60天的过渡期压缩到7天，条件包括美国解除对伊朗港口的海军封锁、石油出口制裁豁免，以及涵盖黎巴嫩的停火。但特朗普周六只说了一句\"我拒绝他们的提案\"便离开。据报道，他私下怀疑伊朗能否兑现承诺，甚至预告中期选举后可能重启军事行动；伊朗总统则称德黑兰\"不再信任与华盛顿的谈判\"。本已趋缓的局势，一夜之间又绷紧了。",
+      "en": "Iranian FM Araghchi's plan compressed the June deal's 60-day interim period into seven days, conditioned on the US lifting its naval blockade of Iranian ports, oil-sanction relief and a ceasefire including Lebanon. On Saturday Trump said only \"I reject their proposal\" and left. He reportedly doubts Iran will deliver and expects renewed military action after the midterms, while Iran's president said Tehran \"no longer trusts\" talks with Washington. A situation that had been easing tightened again overnight."
+    },
+    "dda": {
+      "zh": "局势一夜转折，正是定期定额\"不必预测\"的价值所在。",
+      "en": "An overnight reversal shows exactly why regular investing's \"no forecasting needed\" approach is valuable."
+    },
+    "lump": {
+      "zh": "谈判反复时，单笔投入宜等消息面稳定后分段进行，并确保组合不过度集中于能源。",
+      "en": "With talks on and off, phase a lump sum in once things settle, and avoid over-concentrating in energy."
+    },
+    "prs": {
+      "zh": "地缘风险会时起时落。退休计划应建立在分散配置与持续供款上，而不是押注谈判结果。",
+      "en": "Geopolitical risk ebbs and flows. Retirement plans should rest on diversification and steady contributions, not on how talks end."
+    },
+    "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/9/26/trump-rejects-irans-seven-day-roadmap-to-reopen-strait-of-hormuz" }
+  },
+  {
+    "id": "2026-09-27-w2",
+    "time": "2026-09-27T09:00:00+08:00",
+    "brief": "2026-09-27-weekend.html",
+    "tags": ["fed", "prs"],
+    "title": {
+      "zh": "10月加息机率升至66.6%：借贷成本可能再升，货币市场与固定收益收益仍有支撑",
+      "en": "October hike odds rise to 66.6%: borrowing costs may climb, while money-market and fixed-income yields stay supported"
+    },
+    "analysis": {
+      "zh": "Investing.com 数据显示，市场预期10月28日把利率从3.75%–4.00%上调至4.00%–4.25%的机率为66.6%，维持不变33.4%，延续9月加息后的鹰派路径。这意味着房贷与企业融资等借贷成本可能进一步上升，但同时货币市场基金与固定收益产品的收益率仍有支撑。同一天10年期收益率达5.225%、30年期5.502%，双双创多年新高。",
+      "en": "Investing.com shows 66.6% odds that the Fed lifts rates from 3.75%–4.00% to 4.00%–4.25% on Oct 28, versus 33.4% for a hold, extending the hawkish path after September's hike. Borrowing costs such as mortgages and business loans may rise further, while money-market fund and fixed-income yields stay supported. The same day the 10-year yield reached 5.225% and the 30-year 5.502%, both multi-year highs."
+    },
+    "dda": {
+      "zh": "利率高位震荡期，定期定额分批进场，能避免被单一时间点的波动牵着走。",
+      "en": "While rates chop around at high levels, investing in regular instalments keeps any single moment's swing from steering you."
+    },
+    "lump": {
+      "zh": "高利率环境下，应急资金与短期所需可放在货币市场类工具；长期资金再按计划配置。",
+      "en": "With rates high, emergency and short-term money can sit in money-market-type tools, while long-term money follows your plan."
+    },
+    "prs": {
+      "zh": "利率上升提高了固定收益部分的收益潜力。退休组合中股债比例，可按年龄与风险承受度调整。",
+      "en": "Higher rates raise the income potential of fixed income. Adjust the equity–bond mix of your retirement savings to your age and risk tolerance."
+    },
+    "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
+  },
+  {
+    "id": "2026-09-27-w3",
+    "time": "2026-09-27T09:00:00+08:00",
+    "brief": "2026-09-27-weekend.html",
+    "tags": ["fed", "tech"],
+    "title": {
+      "zh": "下周数据密集：PCE、非农、ISM接连登场，美光9月30日公布财报",
+      "en": "A data-heavy week ahead: PCE, payrolls and ISM back to back, with Micron reporting Sept 30"
+    },
+    "analysis": {
+      "zh": "嘉信理财每周展望显示，下周二有消费者信心与职位空缺数据；周三是PCE物价指数、个人收支与GDP第三次修正值，美光同日公布财报；周四是ISM制造业指数，耐克也公布财报；周五则是市场最关注的非农就业报告。报告提醒，若非农数据大幅优于预期，可能进一步推高收益率，对股市不利。一周之内，多个关键数据可能让市场情绪来回摆动。",
+      "en": "Schwab's weekly outlook: Tuesday brings consumer confidence and JOLTs job openings; Wednesday PCE inflation, personal income and spending and the third GDP revision, plus Micron's earnings; Thursday ISM manufacturing and Nike's results; and Friday the closely watched payrolls report. It warns that a much stronger-than-expected payrolls number could push yields higher, which would weigh on stocks. Several key data points in one week could swing sentiment back and forth."
+    },
+    "dda": {
+      "zh": "数据密集周波动可能较大，定期定额的扣款不必因此暂停或提前。",
+      "en": "Data-heavy weeks can be volatile; there's no need to pause or rush your regular contributions because of it."
+    },
+    "lump": {
+      "zh": "重大数据公布前后，单笔投入可以分几周完成，减少被单一数据左右的风险。",
+      "en": "Around major data releases, a lump sum can be spread over several weeks to reduce the influence of any single number."
+    },
+    "prs": {
+      "zh": "每周都有\"关键数据\"，但退休计划看的是几十年。定期检视配置，比追踪每一份报告更重要。",
+      "en": "Every week has \"key data\", but retirement plans span decades. Regular reviews matter more than tracking every report."
+    },
+    "source": { "name": "Schwab", "url": "https://www.schwab.com/learn/story/weekly-traders-outlook" }
+  }
+]

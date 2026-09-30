@@ -1,0 +1,83 @@
+[
+  {
+    "id": "2026-09-17-m1",
+    "time": "2026-09-17T09:00:00+08:00",
+    "brief": "2026-09-17-morning.html",
+    "tags": ["fed"],
+    "title": {
+      "zh": "美联储全票通过加息25基点，沃什：通胀\"太高、太久\"",
+      "en": "Fed hikes 25bp unanimously; Warsh says inflation is \"too high, for too long\""
+    },
+    "analysis": {
+      "zh": "美联储9月16日以12票全票通过，把利率上调至3.75%–4.00%，是2023年7月以来首次加息。点阵图显示16位官员认为年内还需再加至少一次，利率中位数比6月预测上调30个基点至4.1%。沃什明确不提供前瞻指引，市场期待的\"鸽派加息\"落空：黄金一度跳水近60美元，10年期美债收益率触及5%。",
+      "en": "The Fed voted 12-0 on Sept 16 to lift rates to 3.75%–4.00%, its first hike since July 2023. The dot plot shows 16 officials expecting at least one more hike this year, with the median rate projection raised 30bp from June to 4.1%. Warsh declined to give forward guidance, dashing hopes of a \"dovish hike\": gold briefly dropped nearly $60 and the 10-year yield touched 5%."
+    },
+    "dda": {
+      "zh": "加息周期中市场容易反复。定期定额让你在波动中持续累积单位，而不必判断何时是底部。",
+      "en": "Markets tend to whipsaw during hiking cycles. Regular investing keeps you accumulating units without having to call the bottom."
+    },
+    "lump": {
+      "zh": "\"高利率维持更久\"的情况下，短期货币市场类工具的收益也会较高。单笔资金可按用途与期限，分配在不同类型的资产中。",
+      "en": "With rates likely \"higher for longer\", short-term money market yields stay attractive too. A lump sum can be split across asset types based on purpose and time horizon."
+    },
+    "prs": {
+      "zh": "利率上升会影响股债估值，但对长期退休储蓄而言，持续供款与分散配置仍是最稳妥的基础。",
+      "en": "Rising rates affect stock and bond valuations, but for long-term retirement saving, steady contributions and diversification remain the foundation."
+    },
+    "source": { "name": "FX168", "url": "https://www.fx168news.com/article/%E7%BE%8E%E8%81%94%E5%82%A8%E5%8A%A0%E6%81%AF-1093436" }
+  },
+  {
+    "id": "2026-09-17-m2",
+    "time": "2026-09-17T09:00:00+08:00",
+    "brief": "2026-09-17-morning.html",
+    "tags": ["my", "prs"],
+    "title": {
+      "zh": "全球加息风暴中，大马稳住阵脚：国行连续七次维持OPR 2.75%",
+      "en": "Malaysia holds steady amid the global hiking storm: BNM keeps OPR at 2.75% for a seventh meeting"
+    },
+    "analysis": {
+      "zh": "Trading Economics 数据显示，国家银行已连续七次会议维持隔夜政策利率于2.75%，认为目前立场适合维持物价稳定、支持增长。今年上半年大马GDP增长5.7%，7月前整体与核心通胀平均为1.8%和2%，仍属可控。综指在最近一次可查证收盘报1,698.01点，上涨0.67%。外围风暴之中，本地基本面相对稳定。",
+      "en": "Trading Economics shows Bank Negara has held the OPR at 2.75% for seven straight meetings, saying the stance supports price stability and growth. Malaysia's GDP grew 5.7% in the first half, and headline and core inflation averaged 1.8% and 2% through July — still manageable. The KLCI's latest verifiable close was 1,698.01, up 0.67%. Amid the global storm, local fundamentals look relatively steady."
+    },
+    "dda": {
+      "zh": "本地市场相对稳定时，是建立定期定额习惯的好时机——不必等\"完美时机\"。",
+      "en": "A relatively steady local market is a good time to build a regular-investing habit — no need to wait for the \"perfect\" moment."
+    },
+    "lump": {
+      "zh": "本地与海外市场的利率环境不同。单笔配置时，可以同时考虑令吉资产与海外资产的平衡。",
+      "en": "Local and overseas rate environments differ. For a lump sum, consider the balance between ringgit and overseas assets."
+    },
+    "prs": {
+      "zh": "PRS 可以同时配置本地与海外基金，每年最高 RM3,000 税务减免，让退休储蓄更有效率。",
+      "en": "PRS can hold both local and overseas funds, with up to RM3,000 in annual tax relief to make retirement saving more efficient."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/interest-rate" }
+  },
+  {
+    "id": "2026-09-17-m3",
+    "time": "2026-09-17T09:00:00+08:00",
+    "brief": "2026-09-17-morning.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "业绩全部超预期，股价却下杀：软件股遭遇\"AI基建成本\"焦虑",
+      "en": "Blowout earnings, falling shares: software stocks hit by AI-cost worries"
+    },
+    "analysis": {
+      "zh": "Benzinga 报道，一批软件与网安公司财报超预期，股价却大跌：Credo 营收创纪录仍重挫18.7%，MongoDB 营收增长30%并上调指引却跌11.9%，Palo Alto Networks 跌10.3%。相反，戴尔单季营收创纪录470亿美元、AI服务器订单609亿美元，股价涨7.9%。市场对AI的态度正从\"雨露均沾\"转向\"精挑细选\"，能把AI投入变成订单与营收的公司才获得溢价。",
+      "en": "Benzinga reports several software and cybersecurity firms beat estimates yet sold off: Credo fell 18.7% despite record revenue, MongoDB dropped 11.9% after 30% growth and raised guidance, Palo Alto Networks slid 10.3%. Meanwhile Dell posted record $47B revenue and $60.9B in AI server orders, rising 7.9%. The market is shifting from rewarding all AI names to picking the ones that turn AI spending into real orders and revenue."
+    },
+    "dda": {
+      "zh": "同一个主题内个股表现差异这么大，正说明通过基金分散持有、定期投入的价值。",
+      "en": "When stocks within one theme diverge this much, it shows the value of holding a diversified fund and investing regularly."
+    },
+    "lump": {
+      "zh": "主题投资容易追热点。单笔投入科技主题前，先确认它在整体组合中的比重是否合理。",
+      "en": "Theme investing invites chasing. Before a lump sum into tech, make sure its weight in your overall portfolio is sensible."
+    },
+    "prs": {
+      "zh": "退休组合可以包含成长主题，但不宜押注单一赛道。行业分散能降低个别公司爆雷的冲击。",
+      "en": "A retirement portfolio can include growth themes, but shouldn't bet on a single one. Sector diversification cushions any single company's surprise."
+    },
+    "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/equities/26/09/61584217/software-stocks-crash-despite-earnings-beats-fed-hike-odds-66-percent-markets-wednesday" }
+  }
+]

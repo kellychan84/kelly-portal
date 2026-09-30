@@ -1,0 +1,56 @@
+[
+  {
+    "id": "2026-09-16-a1",
+    "time": "2026-09-16T17:00:00+08:00",
+    "brief": "2026-09-16-afternoon.html",
+    "tags": ["fed"],
+    "title": {
+      "zh": "加息几率升至93%：真正的看点是今晚的点阵图",
+      "en": "Hike odds hit 93% — the real story tonight is the dot plot"
+    },
+    "analysis": {
+      "zh": "Benzinga 报道，联邦基金期货已把美联储加息25个基点、至3.75%–4.00%的几率定价到93%，若落实将是2023年以来首次加息。加息本身几乎已被市场消化，关键在沃什主席公布的点阵图：如果显示年底前还会再加，这就不是\"一次性动作\"，而是一轮紧缩周期的开始。这就像天气预报说\"明天会下雨\"大家早有准备，真正要看的是雨会不会连下一个月。",
+      "en": "Fed funds futures price a 93% chance of a 25bp hike to 3.75%–4.00% — the first since 2023, per Benzinga. The hike itself is largely priced in; what matters is Chair Warsh's dot plot. If it signals more hikes before year-end, this stops being a one-off and becomes the start of a tightening cycle. Everyone has an umbrella for tomorrow's rain; the question is whether it rains all month."
+    },
+    "dda": {
+      "zh": "利率周期是否刚开始，谁也说不准。定期定额不需要猜点阵图，照计划投入就好。",
+      "en": "Nobody knows yet whether a rate cycle is just beginning. Regular investing doesn't need you to read the dot plot — keep investing on plan."
+    },
+    "lump": {
+      "zh": "重大议息前后波动通常较大。单笔资金可以考虑在决议后分段投入，而不是押在会议当天。",
+      "en": "Markets tend to swing around big Fed meetings. A lump sum can be phased in after the decision rather than bet on the day itself."
+    },
+    "prs": {
+      "zh": "利率走向影响股债表现，但退休计划看的是几十年。维持分散配置，比押注某一次议息结果更重要。",
+      "en": "Rates move stocks and bonds, but retirement plans span decades. Staying diversified matters more than betting on any single meeting."
+    },
+    "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/economic-data/26/09/61788155/fed-rate-hike-september-2026-dot-plot-projections-what-to-watch" }
+  },
+  {
+    "id": "2026-09-16-a2",
+    "time": "2026-09-16T17:00:00+08:00",
+    "brief": "2026-09-16-afternoon.html",
+    "tags": ["fed", "tech"],
+    "title": {
+      "zh": "10年期美债收益率触及5.04%，创2007年以来新高，科技股承压",
+      "en": "10-year Treasury yield touches 5.04%, highest since 2007, as tech stocks slide"
+    },
+    "analysis": {
+      "zh": "嘉信理财指出，10年期美债收益率一度触及5.04%。其宏观研究主管 Kevin Gordon 表示，通胀要回到2%面临强大阻力，美联储\"越来越像必须加息\"。高收益率拖累美股：标普500跌0.45%、纳指跌0.78%，Alphabet、微软、亚马逊等重仓科技股走弱。借贷成本上升时，估值偏高的成长股往往最先受压。",
+      "en": "Schwab notes the 10-year Treasury yield touched 5.04% intraday. Its head of macro research Kevin Gordon says inflation faces strong headwinds returning to 2%, leaving a Fed that \"increasingly looks like it has to hike\". Higher yields weighed on stocks — S&P 500 -0.45%, Nasdaq -0.78% — with Alphabet, Microsoft and Amazon among the laggards. When borrowing costs rise, richly valued growth stocks usually feel it first."
+    },
+    "dda": {
+      "zh": "科技股回调时，定期定额会自动以较低价格买入更多单位，这正是它的设计初衷。",
+      "en": "When tech pulls back, regular investing automatically buys more units at lower prices — that's how it's designed to work."
+    },
+    "lump": {
+      "zh": "若组合已偏重科技成长股，单笔加码前可先检视集中度，考虑搭配收益型资产平衡风险。",
+      "en": "If your portfolio already leans on tech growth, check concentration before adding a lump sum, and consider balancing with income assets."
+    },
+    "prs": {
+      "zh": "收益率走高也意味着债券类资产的收益吸引力上升。退休组合中股债的比例，值得定期检视。",
+      "en": "Higher yields also make bond-type assets more attractive. The equity–bond mix in a retirement portfolio is worth reviewing regularly."
+    },
+    "source": { "name": "Schwab", "url": "https://www.schwab.com/learn/story/stock-market-update-open" }
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "id": "2026-09-28-m1",
+    "time": "2026-09-28T09:00:00+08:00",
+    "brief": "2026-09-28-morning.html",
+    "tags": ["prs"],
+    "title": {
+      "zh": "美股三大指数录得周涨幅，道指终结三连跌；贝莱德：债市波动\"不是危机，而是一次提醒\"",
+      "en": "All three US indices post weekly gains as the Dow ends a three-week skid; BlackRock: bond volatility is \"a reminder, not a crisis\""
+    },
+    "analysis": {
+      "zh": "9月25日收盘，道指报51,828.62点，单周涨0.93%，终结连续三周下跌；标普500报7,743.41点，纳指报27,068.72点，三大指数集体录得周涨幅。贝莱德的 Rick Rieder 形容当前债市波动\"不是危机，而是一次提醒\"。这句话也很适合正在准备退休的朋友：市场起伏本来就是常态，重点是有没有一套经得起波动的长期配置。",
+      "en": "At the Sept 25 close the Dow stood at 51,828.62, up 0.93% for the week and ending a three-week losing streak, with the S&P 500 at 7,743.41 and the Nasdaq at 27,068.72 — all three up for the week. BlackRock's Rick Rieder called the bond-market volatility \"a reminder, not a crisis\". The same applies to anyone preparing for retirement: ups and downs are normal; what matters is a long-term allocation built to withstand them."
+    },
+    "dda": {
+      "zh": "连跌三周后反弹，若中途停止扣款就会错过。定期定额的价值，正在于持续。",
+      "en": "Stopping contributions during the three-week slide would have missed the rebound. Regular investing's value lies in staying consistent."
+    },
+    "lump": {
+      "zh": "短期反弹不代表趋势确立。单笔投入仍宜分段，并与长期目标对齐。",
+      "en": "A short rebound doesn't confirm a trend. Keep phasing lump sums in and aligned with long-term goals."
+    },
+    "prs": {
+      "zh": "一套经得起波动的退休配置，加上持续的 PRS 供款（每年最高 RM3,000 税务减免），比猜测市场更可靠。",
+      "en": "A retirement allocation built for volatility, plus steady PRS contributions (up to RM3,000 in annual tax relief), beats trying to guess the market."
+    },
+    "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-25-dow-sp-500-nasdaq-081738529.html" }
+  },
+  {
+    "id": "2026-09-28-m2",
+    "time": "2026-09-28T09:00:00+08:00",
+    "brief": "2026-09-28-morning.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "特朗普正式拒绝伊朗\"七日方案\"，谈判仍可能重启，油价周一反弹至93美元上方",
+      "en": "Trump formally rejects Iran's seven-day plan; talks may resume, and oil rebounds above $93 on Monday"
+    },
+    "analysis": {
+      "zh": "伊朗原本以七日方案换取美国解除海军封锁、豁免石油制裁、释放120亿美元冻结资产；特朗普拒绝，称伊朗急于达成协议是因为\"输得太惨\"。不过他也表示本周谈判\"很可能\"重启，但不排除中期选举前采取军事行动。WTI 原油周一反弹至93.35美元，布兰特涨1.44%至105.82美元；沙特也拦截了胡塞武装针对能源设施的攻击，供应端不确定性增加。",
+      "en": "Iran had offered its seven-day plan for an end to the US naval blockade, oil-sanction relief and $12 billion in unfrozen assets; Trump rejected it, saying Iran wants a deal because it's \"losing so badly\". He said talks would \"likely\" resume this week but didn't rule out military action before the midterms. WTI rebounded to $93.35 on Monday and Brent rose 1.44% to $105.82, while Saudi Arabia intercepted Houthi attacks on energy facilities, adding supply uncertainty."
+    },
+    "dda": {
+      "zh": "谈判拒绝与重启交替出现，定期定额让你不必在每次转折后调整计划。",
+      "en": "With talks rejected and revived in turn, regular investing spares you from reworking your plan at every twist."
+    },
+    "lump": {
+      "zh": "油价对谈判消息高度敏感。单笔配置能源或周期性资产前，宜控制比重并分段进场。",
+      "en": "Oil is highly sensitive to negotiation news. Size and phase any lump sum into energy or cyclical assets."
+    },
+    "prs": {
+      "zh": "油价反复会影响通胀与生活成本。退休组合保留适度抗通胀资产，并保持整体分散。",
+      "en": "Swinging oil prices affect inflation and living costs. Keep some inflation-resilient assets in retirement savings, within a diversified whole."
+    },
+    "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/9/27/better-deal-whats-behind-trumps-rejection-of-irans-truce-offer" }
+  },
+  {
+    "id": "2026-09-28-m3",
+    "time": "2026-09-28T09:00:00+08:00",
+    "brief": "2026-09-28-morning.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "美光财报倒数：研究机构给出\"超越所有华尔街预测\"80%机率，但涨势集中在少数龙头",
+      "en": "Micron countdown: a research firm gives 80% odds of beating every Wall Street estimate — but gains are concentrated in a few leaders"
+    },
+    "analysis": {
+      "zh": "美光将于9月30日公布财报，官方指引营收500亿美元；独立研究机构 Tessara 给出80%机率认为营收将超越所有22家华尔街预测、突破520.8亿美元，基本情境看至562亿美元。但嘉信理财周报也提醒，上周标普与纳指的涨势主要靠AI相关个股撑盘，等权重标普与罗素2000却走弱——涨势广度偏窄。Schwab 整体判断\"温和看多\"，前提是美债收益率能够企稳。",
+      "en": "Micron reports on Sept 30 with revenue guidance of $50B; independent firm Tessara gives 80% odds that revenue beats all 22 Wall Street estimates, topping $52.08B, with a base case of $56.2B. Schwab's weekly note cautions that last week's S&P and Nasdaq gains leaned on AI names while the equal-weight S&P and Russell 2000 slipped — thin breadth. Schwab is \"moderately bullish\", provided Treasury yields stabilise."
+    },
+    "dda": {
+      "zh": "涨势集中在少数股票时，通过分散的基金定期投入，可以降低押错个股的风险。",
+      "en": "When gains are concentrated in a few stocks, investing regularly through diversified funds reduces the risk of backing the wrong one."
+    },
+    "lump": {
+      "zh": "广度偏窄的市场较脆弱。单笔投入前，检视组合是否过度集中在少数科技龙头。",
+      "en": "Narrow markets are more fragile. Before a lump sum, check whether your portfolio is over-concentrated in a few tech leaders."
+    },
+    "prs": {
+      "zh": "退休组合需要广度，而不只是热门股。行业与地区分散，是长期稳健的基础。",
+      "en": "Retirement portfolios need breadth, not just hot stocks. Sector and regional diversification is the base of long-term stability."
+    },
+    "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/equities/26/09/61997060/micron-earnings-80-odds-beat-every-analyst-estimate" }
+  }
+]

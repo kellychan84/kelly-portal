@@ -1,0 +1,56 @@
+[
+  {
+    "id": "2026-09-21-a1",
+    "time": "2026-09-21T17:00:00+08:00",
+    "brief": "2026-09-21-afternoon.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "特朗普周四会晤习近平，科技巨头CEO齐聚晚宴：关税与AI合作成焦点",
+      "en": "Trump to meet Xi on Thursday with tech CEOs at dinner: tariffs and AI cooperation in focus"
+    },
+    "analysis": {
+      "zh": "特朗普将于本周四与习近平会晤，议题聚焦关税暂停协议延期与人工智能合作；英伟达黄仁勋、OpenAI 的 Sam Altman、微软 Nadella、苹果 Tim Cook 等预计出席晚宴。美国财长贝森特形容初步会谈\"非常成功\"，并提议建立中美AI对话机制。消息带动美股期货上涨，纳指期货涨0.8%。不过分析也提醒，中东风险、债券收益率与AI估值疑虑仍是逆风。",
+      "en": "Trump meets Xi Jinping on Thursday, with talks focused on extending the tariff truce and AI cooperation; Nvidia's Jensen Huang, OpenAI's Sam Altman, Microsoft's Satya Nadella and Apple's Tim Cook are expected at the dinner. Treasury Secretary Bessent called preliminary talks \"very successful\" and proposed a US–China AI dialogue. US futures rose, with Nasdaq futures up 0.8%. Analysts caution that Middle East risk, bond yields and AI valuation doubts remain headwinds."
+    },
+    "dda": {
+      "zh": "峰会消息容易带来短线情绪。定期定额不用赌会谈结果，也能持续参与市场。",
+      "en": "Summit headlines stir short-term sentiment. Regular investing keeps you in the market without betting on the outcome."
+    },
+    "lump": {
+      "zh": "若会谈结果不如预期，市场可能回吐涨幅。单笔资金不宜赶在峰会前一次性投入。",
+      "en": "If talks disappoint, gains may reverse. Avoid putting a lump sum in all at once ahead of the summit."
+    },
+    "prs": {
+      "zh": "中美关系影响亚洲市场与科技板块。退休组合维持区域与行业分散，能降低单一事件的影响。",
+      "en": "US–China relations move Asian markets and tech. Regional and sector diversification limits any single event's impact on retirement savings."
+    },
+    "source": { "name": "Yahoo Finance", "url": "https://sg.finance.yahoo.com/news/stock-market-today-monday-september-21-dow-sp-500-nasdaq-080214605.html" }
+  },
+  {
+    "id": "2026-09-21-a2",
+    "time": "2026-09-21T17:00:00+08:00",
+    "brief": "2026-09-21-afternoon.html",
+    "tags": ["commodities", "fed"],
+    "title": {
+      "zh": "油价续跌至98美元下方，联储10月加息概率同步降温至55.1%",
+      "en": "Oil slips below $98 as Fed October hike odds ease to 55.1%"
+    },
+    "analysis": {
+      "zh": "市场期待美伊可能恢复对话，WTI 原油周一跌2.13%至98.16美元，布兰特跌1.97%至101.83美元，是近期第五个交易日走低。伊朗已通过卡塔尔转交六项停战条件，但伊朗国会议长表示霍尔木兹海峡将维持封锁直至条件满足。同时，10月加息概率从早上的59.7%回落至55.1%。油价降温有助缓解通胀压力，但加息仍是主流情景，尚未出现方向性反转。",
+      "en": "On hopes US–Iran talks could resume, WTI fell 2.13% to $98.16 and Brent 1.97% to $101.83 on Monday, a fifth straight decline. Iran sent six ceasefire conditions via Qatar, though its parliament speaker said Hormuz stays closed until they're met. October hike odds eased from 59.7% this morning to 55.1%. Cooler oil helps on inflation, but a hike remains the main scenario — no reversal in direction yet."
+    },
+    "dda": {
+      "zh": "油价和利率预期同步松动时，市场情绪可能快速转好，也可能快速转坏。定期定额两种情况都适用。",
+      "en": "When oil and rate expectations ease together, sentiment can turn quickly either way. Regular investing works in both cases."
+    },
+    "lump": {
+      "zh": "方向未明确反转前，单笔配置宜保持均衡，不必押注单一利率或油价剧本。",
+      "en": "Until the direction clearly turns, keep lump-sum allocations balanced rather than betting on one rate or oil scenario."
+    },
+    "prs": {
+      "zh": "通胀压力减轻对退休族是好消息，但长期规划仍应假设通胀存在，保持抗通胀资产的配置。",
+      "en": "Easing inflation pressure is good news for retirees, but long-term plans should still assume inflation and keep inflation-resilient assets."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil" }
+  }
+]

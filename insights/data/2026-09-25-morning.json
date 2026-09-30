@@ -1,0 +1,83 @@
+[
+  {
+    "id": "2026-09-25-m1",
+    "time": "2026-09-25T09:00:00+08:00",
+    "brief": "2026-09-25-morning.html",
+    "tags": ["fed"],
+    "title": {
+      "zh": "美债收益率全线飙升，10年期触及5.11%：推手不是经济太弱，而是\"太热\"",
+      "en": "Yields surge across the curve as the 10-year hits 5.11% — driven not by weakness but by an economy running hot"
+    },
+    "analysis": {
+      "zh": "9月24日10年期美债收益率一度冲上5.11%，创2007年以来新高；2年期升至4.897%，30年期触及5.438%的2004年后新高。推手是标普全球的商业活动数据创下五年多来最强增速。分析师 Daniela Hathorn 直言：\"经济不只是在避免衰退，它看起来正在加速。\"这意味着通胀与利率压力可能比预期更持久，美国房贷利率已升破7.37%。",
+      "en": "On Sept 24 the 10-year yield touched 5.11%, its highest since 2007; the 2-year rose to 4.897% and the 30-year hit a post-2004 high of 5.438%. The driver: S&P Global's business activity data showed the fastest growth in over five years. Analyst Daniela Hathorn put it plainly: \"The economy isn't just avoiding recession, it looks like it's accelerating.\" Inflation and rate pressure may last longer than expected; US mortgage rates have topped 7.37%."
+    },
+    "dda": {
+      "zh": "经济强、利率高的环境可能持续一段时间。定期定额不需要等利率见顶才开始。",
+      "en": "Strong growth with high rates could persist for a while. Regular investing doesn't need to wait for rates to peak."
+    },
+    "lump": {
+      "zh": "借贷成本上升时，避免以借贷资金投资。单笔配置以闲置资金为主，并按期限分配。",
+      "en": "With borrowing costs rising, avoid investing borrowed money. Use idle funds for lump sums and allocate by time horizon."
+    },
+    "prs": {
+      "zh": "长期利率上升会影响债券价格，也提高未来的收益机会。退休组合的债券部分，值得按年龄定期检视。",
+      "en": "Rising long-term rates hit bond prices but raise future income. Review the bond portion of your retirement mix regularly as you age."
+    },
+    "source": { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-24-2026" }
+  },
+  {
+    "id": "2026-09-25-m2",
+    "time": "2026-09-25T09:00:00+08:00",
+    "brief": "2026-09-25-morning.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "美伊探讨\"分阶段\"方案，油价却不跌反涨：利好消息不等于价格立刻反映",
+      "en": "US and Iran explore a phased deal, yet oil rises: good news doesn't mean prices reflect it right away"
+    },
+    "analysis": {
+      "zh": "路透社（经 Investing.com）报道，美伊正探讨分阶段协议：伊朗恢复霍尔木兹海峡自由通行，换取美国解除封锁、可能释放冻结资产；核心障碍是\"谁先让步\"。前中东特使 Dennis Ross 评估中期选举前达成协议的机率约三成。照理油价应下跌，但WTI 周四仍涨1.63%至93.66美元。在协议签署、海峡真正畅通之前，风险溢价不会消失——市场永远在为\"万一谈崩\"定价。",
+      "en": "Reuters (via Investing.com) reports the US and Iran are discussing a phased deal: Iran restores free passage through Hormuz in exchange for the US lifting its blockade and possibly unfreezing assets, with sequencing the core obstacle. Former envoy Dennis Ross puts the odds of a deal before the midterms at about 30%. In theory oil should fall, yet WTI rose 1.63% to $93.66 on Thursday. Until a deal is signed and the strait truly reopens, the risk premium stays — markets always price the chance talks collapse."
+    },
+    "dda": {
+      "zh": "消息与价格之间常有落差。定期定额不用等\"消息确定\"，照计划执行即可。",
+      "en": "News and prices often diverge. Regular investing doesn't wait for certainty — it just follows the plan."
+    },
+    "lump": {
+      "zh": "在协议落地前，单笔投入不宜押注\"和谈一定成功\"。分散与分段是更稳妥的做法。",
+      "en": "Before any deal is done, don't bet a lump sum on talks succeeding. Diversifying and phasing in is steadier."
+    },
+    "prs": {
+      "zh": "这是一堂\"消息与价格\"的课：退休投资看的是长期结果，而不是追着每一则新闻调整。",
+      "en": "A lesson in news versus price: retirement investing is about long-term outcomes, not reacting to every headline."
+    },
+    "source": { "name": "Investing.com", "url": "https://www.investing.com/news/commodities-news/us-and-iran-discuss-phased-deal-to-reopen-hormuz-and-end-us-blockade-sources-say-4915884" }
+  },
+  {
+    "id": "2026-09-25-m3",
+    "time": "2026-09-25T09:00:00+08:00",
+    "brief": "2026-09-25-morning.html",
+    "tags": ["my"],
+    "title": {
+      "zh": "全球收益率飙升下，令吉逆势走强至4.0690",
+      "en": "The ringgit firms to 4.0690 despite the global yield spike"
+    },
+    "analysis": {
+      "zh": "令吉周五上午报 USD/MYR 4.0690，较前一交易日走强0.37%。在美债收益率飙升、美元理应受益的背景下，令吉相对抗跌，反映市场对马来西亚基本面（包括国行维持稳定利率立场）仍有信心。KLCI 方面，白名单信源只能取得9月18日的验证收盘价1,665.56点，因此简报如实标注\"暂无更新\"，不做臆测。",
+      "en": "The ringgit traded at USD/MYR 4.0690 on Friday morning, 0.37% firmer than the previous session. Holding up while surging US yields would normally lift the dollar suggests continued confidence in Malaysia's fundamentals, including Bank Negara's steady rate stance. For the KLCI, whitelisted sources only had the verified Sept 18 close of 1,665.56, so the brief flagged \"no update\" rather than guessing."
+    },
+    "dda": {
+      "zh": "汇率与股市的短期变化难以预测，定期定额能平滑这些波动对成本的影响。",
+      "en": "Short-term currency and stock moves are hard to predict; regular investing smooths their effect on your cost."
+    },
+    "lump": {
+      "zh": "令吉走强时，投资海外资产换算的成本较低，但回报换算回令吉也会受影响。单笔配置时可兼顾两者。",
+      "en": "A stronger ringgit makes overseas assets cheaper to buy but can trim returns converted back. Weigh both in a lump-sum decision."
+    },
+    "prs": {
+      "zh": "退休后的开销以令吉为主。PRS 组合保持足够的令吉资产，并适度分散到海外。",
+      "en": "Retirement spending is mostly in ringgit. Keep enough ringgit assets in your PRS mix, with sensible overseas diversification."
+    },
+    "source": { "name": "FX168", "url": "https://www.fx168news.com/quote/MYR" }
+  }
+]

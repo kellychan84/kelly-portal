@@ -1,0 +1,83 @@
+[
+  {
+    "id": "2026-09-21-m1",
+    "time": "2026-09-21T09:00:00+08:00",
+    "brief": "2026-09-21-morning.html",
+    "tags": ["my", "prs"],
+    "title": {
+      "zh": "KLCI 月内跌3.80%，但过去12个月仍涨4.21%：短期承压、长期有支撑",
+      "en": "KLCI down 3.80% on the month but still up 4.21% over a year: short-term pressure, long-term support"
+    },
+    "analysis": {
+      "zh": "Trading Economics 数据显示，富时大马综指最新收报1,666点，单日跌0.55%，月内累跌3.80%，但过去12个月仍上涨4.21%。美元兑令吉报4.0821，单日走弱0.40%，但一年来令吉走强2.93%。本地市场呈现\"短期承压、长期仍有支撑\"的格局，与全球在联储10月议息前的观望气氛一致。用一个月的表现来判断一个市场，就像用一场雨来判断一个季节。",
+      "en": "Trading Economics shows the KLCI last closed at 1,666, down 0.55% on the day and 3.80% for the month, yet still up 4.21% over 12 months. USD/MYR was 4.0821 — the ringgit weaker 0.40% on the day but 2.93% stronger over the year. The local market shows short-term pressure with longer-term support, matching the global wait-and-see mood before the Fed's October meeting. Judging a market by one month is like judging a season by one rainy day."
+    },
+    "dda": {
+      "zh": "月度回调正是定期定额以较低价格累积单位的时候，按计划执行比猜底部更重要。",
+      "en": "A monthly pullback is when regular investing accumulates units at lower prices — sticking to the plan beats guessing the bottom."
+    },
+    "lump": {
+      "zh": "看一年的数据比看一个月更能反映趋势。单笔投入前，先确认资金的投资期限与用途。",
+      "en": "A year's data says more about the trend than a month's. Before a lump sum, be clear about its time horizon and purpose."
+    },
+    "prs": {
+      "zh": "PRS 是长期计划，短期波动不影响它的核心价值。持续供款并善用每年最高 RM3,000 税务减免。",
+      "en": "PRS is a long-term plan, and short-term swings don't change its core value. Keep contributing and use the up to RM3,000 annual tax relief."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/stock-market" }
+  },
+  {
+    "id": "2026-09-21-m2",
+    "time": "2026-09-21T09:00:00+08:00",
+    "brief": "2026-09-21-morning.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "iPhone 18 Pro 涨价100美元：AI抢走的内存，正反映在你手上的手机价格",
+      "en": "iPhone 18 Pro up $100: the memory AI is soaking up is showing up in your phone's price"
+    },
+    "analysis": {
+      "zh": "苹果新款 iPhone 18 Pro 系列涨价100美元，原因直指内存芯片供应紧张，部分机型交货期延长至3周。这与美光财报前瞻中\"内存供需吃紧\"的叙事互相印证：美光预估每股盈利31.16美元（去年同期3.03美元）。但同一份前瞻也提醒，营收环比增速指引已从74%放缓至21%，\"内存本质上是周期性的\"。AI基建的需求是真实的，周期也同样真实。",
+      "en": "Apple's iPhone 18 Pro lineup launched $100 higher, blamed directly on tight memory supply, with some models delayed up to three weeks. It echoes the memory-shortage story in Micron's earnings preview, where EPS is forecast at $31.16 versus $3.03 a year ago. But the same preview notes guided sequential revenue growth slowing from 74% to 21% — \"memory is inherently cyclical\". AI demand is real, and so is the cycle."
+    },
+    "dda": {
+      "zh": "周期性行业起伏大，定期定额能在高低点之间平均成本。",
+      "en": "Cyclical industries swing widely; regular investing averages your cost across highs and lows."
+    },
+    "lump": {
+      "zh": "景气高峰时进场的风险较高。单笔投入周期性主题，宜分段进行并控制比重。",
+      "en": "Buying at a cyclical peak carries more risk. Phase in and size any lump sum into cyclical themes carefully."
+    },
+    "prs": {
+      "zh": "退休组合适合以分散的全球或区域基金参与科技，而不是集中于单一周期行业。",
+      "en": "Retirement portfolios are better served by diversified global or regional funds for tech exposure than by one cyclical industry."
+    },
+    "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-18-dow-sp-500-nasdaq-080504071.html" }
+  },
+  {
+    "id": "2026-09-21-m3",
+    "time": "2026-09-21T09:00:00+08:00",
+    "brief": "2026-09-21-morning.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "胡塞武装打击范围深入沙特腹地，油价却连续第四日回落",
+      "en": "Houthis strike deep inside Saudi Arabia, yet oil eases for a fourth straight session"
+    },
+    "analysis": {
+      "zh": "胡塞武装9月19日宣称袭击利雅得\"敏感目标\"及延布的沙特阿美设施，距边境超过700英里，是本轮冲突以来最深入沙特的一次；美国驻中东九国使馆发布安全警示。然而布兰特原油报102.08美元（-1.72%），WTI 报98.39美元，连续第四日回落——伊朗据报已通过多哈向美方提交结束战争的条件。油价回落反映外交管道仍在运作，而非冲突已经降温。",
+      "en": "On Sept 19 the Houthis claimed strikes on \"sensitive sites\" in Riyadh and Aramco facilities in Yanbu — over 700 miles from the border, their deepest reach into Saudi Arabia in this conflict — and US embassies in nine Middle East countries issued security alerts. Yet Brent fell to $102.08 (-1.72%) and WTI to $98.39, a fourth straight decline, as Iran reportedly sent war-ending conditions to Washington via Doha. The dip reflects diplomacy still working, not a cooling conflict."
+    },
+    "dda": {
+      "zh": "利多利空并存的市场，最考验情绪。定期定额帮你把决定交给纪律，而不是新闻。",
+      "en": "When good and bad news coexist, emotions are tested most. Regular investing hands decisions to discipline, not headlines."
+    },
+    "lump": {
+      "zh": "局势未明时，单笔资金可以先安排在较稳健的资产，再分阶段配置到风险资产。",
+      "en": "While the picture is unclear, a lump sum can start in steadier assets and move into riskier ones in stages."
+    },
+    "prs": {
+      "zh": "退休计划不应随每周的战事新闻调整。定期检视配置、维持供款，才是长期的关键。",
+      "en": "A retirement plan shouldn't change with each week's war news. Regular reviews and steady contributions are what count long term."
+    },
+    "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-of-hormuz-oil-houthis/" }
+  }
+]

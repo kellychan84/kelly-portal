@@ -1,0 +1,83 @@
+[
+  {
+    "id": "2026-09-23-m1",
+    "time": "2026-09-23T09:00:00+08:00",
+    "brief": "2026-09-23-morning.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "伊朗称一周内可重开霍尔木兹海峡，布兰特原油两周来首次跌破100美元",
+      "en": "Iran says it could reopen Hormuz within a week; Brent drops below $100 for the first time in two weeks"
+    },
+    "analysis": {
+      "zh": "据日本官方媒体报道，伊朗表示只要美国解除对伊朗港口的海上封锁，一周内就能重开霍尔木兹海峡；伊朗高层也要求美方把\"外交诚意\"正式化并订出时间表。同日，美伊代表团在联合国边会谈三小时，特朗普形容\"非常好\"。加上沙特输油管据报恢复运作，布兰特原油两周以来首次跌破100美元。但9月21日仍有两艘油轮遭不明发射物击中，现实依然复杂。",
+      "en": "Per Japanese state media, Iran said it could reopen the Strait of Hormuz within a week if the US lifts its naval blockade of Iranian ports, with a senior official asking Washington to formalise its diplomatic intent with a timeline. The same day, US and Iranian delegations met for three hours at the UN, which Trump called \"very good\". With Saudi Arabia's pipeline reportedly running again, Brent fell below $100 for the first time in two weeks. Yet two tankers were hit on Sept 21 — reality is still complicated."
+    },
+    "dda": {
+      "zh": "降温信号出现时，市场可能快速反应。定期定额让你不用判断这次缓和会不会持续。",
+      "en": "Markets react fast to de-escalation signals. Regular investing spares you from judging whether this calm will last."
+    },
+    "lump": {
+      "zh": "和谈进展与地缘风险并存时，单笔资金宜分散在不同资产与地区，分阶段进场。",
+      "en": "With talks progressing and risks still present, spread a lump sum across assets and regions and phase it in."
+    },
+    "prs": {
+      "zh": "油价跌破100美元有助控制通胀。长期退休组合维持均衡，才能在局势反复时保持稳定。",
+      "en": "Oil below $100 helps contain inflation. A balanced long-term retirement mix stays steady if the situation flips back."
+    },
+    "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-decision-tehran-warns-of-expansion/" }
+  },
+  {
+    "id": "2026-09-23-m2",
+    "time": "2026-09-23T09:00:00+08:00",
+    "brief": "2026-09-23-morning.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "Meta 的 Muse AI 12天280万次下载，带动纳指再创历史新高",
+      "en": "Meta's Muse AI hits 2.8 million downloads in 12 days, lifting the Nasdaq to another record"
+    },
+    "analysis": {
+      "zh": "Meta 推出的AI代理 Muse 在12天内吸引280万次下载，股价周一大涨近12%，周二再涨约1.5%；Evercore ISI 形容\"Meta 这次真的做对了\"。\"科技七雄\"重回领涨，纳斯达克综合指数收报27,122.09点，再创新高。同时习近平将于9月23–25日访美，白宫科技晚宴邀请了 OpenAI、英伟达、高通的领导人——AI 阵营内部对安全议题的分歧，也可能被带上饭桌。",
+      "en": "Meta's AI agent Muse drew 2.8 million downloads in 12 days, sending the stock up nearly 12% on Monday and about 1.5% more on Tuesday; Evercore ISI said Meta \"has a hit on its hands\". The Magnificent Seven led again, and the Nasdaq Composite closed at a record 27,122.09. Meanwhile Xi Jinping visits the US Sept 23–25, with OpenAI, Nvidia and Qualcomm leaders invited to a White House tech dinner — where the AI camp's own split over safety may surface."
+    },
+    "dda": {
+      "zh": "热门应用带动的涨势来得快，也可能去得快。定期定额让你参与成长而不必追逐热点。",
+      "en": "Rallies driven by hit products can fade as fast as they come. Regular investing lets you share in growth without chasing hype."
+    },
+    "lump": {
+      "zh": "单一公司的爆发不宜直接变成单笔重注。通过分散的科技或全球基金参与更为稳妥。",
+      "en": "One company's breakout shouldn't become one big bet. Participating through diversified tech or global funds is steadier."
+    },
+    "prs": {
+      "zh": "退休组合可以包含科技成长，但比重需要控制，并定期再平衡。",
+      "en": "Retirement portfolios can include tech growth, but keep the weighting in check and rebalance regularly."
+    },
+    "source": { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-22-2026" }
+  },
+  {
+    "id": "2026-09-23-m3",
+    "time": "2026-09-23T09:00:00+08:00",
+    "brief": "2026-09-23-morning.html",
+    "tags": ["my", "fed"],
+    "title": {
+      "zh": "富时大马综指收高0.99%至1,683.50点；里士满联储：供应冲击\"并非短暂\"",
+      "en": "KLCI closes up 0.99% at 1,683.50; Richmond Fed says supply shocks \"aren't proving short-lived\""
+    },
+    "analysis": {
+      "zh": "Trading Economics 数据显示，富时大马综指9月22日收报1,683.50点，大涨0.99%，年内仍上涨4.99%；令吉报4.0756，略为走强。油价大跌与中东局势降温，对依赖进口能源的马来西亚是正面消息。但联储方面，10月加息概率升至57.4%，里士满联储主席巴尔金表示近期供应冲击\"并非短暂现象\"，暗示紧缩可能尚未结束。",
+      "en": "Trading Economics shows the KLCI closed Sept 22 at 1,683.50, up 0.99% and still 4.99% higher over the year, with the ringgit edging firmer at 4.0756. Sharply lower oil and Middle East de-escalation are good news for energy-importing Malaysia. On the Fed side, October hike odds rose to 57.4%, and Richmond Fed President Barkin said recent supply shocks \"aren't proving to be short-lived\", hinting that tightening may not be over."
+    },
+    "dda": {
+      "zh": "本地市场有好消息、美国利率仍有压力——这种拉扯正是定期定额平均成本的好时机。",
+      "en": "Good news locally, rate pressure in the US — this tug of war is a good setting for regular investing to average your cost."
+    },
+    "lump": {
+      "zh": "单笔配置时可以同时考虑本地与海外市场，两者对油价和利率的反应并不相同。",
+      "en": "For a lump sum, consider both local and overseas markets — they react differently to oil and rates."
+    },
+    "prs": {
+      "zh": "本地资产能为退休组合提供令吉收益来源。持续 PRS 供款，每年最高可享 RM3,000 税务减免。",
+      "en": "Local assets give a retirement portfolio ringgit-based returns. Keep contributing to PRS, with up to RM3,000 in annual tax relief."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/stock-market" }
+  }
+]

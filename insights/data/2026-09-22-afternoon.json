@@ -1,0 +1,56 @@
+[
+  {
+    "id": "2026-09-22-a1",
+    "time": "2026-09-22T17:00:00+08:00",
+    "brief": "2026-09-22-afternoon.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "油价加速回落，WTI跌至约90美元；摩根大通策略师：已放弃预测这场石油战何时结束",
+      "en": "Oil slides faster as WTI drops to about $90; a JPMorgan strategist has \"given up\" predicting when the oil war ends"
+    },
+    "analysis": {
+      "zh": "Trading Economics 数据显示，WTI 原油大跌2.31%至90.23美元，布兰特原油下滑1.55%至98.78美元，反映沙特管道修复进度与外交乐观情绪。但 TheStreet 报道，一位摩根大通策略师坦言已放弃预测这场石油战何时结束——即使油价走软，地缘不确定性仍未消散。油价若能持续回落，将有助缓解通胀，是本周少有的喘息空间。",
+      "en": "Trading Economics shows WTI down 2.31% at $90.23 and Brent down 1.55% at $98.78, reflecting progress on Saudi pipeline repairs and diplomatic optimism. But TheStreet reports a JPMorgan strategist admitting he has given up predicting when this oil war will end — the uncertainty hasn't gone away even as prices soften. If the decline holds, it eases inflation pressure, a rare breather this week."
+    },
+    "dda": {
+      "zh": "连专业策略师都不再预测时，定期定额\"不预测、只执行\"的方式更显实用。",
+      "en": "When even professional strategists stop forecasting, regular investing's \"don't predict, just execute\" approach looks all the more practical."
+    },
+    "lump": {
+      "zh": "油价下跌对不同资产影响不同。单笔配置前，先了解组合中哪些资产对能源价格敏感。",
+      "en": "Falling oil affects assets differently. Before a lump sum, know which holdings in your portfolio are sensitive to energy prices."
+    },
+    "prs": {
+      "zh": "通胀压力放缓对退休族的购买力有利，但退休规划仍应以长期平均通胀来估算。",
+      "en": "Easing inflation helps retirees' purchasing power, but retirement plans should still be built on long-run average inflation."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil" }
+  },
+  {
+    "id": "2026-09-22-a2",
+    "time": "2026-09-22T17:00:00+08:00",
+    "brief": "2026-09-22-afternoon.html",
+    "tags": ["fed", "my"],
+    "title": {
+      "zh": "联储10月加息概率回升至59.7%：决策仍高度依赖每周数据",
+      "en": "Fed October hike odds bounce back to 59.7%: decisions still hinge on week-to-week data"
+    },
+    "analysis": {
+      "zh": "Investing.com 的 Fed Rate Monitor 显示，市场对10月28日加息25个基点的概率回升至59.7%，高于早上的57.4%，维持不变为40.3%。这种\"来回摆动\"再次说明，联储决策高度依赖每周数据，而不是单向趋势。令吉方面，美元兑令吉小幅走软至4.0756，与油价走弱的大背景相符。",
+      "en": "Investing.com's Fed Rate Monitor shows odds of a 25bp hike on Oct 28 back up to 59.7% from 57.4% this morning, with 40.3% for a hold. The back-and-forth confirms the Fed is data-dependent week to week rather than on a one-way path. USD/MYR eased slightly to 4.0756, consistent with softer oil."
+    },
+    "dda": {
+      "zh": "预期每天摆动，定期定额让你不需要跟着每一次数字调整计划。",
+      "en": "Expectations swing daily; regular investing means you don't need to adjust your plan with every number."
+    },
+    "lump": {
+      "zh": "数据驱动的市场波动较频繁。单笔投入可以设定分段时间表，减少单一数据公布的影响。",
+      "en": "Data-driven markets move often. A lump sum can follow a staged schedule to reduce the impact of any single data release."
+    },
+    "prs": {
+      "zh": "对退休储蓄来说，与其追踪每周利率概率，不如确保股、债、现金比例符合自己的年龄与目标。",
+      "en": "For retirement savings, rather than tracking weekly rate odds, make sure your equity–bond–cash mix fits your age and goals."
+    },
+    "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
+  }
+]

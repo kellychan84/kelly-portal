@@ -1,0 +1,56 @@
+[
+  {
+    "id": "2026-09-25-a1",
+    "time": "2026-09-25T17:00:00+08:00",
+    "brief": "2026-09-25-afternoon.html",
+    "tags": ["fed"],
+    "title": {
+      "zh": "加息押注不退反升：10月加息概率升至75.8%，创本周新高",
+      "en": "Hike bets keep climbing: October odds reach 75.8%, a weekly high"
+    },
+    "analysis": {
+      "zh": "早上提到10月28日会议的加息概率是73.5%，到下午 Investing.com 的数据已升至75.8%，只剩24.2%押注按兵不动。这呼应了美联储理事 Barr 所说\"政策还需要进一步调整\"——市场是真的听进去了。10年期国债收益率仍稳稳站在2007年以来的高点附近，没有回落迹象。",
+      "en": "This morning's 73.5% odds for an Oct 28 hike rose to 75.8% by the afternoon on Investing.com, with only 24.2% still betting on a hold. It echoes Fed Governor Barr's view that \"further policy adjustments\" are needed — markets clearly took it on board. The 10-year yield remains near its highest since 2007, with no sign of easing."
+    },
+    "dda": {
+      "zh": "加息预期升温时，股债都可能承压。定期定额让你在这段时间持续以较低成本累积。",
+      "en": "Rising hike expectations can weigh on both stocks and bonds. Regular investing keeps accumulating at lower cost through the stretch."
+    },
+    "lump": {
+      "zh": "高利率环境对现金与短期工具有利。单笔资金可按用途区分：短期需要的放稳健工具，长期资金再分阶段投资。",
+      "en": "High rates favour cash and short-term tools. Split a lump sum by purpose: near-term needs in steady instruments, long-term money invested in stages."
+    },
+    "prs": {
+      "zh": "利率周期会过去，退休计划却要持续几十年。维持供款，比等待\"利率见顶\"更重要。",
+      "en": "Rate cycles pass; retirement plans run for decades. Staying consistent with contributions matters more than waiting for rates to peak."
+    },
+    "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
+  },
+  {
+    "id": "2026-09-25-a2",
+    "time": "2026-09-25T17:00:00+08:00",
+    "brief": "2026-09-25-afternoon.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "被亚马逊挡在门外后，Meta 的 Muse 转身牵手沃尔玛、Sephora、Best Buy",
+      "en": "Blocked by Amazon, Meta's Muse teams up with Walmart, Sephora and Best Buy instead"
+    },
+    "analysis": {
+      "zh": "亚马逊以\"平台代理访问规则\"为由，把 Meta 的AI购物助手 Muse 挡在门外。扎克伯格9月24日回应：Muse 将继续对多数用户免费（未来靠交易抽成盈利），并官宣沃尔玛、Best Buy、Sephora、Gap、Wayfair 等零售伙伴，连 Expedia 和 Instacart 也加入。摩根大通分析师认为，Muse 有可能成为 ChatGPT 之后最多人用的消费级AI应用。\"谁掌控AI购物入口\"的较量，才刚进入下半场。",
+      "en": "Amazon blocked Meta's AI shopping agent Muse, citing its agent-access rules. On Sept 24 Zuckerberg responded: Muse stays free for most users (earning via transaction fees later) and signed retail partners including Walmart, Best Buy, Sephora, Gap and Wayfair, plus Expedia and Instacart. JPMorgan analysts think Muse could become the most-used consumer AI app after ChatGPT. The fight over who controls the AI shopping gateway is just entering its second half."
+    },
+    "dda": {
+      "zh": "科技巨头之间的竞争会带来赢家与输家。通过基金定期投入，可以分享产业成长而不必猜谁胜出。",
+      "en": "Big Tech rivalries create winners and losers. Investing regularly through funds shares in industry growth without picking the winner."
+    },
+    "lump": {
+      "zh": "竞争格局未明时，单笔押注单一公司风险较高。分散的主题或全球基金是更稳妥的选择。",
+      "en": "While the competitive picture is unclear, betting a lump sum on one company is risky. Diversified theme or global funds are steadier."
+    },
+    "prs": {
+      "zh": "AI 改变消费模式是长期趋势，退休组合可以适度参与，但仍以分散为本。",
+      "en": "AI reshaping consumption is a long-term trend; retirement portfolios can take part modestly, with diversification as the base."
+    },
+    "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/09/61963074/mark-zuckerberg-muse-free-walmart-sephora-best-buy-ai-shopping" }
+  }
+]

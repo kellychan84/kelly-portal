@@ -1,0 +1,56 @@
+[
+  {
+    "id": "2026-09-18-a1",
+    "time": "2026-09-18T17:00:00+08:00",
+    "brief": "2026-09-18-afternoon.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "WTI 逼近跌破100美元，但霍尔木兹海峡再有油轮被拦截",
+      "en": "WTI slides toward $100 — yet another tanker is stopped in the Strait of Hormuz"
+    },
+    "analysis": {
+      "zh": "布兰特原油降至102.74美元（-1.99%），WTI 跌至100.02美元（-1.85%），连续第三天走低；沙特以\"穿梭船\"改道运油，管道预计几天内恢复约一半产能。但同日伊朗革命卫队在霍尔木兹海峡拦截一艘多哥籍油轮，特朗普也改口称面临\"重大决定\"、\"什么都有可能发生\"。运输路线的技术性缓解，并不等于核心冲突已解。",
+      "en": "Brent fell to $102.74 (-1.99%) and WTI to $100.02 (-1.85%), a third straight decline, as Saudi Aramco reroutes crude via shuttle vessels and expects the pipeline back to about half capacity within days. Yet the same day, Iran's IRGC stopped a Togo-flagged tanker in the Strait of Hormuz, and Trump said he faces a \"big decision\" and \"anything could happen\". A technical fix to shipping routes isn't a resolution of the core conflict."
+    },
+    "dda": {
+      "zh": "好消息与坏消息同一天出现时，定期定额能帮你避免被其中一则牵着走。",
+      "en": "When good and bad news land on the same day, regular investing keeps you from being pulled by either."
+    },
+    "lump": {
+      "zh": "地缘风险仍在时，单笔配置宜分散地区与资产类别，不要把节奏押在单一消息上。",
+      "en": "With geopolitical risk still live, spread a lump sum across regions and asset classes rather than timing it on one headline."
+    },
+    "prs": {
+      "zh": "退休计划要经得起各种新闻周期。定期检视、少做冲动调整，是长期最有效的做法。",
+      "en": "A retirement plan has to outlast many news cycles. Regular reviews and fewer impulsive changes work best over the long run."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil" }
+  },
+  {
+    "id": "2026-09-18-a2",
+    "time": "2026-09-18T17:00:00+08:00",
+    "brief": "2026-09-18-afternoon.html",
+    "tags": ["fed"],
+    "title": {
+      "zh": "10月28日议息：加息概率从上午55.1%升至57.4%",
+      "en": "Oct 28 Fed meeting: hike odds rise to 57.4% from this morning's 55.1%"
+    },
+    "analysis": {
+      "zh": "Investing.com 的 Fed Rate Monitor 显示，市场对10月28日加息至4.00%–4.25%的概率从上午的55.1%升到57.4%，维持利率的概率降至42.6%。美联储9月16日才刚加息25个基点，市场对\"年内不止一次\"的预期在一天内又强化了。若趋势持续，定存与货币市场类产品收益可能维持高位更久，股票与固定收益资产的估值压力也不会很快消退。",
+      "en": "Investing.com's Fed Rate Monitor shows odds of an Oct 28 hike to 4.00%–4.25% rising from 55.1% this morning to 57.4%, with hold odds down to 42.6%. Just days after the Sept 16 hike, expectations of more than one hike this year strengthened again. If it continues, deposit and money-market yields may stay high for longer, while valuation pressure on stocks and bonds won't fade quickly."
+    },
+    "dda": {
+      "zh": "估值承压的时期，正是定期定额以较低成本累积单位的阶段。",
+      "en": "Periods of valuation pressure are when regular investing accumulates units at lower cost."
+    },
+    "lump": {
+      "zh": "高利率环境下，短期资金可以考虑货币市场类工具；长期资金则按目标分配，不必全部等待。",
+      "en": "With rates high, short-term money can sit in money-market-type tools, while long-term money can be allocated to goals rather than all waiting on the sidelines."
+    },
+    "prs": {
+      "zh": "利率预期每天都在变，退休组合的股、债、现金比例应以年龄与目标为准，而不是每日新闻。",
+      "en": "Rate expectations change daily; a retirement mix of equities, bonds and cash should follow your age and goals, not the daily news."
+    },
+    "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
+  }
+]

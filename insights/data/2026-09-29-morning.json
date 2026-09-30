@@ -1,0 +1,83 @@
+[
+  {
+    "id": "2026-09-29-m1",
+    "time": "2026-09-29T09:00:00+08:00",
+    "brief": "2026-09-29-morning.html",
+    "tags": ["fed"],
+    "title": {
+      "zh": "美股收黑，10年期收益率触及5.24%创19年高点；高盛：估值泡沫正被慢慢挤出",
+      "en": "Stocks fall as the 10-year yield hits 5.24%, a 19-year high; Goldman: valuation froth is being squeezed out"
+    },
+    "analysis": {
+      "zh": "9月28日道指跌0.67%、标普500跌0.77%、纳指跌0.92%，主因是10年期美债收益率升至5.24%，创2007年以来新高，30年期触及5.56%。市场同时把10月加息机率推高至72.3%，理事 Barr 表示\"仍需进一步的政策调整\"。高盛策略师 Ben Snider 指出，标普500远期本益比已从22倍降至19倍，回到十年均值水平——估值的\"泡沫\"正随着利率上升被慢慢挤出。",
+      "en": "On Sept 28 the Dow fell 0.67%, the S&P 500 0.77% and the Nasdaq 0.92% as the 10-year yield rose to 5.24%, its highest since 2007, and the 30-year hit 5.56%. October hike odds rose to 72.3%, with Governor Barr saying further policy adjustment is needed. Goldman's Ben Snider notes the S&P 500 forward P/E has fallen from 22x to 19x, back to its ten-year average — froth being squeezed out as rates rise."
+    },
+    "dda": {
+      "zh": "估值回到长期均值附近时，定期定额能以更合理的价格持续累积。",
+      "en": "With valuations back near long-term averages, regular investing keeps accumulating at more reasonable prices."
+    },
+    "lump": {
+      "zh": "估值下修让进场条件更合理，但利率仍可能再升。单笔投入宜分段，而非一次到位。",
+      "en": "Lower valuations make entry more reasonable, but rates could rise further. Phase a lump sum in rather than all at once."
+    },
+    "prs": {
+      "zh": "估值回归常态是健康的调整。退休组合持续供款，能在这段时间以较合理的价格累积资产。",
+      "en": "Valuations normalising is a healthy adjustment. Steady retirement contributions build assets at fairer prices through it."
+    },
+    "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-28-dow-sp-500-nasdaq-080420627.html" }
+  },
+  {
+    "id": "2026-09-29-m2",
+    "time": "2026-09-29T09:00:00+08:00",
+    "brief": "2026-09-29-morning.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "英伟达加码回购至2,350亿美元，同步推出AI安全\"急煞车\"系统",
+      "en": "Nvidia lifts its buyback to $235 billion and launches an AI safety \"emergency brake\""
+    },
+    "analysis": {
+      "zh": "英伟达董事会批准回购计划再加码1,500亿美元，累计授权达2,350亿美元。黄仁勋表示，现金创造能力让公司\"既能投资推动变革的技术，也能回馈股东\"。同日英伟达发布\"Open Agent Safety Platform\"，可在AI代理逾越设定边界时于毫秒级\"隔离并叫停\"。这项发布正值一起AI模型\"逃逸\"沙盒的安全事件引发担忧之际。周二亚太股市分化，韩股重挫2.70%，恒指则逆势上涨0.54%。",
+      "en": "Nvidia's board approved a $150 billion increase to its buyback, bringing the total to $235 billion. Jensen Huang said cash generation lets the company both invest in transformative technology and return capital to shareholders. The same day it launched its Open Agent Safety Platform, able to isolate and halt AI agents within milliseconds if they cross set boundaries — amid concern over an AI model escaping its sandbox. Asia was mixed on Tuesday: the Kospi fell 2.70% while the Hang Seng rose 0.54%."
+    },
+    "dda": {
+      "zh": "AI 安全疑虑可能带来短期波动，定期定额能在情绪起伏中持续累积。",
+      "en": "AI safety worries can cause short-term swings; regular investing keeps accumulating through the mood changes."
+    },
+    "lump": {
+      "zh": "大型回购显示现金流强劲，但不代表股价不会波动。单笔投入科技主题仍宜控制比重。",
+      "en": "Big buybacks show strong cash flow, but don't stop prices swinging. Keep lump sums into tech themes appropriately sized."
+    },
+    "prs": {
+      "zh": "今天韩股跌、港股涨，说明区域分散的重要。退休组合不宜集中于单一市场。",
+      "en": "Korea down, Hong Kong up on the same day shows why regional diversification matters. Don't concentrate retirement savings in one market."
+    },
+    "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-upsizes-share-buyback-program-124458222.html" }
+  },
+  {
+    "id": "2026-09-29-m3",
+    "time": "2026-09-29T09:00:00+08:00",
+    "brief": "2026-09-29-morning.html",
+    "tags": ["my", "prs"],
+    "title": {
+      "zh": "富时大马综指企稳1,670点，年内仍涨3.67%；令吉本月贬值1.38%",
+      "en": "KLCI steadies near 1,670, still up 3.67% this year; the ringgit is down 1.38% for the month"
+    },
+    "analysis": {
+      "zh": "富时大马综指9月28日收报1,670点，单日跌0.10%，本月累跌1.79%，全年仍上涨3.67%。Trading Economics 预测季末约1,670点，12个月目标看至1,569点，反映短线偏审慎。令吉报4.0813，本月贬值1.38%，但过去一年仍升值3.17%；预测显示令吉季末可能回到约4.07，一年内有望升至4.00附近。",
+      "en": "The KLCI closed Sept 28 at 1,670, down 0.10% on the day and 1.79% for the month, still up 3.67% for the year. Trading Economics forecasts about 1,670 by quarter-end and 1,569 over 12 months — a cautious near-term view. The ringgit was at 4.0813, down 1.38% for the month but up 3.17% over the year, with forecasts pointing to about 4.07 by quarter-end and near 4.00 within a year."
+    },
+    "dda": {
+      "zh": "预测偏审慎的阶段，定期定额可以在较低位置持续累积，而不必等\"确定好转\"。",
+      "en": "When forecasts are cautious, regular investing keeps accumulating at lower levels instead of waiting for a clear upturn."
+    },
+    "lump": {
+      "zh": "预测只是参考，未来走势仍有变数。单笔配置本地资产时，宜与海外资产平衡，并分段进行。",
+      "en": "Forecasts are only a guide and can be wrong. Balance lump sums into local assets with overseas ones, and phase them in."
+    },
+    "prs": {
+      "zh": "PRS 是长期计划，短期预测不影响它的核心价值。持续供款，并善用每年最高 RM3,000 税务减免。",
+      "en": "PRS is a long-term plan; short-term forecasts don't change its core value. Keep contributing and use the up to RM3,000 annual tax relief."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/stock-market" }
+  }
+]

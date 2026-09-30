@@ -1,0 +1,56 @@
+[
+  {
+    "id": "2026-09-29-a1",
+    "time": "2026-09-29T17:00:00+08:00",
+    "brief": "2026-09-29-afternoon.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "伊朗外长会晤卡塔尔调解人，美方称谈判\"积极且具建设性\"，但时序分歧仍在",
+      "en": "Iran's FM meets Qatari mediators; the US calls talks \"positive and constructive\", but sequencing gaps remain"
+    },
+    "analysis": {
+      "zh": "伊朗外长阿拉格齐周一在纽约与卡塔尔调解人会面，讨论重开霍尔木兹海峡，随后离开纽约，表示\"卡塔尔知道如何联系我\"。美方官员形容谈判\"积极且具建设性\"，伊朗在核问题上展现一定弹性，但承诺的先后顺序仍有分歧；特朗普则否认曾提出解除制裁。WTI 原油报92.81美元，较早上略回软——沙特东西管道已恢复运作，抵消了部分担忧。这不是突破，但语气比上周末缓和。",
+      "en": "Iranian FM Araghchi met Qatari mediators in New York on Monday about reopening Hormuz, then left, saying \"Qatar knows how to reach me\". A US official called the talks \"positive and constructive\", noting some Iranian flexibility on the nuclear issue, though sequencing remains disputed; Trump denied offering sanctions relief. WTI eased slightly to $92.81 as Saudi Arabia's East-West pipeline resumed operations. Not a breakthrough, but the tone is softer than last weekend."
+    },
+    "dda": {
+      "zh": "语气缓和不等于问题解决。定期定额让你在局势未明时也能稳步前进。",
+      "en": "A softer tone isn't a solution. Regular investing lets you keep moving forward while things remain unclear."
+    },
+    "lump": {
+      "zh": "在谈判结果明朗前，单笔资金宜均衡配置，避免押注单一情景。",
+      "en": "Until talks resolve, keep lump sums balanced rather than betting on one scenario."
+    },
+    "prs": {
+      "zh": "局势时紧时松，退休计划更需要稳定的纪律：定期供款、定期检视。",
+      "en": "As tensions rise and ease, retirement plans need steady discipline: regular contributions and regular reviews."
+    },
+    "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/9/29/irans-araghchi-meets-qatari-mediators-as-us-insists-on-nuclear-talks" }
+  },
+  {
+    "id": "2026-09-29-a2",
+    "time": "2026-09-29T17:00:00+08:00",
+    "brief": "2026-09-29-afternoon.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "美光财报最后倒数：分析师预期营收增长353%，共识目标价约1,515美元",
+      "en": "Micron's final countdown: analysts expect 353% revenue growth and a consensus target near $1,515"
+    },
+    "analysis": {
+      "zh": "Yahoo Finance 汇总显示，分析师预期美光第四财季营收增长353%至512.4亿美元，为有记录以来最高增速；调整后每股盈利预期增长943%至31.59美元。华尔街共识目标价1,515.54美元，富国银行与花旗分别上调至1,525美元与1,300美元。美光股价年内已上涨279%。期待值已经很高，这本身也意味着\"利多出尽\"的风险不能排除。",
+      "en": "Yahoo Finance's compilation shows analysts expecting Micron's fiscal Q4 revenue to jump 353% to $51.24B, the fastest growth on record, with adjusted EPS up 943% to $31.59. The consensus target is $1,515.54, with Wells Fargo at $1,525 and Citi at $1,300. The stock is already up 279% this year. Expectations are high, which itself means \"priced for perfection\" risk can't be ruled out."
+    },
+    "dda": {
+      "zh": "高期待的财报前后波动通常较大。定期定额能帮你平滑这种事件带来的起伏。",
+      "en": "Earnings with sky-high expectations tend to bring big swings. Regular investing smooths event-driven ups and downs."
+    },
+    "lump": {
+      "zh": "年内已大涨、期待又高的标的，单笔追入风险较高。宜分段进行并控制比重。",
+      "en": "For names already up sharply with high expectations, chasing with a lump sum is risky. Phase in and keep the size in check."
+    },
+    "prs": {
+      "zh": "退休资产不宜押注单一财报。通过分散基金参与科技成长，更符合长期目标。",
+      "en": "Retirement money shouldn't ride on one earnings report. Participating in tech growth through diversified funds fits long-term goals better."
+    },
+    "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/micron-earnings-preview-analysts-see-022234081.html" }
+  }
+]
