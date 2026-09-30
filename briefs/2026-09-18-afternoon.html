@@ -1,0 +1,273 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Sep 18 Afternoon Check</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --gold:#9A7B3E;--gold-light:#C4A05A;--gold-bg:#FBF7EE;
+  --border:#EDE8DE;--text:#1A1A1A;--muted:#6B6560;--muted2:#9A9590;
+  --up:#1A6B3C;--up-bg:#EDF7F1;--dn:#B02020;--dn-bg:#FEF2F2;
+  --amber:#8A5A00;--amber-bg:#FEF9EC;--blue:#1A5FA8;--blue-bg:#EBF5FB;
+  --teal:#0F6B5A;--teal-bg:#E8F8F5;--pur:#4A1FA8;--pur-bg:#F0EDFD;
+  --surface:#FFFFFF;--page:#F8F6F1;
+}
+body{background:var(--page);color:var(--text);font-family:'DM Sans',sans-serif;font-weight:300;font-size:16px;line-height:1.65;}
+.container{max-width:820px;margin:0 auto;padding:2rem 1.4rem 4rem;}
+.mast{text-align:center;padding:2rem 0;border-bottom:1px solid var(--border);margin-bottom:1.5rem;}
+.mast::before{content:'';display:block;width:40px;height:2px;background:var(--gold);margin:0 auto 1.25rem;}
+.mast-eye{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem;}
+.mast-title{font-family:'Playfair Display',serif;font-size:28px;font-weight:600;margin-bottom:.25rem;}
+.mast-sub{font-size:14px;color:var(--muted);}
+.mast-date{font-size:13px;color:var(--gold);margin-top:.4rem;}
+.alert{border-radius:8px;padding:.85rem 1.1rem;margin-bottom:.7rem;display:flex;align-items:flex-start;gap:10px;font-size:14px;line-height:1.55;}
+.a-amber{background:var(--amber-bg);border:.5px solid #E8C87A;color:var(--amber);}
+.a-green{background:var(--up-bg);border:.5px solid #B8DFC8;color:var(--up);}
+.a-red{background:var(--dn-bg);border:.5px solid #F5C6C6;color:var(--dn);}
+.a-blue{background:var(--blue-bg);border:.5px solid #A8C8E8;color:var(--blue);}
+.alert-icon{font-size:18px;flex-shrink:0;margin-top:1px;}
+.alert strong{font-weight:500;}
+.alert span{display:block;margin-top:3px;font-size:12.5px;opacity:.85;}
+.lang-row{display:flex;gap:6px;justify-content:center;margin:1.2rem 0 1.4rem;}
+.lb{padding:5px 18px;font-size:13px;border-radius:4px;cursor:pointer;border:.5px solid var(--border);background:transparent;color:var(--muted);font-family:'DM Sans',sans-serif;transition:all .15s;}
+.lb:hover{border-color:var(--gold);color:var(--gold);}
+.lb.active{background:var(--gold);color:#fff;border-color:var(--gold);font-weight:500;}
+.sl{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:.9rem;display:flex;align-items:center;gap:10px;font-weight:500;}
+.sl::after{content:'';flex:1;height:.5px;background:var(--border);}
+.sec{margin-bottom:1.75rem;}
+.nc{background:var(--surface);border:.5px solid var(--border);border-radius:8px;padding:1rem 1.2rem;margin-bottom:9px;}
+.ntop{display:flex;align-items:center;gap:7px;margin-bottom:8px;flex-wrap:wrap;}
+.badge{font-size:11px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;padding:2px 9px;border-radius:4px;}
+.br{background:var(--dn-bg);color:var(--dn);}
+.ba{background:var(--amber-bg);color:var(--amber);}
+.bg2{background:var(--up-bg);color:var(--up);}
+.bb{background:var(--blue-bg);color:var(--blue);}
+.nsrc{font-size:12px;color:var(--muted2);}
+.nhz{font-family:'Playfair Display',serif;font-size:17px;font-weight:600;margin-bottom:4px;line-height:1.4;}
+.nhe{font-size:14px;font-style:italic;margin-bottom:7px;line-height:1.4;color:var(--muted);}
+.nb{font-size:15px;color:#444;line-height:1.65;margin-bottom:4px;}
+.nb.en{color:var(--muted);font-size:14px;}
+.rm{display:inline-flex;align-items:center;gap:3px;font-size:12px;color:var(--gold);text-decoration:none;margin-top:8px;border-bottom:.5px solid rgba(154,123,62,.35);padding-bottom:1px;}
+.rm:hover{color:var(--gold-light);}
+.tri{margin-top:10px;padding-top:10px;border-top:1px dashed var(--border);display:flex;flex-direction:column;gap:5px;}
+.tri-item{font-size:12.5px;line-height:1.55;color:var(--muted);}
+.tri-item b{color:var(--text);font-weight:500;}
+.scorecard{background:var(--surface);border:.5px solid var(--border);border-radius:8px;padding:1rem 1.2rem;margin-bottom:1rem;}
+.sc-title{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:.8rem;}
+.sc-row{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;}
+.sc-item{background:var(--page);border-radius:6px;padding:.6rem .8rem;}
+.sc-label{font-size:11px;color:var(--muted2);text-transform:uppercase;letter-spacing:.07em;margin-bottom:3px;}
+.sc-val{font-family:'Playfair Display',serif;font-size:16px;font-weight:600;}
+.sc-sub{font-size:12px;color:var(--muted);margin-top:2px;}
+.up{color:var(--up);}.dn{color:var(--dn);}.nt{color:var(--amber);}
+.adv{border:.5px solid var(--gold-light);border-radius:8px;padding:1.2rem;background:var(--gold-bg);}
+.ah{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;font-weight:500;}
+.ai{font-size:15px;color:#444;margin-bottom:5px;padding-left:.9rem;border-left:2px solid var(--gold-light);line-height:1.65;}
+.ai.en{color:var(--muted);font-size:14px;margin-bottom:14px;}
+.ai-cat{font-size:13px;font-weight:500;color:var(--gold);margin:14px 0 4px;padding-left:.9rem;}
+hr.dv{border:none;border-top:.5px solid var(--border);margin:1.75rem 0;}
+.disc{margin-top:1.1rem;padding-top:1rem;border-top:.5px solid #E8DFC4;font-size:11.5px;line-height:1.6;color:var(--muted2);}
+.disc b{color:var(--amber);}
+@media (max-width:480px){
+  .sc-row{grid-template-columns:1fr 1fr;}
+  .mast-title{font-size:24px;}
+}
+</style>
+
+<div class="container">
+
+<div class="mast">
+  <div class="mast-eye">Kelly · 信托基金顾问 · Unit Trust Consultant</div>
+  <div class="mast-title">Afternoon Market Update</div>
+  <div class="mast-sub zh-t">今日新进展 · 自上午简报以来的变化</div>
+  <div class="mast-sub en-t">What's Developed Since This Morning's Brief</div>
+  <div class="mast-date">Friday, September 18, 2026 &nbsp;·&nbsp; 5:00 PM MYT</div>
+</div>
+
+<div class="alert a-amber">
+  <div class="alert-icon">📊</div>
+  <div>
+    <strong class="zh-t">Fed 10月28日加息概率升至57.4%,较上午再转鹰</strong>
+    <strong class="en-t">Fed Oct 28 hike odds climb to 57.4%, more hawkish than this morning</strong>
+    <span class="zh-t">Investing.com Fed Rate Monitor 数据,上午为55.1%</span>
+    <span class="en-t">Per Investing.com Fed Rate Monitor, up from 55.1% this morning</span>
+  </div>
+</div>
+<div class="alert a-green">
+  <div class="alert-icon">🛢️</div>
+  <div>
+    <strong class="zh-t">WTI跌破100美元,沙特管道修复消息带动油价连三日走低</strong>
+    <strong class="en-t">WTI dips below $100 as Saudi pipeline repair news drives a third day of declines</strong>
+    <span class="zh-t">Trading Economics 数据,较上午的101美元附近续跌</span>
+    <span class="en-t">Per Trading Economics, extending the slide from ~$101 this morning</span>
+  </div>
+</div>
+<div class="alert a-red">
+  <div class="alert-icon">🇮🇷</div>
+  <div>
+    <strong class="zh-t">伊朗驱逐瑞典外交官、IRGC拦截霍尔木兹油轮,特朗普语气转趋谨慎</strong>
+    <strong class="en-t">Iran expels Swedish diplomat, IRGC strikes Hormuz tanker as Trump's tone turns more cautious</strong>
+    <span class="zh-t">Al Jazeera 报道,与上午"战争接近尾声"的说法形成对比</span>
+    <span class="en-t">Per Al Jazeera, in tension with this morning's "war toward the end" claim</span>
+  </div>
+</div>
+
+<div class="lang-row">
+  <button class="lb active" onclick="setL('both')">双语 Both</button>
+  <button class="lb" onclick="setL('zh')">华语</button>
+  <button class="lb" onclick="setL('en')">English</button>
+</div>
+
+<div class="sec">
+  <div class="sl">📌 自上午简报以来 · Since This Morning</div>
+  <div class="scorecard">
+    <div class="sc-title zh-t">截至今日下午5点 MYT 的四个关键变化</div>
+    <div class="sc-title en-t">Four key deltas as of 5:00 PM MYT today</div>
+    <div class="sc-row">
+      <div class="sc-item">
+        <div class="sc-label">WTI Crude</div>
+        <div class="sc-val dn">$100.02</div>
+        <div class="sc-sub">-1.85% <span class="zh-t">· 上午为$101.16</span><span class="en-t">· was $101.16 AM</span></div>
+      </div>
+      <div class="sc-item">
+        <div class="sc-label"><span class="zh-t">Fed 10/28加息概率</span><span class="en-t">Fed Oct 28 Hike Odds</span></div>
+        <div class="sc-val nt">57.4%</div>
+        <div class="sc-sub"><span class="zh-t">上午为55.1%</span><span class="en-t">was 55.1% AM</span></div>
+      </div>
+      <div class="sc-item">
+        <div class="sc-label">USD/MYR</div>
+        <div class="sc-val up">4.0810</div>
+        <div class="sc-sub">-0.46% <span class="zh-t">· 令吉走强</span><span class="en-t">· ringgit firmer</span></div>
+      </div>
+      <div class="sc-item">
+        <div class="sc-label"><span class="zh-t">伊朗局势</span><span class="en-t">Iran Situation</span></div>
+        <div class="sc-val nt">⚠️</div>
+        <div class="sc-sub zh-t">外交摩擦升级</div>
+        <div class="sc-sub en-t">Diplomatic friction rising</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="dv">
+
+<div class="sec">
+  <div class="sl">🛢️ <span class="zh-t">油价续跌,Fed加息押注升温</span><span class="en-t">Oil Extends Slide, Fed Hike Odds Firm Up</span></div>
+
+  <div class="nc">
+    <div class="ntop"><span class="badge bg2">OIL PULLBACK</span><span class="nsrc">Trading Economics · 已验证 · Verified</span></div>
+    <div class="nhz zh-t">WTI跌破100美元,沙特管道修复消息压低油价</div>
+    <div class="nhe en-t">WTI dips below $100 as Saudi pipeline repair eases supply fears</div>
+    <div class="nb zh-t">布伦特原油今日降至102.74美元(-1.99%),WTI跌至100.02美元(-1.85%),已是连续第三个交易日走低。Trading Economics最新报告指出,沙特阿美正以"穿梭船"方式,把部分原油经霍尔木兹海峡以外路线运出,东西向输油管道预计几天内恢复约一半产能,六周内全面恢复。<b>为什么重要:</b>油价从上午简报的101美元附近进一步回落,是近两周少见的"风险溢价实质性收窄"信号——但这只是运输路线的技术性缓解,伊朗与美国的核心冲突并未解除,下一组的伊朗新闻正好提醒我们这种缓解随时可能逆转。</div>
+    <div class="nb en en-t">Brent fell to $102.74 (-1.99%) and WTI to $100.02 (-1.85%) today, the third straight session of declines. Trading Economics reports Saudi Aramco is rerouting crude via "shuttle vessels" that load tankers outside the Strait of Hormuz, while the war-damaged East-West pipeline is expected to recover roughly half its capacity within days and reach full operation within six weeks. <b>Why it matters:</b> oil has pulled back meaningfully from this morning's ~$101 level — a rare, real risk-premium compression these past two weeks. But this is a transport-route fix, not a resolution of the underlying US-Iran conflict — and the next section's Iran headlines are a reminder this relief could reverse quickly.</div>
+    <a href="https://tradingeconomics.com/commodity/crude-oil" target="_blank" class="rm">阅读全文 · Trading Economics ↗</a>
+    <div class="tri">
+      <div class="tri-item zh-t">🎯 <b>退休规划与PRS：</b>短期油价波动不该左右PRS这类长期配置,但若客户组合对能源类股或大宗商品ETF曝险较高,这是提醒他们检视仓位的好时机。</div>
+      <div class="tri-item en-t">🎯 <b>Retirement & PRS:</b> Short-term oil swings shouldn't drive PRS decisions, but it's a good prompt to review any energy or commodity ETF overweight in a client's portfolio.</div>
+      <div class="tri-item zh-t">💰 <b>DDA定期定额：</b>油价波动带动的市场情绪起伏,正是定期定额纪律发挥作用的时候——不需要猜测短期方向,继续按计划扣款即可。</div>
+      <div class="tri-item en-t">💰 <b>DCA:</b> The sentiment swings from oil volatility are exactly when DCA discipline pays off — no need to guess direction, just keep the scheduled contributions going.</div>
+      <div class="tri-item zh-t">📈 <b>长期投资：</b>把"技术性缓解"新闻和"根本性解决"分开看,避免因单日油价回落就过度乐观地调整长期配置。</div>
+      <div class="tri-item en-t">📈 <b>Long-term Investing:</b> Separate "technical relief" headlines from an actual resolution — don't let one day's pullback tempt an overly optimistic shift in long-term allocation.</div>
+    </div>
+  </div>
+
+  <div class="nc">
+    <div class="ntop"><span class="badge ba">FED WATCH</span><span class="nsrc">Investing.com Fed Rate Monitor · 已验证 · Verified</span></div>
+    <div class="nhz zh-t">10月28日议息:加息概率升至57.4%,较上午再进一步</div>
+    <div class="nhe en-t">Oct 28 Fed meeting: hike odds climb to 57.4%, up from this morning's 55.1%</div>
+    <div class="nb zh-t">Investing.com的Fed Rate Monitor最新数据显示,市场对10月28日议息会议的定价进一步转鹰:预期加息至4.00%-4.25%区间的概率从上午的55.1%升至57.4%,维持在3.75%-4.00%区间的概率则从44.9%降至42.6%。这是9月16日Fed才刚加息25个基点之后,市场对"年内可能不止一次加息"预期在一天内又强化了一些。<b>为什么重要:</b>如果这个趋势持续,客户手上的定存与货币市场类产品短期收益率可能维持高位更久,但股票与固定收益类资产的估值压力也不会很快消退。</div>
+    <div class="nb en en-t">Investing.com's Fed Rate Monitor shows expectations turning further hawkish for the October 28 meeting: the probability of a hike to 4.00%-4.25% rose to 57.4% from this morning's 55.1%, while the odds of holding at 3.75%-4.00% fell to 42.6% from 44.9%. This comes just two days after the Fed's Sept 16 25bp hike, with the market hardening its view that another increase is more likely than not. <b>Why it matters:</b> if this holds, clients' fixed deposits and money-market products may keep earning higher short-term yields for longer — but valuation pressure on equities and bonds isn't going away soon either.</div>
+    <a href="https://www.investing.com/central-banks/fed-rate-monitor" target="_blank" class="rm">阅读全文 · Investing.com ↗</a>
+    <div class="tri">
+      <div class="tri-item zh-t">🎯 <b>退休规划与PRS：</b>利率维持高位对PRS里保守型/货币市场基金是短期利多,但长期配置仍应以目标日期为准,不因单次概率变化频繁调仓。</div>
+      <div class="tri-item en-t">🎯 <b>Retirement & PRS:</b> Higher-for-longer rates are a near-term positive for conservative/money-market PRS funds, but allocation should stay anchored to the target date, not chase every probability swing.</div>
+      <div class="tri-item zh-t">💰 <b>DDA定期定额：</b>加息预期升温常伴随股市短期波动,这正是提醒客户"DDA买的是时间,不是时机"的好机会。</div>
+      <div class="tri-item en-t">💰 <b>DCA:</b> Rising hike expectations often bring short-term equity volatility — a good moment to remind clients DCA buys time, not timing.</div>
+      <div class="tri-item zh-t">📈 <b>长期投资：</b>57.4%仍非板上钉钉,建议客户对组合做压力测试,而不是押注单一结果。</div>
+      <div class="tri-item en-t">📈 <b>Long-term Investing:</b> 57.4% is still far from certain — encourage clients to stress-test portfolios rather than bet on one outcome.</div>
+    </div>
+  </div>
+</div>
+
+<hr class="dv">
+
+<div class="sec">
+  <div class="sl">🇮🇷 <span class="zh-t">外交摩擦再起,"战争接近尾声"添变数</span><span class="en-t">Diplomatic Friction Complicates the "War Is Ending" Narrative</span></div>
+
+  <div class="nc">
+    <div class="ntop"><span class="badge br">ON-THE-GROUND</span><span class="nsrc">Al Jazeera · 已验证 · Verified</span></div>
+    <div class="nhz zh-t">伊朗驱逐瑞典外交官,报复斯德哥尔摩此前行动</div>
+    <div class="nhe en-t">Iran expels Swedish diplomat in tit-for-tat after Stockholm's move</div>
+    <div class="nb zh-t">Al Jazeera报道,伊朗于9月18日下令一名瑞典外交官48小时内离境,以报复瑞典此前以"违反维也纳外交关系公约"为由驱逐一名伊朗使馆官员。瑞典方面指该官员涉及威胁"犹太与以色列利益"的活动;伊朗外交部则反批瑞典此举是"受到犹太复国主义政权影响的结果"。<b>为什么重要:</b>这类外交摩擦本身不会直接推动油价或股市,但它出现在特朗普上午才对外宣称"战争接近尾声、已与德黑兰直接对话"之后仅一天,提醒我们头条式的"和平信号"和地面实际情况之间,往往存在落差。</div>
+    <div class="nb en en-t">Al Jazeera reports Iran ordered a Swedish diplomat to leave within 48 hours on September 18, retaliating after Sweden expelled an Iranian embassy official over an alleged breach of the Vienna Convention. Sweden accused the official of activity threatening "Jewish and Israeli interests"; Iran's foreign ministry called Sweden's move the result of "the influence of the Zionist regime." <b>Why it matters:</b> this incident alone won't move oil or equities, but it lands just a day after Trump publicly claimed the war was "toward the end" with direct Tehran talks underway — a reminder that headline diplomacy and facts on the ground don't always line up.</div>
+    <a href="https://www.aljazeera.com/news/2026/9/18/iran-expels-swedish-diplomat-in-retaliatory-move" target="_blank" class="rm">阅读全文 · Al Jazeera ↗</a>
+    <div class="tri">
+      <div class="tri-item zh-t">🎯 <b>退休规划与PRS：</b>地缘政治新闻容易引发焦虑性决策,建议提醒客户PRS是退休金,应聚焦几十年维度而非单条外交新闻。</div>
+      <div class="tri-item en-t">🎯 <b>Retirement & PRS:</b> Geopolitical headlines tend to trigger anxious decisions — remind clients PRS is a decades-long vehicle, not something to react to on one diplomatic story.</div>
+      <div class="tri-item zh-t">💰 <b>DDA定期定额：</b>若客户因这类新闻想暂停扣款,可引导他们回顾:过去一年类似"降温/升温"消息反复出现,但定期定额的纪律始终是稳定器。</div>
+      <div class="tri-item en-t">💰 <b>DCA:</b> If a client wants to pause contributions over news like this, walk them through how similar "cooling/heating" headlines have cycled all year — DCA discipline has been the stabilizer throughout.</div>
+      <div class="tri-item zh-t">📈 <b>长期投资：</b>建议组合适度保留防御性配置(如债券、黄金)以应对摩擦升级的尾部风险,而非全押"战争即将结束"的乐观情境。</div>
+      <div class="tri-item en-t">📈 <b>Long-term Investing:</b> Worth keeping some defensive allocation (bonds, gold) as a hedge against escalation tail risk, rather than positioning entirely for the optimistic "war is ending soon" case.</div>
+    </div>
+  </div>
+
+  <div class="nc">
+    <div class="ntop"><span class="badge ba">HORMUZ</span><span class="nsrc">Al Jazeera · 已验证 · Verified</span></div>
+    <div class="nhz zh-t">IRGC在霍尔木兹海峡拦截油轮,特朗普称面临"重大决定"</div>
+    <div class="nhe en-t">IRGC strikes tanker in Hormuz as Trump says he faces a "big decision"</div>
+    <div class="nb zh-t">Al Jazeera的伊朗战争实时报道指出,伊朗伊斯兰革命卫队(IRGC)于9月18日在霍尔木兹海峡拦截一艘悬挂多哥国旗的油轮,称其通行"非法"。与此同时,特朗普在受访时表示自己面临一个"重大决定",并称"什么都有可能发生"——语气与他9月17日声称战争"接近尾声"、已与德黑兰直接对话的表态明显不同。<b>为什么重要:</b>两条消息合在一起看,说明尽管外交层面释放缓和信号,海峡沿线的军事摩擦仍在持续,油价与航运保险成本对此类单条新闻仍会保持敏感。</div>
+    <div class="nb en en-t">Al Jazeera's Iran war liveblog reports Iran's Revolutionary Guard (IRGC) struck a Togo-flagged tanker transiting the Strait of Hormuz on September 18, calling its passage "illegal." Separately, Trump said in an interview that he faces a "big decision" on Iran and that "anything could happen" — a notably different tone from his September 17 claim that the war was "toward the end" with direct Tehran talks underway. <b>Why it matters:</b> together, these two items show that even as diplomatic signals point to de-escalation, military friction along the strait continues — and oil prices and shipping-insurance costs will likely stay sensitive to headlines like this one.</div>
+    <a href="https://www.aljazeera.com/news/liveblog/2026/9/18/iran-war-live-trump-weighs-big-decision-on-iran-tanker-hit-in-hormuz" target="_blank" class="rm">阅读全文 · Al Jazeera ↗</a>
+    <div class="tri">
+      <div class="tri-item zh-t">🎯 <b>退休规划与PRS：</b>不需要为单次拦截事件调整PRS配置,但可作为跟客户重申"退休金账户设计上本就要穿越这类波动周期"的切入点。</div>
+      <div class="tri-item en-t">🎯 <b>Retirement & PRS:</b> No need to adjust PRS allocation over a single interdiction incident, but it's a natural moment to reaffirm that retirement accounts are built to ride through cycles like this.</div>
+      <div class="tri-item zh-t">💰 <b>DDA定期定额：</b>类似新闻出现时市场常见短线波动,正好可以跟客户复盘DDA过去几个月如何平滑了这些起伏。</div>
+      <div class="tri-item en-t">💰 <b>DCA:</b> News like this often triggers short-term volatility — a good moment to revisit how DCA has smoothed these swings over the past few months.</div>
+      <div class="tri-item zh-t">📈 <b>长期投资：</b>建议持续关注霍尔木兹海峡局势对油价与通胀预期的传导,但不必对单一拦截事件做战术性调仓。</div>
+      <div class="tri-item en-t">📈 <b>Long-term Investing:</b> Keep tracking how the Hormuz situation feeds through to oil and inflation expectations, but a single interdiction incident doesn't warrant tactical repositioning.</div>
+    </div>
+  </div>
+</div>
+
+<hr class="dv">
+
+<div class="sec">
+  <div class="sl">💡 <span class="zh-t">今日新闻分析</span><span class="en-t">Today's News Analysis</span> — Kelly's Analysis</div>
+  <div class="adv">
+    <div class="ah">Kelly's Takeaways</div>
+    <div class="ai zh-t">今天下午最值得留意的,不是某一条新闻本身,而是两条叙事同时在发生:一边是"降温"(油价续跌、沙特管道修复),一边是"摩擦仍在"(外交驱逐、霍尔木兹拦截)。市场目前选择相信前者——油价都在反映乐观情境——但特朗普上午"战争接近尾声"的说法,和他下午"什么都有可能发生"的表态,其实并不完全一致。我的建议是:欢迎降温的迹象,但不要把它当成确定性去调整长期配置。</div>
+    <div class="ai en en-t">The thing worth noticing this afternoon isn't any single headline — it's that two narratives are running in parallel: "cooling down" (oil sliding further, Saudi pipeline repairs) and "friction continues" (a diplomatic expulsion, a tanker interdiction in Hormuz). The market is currently leaning toward the optimistic read — oil prices reflect it — but Trump's "war is toward the end" comment this morning doesn't fully square with his "anything could happen" tone this afternoon. My advice: welcome the signs of cooling, but don't treat them as certain enough to reposition long-term allocations around.</div>
+
+    <div class="ai-cat zh-t">🎯 退休规划与PRS</div>
+    <div class="ai-cat en-t">🎯 Retirement & PRS</div>
+    <div class="ai zh-t">Fed加息概率的每日波动不该成为PRS调仓的理由——PRS本来就是为几十年后设计的账户。如果客户最近因新闻反复问"要不要先出场",可以温和地提醒他们:今天57.4%,下周可能又变成50%,这种概率本身就会一直变动。</div>
+    <div class="ai en en-t">Daily swings in Fed hike odds shouldn't be a reason to reallocate PRS — it's an account built for decades out, not this week. If clients keep asking whether to "get out for now," gently remind them: today's 57.4% could easily be 50% again next week — the probability itself is the volatile part.</div>
+
+    <div class="ai-cat zh-t">💰 DDA定期定额</div>
+    <div class="ai-cat en-t">💰 DCA</div>
+    <div class="ai zh-t">今天这种"一半利好一半利空"的新闻组合,其实是解释DDA价值的最佳教材——不需要判断哪一半是对的,只要持续按计划买入,时间会替你消化这些噪音。</div>
+    <div class="ai en en-t">Today's mixed bag of half-good, half-bad news is actually a great teaching moment for DCA — you don't need to guess which half is right, just keep buying on schedule and let time absorb the noise.</div>
+
+    <div class="ai-cat zh-t">📈 长期投资</div>
+    <div class="ai-cat en-t">📈 Long-term Investing</div>
+    <div class="ai zh-t">如果客户的组合对能源或防御性资产完全没有曝险,这波"降温假象"提醒我们适度分散仍有必要——不是为了预测下一步,而是为了在两种叙事都可能成真时,组合都能撑得住。</div>
+    <div class="ai en en-t">If a client's portfolio has zero exposure to energy or defensive assets, this "is it really cooling down" moment is a reminder that diversification still matters — not to predict what happens next, but so the portfolio can hold up whichever narrative turns out to be true.</div>
+
+    <div class="disc">⚠️ Disclaimer｜免责声明 本网站内容仅供一般教育及市场参考,不构成任何个性化投资、财务、税务或法律建议,亦不构成购买、出售、转换或持有任何特定基金的建议。Unit Trust 及 PRS 涉及投资风险,包括可能的本金损失。过往表现并不代表未来表现。部分市场资讯可能由 AI 根据第三方公开资料协助整理,并可能存在延迟、遗漏或错误。投资前请参考相关基金最新 Prospectus、PHS 及官方资料。</div>
+  </div>
+</div>
+
+</div>
+
+<script>
+function setL(l) {
+  document.querySelectorAll('.lb').forEach((b, i) => b.classList.toggle('active', ['both','zh','en'][i] === l));
+  document.querySelectorAll('.zh-t').forEach(el => {
+    el.style.display = (l === 'en') ? 'none' : '';
+  });
+  document.querySelectorAll('.en-t').forEach(el => {
+    el.style.display = (l === 'zh') ? 'none' : '';
+  });
+}
+</script>
+
+<script src="../assets/brief-bar.js" defer></script>
+</body></html>

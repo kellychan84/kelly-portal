@@ -1,0 +1,327 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Sep 24 Morning Brief</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --gold:#9A7B3E;--gold-light:#C4A05A;--gold-bg:#FBF7EE;
+  --border:#EDE8DE;--text:#1A1A1A;--muted:#6B6560;--muted2:#9A9590;
+  --up:#1A6B3C;--up-bg:#EDF7F1;--dn:#B02020;--dn-bg:#FEF2F2;
+  --amber:#8A5A00;--amber-bg:#FEF9EC;--blue:#1A5FA8;--blue-bg:#EBF5FB;
+  --teal:#0F6B5A;--teal-bg:#E8F8F5;--pur:#4A1FA8;--pur-bg:#F0EDFD;
+  --surface:#FFFFFF;--page:#F8F6F1;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--page);color:var(--text);font-family:'DM Sans',sans-serif;font-weight:300;font-size:16px;line-height:1.65;}
+.container{max-width:820px;margin:0 auto;padding:2rem 1.4rem 4rem;}
+.mast{text-align:center;padding:2rem 0;border-bottom:1px solid var(--border);margin-bottom:1.5rem;}
+.mast::before{content:'';display:block;width:40px;height:2px;background:var(--gold);margin:0 auto 1.25rem;}
+.mast-eye{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem;}
+.mast-title{font-family:'Playfair Display',serif;font-size:28px;font-weight:600;margin-bottom:.25rem;}
+.mast-sub{font-size:14px;color:var(--muted);}
+.mast-date{font-size:13px;color:var(--gold);margin-top:.4rem;}
+.alert{border-radius:8px;padding:.85rem 1.1rem;margin-bottom:.7rem;display:flex;align-items:flex-start;gap:10px;font-size:14px;line-height:1.55;}
+.a-amber{background:var(--amber-bg);border:.5px solid #E8C87A;color:var(--amber);}
+.a-green{background:var(--up-bg);border:.5px solid #B8DFC8;color:var(--up);}
+.a-red{background:var(--dn-bg);border:.5px solid #F5C6C6;color:var(--dn);}
+.a-blue{background:var(--blue-bg);border:.5px solid #A8C8E8;color:var(--blue);}
+.alert-icon{font-size:18px;flex-shrink:0;margin-top:1px;}
+.alert strong{font-weight:500;}
+.alert span{display:block;margin-top:3px;font-size:12.5px;opacity:.85;}
+.lang-row{display:flex;gap:6px;justify-content:center;margin:1.2rem 0 1.4rem;}
+.lb{padding:5px 18px;font-size:13px;border-radius:4px;cursor:pointer;border:.5px solid var(--border);background:transparent;color:var(--muted);font-family:'DM Sans',sans-serif;transition:all .15s;}
+.lb:hover{border-color:var(--gold);color:var(--gold);}
+.lb.active{background:var(--gold);color:#fff;border-color:var(--gold);font-weight:500;}
+.sl{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:.9rem;display:flex;align-items:center;gap:10px;font-weight:500;}
+.sl::after{content:'';flex:1;height:.5px;background:var(--border);}
+.sec{margin-bottom:1.75rem;}
+.scorecard{background:var(--surface);border:.5px solid var(--border);border-radius:8px;padding:1rem 1.2rem;margin-bottom:1rem;}
+.sc-title{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:.8rem;}
+.sc-row{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;}
+.sc-item{background:var(--page);border-radius:6px;padding:.6rem .8rem;}
+.sc-label{font-size:11px;color:var(--muted2);text-transform:uppercase;letter-spacing:.07em;margin-bottom:3px;}
+.sc-val{font-family:'Playfair Display',serif;font-size:16px;font-weight:600;}
+.sc-sub{font-size:12px;color:var(--muted);margin-top:2px;}
+.up{color:var(--up);}.dn{color:var(--dn);}.nt{color:var(--amber);}
+.nc{background:var(--surface);border:.5px solid var(--border);border-radius:8px;padding:1rem 1.2rem;margin-bottom:9px;}
+.ntop{display:flex;align-items:center;gap:7px;margin-bottom:8px;flex-wrap:wrap;}
+.badge{font-size:11px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;padding:2px 9px;border-radius:4px;}
+.br{background:var(--dn-bg);color:var(--dn);}
+.ba{background:var(--amber-bg);color:var(--amber);}
+.bg2{background:var(--up-bg);color:var(--up);}
+.bb{background:var(--blue-bg);color:var(--blue);}
+.bstar{background:#FFF8E1;color:#7A5C00;border:.5px solid #FFD54F;}
+.bpur{background:var(--pur-bg);color:var(--pur);}
+.nsrc{font-size:12px;color:var(--muted2);}
+.nsrc-note{font-size:11px;color:var(--muted2);font-style:italic;display:block;margin-top:4px;}
+.nhz{font-family:'Playfair Display',serif;font-size:17px;font-weight:600;margin-bottom:4px;line-height:1.4;}
+.nhe{font-size:14px;font-style:italic;margin-bottom:7px;line-height:1.4;color:var(--muted);}
+.nb{font-size:15px;color:#444;line-height:1.65;margin-bottom:4px;}
+.nb.en{color:var(--muted);font-size:14px;}
+.rm{display:inline-flex;align-items:center;gap:3px;font-size:12px;color:var(--gold);text-decoration:none;margin-top:8px;margin-right:14px;border-bottom:.5px solid rgba(154,123,62,.35);padding-bottom:1px;}
+.rm:hover{color:var(--gold-light);}
+.tri{margin-top:10px;padding-top:10px;border-top:1px dashed var(--border);}
+.tri-h{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:6px;}
+.tri-i{font-size:13px;color:#444;line-height:1.55;margin-bottom:4px;}
+.tri-i.en{color:var(--muted);font-size:12.5px;margin-bottom:8px;}
+hr.dv{border:none;border-top:.5px solid var(--border);margin:1.75rem 0;}
+.adv{border:.5px solid var(--gold-light);border-radius:8px;padding:1.2rem;background:var(--gold-bg);}
+.ah{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;font-weight:500;}
+.ah2{font-size:12px;letter-spacing:.08em;color:var(--gold);font-weight:500;margin:1rem 0 .5rem;}
+.ai{font-size:15px;color:#444;margin-bottom:5px;padding-left:.9rem;border-left:2px solid var(--gold-light);line-height:1.65;}
+.ai.en{color:var(--muted);font-size:14px;margin-bottom:14px;}
+.disc{margin-top:1.2rem;padding-top:1rem;border-top:.5px solid var(--gold-light);font-size:11.5px;color:var(--muted2);line-height:1.6;}
+.disc-h{font-weight:500;color:var(--muted);margin-bottom:4px;}
+</style>
+<div class="container">
+
+<div class="mast">
+  <div class="mast-eye">Kelly · 信托基金顾问 · Unit Trust Consultant</div>
+  <div class="mast-title">Market Intelligence Brief</div>
+  <div class="mast-sub">每日早报 · Daily Morning Brief</div>
+  <div class="mast-date">星期四, 2026年9月24日 · Thursday, Sept 24, 2026 &nbsp;·&nbsp; 6:00 AM MYT</div>
+</div>
+
+<div class="alert a-amber">
+  <div class="alert-icon">📈</div>
+  <div>
+    <strong class="zh-t">5年期美债殖利率19年来首破5%,联储10月加息预期升温至71%</strong>
+    <strong class="en-t">5-year Treasury yield tops 5% for first time since 2007 as Fed October hike odds climb to 71%</strong>
+    <span class="zh-t">标普、道指、纳指全线收跌 · 来源:TheStreet, Yahoo Finance</span>
+    <span class="en-t">S&amp;P, Dow, Nasdaq all closed lower · Source: TheStreet, Yahoo Finance</span>
+  </div>
+</div>
+<div class="alert a-blue">
+  <div class="alert-icon">🕊️</div>
+  <div>
+    <strong class="zh-t">美伊在联合国斡旋下举行今年6月以来首次会谈,但霍尔木兹海峡再传商船遇袭</strong>
+    <strong class="en-t">US and Iran hold first talks since June via UN mediation, but a vessel was struck in the Strait of Hormuz</strong>
+    <span class="zh-t">1死27人撤离,风险未散 · 来源:Al Jazeera, CBS News</span>
+    <span class="en-t">1 killed, 27 evacuated — risk far from over · Source: Al Jazeera, CBS News</span>
+  </div>
+</div>
+<div class="alert a-green">
+  <div class="alert-icon">🤝</div>
+  <div>
+    <strong class="zh-t">特朗普今晚宴请习近平,黄仁勋、奥特曼等AI巨头受邀出席白宫晚宴</strong>
+    <strong class="en-t">Trump hosts Xi tonight — Huang, Altman among AI titans invited to the White House state dinner</strong>
+    <span class="zh-t">议程涵盖贸易、稀土与AI政策 · 来源:Yahoo Finance</span>
+    <span class="en-t">Agenda spans trade, rare earths and AI policy · Source: Yahoo Finance</span>
+  </div>
+</div>
+
+<div class="lang-row">
+  <button class="lb active" onclick="setL('both')">双语 Both</button>
+  <button class="lb" onclick="setL('zh')">华语</button>
+  <button class="lb" onclick="setL('en')">English</button>
+</div>
+
+<div class="sec">
+  <div class="sl">📊 今日市场总结 · Today's Scorecard</div>
+  <div class="scorecard">
+    <div class="sc-title zh-t">周三收盘快照 · 2026年9月23日</div>
+    <div class="sc-title en-t">Wednesday's Close Snapshot · Sept 23, 2026</div>
+    <div class="sc-row">
+      <div class="sc-item">
+        <div class="sc-label">S&amp;P 500</div>
+        <div class="sc-val dn">7,706.03</div>
+        <div class="sc-sub dn">-0.75%</div>
+      </div>
+      <div class="sc-item">
+        <div class="sc-label zh-t">10年期美债殖利率</div>
+        <div class="sc-label en-t">10-Yr Treasury Yield</div>
+        <div class="sc-val nt">5.11%</div>
+        <div class="sc-sub zh-t">2007年以来最高</div>
+        <div class="sc-sub en-t">Highest since 2007</div>
+      </div>
+      <div class="sc-item">
+        <div class="sc-label zh-t">WTI原油</div>
+        <div class="sc-label en-t">WTI Crude</div>
+        <div class="sc-val dn">$91.31</div>
+        <div class="sc-sub dn">-0.92%</div>
+      </div>
+      <div class="sc-item">
+        <div class="sc-label">KLCI</div>
+        <div class="sc-val dn">1,676.43</div>
+        <div class="sc-sub dn">-0.42%</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="dv">
+
+<div class="sec">
+  <div class="sl">🏦 债市警报 · Bond Alarm — 5年期殖利率19年来首破5%</div>
+
+  <div class="nc">
+    <div class="ntop"><span class="badge bstar">BOND ALERT</span><span class="nsrc">TheStreet · 已验证</span></div>
+    <div class="nhz zh-t">美债殖利率狂飙,标普道指纳指全线下跌</div>
+    <div class="nhe en-t">Treasury Yields Surge as Wall Street Retreats Across the Board</div>
+    <div class="nb zh-t">周三(9月23日),美股三大指数集体收跌——标普500指数下跌0.75%至7,706.03点,道琼斯指数下跌0.68%至51,511.59点,纳斯达克指数下跌1.13%至26,936.04点,罗素2000小型股指数更重挫1.60%。真正的焦点在债市:5年期美债殖利率盘中一度触及5.036%,是2007年以来首次站上5%关口;10年期殖利率攀升至5.11%,同样创19年新高。美联储理事Michael Barr表示"可能仍需要进一步的政策调整"来控制顽固的通胀,叠加油价走高与超预期的PMI数据,市场对10月加息的预期急速升温。</div>
+    <div class="nb en en-t">US stocks fell across the board Wednesday (Sept 23) — the S&amp;P 500 dropped 0.75% to 7,706.03, the Dow fell 0.68% to 51,511.59, the Nasdaq slid 1.13% to 26,936.04, and the small-cap Russell 2000 tumbled 1.60%. The real story was in bonds: the 5-year Treasury yield briefly touched 5.036% intraday — its first time above 5% since 2007 — while the 10-year climbed to 5.11%, also a 19-year high. Fed Governor Michael Barr said "further policy adjustments are likely to be needed" to tame sticky inflation, and with oil prices rising and PMI data beating expectations, the market's bet on an October hike jumped sharply.</div>
+    <a href="https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-23-2026" target="_blank" class="rm">阅读全文 · TheStreet ↗</a>
+    <div class="tri">
+      <div class="tri-h">💡 与您相关 · What This Means For You</div>
+      <div class="tri-i zh-t">🎯 退休规划与PRS:高利率环境下,固定收益类资产的殖利率其实在走高——这是重新审视PRS里保守型基金配置比例的好时机。</div>
+      <div class="tri-i en en-t">🎯 Retirement &amp; PRS: In a higher-rate environment, fixed-income yields are actually rising — a good moment to revisit the conservative-fund allocation inside your PRS.</div>
+      <div class="tri-i zh-t">💰 DDA定期定额:市场短期波动加剧,反而是定期定额最能发挥"平均成本"优势的时候,不需要因为单日下跌而暂停扣款。</div>
+      <div class="tri-i en en-t">💰 DCA: Short-term volatility like this is exactly when dollar-cost averaging earns its keep — no need to pause your standing instruction over one red day.</div>
+      <div class="tri-i zh-t">📈 长期投资:殖利率快速攀升通常对成长型股票估值造成压力,若持仓集中在科技成长股,不妨检视一下整体组合的平衡度。</div>
+      <div class="tri-i en en-t">📈 Long-Term Investing: A fast yield spike typically pressures growth-stock valuations — if your portfolio leans heavily tech/growth, this is a good week to check its balance.</div>
+    </div>
+  </div>
+
+  <div class="nc">
+    <div class="ntop"><span class="badge ba">FED WATCH</span><span class="nsrc">Yahoo Finance, FX168 · 已验证</span></div>
+    <div class="nhz zh-t">加息预期出现分歧:雅虎看71%,FX168看53%,两组数据说明什么?</div>
+    <div class="nhe en-t">Diverging Fed Odds — Yahoo Finance's 71% vs. FX168's 53%, and What the Gap Means</div>
+    <div class="nb zh-t">关于美联储10月加息机率,不同信源出现明显分歧:雅虎金融援引Barr理事鹰派表态称市场目前押注71%机率10月加息;而FX168引述LSEG数据显示概率约为53%,并预计到2027年9月累计再加息78个基点。两者方法论不同,但方向一致——都指向"加息可能性正在上升",而非此前市场预期的暂停。马来西亚这边受到的直接冲击相对温和:KLCI周三收报1,676.43点,单日下跌0.42%,本月累计跌3.45%,但年内仍上涨4.80%;令吉兑美元报4.0676,单日走强0.18%,本月贬值0.64%,但年内仍升值3.30%。</div>
+    <div class="nb en en-t">Estimates of an October Fed hike diverge by source: Yahoo Finance, citing Governor Barr's hawkish remarks, puts the market's odds at 71%; FX168, citing LSEG data, puts it closer to 53%, with roughly 78bps of cumulative hikes priced in through September 2027. The methodologies differ, but both point the same direction: rising hike odds, not the pause markets once expected. Malaysia's own market moved more mildly — the KLCI closed Wednesday at 1,676.43, down 0.42% on the day and 3.45% for the month but still up 4.80% year-to-date; the ringgit firmed 0.18% to 4.0676 against the dollar, down 0.64% for the month but up 3.30% year-over-year.</div>
+    <a href="https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-23-dow-sp-500-nasdaq-080556640.html" target="_blank" class="rm">阅读全文 · Yahoo Finance ↗</a>
+    <a href="https://www.fx168news.com/express/fastnews/1434861" target="_blank" class="rm">阅读全文 · FX168 ↗</a>
+    <span class="nsrc-note">备注:CME FedWatch与Investing.com Fed Rate Monitor本次抓取超时,未能直接核实,故未引用其数字。 / Note: CME FedWatch and Investing.com's Fed Rate Monitor timed out on this fetch and could not be directly verified, so their figures are not cited here.</span>
+    <div class="tri">
+      <div class="tri-h">💡 与您相关 · What This Means For You</div>
+      <div class="tri-i zh-t">🎯 退休规划与PRS:令吉稳健、KLCI波动可控,是检视PRS本地基金配置是否需要动态调整的好时机,不必因单一新闻而仓促决定。</div>
+      <div class="tri-i en en-t">🎯 Retirement &amp; PRS: A steady ringgit and contained KLCI moves are a good backdrop to calmly review your PRS's local-fund weighting — no need to react to a single headline.</div>
+      <div class="tri-i zh-t">💰 DDA定期定额:无论71%还是53%,方向都是"加息可能性在上升"——这正是定期定额策略的价值所在,不用去猜哪个数字对。</div>
+      <div class="tri-i en en-t">💰 DCA: Whether it's 71% or 53%, the direction is the same — hike odds are rising. That's exactly why DCA works: you don't have to guess which number is right.</div>
+      <div class="tri-i zh-t">📈 长期投资:两组数据的分歧提醒我们,任何单一预测都有其局限,长期投资更该依据资产配置纪律,而非追逐某一天的概率数字。</div>
+      <div class="tri-i en en-t">📈 Long-Term Investing: The gap between the two numbers is a reminder that no single forecast is gospel — long-term investing should follow allocation discipline, not chase one day's probability print.</div>
+    </div>
+  </div>
+</div>
+
+<hr class="dv">
+
+<div class="sec">
+  <div class="sl">🛢️ 石油与外交 · Oil &amp; Diplomacy — 谈判露曙光,霍尔木兹风险未散</div>
+
+  <div class="nc">
+    <div class="ntop"><span class="badge bb">DIPLOMACY</span><span class="nsrc">Al Jazeera · 已验证</span></div>
+    <div class="nhz zh-t">联合国斡旋下,美伊举行今年6月以来首次会谈</div>
+    <div class="nhe en-t">US and Iran Hold First Talks Since June, Mediated at the UN</div>
+    <div class="nb zh-t">美国与伊朗代表9月22日在纽约联合国大会期间,透过卡塔尔与阿曼斡旋举行了数小时的间接会谈——这是自今年6月以来双方的首次接触。美方特使Witkoff、库什纳、国务卿Rubio与财长Bessent与伊朗外长阿拉格齐隔空协商;伊朗开出条件:解除美国海军封锁、解冻伊朗资产、停止敌对行动,并暗示若美方放松军事压力,可在7天内重新开放霍尔木兹海峡。Witkoff形容这轮磋商"顺利完成,我们希望它会带来建设性进展",特朗普则称有"很大的推进动能",并预期协议可能在11月中期选举后达成——但他同时在联大演讲中警告,若谈不成将"彻底摧毁"这个政权。卡塔尔则提出了一项涉及伊朗与海湾国家的区域安全框架构想。</div>
+    <div class="nb en en-t">US and Iranian representatives held hours of indirect talks in New York on Sept 22 during the UN General Assembly, mediated by Qatar and Oman — their first contact since June. US envoy Witkoff, Jared Kushner, Secretary of State Rubio and Treasury Secretary Bessent engaged with Iranian Foreign Minister Araghchi; Iran's conditions were lifting the US naval blockade, unfreezing Iranian assets, and ending hostilities, with a signal it could reopen the Strait of Hormuz within seven days if military pressure eases. Witkoff called the round "successfully completed... we hope will prove constructive," and Trump said there was "a lot of momentum," suggesting a deal could come after the November midterms — though he also warned at the UN that failure to reach one would mean he'd "annihilate" the regime. Separately, Qatar proposed a regional security framework involving Iran and Gulf states.</div>
+    <a href="https://www.aljazeera.com/news/2026/9/23/us-iran-hold-mediated-unga-talks-on-ending-war-opening-strait-of-hormuz" target="_blank" class="rm">阅读全文 · Al Jazeera ↗</a>
+    <div class="tri">
+      <div class="tri-h">💡 与您相关 · What This Means For You</div>
+      <div class="tri-i zh-t">🎯 退休规划与PRS:地缘政治消息利多利空反复,长期退休规划的核心不该随每则新闻摇摆,维持原定资产配置比调整时机更重要。</div>
+      <div class="tri-i en en-t">🎯 Retirement &amp; PRS: Geopolitical headlines swing both ways — your retirement plan shouldn't. Sticking to your allocation matters more than timing each news cycle.</div>
+      <div class="tri-i zh-t">💰 DDA定期定额:若因中东局势暂缓定期定额扣款,反而可能错过谈判如真有进展后的反弹段。</div>
+      <div class="tri-i en en-t">💰 DCA: Pausing your DCA over Middle East headlines risks missing the rebound if talks genuinely progress.</div>
+      <div class="tri-i zh-t">📈 长期投资:石油相关或能源敏感型持仓的客户,可留意这轮"缓和迹象"是否只是短期情绪,而非结构性反转。</div>
+      <div class="tri-i en en-t">📈 Long-Term Investing: For clients holding oil-sensitive positions, watch whether this "easing" is a genuine structural shift or just short-term sentiment.</div>
+    </div>
+  </div>
+
+  <div class="nc">
+    <div class="ntop"><span class="badge br">ON-THE-GROUND</span><span class="nsrc">CBS News, Trading Economics · 已验证</span></div>
+    <div class="nhz zh-t">霍尔木兹海峡商船再遇袭,1死27人紧急撤离,油价仍守92美元上方</div>
+    <div class="nhe en-t">Vessel Struck in Strait of Hormuz Kills One as Oil Holds Above $92</div>
+    <div class="nb zh-t">就在外交磋商释出善意信号的同时,霍尔木兹海峡周三仍传出一艘商船遭袭事件,造成1名船员死亡、27人紧急撤离,凸显航运风险并未真正解除。与此同时,美国财政部长贝森特以"移出美元体系"为由施压多国自9月23日起暂停伊朗航空公司的航班。原油价格在此背景下小幅回落:WTI报91.31美元/桶(-0.92%),布伦特报101.91美元/桶(-1.13%),但两者本月仍分别大涨10.87%与16.78%。市场解读是——地缘缓和的"消息面"与"现实面"依然存在落差,油价尚未反映谈判如果真正成功的乐观情景。</div>
+    <div class="nb en en-t">Even as diplomatic signals turned more hopeful, a commercial vessel was struck in the Strait of Hormuz on Wednesday, killing one crew member and forcing the evacuation of 27 sailors — a reminder that shipping risk hasn't actually cleared. Separately, Treasury Secretary Bessent pressured multiple countries into suspending Iranian airline flights from Sept 23, threatening removal from the dollar system for violators. Oil eased modestly against that backdrop: WTI at $91.31/barrel (-0.92%), Brent at $101.91 (-1.13%) — though both are still up sharply for the month, 10.87% and 16.78% respectively. The takeaway: the gap between diplomatic headlines and facts on the water hasn't closed, and oil hasn't yet priced in a genuinely successful deal.</div>
+    <a href="https://tradingeconomics.com/commodity/crude-oil" target="_blank" class="rm">阅读全文 · Trading Economics ↗</a>
+    <a href="https://www.cbsnews.com/live-updates/iran-war-trump-un-speech-annihilate-threat-talks-resume/" target="_blank" class="rm">阅读全文 · CBS News ↗</a>
+    <div class="tri">
+      <div class="tri-h">💡 与您相关 · What This Means For You</div>
+      <div class="tri-i zh-t">🎯 退休规划与PRS:能源相关波动属于短期新闻驱动,PRS作为长期退休储备,不需要因单日油价起伏而改变策略。</div>
+      <div class="tri-i en en-t">🎯 Retirement &amp; PRS: Energy-driven swings like this are short-term news noise — your PRS, as a long-horizon retirement fund, shouldn't shift strategy over one day's oil move.</div>
+      <div class="tri-i zh-t">💰 DDA定期定额:地缘局势仍有不确定性,定期定额恰恰能帮客户避开"猜顶猜底"的心理压力。</div>
+      <div class="tri-i en en-t">💰 DCA: With geopolitical uncertainty still in play, DCA spares clients the stress of trying to time the top or bottom.</div>
+      <div class="tri-i zh-t">📈 长期投资:若持有能源类基金,建议留意后续霍尔木兹海峡实际航运数据(而非只看新闻标题),作为判断趋势是否真正改善的依据。</div>
+      <div class="tri-i en en-t">📈 Long-Term Investing: For energy-fund holders, watch actual Hormuz shipping-traffic data going forward — not just headlines — as the real signal of whether things are improving.</div>
+    </div>
+  </div>
+</div>
+
+<hr class="dv">
+
+<div class="sec">
+  <div class="sl">🤝 白宫今夜 · Tonight at the White House — 特朗普宴请习近平,AI巨头齐聚</div>
+
+  <div class="nc">
+    <div class="ntop"><span class="badge bpur">AI SUMMIT</span><span class="nsrc">Yahoo Finance · 已验证</span></div>
+    <div class="nhz zh-t">黄仁勋、奥特曼、纳德拉、库克同台,晚宴聚焦贸易、稀土与AI政策</div>
+    <div class="nhe en-t">Huang, Altman, Nadella, Cook Set to Attend as Trade, Rare Earths and AI Policy Take Center Stage</div>
+    <div class="nb zh-t">特朗普将于本周四(9月24日,即马来西亚时间今晚)在白宫设晚宴款待到访的中国国家主席习近平,出席名单包括英伟达黄仁勋、OpenAI奥特曼、微软纳德拉、苹果库克及AMD苏姿丰等硅谷科技领袖。据雅虎金融报道,晚宴议程涵盖贸易、中东局势、稀土矿产与人工智能政策等多个议题;但值得留意的是,习近平此行代表团规模据报"较原计划缩减",暗示短期内达成重大协议的可能性有限——市场解读为象征意义大于实质突破。这场晚宴发生在美股因殖利率飙升而承压的背景下,若中美在AI供应链或稀土议题上释出正面信号,或有助缓解部分科技股的估值压力。</div>
+    <div class="nb en en-t">Trump hosts a White House state dinner for visiting Chinese President Xi Jinping Thursday (Sept 24 — tonight, Malaysia time), with Silicon Valley leaders including Nvidia's Jensen Huang, OpenAI's Sam Altman, Microsoft's Satya Nadella, Apple's Tim Cook and AMD's Lisa Su on the guest list. Per Yahoo Finance, the agenda spans trade, Middle East conflicts, rare earth minerals, and AI policy — though Xi's delegation was reportedly "scaled back" from initial plans, suggesting limited near-term deal prospects. Markets are reading it as more symbolic than substantive for now. The dinner lands against a backdrop of US stocks already under pressure from surging yields, so any positive signal on AI supply chains or rare earths tonight could help ease some of that valuation stress on tech names.</div>
+    <a href="https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-23-dow-sp-500-nasdaq-080556640.html" target="_blank" class="rm">阅读全文 · Yahoo Finance ↗</a>
+    <div class="tri">
+      <div class="tri-h">💡 与您相关 · What This Means For You</div>
+      <div class="tri-i zh-t">🎯 退休规划与PRS:若PRS基金中配置了科技/半导体主题基金,这类中美互动消息值得留意,但不必据此调整长期配置比例。</div>
+      <div class="tri-i en en-t">🎯 Retirement &amp; PRS: If your PRS holds tech/semiconductor-themed funds, US-China dinners like this are worth watching but not a reason to shift long-term weightings.</div>
+      <div class="tri-i zh-t">💰 DDA定期定额:象征性外交事件容易引发短线情绪波动,定期定额的纪律性正好能过滤这类噪音。</div>
+      <div class="tri-i en en-t">💰 DCA: Symbolic diplomatic events like this often trigger short-term sentiment swings — DCA's discipline filters out exactly this kind of noise.</div>
+      <div class="tri-i zh-t">📈 长期投资:稀土与AI供应链是本轮科技行情的核心叙事之一,建议持续关注后续实质性政策进展,而非单场晚宴的氛围。</div>
+      <div class="tri-i en en-t">📈 Long-Term Investing: Rare earths and AI supply chains are a core narrative of this tech cycle — track substantive policy follow-through, not just tonight's dinner atmosphere.</div>
+    </div>
+  </div>
+
+  <div class="nc">
+    <div class="ntop"><span class="badge bg2">EARNINGS PREVIEW</span><span class="nsrc">Benzinga · 已验证</span></div>
+    <div class="nhz zh-t">美光9月30日财报在即:每股盈余预估31.16美元,是去年同期10倍</div>
+    <div class="nhe en-t">Micron Reports Sept 30 — EPS Seen at $31.16, a 10x Jump From a Year Ago</div>
+    <div class="nb zh-t">AI内存巨头美光科技(Micron)将于9月30日盘后公布第四财季业绩,市场预估每股盈余31.16美元(去年同期仅3.03美元,足足10倍),营收预估504亿美元(去年同期113.2亿美元)。股价目前约975美元,年内累计上涨约240%,27位分析师中26位给予"买入"评级,平均目标价1,303美元(较现价仍有33.4%上行空间)。据Benzinga报道,驱动力仍是AI服务器对DRAM与高带宽内存的巨大需求,公司已签下16份多年期战略合约、锁定约1,000亿美元订单;但也要注意增长动能正在放缓——公司指引显示本季营收环比增长约21%,低于上一季的74%,DRAM合约价涨幅也从早前的90%-95%明显降温。期权市场预计财报公布后股价波动幅度约±11%。</div>
+    <div class="nb en en-t">AI-memory giant Micron Technology reports fiscal Q4 results after the close on Sept 30. The Street expects EPS of $31.16 (versus just $3.03 a year ago — a 10x jump) and revenue of $50.4 billion (versus $11.32 billion a year ago). The stock trades around $975, up roughly 240% year-to-date; 26 of 27 analysts rate it Buy, with an average price target of $1,303, implying 33.4% further upside. Per Benzinga, the driver remains AI servers' outsized demand for DRAM and high-bandwidth memory — Micron has locked in 16 multi-year strategic contracts worth roughly $100 billion. But growth is cooling: guidance points to about 21% sequential revenue growth this quarter, down from 74% last quarter, and DRAM contract-price gains have moderated sharply from the earlier 90-95% range. Options markets are pricing in an ~11% move in either direction around the report.</div>
+    <a href="https://www.benzinga.com/markets/large-cap/26/09/61855575/micron-earnings-preview-31-per-share-vs-3-a-year-ago" target="_blank" class="rm">阅读全文 · Benzinga ↗</a>
+    <div class="tri">
+      <div class="tri-h">💡 与您相关 · What This Means For You</div>
+      <div class="tri-i zh-t">🎯 退休规划与PRS:若PRS持有科技/半导体主题基金,美光是行业风向标之一,财报结果可能带动整个AI供应链相关基金短期波动。</div>
+      <div class="tri-i en en-t">🎯 Retirement &amp; PRS: If your PRS holds a tech/semiconductor fund, Micron is a bellwether — the earnings could sway the whole AI-supply-chain basket short-term.</div>
+      <div class="tri-i zh-t">💰 DDA定期定额:单一巨头财报前的波动,正是定期定额"不猜方向、按计划投入"优势最明显的时刻。</div>
+      <div class="tri-i en en-t">💰 DCA: Volatility ahead of a single bellwether's earnings is exactly when DCA's "invest on schedule, not on a guess" edge shows most clearly.</div>
+      <div class="tri-i zh-t">📈 长期投资:增长动能放缓(营收环比21% vs 74%)提醒我们AI硬件周期正从"爆发期"过渡到"消化期",长期配置应关注估值是否已反映这一变化。</div>
+      <div class="tri-i en en-t">📈 Long-Term Investing: Slowing sequential growth (21% vs. 74%) is a reminder the AI-hardware cycle is moving from "boom" to "digestion" — long-term allocations should ask whether valuations already reflect that shift.</div>
+    </div>
+  </div>
+</div>
+
+<hr class="dv">
+
+<div class="sec">
+  <div class="sl">💡 今日新闻分析 · Today's News Analysis</div>
+  <div class="adv">
+    <div class="ah">Kelly's Takeaways · 今日总结(顾问分析,非新闻引述)</div>
+    <div class="ai zh-t">今天的市场像是三条线同时在拉扯:债市在喊"加息还没完",中东在喊"和平也许真的近了但风险还在",而白宫饭桌上坐着的AI巨头们,则代表着这一轮牛市真正的引擎还在运转。三件事同时发生,恰恰说明为什么"资产配置"比"押注单一消息"重要得多。</div>
+    <div class="ai en en-t">Today's market feels like three storylines pulling at once: bonds are saying "the hiking cycle isn't over," the Middle East is saying "peace may be close but the risk hasn't lifted," and the AI titans sitting at tonight's White House dinner represent the engine still driving this bull run. All three happening together is exactly why allocation matters more than betting on any single headline.</div>
+
+    <div class="ah2 zh-t">🎯 退休规划与PRS</div>
+    <div class="ah2 en-t">🎯 Retirement &amp; PRS</div>
+    <div class="ai zh-t">殖利率走高对新进入的固定收益配置其实是好消息——现在锁定的收益率比一年前更有吸引力。建议客户借这次波动,重新检视PRS里保守型/平衡型基金的比重是否仍符合自己的退休年期。</div>
+    <div class="ai en en-t">Rising yields are actually good news for new fixed-income allocations — the yield you lock in today is more attractive than a year ago. Use this volatility as a prompt to re-check whether your PRS's conservative/balanced fund weighting still matches your retirement horizon.</div>
+
+    <div class="ah2 zh-t">💰 DDA定期定额</div>
+    <div class="ah2 en-t">💰 DCA</div>
+    <div class="ai zh-t">今天三条新闻线没有一条是"结论",都还在发展中——这正是定期定额的价值所在:不需要预判哪个消息会成真,持续按计划投入,让时间去消化不确定性。</div>
+    <div class="ai en en-t">None of today's three storylines has resolved — they're all still developing. That's exactly the value of DCA: you don't need to predict which headline wins; keep investing on schedule and let time absorb the uncertainty.</div>
+
+    <div class="ah2 zh-t">📈 长期投资</div>
+    <div class="ah2 en-t">📈 Long-Term Investing</div>
+    <div class="ai zh-t">科技股估值对殖利率上升较为敏感,但今晚白宫晚宴释放的AI供应链信号,可能在短期内部分抵消这种压力。长期投资者应关注的,是AI资本支出周期的实质进展(如美光财报),而非某一天的情绪起伏。</div>
+    <div class="ai en en-t">Tech valuations are sensitive to rising yields, but tonight's White House dinner could partly offset that pressure if AI-supply-chain signals turn positive. What long-term investors should track is substantive progress in the AI capex cycle (like Micron's earnings) — not one day's mood swing.</div>
+
+    <div class="disc">
+      <div class="disc-h zh-t">⚠️ 免责声明</div>
+      <div class="zh-t">本网站内容仅供一般教育及市场参考,不构成任何个性化投资、财务、税务或法律建议,亦不构成购买、出售、转换或持有任何特定基金的建议。Unit Trust 及 PRS 涉及投资风险,包括可能的本金损失。过往表现并不代表未来表现。部分市场资讯可能由 AI 根据第三方公开资料协助整理,并可能存在延迟、遗漏或错误。投资前请参考相关基金最新 Prospectus、PHS 及官方资料。</div>
+      <div class="disc-h en-t">⚠️ Disclaimer</div>
+      <div class="en-t">This content is provided for general educational and market-reference purposes only. It does not constitute personalized investment, financial, tax, or legal advice, nor a recommendation to buy, sell, switch, or hold any specific fund. Unit Trust and PRS investments carry risk, including possible loss of principal. Past performance is not indicative of future performance. Some market information may be compiled with AI assistance from third-party public sources and may contain delays, omissions, or errors. Please refer to the relevant fund's latest Prospectus, PHS, and official materials before investing.</div>
+    </div>
+  </div>
+</div>
+
+</div>
+<script>
+function setL(l) {
+  document.querySelectorAll('.lb').forEach((b, i) => b.classList.toggle('active', ['both','zh','en'][i] === l));
+  document.querySelectorAll('.zh-t').forEach(el => {
+    el.style.display = (l === 'en') ? 'none' : '';
+  });
+  document.querySelectorAll('.en-t').forEach(el => {
+    el.style.display = (l === 'zh') ? 'none' : '';
+  });
+}
+</script>
+
+<script src="../assets/brief-bar.js" defer></script>
+</body></html>

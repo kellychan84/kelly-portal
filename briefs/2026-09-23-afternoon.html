@@ -1,0 +1,447 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Sept 23 Afternoon Check</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F8F6F1;
+    --paper:#FFFFFF;
+    --ink:#2A2620;
+    --ink-soft:#5C5648;
+    --gold:#9A7B3E;
+    --gold-soft:#C9AE7C;
+    --green:#1A6B3C;
+    --red:#B02020;
+    --line:#E7E0D1;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'DM Sans', -apple-system, sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .container{
+    max-width:720px;
+    margin:0 auto;
+    padding:0 18px 48px;
+  }
+  h1,h2,h3{
+    font-family:'Playfair Display', Georgia, serif;
+    margin:0;
+    text-wrap:balance;
+  }
+  a{color:var(--gold); text-decoration:none; border-bottom:1px solid var(--gold-soft);}
+  a:hover{border-bottom-color:var(--gold);}
+
+  /* ---- Masthead ---- */
+  .mast{
+    padding:28px 0 18px;
+    border-bottom:2px solid var(--ink);
+  }
+  .mast-eyebrow{
+    font-size:12px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--gold);
+    font-weight:600;
+  }
+  .mast h1{
+    font-size:30px;
+    font-weight:800;
+    margin-top:6px;
+    color:var(--ink);
+  }
+  .mast-sub{
+    margin-top:8px;
+    font-size:14px;
+    color:var(--ink-soft);
+    line-height:1.6;
+  }
+  .mast-date{
+    margin-top:10px;
+    font-size:13px;
+    color:var(--ink-soft);
+    font-style:italic;
+  }
+
+  /* ---- Language toggle ---- */
+  .langbar{
+    display:flex;
+    gap:8px;
+    margin:18px 0 26px;
+    flex-wrap:wrap;
+  }
+  .lang-btn{
+    font-family:'DM Sans', sans-serif;
+    font-size:13px;
+    font-weight:600;
+    padding:8px 16px;
+    border-radius:999px;
+    border:1px solid var(--line);
+    background:var(--paper);
+    color:var(--ink-soft);
+    cursor:pointer;
+    transition:all .15s ease;
+  }
+  .lang-btn.active{
+    background:var(--ink);
+    border-color:var(--ink);
+    color:var(--bg);
+  }
+
+  /* ---- Scorecard ---- */
+  .scorecard{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:10px;
+    margin-bottom:30px;
+  }
+  @media(min-width:480px){
+    .scorecard{grid-template-columns:repeat(4, 1fr);}
+  }
+  .tile{
+    background:var(--paper);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:14px 12px;
+  }
+  .tile-label{
+    font-size:11px;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    font-weight:600;
+    line-height:1.4;
+    min-height:28px;
+  }
+  .tile-value{
+    font-family:'Playfair Display', serif;
+    font-size:20px;
+    font-weight:700;
+    margin-top:6px;
+    font-variant-numeric:tabular-nums;
+  }
+  .tile-delta{
+    font-size:12px;
+    font-weight:600;
+    margin-top:3px;
+    font-variant-numeric:tabular-nums;
+  }
+  .up{color:var(--green);}
+  .down{color:var(--red);}
+  .flat{color:var(--ink-soft);}
+
+  /* ---- Section labels ---- */
+  .section-tag{
+    font-size:12px;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    color:var(--gold);
+    font-weight:700;
+    margin:34px 0 12px;
+  }
+
+  /* ---- Story cards ---- */
+  .story{
+    background:var(--paper);
+    border:1px solid var(--line);
+    border-left:4px solid var(--gold);
+    border-radius:10px;
+    padding:20px 20px 18px;
+    margin-bottom:18px;
+  }
+  .story-head{
+    display:flex;
+    align-items:flex-start;
+    gap:10px;
+    margin-bottom:10px;
+  }
+  .story-icon{font-size:22px; line-height:1.2;}
+  .story h2{
+    font-size:19px;
+    font-weight:700;
+    line-height:1.35;
+  }
+  .story-body{
+    font-size:14.5px;
+    line-height:1.75;
+    color:#3A362E;
+  }
+  .story-body p{margin:0 0 10px;}
+  .story-body p:last-child{margin-bottom:0;}
+  .story-src{
+    margin-top:12px;
+    font-size:12px;
+    color:var(--ink-soft);
+    line-height:1.8;
+  }
+  .story-src span.note{
+    font-style:italic;
+    color:#8a8371;
+  }
+
+  /* ---- Tri block ---- */
+  .tri{
+    margin-top:16px;
+    padding-top:14px;
+    border-top:1px dashed var(--gold-soft);
+  }
+  .tri-h{
+    font-size:11px;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    color:var(--gold);
+    font-weight:700;
+    margin-bottom:8px;
+  }
+  .tri-i{
+    font-size:13px;
+    line-height:1.6;
+    color:#4A4638;
+    margin-bottom:6px;
+    padding-left:22px;
+    position:relative;
+  }
+  .tri-i:last-child{margin-bottom:0;}
+  .tri-ico{
+    position:absolute;
+    left:0;
+    top:0;
+  }
+
+  /* ---- Advisor analysis box ---- */
+  .adv{
+    background:#FBF8F0;
+    border:1px solid var(--gold-soft);
+    border-radius:12px;
+    padding:24px 22px;
+    margin-top:36px;
+  }
+  .adv-title{
+    font-size:20px;
+    font-weight:700;
+    color:var(--ink);
+    margin-bottom:16px;
+    padding-bottom:12px;
+    border-bottom:2px solid var(--ink);
+  }
+  .adv-take{
+    font-size:14.5px;
+    line-height:1.8;
+    margin-bottom:20px;
+  }
+  .adv-take p{margin:0 0 10px;}
+  .adv-cat{
+    margin-bottom:16px;
+    padding:14px 16px;
+    background:var(--paper);
+    border-radius:8px;
+    border:1px solid var(--line);
+  }
+  .adv-cat:last-of-type{margin-bottom:0;}
+  .adv-cat-h{
+    font-size:13.5px;
+    font-weight:700;
+    color:var(--gold);
+    margin-bottom:6px;
+  }
+  .adv-cat-b{
+    font-size:13.5px;
+    line-height:1.7;
+    color:#3A362E;
+  }
+  .disc{
+    margin-top:22px;
+    padding-top:16px;
+    border-top:1px solid var(--gold-soft);
+    font-size:11.5px;
+    line-height:1.7;
+    color:#8a8371;
+  }
+
+  footer{
+    margin-top:40px;
+    padding-top:18px;
+    border-top:1px solid var(--line);
+    font-size:12px;
+    color:#9a9382;
+    text-align:center;
+    line-height:1.8;
+  }
+</style>
+<div class="container">
+
+  <div class="mast">
+    <div class="mast-eyebrow">Kelly Chan · 信托基金顾问 Trust Fund Advisor</div>
+    <h1>下午市场速递 · Afternoon Market Check</h1>
+    <div class="mast-sub zh-t">早晨简报后的最新进展 —— 不重复整体架构,只聚焦今天下午新出现的变化。</div>
+    <div class="mast-sub en-t">What's developed since this morning's brief — the deltas only, not a full re-run.</div>
+    <div class="mast-date">
+      <span class="zh-t">2026年9月23日星期三 · 下午5:00 (马来西亚时间)</span>
+      <span class="en-t">Wednesday, September 23, 2026 · 5:00 PM MYT</span>
+    </div>
+  </div>
+
+  <div class="langbar">
+    <button class="lang-btn active" id="btn-both" onclick="setL('both')">双语 · Both</button>
+    <button class="lang-btn" id="btn-zh" onclick="setL('zh')">华语</button>
+    <button class="lang-btn" id="btn-en" onclick="setL('en')">English</button>
+  </div>
+
+  <div class="scorecard">
+    <div class="tile">
+      <div class="tile-label"><span class="zh-t">WTI原油</span><span class="en-t">WTI Crude</span></div>
+      <div class="tile-value">$89.86</div>
+      <div class="tile-delta down">▼ 0.74%</div>
+    </div>
+    <div class="tile">
+      <div class="tile-label"><span class="zh-t">联储10月加息概率</span><span class="en-t">Fed Oct 28 Hike Odds</span></div>
+      <div class="tile-value">57.4%</div>
+      <div class="tile-delta flat">— <span class="zh-t">持平</span><span class="en-t">unchanged</span></div>
+    </div>
+    <div class="tile">
+      <div class="tile-label"><span class="zh-t">美元兑令吉</span><span class="en-t">USD/MYR</span></div>
+      <div class="tile-value">4.0676</div>
+      <div class="tile-delta down">▼ 0.18%</div>
+    </div>
+    <div class="tile">
+      <div class="tile-label"><span class="zh-t">美光股价</span><span class="en-t">Micron (MU)</span></div>
+      <div class="tile-value">$1,096.16</div>
+      <div class="tile-delta up">▲ 5.00%</div>
+    </div>
+  </div>
+
+  <div class="section-tag zh-t">下午新进展 · 两大焦点</div>
+  <div class="section-tag en-t">What's New This Afternoon · Two Focus Stories</div>
+
+  <div class="story">
+    <div class="story-head">
+      <span class="story-icon">🕊️</span>
+      <h2>
+        <span class="zh-t">联合国场边:伊朗外交出现具体进展,油价延续跌势</span>
+        <span class="en-t">At the UN: Iran Diplomacy Gets More Concrete, Oil Extends Its Slide</span>
+      </h2>
+    </div>
+    <div class="story-body">
+      <div class="zh-t">
+        <p>早晨简报提到特朗普在联合国讲话中"消灭伊朗 vs 达成协议"的两难框架,以及库什纳/威特科夫团队与伊朗官员的3小时会谈。下午最新进展让这个故事更具体了:伊朗总统佩泽希齐扬周二深夜抵达纽约,准备在联大发言,誓言"坚定捍卫"伊朗立场。美国特使威特科夫形容双方会谈"具建设性且充满希望",并证实另一轮会谈已安排,即将举行。特朗普与习近平的会晤也确认将在周四进行。</p>
+        <p>与此同时,美国财政部长贝森特宣布的伊朗航空业制裁已于今天(9月23日)正式生效——伊拉克与阿曼随即暂停了伊朗航班往来,是制裁落地后第一批具体反应。油价方面,WTI原油今天进一步回落至89.86美元(-0.74%),布伦特原油报99.10美元,连续第二天守在100美元关口下方,反映市场对外交进展的正面消化。</p>
+      </div>
+      <div class="en-t">
+        <p>This morning's brief flagged Trump's UN "annihilate Iran vs. make a deal" framing and the Kushner/Witkoff team's three-hour talks with Iranian officials. The afternoon adds specifics: Iranian President Pezeshkian arrived in New York late Tuesday ahead of his UN General Assembly address, vowing to "firmly defend" Iran's positions. US envoy Steve Witkoff described the talks as "constructive and promising," and confirmed another round is scheduled soon. A Trump-Xi Jinping meeting is now confirmed for Thursday.</p>
+        <p>Meanwhile, the US aviation sanctions Treasury Secretary Bessent flagged took effect today (Sept 23) — Iraq and Oman have already suspended Iranian flight operations, the first concrete fallout. Oil continued easing: WTI slipped to $89.86 (-0.74%) and Brent held at $99.10, staying under the $100 mark for a second straight day as markets keep pricing in diplomatic progress.</p>
+      </div>
+    </div>
+    <div class="story-src">
+      <span class="zh-t">信源:</span><span class="en-t">Sources:</span>
+      <a href="https://www.cbsnews.com/live-updates/us-iran-war-trump-decision-tehran-warns-of-expansion/" target="_blank" rel="noopener">CBS News</a> ·
+      <a href="https://tradingeconomics.com/commodity/crude-oil" target="_blank" rel="noopener">Trading Economics</a>
+    </div>
+    <div class="tri">
+      <div class="tri-h">💡 <span class="zh-t">与您相关</span><span class="en-t">What This Means For You</span></div>
+      <div class="tri-i"><span class="tri-ico">🎯</span><span class="zh-t">退休规划与PRS:外交进展是分秒变化的新闻,不是退休配置调整的理由——PRS本就该按10年、20年的周期来看,不因单日头条而改变供款节奏。</span><span class="en-t">Retirement & PRS: diplomatic headlines shift by the hour — they're not a reason to touch a retirement allocation. PRS is built on a 10-20 year horizon, not today's news cycle.</span></div>
+      <div class="tri-i"><span class="tri-ico">💰</span><span class="zh-t">DDA定期定额:油价回落对进口成本、通胀预期都是好消息,若您的DDA组合含能源敏感型基金,这类波动正是定期定额"逢低摊薄"发挥作用的时候。</span><span class="en-t">DDA: falling oil is good news for import costs and inflation expectations. If your DDA holds energy-sensitive funds, this dip is exactly when dollar-cost averaging quietly does its job.</span></div>
+      <div class="tri-i"><span class="tri-ico">📈</span><span class="zh-t">长期投资:真正的风险不是"消息面反复",而是因为反复的消息而频繁进出市场——中东局势自今年以来已反复多次,长期持有者的回报始终来自耐心,不是预测新闻。</span><span class="en-t">Long-term investing: the real risk isn't the headlines flip-flopping — it's trading in and out because of them. This Middle East story has swung back and forth all year; long-term returns have come from staying put, not predicting the next headline.</span></div>
+    </div>
+  </div>
+
+  <div class="story">
+    <div class="story-head">
+      <span class="story-icon">💾</span>
+      <h2>
+        <span class="zh-t">美光股价单日暴涨5%,收报1,096美元创新高,距9月30日财报只剩一周</span>
+        <span class="en-t">Micron Jumps 5% to a Fresh High at $1,096, One Week From Earnings</span>
+      </h2>
+    </div>
+    <div class="story-body">
+      <div class="zh-t">
+        <p>早晨简报预览了美光9月30日财报(市场预估每股盈利31.16美元,对比去年同期3.03美元)。下午最新数据显示,美光股价昨日(9月22日)收盘大涨5.00%至1,096.16美元,较早前分析师预览时引用的975美元左右水平又向上跳了一大截,是AI内存供应紧俏叙事持续发酵的直接体现。</p>
+        <p>研究机构Lynx Research本月稍早将美光目标价上调至1,325美元,理由是"5-6月那种由炒作驱动的剧烈波动已经过去",取而代之的是"更冷静、更有纪律的机构建仓",这类资金流入通常预示着突破行情。美光今年迄今涨幅已超过250%,是标普500指数中表现最强的成分股之一。</p>
+      </div>
+      <div class="en-t">
+        <p>This morning's brief previewed Micron's Sept 30 earnings (EPS estimate $31.16 vs. $3.03 a year ago). The afternoon update: Micron closed Tuesday (Sept 22) up 5.00% at $1,096.16 — a sharp jump from the roughly $975 level cited in earlier analyst previews, a direct reflection of the AI-memory supply-crunch narrative continuing to build.</p>
+        <p>Lynx Research raised its price target to $1,325 earlier this month, arguing "the wild, hype-driven volatility of May and June is behind us," replaced by "calmer, more deliberate institutional buying" — the kind of flow that typically precedes a breakout. Micron is up over 250% year-to-date, among the S&P 500's strongest performers.</p>
+      </div>
+    </div>
+    <div class="story-src">
+      <span class="zh-t">信源:</span><span class="en-t">Sources:</span>
+      <a href="https://finance.yahoo.com/quote/MU/" target="_blank" rel="noopener">Yahoo Finance</a> ·
+      <a href="https://www.thestreet.com/investing/stocks/mu-micron-sndk-sandisk-lynx-research-stock-price-targets-september-2026" target="_blank" rel="noopener">TheStreet</a> ·
+      <a href="https://www.benzinga.com/markets/large-cap/26/09/61855575/micron-earnings-preview-31-per-share-vs-3-a-year-ago" target="_blank" rel="noopener">Benzinga</a>
+    </div>
+    <div class="tri">
+      <div class="tri-h">💡 <span class="zh-t">与您相关</span><span class="en-t">What This Means For You</span></div>
+      <div class="tri-i"><span class="tri-ico">🎯</span><span class="zh-t">退休规划与PRS:单一个股(即使涨5%)大涨不代表退休组合该重押科技股——PRS的价值恰恰在于分散,不追逐当红个股的短期动能。</span><span class="en-t">Retirement & PRS: one stock jumping 5% isn't a reason to overweight tech in a retirement portfolio — PRS's whole value is diversification, not chasing today's momentum name.</span></div>
+      <div class="tri-i"><span class="tri-ico">💰</span><span class="zh-t">DDA定期定额:若您的DDA组合含AI/半导体相关基金,近期的强势表现是定期定额纪律的成果展示,但也提醒您财报周波动可能放大,情绪上要有心理准备。</span><span class="en-t">DDA: if your DDA holds AI/semiconductor-exposed funds, this run shows the discipline of dollar-cost averaging paying off — but earnings week ahead means more volatility, so brace for swings either way.</span></div>
+      <div class="tri-i"><span class="tri-ico">📈</span><span class="zh-t">长期投资:美光的故事是AI内存结构性短缺,不是一次性财报惊喜——真正的长期投资者应该看的是需求周期能撑多久,而不是单日涨了多少。</span><span class="en-t">Long-term investing: Micron's story is a structural AI-memory shortage, not a one-off earnings pop — the question worth asking is how long the demand cycle holds, not how far the stock moved in one session.</span></div>
+    </div>
+  </div>
+
+  <div class="adv">
+    <div class="adv-title">今日新闻分析 · Today's News Analysis</div>
+
+    <div class="adv-take">
+      <div class="zh-t">
+        <p><strong>Kelly的总结:</strong>今天下午没有惊天动地的大新闻,但两条线都在往清晰的方向走。伊朗这边,从"讲话里放狠话"进展到"具体安排下一轮会谈",这种从模糊到具体的转变,正是市场愿意让油价继续回落的原因。美光这边,则是AI硬件那场"缺货潮"叙事又添了一个实锤——股价用真金白银投票。</p>
+        <p>如果说早上的简报是在问"今天会怎样",那下午这份速递想提醒大家的是:市场的耐心,往往比头条新闻更值钱。外交谈判会反复,财报周会波动,但退休规划这件事,从来不是靠预测明天的新闻来赢的。</p>
+      </div>
+      <div class="en-t">
+        <p><strong>Kelly's Takeaways:</strong> No earth-shaking headline this afternoon, but both storylines got a little more concrete. On Iran, we moved from "tough talk at the podium" to "a specific next round of talks scheduled" — that shift from vague to concrete is exactly why markets are comfortable letting oil keep easing. On Micron, the AI-hardware shortage story just got another vote of confidence, this time in hard cash.</p>
+        <p>If this morning's brief asked "what might happen today," this afternoon's reminder is simpler: market patience is usually worth more than the headline itself. Diplomacy will zigzag, earnings weeks will be choppy — but retirement planning was never a game of predicting tomorrow's news.</p>
+      </div>
+    </div>
+
+    <div class="adv-cat">
+      <div class="adv-cat-h">🎯 <span class="zh-t">退休规划与PRS</span><span class="en-t">Retirement Planning & PRS</span></div>
+      <div class="adv-cat-b">
+        <span class="zh-t">今天的两则新闻都指向同一个提醒:无论是地缘政治缓和还是单一科技股暴涨,都不是调整PRS配置的理由。PRS的纪律恰恰体现在"不因新闻而摇摆"——它的对手不是波动,而是您自己想要频繁操作的冲动。</span>
+        <span class="en-t">Both of today's stories point to the same reminder: neither a geopolitical thaw nor a single stock's 5% jump is a reason to rebalance PRS. Its discipline shows precisely in not reacting to headlines — its real opponent isn't volatility, it's the urge to keep fiddling with it.</span>
+      </div>
+    </div>
+    <div class="adv-cat">
+      <div class="adv-cat-h">💰 <span class="zh-t">DDA定期定额</span><span class="en-t">DDA (Dollar-Cost Averaging)</span></div>
+      <div class="adv-cat-b">
+        <span class="zh-t">油价回落有利于通胀与整体市场情绪,AI硬件基金则延续强势——两条线合起来,是定期定额投资者今天可以安心的一天。真正需要留意的,是下周美光财报公布前后可能放大的短期波动,提前做好心理准备比临时反应更重要。</span>
+        <span class="en-t">Easing oil helps inflation and overall market sentiment, while AI-hardware funds keep their momentum — together, that's a reassuring day for DCA investors. What's worth watching is the short-term volatility that could build around next week's Micron earnings; bracing for it in advance beats reacting in the moment.</span>
+      </div>
+    </div>
+    <div class="adv-cat">
+      <div class="adv-cat-h">📈 <span class="zh-t">长期投资</span><span class="en-t">Long-Term Investing</span></div>
+      <div class="adv-cat-b">
+        <span class="zh-t">美光的暴涨提醒我们:AI供应链的结构性叙事仍然完好,但股价已经反映了大量乐观预期。长期投资者该问的不是"要不要追高",而是"这个供需缺口能撑多久"——答案会决定这波行情是延续还是回调。</span>
+        <span class="en-t">Micron's surge is a reminder that the AI supply-chain narrative is still intact, but the stock has already priced in plenty of optimism. The question for long-term investors isn't "should I chase this," it's "how long does this supply-demand gap actually hold" — the answer decides whether this run continues or corrects.</span>
+      </div>
+    </div>
+
+    <div class="disc">
+      <div class="zh-t">⚠️ 免责声明 本网站内容仅供一般教育及市场参考,不构成任何个性化投资、财务、税务或法律建议,亦不构成购买、出售、转换或持有任何特定基金的建议。Unit Trust 及 PRS 涉及投资风险,包括可能的本金损失。过往表现并不代表未来表现。部分市场资讯可能由 AI 根据第三方公开资料协助整理,并可能存在延迟、遗漏或错误。投资前请参考相关基金最新 Prospectus、PHS 及官方资料。</div>
+      <div class="en-t">⚠️ Disclaimer This content is provided for general educational and market-reference purposes only. It does not constitute personalized investment, financial, tax, or legal advice, nor a recommendation to buy, sell, switch, or hold any specific fund. Unit Trust and PRS investments carry risk, including possible loss of principal. Past performance is not indicative of future performance. Some market information may be compiled with AI assistance from third-party public sources and may contain delays, omissions, or errors. Please refer to the relevant fund's latest Prospectus, PHS, and official materials before investing.</div>
+    </div>
+  </div>
+
+  <footer>
+    <span class="zh-t">Kelly Chan 信托基金顾问 · 下午市场速递生成于 2026年9月23日 下午5:00 (MYT)</span>
+    <span class="en-t">Kelly Chan, Trust Fund Advisor · Afternoon check generated Sept 23, 2026, 5:00 PM MYT</span>
+  </footer>
+
+</div>
+
+<script>
+function setL(mode){
+  document.querySelectorAll('.zh-t').forEach(function(el){
+    el.style.display = (mode === 'en') ? 'none' : '';
+  });
+  document.querySelectorAll('.en-t').forEach(function(el){
+    el.style.display = (mode === 'zh') ? 'none' : '';
+  });
+  document.querySelectorAll('.lang-btn').forEach(function(b){ b.classList.remove('active'); });
+  document.getElementById('btn-' + mode).classList.add('active');
+}
+setL('both');
+</script>
+
+<script src="../assets/brief-bar.js" defer></script>
+</body></html>

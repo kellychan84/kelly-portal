@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="zh-Hans" data-lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>预约咨询 · Kelly Chan</title>
+<meta name="kp-title-zh" content="预约免费咨询 · Kelly Chan">
+<meta name="kp-title-en" content="Book a Free Consultation · Kelly Chan">
+<meta name="description" content="预约 30 分钟免费理财咨询：退休规划、PRS、定期定额投资与投资组合检视。Book a free 30-minute consultation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%239A7B3E'/><text x='32' y='44' font-size='34' text-anchor='middle' fill='white' font-family='Georgia'>K</text></svg>">
+<style>
+  .book-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 320px); gap: 24px; align-items: start; padding-bottom: 56px; }
+  @media (max-width: 860px) { .book-grid { grid-template-columns: minmax(0, 1fr); } }
+  .stepper { display: flex; gap: 8px; margin-bottom: 18px; font-size: 13.5px; color: var(--muted2); }
+  .stepper span { display: flex; align-items: center; gap: 6px; }
+  .stepper b { width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; font-size: 12px; background: var(--border); color: var(--muted); }
+  .stepper .on { color: var(--text); font-weight: 600; }
+  .stepper .on b { background: var(--gold); color: #fff; }
+  .side h3 { font-family: var(--serif); font-size: 18px; margin: 0 0 12px; }
+  .side ul { margin: 0; padding-left: 18px; color: var(--muted); font-size: 14.5px; }
+  .side li { margin-bottom: 8px; }
+  .cal-frame { width: 100%; height: 680px; border: 0; border-radius: 12px; background: #fff; }
+  .done-icon { font-size: 40px; }
+</style>
+</head>
+<body data-page="book" data-root="">
+<div id="site-header"></div>
+
+<main>
+  <div class="container page-head">
+    <p class="section-eyebrow"><span class="zh">免费 · 30 分钟 · 线上或面谈</span><span class="en">Free · 30 minutes · Online or in person</span></p>
+    <h1><span class="zh">预约一次免费咨询</span><span class="en">Book a free consultation</span></h1>
+    <p><span class="zh">留下资料并选择时间。我会在见面前先了解你的情况，让 30 分钟用得更有价值。</span><span class="en">Leave your details and pick a time. I'll review your situation beforehand so our 30 minutes count.</span></p>
+  </div>
+
+  <div class="container book-grid">
+    <div class="card">
+      <div class="stepper">
+        <span class="on" id="st1"><b>1</b><span class="zh">你的资料</span><span class="en">Your details</span></span>
+        <span>›</span>
+        <span id="st2"><b>2</b><span class="zh">选择时间</span><span class="en">Pick a time</span></span>
+      </div>
+
+      <!-- STEP 1 -->
+      <form id="bookForm" novalidate>
+        <div class="form-grid">
+          <div class="field"><label for="bName"><span class="zh">姓名</span><span class="en">Name</span> <span class="req">*</span></label><input type="text" id="bName" autocomplete="name" required></div>
+          <div class="field"><label for="bPhone"><span class="zh">手机号码（WhatsApp）</span><span class="en">Mobile (WhatsApp)</span> <span class="req">*</span></label><input type="tel" id="bPhone" autocomplete="tel" data-ph-zh="例如 012-345 6789" data-ph-en="e.g. 012-345 6789" required></div>
+          <div class="field full"><label for="bEmail"><span class="zh">电邮</span><span class="en">Email</span> <span class="req">*</span></label><input type="email" id="bEmail" autocomplete="email" required></div>
+
+          <div class="field full">
+            <span class="label"><span class="zh">想聊的主题</span><span class="en">What would you like to discuss?</span></span>
+            <div class="radio-row" id="topics">
+              <label><input type="checkbox" value="retirement" checked><span class="zh">退休规划</span><span class="en">Retirement planning</span></label>
+              <label><input type="checkbox" value="prs">PRS</label>
+              <label><input type="checkbox" value="dca"><span class="zh">定期定额投资</span><span class="en">Regular investing (DCA)</span></label>
+              <label><input type="checkbox" value="portfolio-review"><span class="zh">检视现有投资</span><span class="en">Review my investments</span></label>
+              <label><input type="checkbox" value="education"><span class="zh">子女教育基金</span><span class="en">Children's education</span></label>
+              <label><input type="checkbox" value="other"><span class="zh">其他</span><span class="en">Other</span></label>
+            </div>
+          </div>
+
+          <div class="field">
+            <span class="label"><span class="zh">见面方式</span><span class="en">Meeting type</span></span>
+            <div class="radio-row">
+              <label><input type="radio" name="mode" value="online" checked><span class="zh">线上</span><span class="en">Online</span></label>
+              <label><input type="radio" name="mode" value="in-person"><span class="zh">面谈</span><span class="en">In person</span></label>
+            </div>
+          </div>
+          <div class="field">
+            <span class="label"><span class="zh">语言</span><span class="en">Language</span></span>
+            <div class="radio-row">
+              <label><input type="radio" name="mlang" value="zh" checked>中文</label>
+              <label><input type="radio" name="mlang" value="en">English</label>
+            </div>
+          </div>
+
+          <div class="field full"><label for="bMsg"><span class="zh">想先让我知道的事（可选）</span><span class="en">Anything I should know first? (optional)</span></label><textarea id="bMsg" data-ph-zh="例如：40 岁，想 55 岁提早退休，目前有 EPF 和一些定存。" data-ph-en="e.g. I'm 40, hoping to retire early at 55, with EPF and some fixed deposits."></textarea></div>
+
+          <input type="text" class="hp" id="bWebsite" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <label class="check full"><input type="checkbox" id="bConsent" required><span><span class="zh">我同意 Kelly Chan 依据<a href="privacy.html" target="_blank">隐私政策</a>收集及使用我的资料，以便安排咨询及提供理财资讯。</span><span class="en">I agree that Kelly Chan may collect and use my details, per the <a href="privacy.html" target="_blank">privacy notice</a>, to arrange this consultation and share financial information.</span> <span class="req">*</span></span></label>
+          <div class="full">
+            <button class="btn btn-primary btn-block" type="submit" id="bSubmit"><span class="zh">下一步：选择时间</span><span class="en">Next: pick a time</span></button>
+            <div class="form-msg" id="bMsgOut" role="status"></div>
+          </div>
+        </div>
+      </form>
+
+      <!-- STEP 2 -->
+      <div id="step2" hidden>
+        <div id="calWrap"></div>
+        <div id="noCal" hidden style="text-align:center;padding:26px 8px">
+          <div class="done-icon">✅</div>
+          <h2 class="section-title" style="font-size:24px"><span class="zh">收到了，谢谢你！</span><span class="en">Got it — thank you!</span></h2>
+          <p style="color:var(--muted)"><span class="zh">我会在 1 个工作天内通过 WhatsApp 联系你，确认见面时间。</span><span class="en">I'll WhatsApp you within 1 working day to confirm a time.</span></p>
+          <a class="btn btn-wa" id="waNow" href="#" target="_blank" rel="noopener" hidden><span class="zh">想快一点？现在 WhatsApp 我</span><span class="en">In a hurry? WhatsApp me now</span></a>
+        </div>
+      </div>
+    </div>
+
+    <aside class="card side">
+      <h3><span class="zh">这 30 分钟我们会做什么</span><span class="en">What we'll cover in 30 minutes</span></h3>
+      <ul class="zh">
+        <li>了解你的目标：几岁退休、想过怎样的生活</li>
+        <li>一起检视 EPF、现有储蓄与投资</li>
+        <li>算清楚退休缺口，以及每月需要多存多少</li>
+        <li>给你 1–2 个可以马上开始的下一步</li>
+      </ul>
+      <ul class="en">
+        <li>Understand your goals: when to retire and the lifestyle you want</li>
+        <li>Review your EPF, savings and existing investments together</li>
+        <li>Work out your retirement gap and how much more to save each month</li>
+        <li>Leave with 1–2 next steps you can start right away</li>
+      </ul>
+      <p style="font-size:13px;color:var(--muted2);margin:14px 0 0"><span class="zh">完全免费，没有义务购买任何产品。</span><span class="en">Completely free, with no obligation to buy anything.</span></p>
+    </aside>
+  </div>
+</main>
+
+<div id="site-footer"></div>
+
+<script src="assets/config.js"></script>
+<script src="assets/site.js"></script>
+<script>
+(function () {
+  const $ = id => document.getElementById(id);
+  const L = (zh, en) => kpLang() === 'zh' ? zh : en;
+  const cfg = window.SITE_CONFIG || {};
+
+  const saved = kpSavedContact();
+  if (saved) { $('bName').value = saved.name || ''; $('bPhone').value = saved.phone || ''; $('bEmail').value = saved.email || ''; }
+  if (new URLSearchParams(location.search).get('from') === 'calculator') {
+    document.querySelector('#topics input[value="retirement"]').checked = true;
+  }
+
+  $('bookForm').addEventListener('submit', async e => {
+    e.preventDefault();
+    const out = $('bMsgOut'); out.className = 'form-msg err';
+    const name = $('bName').value, phone = $('bPhone').value, email = $('bEmail').value;
+    const bad = [];
+    [['bName', kpValid.name(name)], ['bPhone', kpValid.phone(phone)], ['bEmail', kpValid.email(email)]]
+      .forEach(([id, ok]) => { $(id).setAttribute('aria-invalid', !ok); if (!ok) bad.push(id); });
+    if (bad.length) { out.textContent = L('请填写正确的姓名、手机号码和电邮。', 'Please enter a valid name, mobile number and email.'); $(bad[0]).focus(); return; }
+    if (!$('bConsent').checked) { out.textContent = L('请勾选同意隐私政策。', 'Please tick the privacy consent box.'); return; }
+
+    if (!$('bWebsite').value) {
+      const btn = $('bSubmit'); btn.disabled = true;
+      const res = await kpSubmitLead({
+        source: new URLSearchParams(location.search).get('from') === 'calculator' ? 'booking (from calculator)' : 'booking',
+        name: name.trim(), phone: phone.trim(), email: email.trim(),
+        topics: [...document.querySelectorAll('#topics input:checked')].map(i => i.value).join(', '),
+        meetingType: document.querySelector('input[name=mode]:checked').value,
+        meetingLang: document.querySelector('input[name=mlang]:checked').value,
+        message: $('bMsg').value.trim(),
+        wantsConsult: 'yes',
+        consent: 'yes'
+      });
+      btn.disabled = false;
+      if (!res.ok) { out.textContent = L('提交失败，请稍后再试或直接 WhatsApp 我。', 'Something went wrong. Please try again or WhatsApp me directly.'); return; }
+    }
+    showStep2(name.trim());
+  });
+
+  function showStep2(name) {
+    $('bookForm').hidden = true;
+    $('step2').hidden = false;
+    $('st1').classList.remove('on'); $('st2').classList.add('on');
+    if (cfg.bookingUrl) {
+      const sep = cfg.bookingUrl.includes('?') ? '&' : '?';
+      $('calWrap').innerHTML =
+        `<p style="margin:0 0 12px;color:var(--muted)">${L('谢谢！请在下方选择方便的时间：', 'Thank you! Please choose a time that suits you below:')}</p>
+         <iframe class="cal-frame" src="${cfg.bookingUrl}${sep}gv=true" title="Booking calendar" loading="lazy"></iframe>`;
+    } else {
+      $('noCal').hidden = false;
+    }
+    if (cfg.whatsapp) {
+      const wa = $('waNow'); wa.hidden = false;
+      wa.href = 'https://wa.me/' + cfg.whatsapp + '?text=' + encodeURIComponent(
+        L(`你好 Kelly，我是 ${name}，刚在网站预约了咨询。`, `Hi Kelly, this is ${name}. I just requested a consultation on your website.`));
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+})();
+</script>
+</body>
+</html>

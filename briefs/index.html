@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-Hans" data-lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>市场简报 · Kelly Chan</title>
+<meta name="kp-title-zh" content="市场简报 · Kelly Chan">
+<meta name="kp-title-en" content="Market Briefs · Kelly Chan">
+<meta name="description" content="每日双语市场简报存档：早报、午后速递与周末版。Archive of daily bilingual market briefs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%239A7B3E'/><text x='32' y='44' font-size='34' text-anchor='middle' fill='white' font-family='Georgia'>K</text></svg>">
+</head>
+<body data-page="briefs" data-root="../">
+<div id="site-header"></div>
+
+<main>
+  <div class="container page-head">
+    <p class="section-eyebrow"><span class="zh">Market Intelligence Brief</span><span class="en">Market Intelligence Brief</span></p>
+    <h1><span class="zh">市场简报</span><span class="en">Market Briefs</span></h1>
+    <p><span class="zh">每天两次，把全球新闻整理成"与你相关"的重点：退休规划与 PRS、定期定额、长期投资。</span><span class="en">Twice a day, global news distilled into what matters for you: retirement & PRS, dollar-cost averaging and long-term investing.</span></p>
+  </div>
+
+  <div class="container" style="padding-bottom:56px">
+    <div class="filter-row" role="group" aria-label="Filter">
+      <button class="chip" data-f="all" aria-pressed="true"><span class="zh">全部</span><span class="en">All</span></button>
+      <button class="chip" data-f="morning" aria-pressed="false"><span class="zh">早报</span><span class="en">Morning</span></button>
+      <button class="chip" data-f="afternoon" aria-pressed="false"><span class="zh">午后速递</span><span class="en">Afternoon</span></button>
+      <button class="chip" data-f="weekend" aria-pressed="false"><span class="zh">周末版</span><span class="en">Weekend</span></button>
+    </div>
+    <div id="archive"></div>
+  </div>
+
+  <section class="cta-band">
+    <div class="container">
+      <h2 class="section-title"><span class="zh">新闻看完了，你的退休计划呢？</span><span class="en">Read the news. Now, what about your plan?</span></h2>
+      <p><span class="zh">用 3 分钟算一算，你的退休金够用到几岁。</span><span class="en">Take 3 minutes to see how long your retirement savings will last.</span></p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="../calculator.html"><span class="zh">免费计算退休缺口</span><span class="en">Calculate my gap</span></a>
+        <a class="btn btn-ghost" href="../book.html"><span class="zh">预约咨询</span><span class="en">Book a consult</span></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+
+<script src="../assets/config.js"></script>
+<script src="briefs.js"></script>
+<script src="../assets/briefs-ui.js"></script>
+<script src="../assets/site.js"></script>
+<script>
+  (function () {
+    const out = document.getElementById('archive');
+    const chips = document.querySelectorAll('.chip');
+    function render(f) {
+      const list = kpBriefs.all().filter(b => f === 'all' || b.slot === f);
+      if (!list.length) {
+        out.innerHTML = '<p class="empty"><span class="zh">暂无简报。</span><span class="en">No briefs yet.</span></p>';
+        return;
+      }
+      const groups = [];
+      list.forEach(b => {
+        const g = groups[groups.length - 1];
+        if (g && g.date === b.date) g.items.push(b); else groups.push({ date: b.date, items: [b] });
+      });
+      out.innerHTML = groups.map(g => {
+        const d = kpBriefs.dateParts(g.date);
+        return `<div class="day-group"><p class="day-label"><span class="zh">${d.zh}</span><span class="en">${d.en}</span></p>
+          <div class="brief-grid">${g.items.map(b => kpBriefs.card(b, '../')).join('')}</div></div>`;
+      }).join('');
+    }
+    chips.forEach(c => c.addEventListener('click', () => {
+      chips.forEach(x => x.setAttribute('aria-pressed', x === c));
+      render(c.dataset.f);
+    }));
+    render('all');
+  })();
+</script>
+</body>
+</html>

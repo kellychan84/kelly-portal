@@ -1,0 +1,316 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Sep 28 Afternoon Check</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --gold:#9A7B3E;--gold-light:#C4A05A;--gold-bg:#FBF7EE;
+  --border:#EDE8DE;--text:#1A1A1A;--muted:#6B6560;--muted2:#9A9590;
+  --up:#1A6B3C;--up-bg:#EDF7F1;--dn:#B02020;--dn-bg:#FEF2F2;
+  --amber:#8A5A00;--amber-bg:#FEF9EC;--blue:#1A5FA8;--blue-bg:#EBF5FB;
+  --teal:#0F6B5A;--teal-bg:#E8F8F5;--pur:#4A1FA8;--pur-bg:#F0EDFD;
+  --surface:#FFFFFF;--page:#F8F6F1;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--page);color:var(--text);font-family:'DM Sans',sans-serif;font-weight:300;font-size:16px;line-height:1.65;}
+.container{max-width:820px;margin:0 auto;padding:2rem 1.4rem 4rem;}
+.mast{text-align:center;padding:2rem 0;border-bottom:1px solid var(--border);margin-bottom:1.5rem;}
+.mast::before{content:'';display:block;width:40px;height:2px;background:var(--gold);margin:0 auto 1.25rem;}
+.mast-eye{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem;}
+.mast-title{font-family:'Playfair Display',serif;font-size:28px;font-weight:600;margin-bottom:.25rem;}
+.mast-sub{font-size:14px;color:var(--muted);}
+.mast-date{font-size:13px;color:var(--gold);margin-top:.4rem;}
+.alert{border-radius:8px;padding:.85rem 1.1rem;margin-bottom:.7rem;display:flex;align-items:flex-start;gap:10px;font-size:14px;line-height:1.55;}
+.a-amber{background:var(--amber-bg);border:.5px solid #E8C87A;color:var(--amber);}
+.a-green{background:var(--up-bg);border:.5px solid #B8DFC8;color:var(--up);}
+.a-red{background:var(--dn-bg);border:.5px solid #F5C6C6;color:var(--dn);}
+.a-blue{background:var(--blue-bg);border:.5px solid #A8C8E8;color:var(--blue);}
+.alert-icon{font-size:18px;flex-shrink:0;margin-top:1px;}
+.alert strong{font-weight:500;}
+.alert span{display:block;margin-top:3px;font-size:12.5px;opacity:.85;}
+.lang-row{display:flex;gap:6px;justify-content:center;margin:1.2rem 0 1.4rem;}
+.lb{padding:5px 18px;font-size:13px;border-radius:4px;cursor:pointer;border:.5px solid var(--border);background:transparent;color:var(--muted);font-family:'DM Sans',sans-serif;transition:all .15s;}
+.lb:hover{border-color:var(--gold);color:var(--gold);}
+.lb.active{background:var(--gold);color:#fff;border-color:var(--gold);font-weight:500;}
+.sl{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:.9rem;display:flex;align-items:center;gap:10px;font-weight:500;}
+.sl::after{content:'';flex:1;height:.5px;background:var(--border);}
+.sec{margin-bottom:1.75rem;}
+.mg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-bottom:1rem;}
+.mc{background:var(--surface);border:.5px solid var(--border);border-radius:8px;padding:.9rem;}
+.mn{font-size:11px;color:var(--muted2);text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px;}
+.mv{font-family:'Playfair Display',serif;font-size:20px;font-weight:600;}
+.mch{font-size:13px;margin-top:3px;}
+.mnote{font-size:11px;color:var(--muted2);margin-top:4px;}
+.up{color:var(--up);}.dn{color:var(--dn);}.nt{color:var(--amber);}
+.oil-strip{border-radius:8px;padding:.7rem 1rem;font-size:14px;margin-bottom:1.5rem;}
+.oil-a{background:var(--amber-bg);border:.5px solid #E8C87A;color:var(--amber);}
+.nc{background:var(--surface);border:.5px solid var(--border);border-radius:8px;padding:1rem 1.2rem;margin-bottom:9px;}
+.ntop{display:flex;align-items:center;gap:7px;margin-bottom:8px;flex-wrap:wrap;}
+.badge{font-size:11px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;padding:2px 9px;border-radius:4px;}
+.br{background:var(--dn-bg);color:var(--dn);}
+.ba{background:var(--amber-bg);color:var(--amber);}
+.bg2{background:var(--up-bg);color:var(--up);}
+.bb{background:var(--blue-bg);color:var(--blue);}
+.bstar{background:#FFF8E1;color:#7A5C00;border:.5px solid #FFD54F;}
+.bpur{background:var(--pur-bg);color:var(--pur);}
+.nsrc{font-size:12px;color:var(--muted2);}
+.nsrc-note{font-size:11px;color:var(--muted2);font-style:italic;display:block;margin-top:4px;}
+.nhz{font-family:'Playfair Display',serif;font-size:17px;font-weight:600;margin-bottom:4px;line-height:1.4;}
+.nhe{font-size:14px;font-style:italic;margin-bottom:7px;line-height:1.4;color:var(--muted);}
+.nb{font-size:15px;color:#444;line-height:1.65;margin-bottom:4px;}
+.nb.en{color:var(--muted);font-size:14px;}
+.rm{display:inline-flex;align-items:center;gap:3px;font-size:12px;color:var(--gold);text-decoration:none;margin-top:8px;border-bottom:.5px solid rgba(154,123,62,.35);padding-bottom:1px;}
+.rm:hover{color:var(--gold-light);}
+.tri{margin-top:10px;padding-top:10px;border-top:1px dashed var(--border);}
+.tri-h{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:6px;}
+.tri-i{font-size:13px;color:#555;line-height:1.6;margin-bottom:4px;}
+.tri-i.en{color:var(--muted);font-size:12.5px;}
+.scorecard{background:var(--surface);border:.5px solid var(--border);border-radius:8px;padding:1rem 1.2rem;margin-bottom:1rem;}
+.sc-title{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:.8rem;}
+.sc-row{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;}
+.sc-item{background:var(--page);border-radius:6px;padding:.6rem .8rem;}
+.sc-label{font-size:11px;color:var(--muted2);text-transform:uppercase;letter-spacing:.07em;margin-bottom:3px;}
+.sc-val{font-family:'Playfair Display',serif;font-size:16px;font-weight:600;}
+.sc-sub{font-size:12px;color:var(--muted);margin-top:2px;}
+.adv{border:.5px solid var(--gold-light);border-radius:8px;padding:1.2rem;background:var(--gold-bg);}
+.ah{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;font-weight:500;}
+.ai{font-size:15px;color:#444;margin-bottom:5px;padding-left:.9rem;border-left:2px solid var(--gold-light);line-height:1.65;}
+.ai.en{color:var(--muted);font-size:14px;margin-bottom:14px;}
+.ah2{font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);font-weight:500;margin:14px 0 6px;}
+hr.dv{border:none;border-top:.5px solid var(--border);margin:1.75rem 0;}
+.disc{margin-top:1.1rem;padding-top:1rem;border-top:1px dashed var(--gold-light);font-size:12px;color:var(--muted);line-height:1.6;}
+.disc-h{font-weight:500;color:var(--amber);margin-bottom:4px;}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="mast">
+  <div class="mast-eye">Kelly · 信托基金顾问 · Unit Trust Consultant</div>
+  <div class="mast-title">Afternoon Market Check</div>
+  <div class="mast-sub zh-t">午间更新 · 今早简报后的最新进展</div>
+  <div class="mast-sub en-t">What's Changed Since This Morning's Brief</div>
+  <div class="mast-date">MONDAY, SEPTEMBER 28, 2026 &nbsp;·&nbsp; 5:00 PM MYT</div>
+</div>
+
+<div class="alert a-amber">
+  <div class="alert-icon">🏦</div>
+  <div>
+    <strong class="zh-t">联储10月加息机率午后跳升至73.5%,较今早的66.6%明显走高</strong>
+    <span class="zh-t">目标区间看向4.00%-4.25% · Investing.com Fed Rate Monitor</span>
+    <strong class="en-t">Fed Oct-hike odds jump to 73.5%, sharply up from this morning's 66.6%</strong>
+    <span class="en-t">Targeting 4.00%-4.25% · Investing.com Fed Rate Monitor</span>
+  </div>
+</div>
+
+<div class="alert a-red">
+  <div class="alert-icon">🛢️</div>
+  <div>
+    <strong class="zh-t">油价持续攀升,WTI涨至94美元上方,布伦特突破106美元</strong>
+    <span class="zh-t">WTI $94.17(+1.90%)· 布伦特 $106.88(+2.46%)· Trading Economics</span>
+    <strong class="en-t">Oil keeps climbing — WTI above $94, Brent tops $106</strong>
+    <span class="en-t">WTI $94.17 (+1.90%) · Brent $106.88 (+2.46%) · Trading Economics</span>
+  </div>
+</div>
+
+<div class="alert a-amber">
+  <div class="alert-icon">📉</div>
+  <div>
+    <strong class="zh-t">30年期美债殖利率飙至5.52%,逼近2004年以来高点</strong>
+    <span class="zh-t">本月2年期殖利率已跳升55个基点 · Yahoo Finance</span>
+    <strong class="en-t">30-year Treasury yield surges to 5.52%, near highest since 2004</strong>
+    <span class="en-t">2-year yield up 55bp this month · Yahoo Finance</span>
+  </div>
+</div>
+
+<div class="lang-row">
+  <button class="lb active" onclick="setL('both')">双语 Both</button>
+  <button class="lb" onclick="setL('zh')">华语</button>
+  <button class="lb" onclick="setL('en')">English</button>
+</div>
+
+<div class="sec">
+  <div class="sl">
+    <span class="zh-t">📊 自今早以来的变化 · What's Changed Since This Morning</span>
+    <span class="en-t">📊 What's Changed Since This Morning</span>
+  </div>
+  <div class="scorecard">
+    <div class="sc-title zh-t">今早9点简报 → 现在下午5点</div>
+    <div class="sc-title en-t">9AM Brief → Now (5PM)</div>
+    <div class="sc-row">
+      <div class="sc-item">
+        <div class="sc-label zh-t">联储10/28加息机率</div>
+        <div class="sc-label en-t">Fed Oct 28 Hike Odds</div>
+        <div class="sc-val nt">73.5%</div>
+        <div class="sc-sub zh-t">较今早66.6%明显跳升</div>
+        <div class="sc-sub en-t">Up sharply from 66.6% this morning</div>
+      </div>
+      <div class="sc-item">
+        <div class="sc-label zh-t">WTI原油</div>
+        <div class="sc-label en-t">WTI Crude Oil</div>
+        <div class="sc-val nt">$94.17</div>
+        <div class="sc-sub zh-t">较今早$93.35续扬</div>
+        <div class="sc-sub en-t">Up from $93.35 this morning</div>
+      </div>
+      <div class="sc-item">
+        <div class="sc-label zh-t">30年期美债殖利率</div>
+        <div class="sc-label en-t">30-Yr Treasury Yield</div>
+        <div class="sc-val nt">5.52%</div>
+        <div class="sc-sub zh-t">逼近2004年以来高点</div>
+        <div class="sc-sub en-t">Near highest level since 2004</div>
+      </div>
+      <div class="sc-item">
+        <div class="sc-label zh-t">富时隆综指 / 令吉</div>
+        <div class="sc-label en-t">KLCI / Ringgit</div>
+        <div class="sc-val dn">1,672 / 4.0813</div>
+        <div class="sc-sub zh-t">持平,暂无新收盘数据</div>
+        <div class="sc-sub en-t">Unchanged, no fresh close printed yet</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="dv">
+
+<div class="sec">
+  <div class="sl">
+    <span class="zh-t">🏦 联储机率跳升 · 殖利率同步狂飙</span>
+    <span class="en-t">🏦 Fed Odds Jump, Yields Surge in Tandem</span>
+  </div>
+
+  <div class="nc">
+    <div class="ntop"><span class="badge ba">FED WATCH</span><span class="nsrc">Investing.com · 已验证</span></div>
+    <div class="nhz zh-t">加息机率午后走高至73.5%,与今早的66.6%明显拉开</div>
+    <div class="nhe en-t">Hike odds climb to 73.5% by afternoon, well above this morning's 66.6%</div>
+    <div class="nb zh-t">今早简报时,Investing.com的Fed Rate Monitor显示10月28日FOMC加息机率为66.6%;截至本次更新,这个数字已经走高至73.5%,维持不变的机率则从33.4%降到26.5%。数字本身没有戏剧性的新闻触发,更像是市场在消化一整天累积的信号——油价走高、殖利率同步攀升,都在悄悄把"联储还得继续压通胀"这个判断说得更肯定。对我们来说,与其追着每一次机率数字的跳动,不如记住:利率环境高位震荡,本来就是这几个月的常态,不是意外。</div>
+    <div class="nb en en-t">At this morning's brief, Investing.com's Fed Rate Monitor showed a 66.6% probability of an October 28 hike; by this update that's climbed to 73.5%, with hold odds slipping from 33.4% to 26.5%. There's no single dramatic headline behind the move — it reads more like the market digesting a full day of signals, with oil and yields both drifting higher reinforcing the "the Fed still has work to do" read. The takeaway for us isn't to chase every tick in the probability — it's to remember that a choppy, elevated-rate backdrop has simply been this quarter's normal.</div>
+    <a href="https://www.investing.com/central-banks/fed-rate-monitor" target="_blank" class="rm">阅读全文 · Investing.com ↗</a>
+    <div class="tri">
+      <div class="tri-h zh-t">💡 与您相关</div>
+      <div class="tri-h en-t">💡 What This Means For You</div>
+      <div class="tri-i zh-t">🎯 退休规划与PRS:机率数字一天内跳动7个百分点,听起来很大,但退休组合看的是十年尺度,这种日内波动本来就不该左右我们的配置决定。</div>
+      <div class="tri-i en en-t">🎯 Retirement &amp; PRS: A 7-point swing in one day sounds dramatic, but a retirement portfolio operates on a ten-year clock — intraday probability moves like this were never meant to steer allocation decisions.</div>
+      <div class="tri-i zh-t">💰 DDA定期定额:利率预期一天一变,恰恰说明没有人能真正精准预测利率走向——这也是定期定额比"猜时机"更适合大多数人的原因。</div>
+      <div class="tri-i en en-t">💰 DCA: Rate expectations shifting within a single day is proof that nobody can reliably call the direction — exactly why dollar-cost averaging beats trying to time it for most people.</div>
+      <div class="tri-i zh-t">📈 长期投资:短线数字的噪音会一直存在,但长期投资的纪律从来不建立在"今天联储机率是多少"之上。</div>
+      <div class="tri-i en en-t">📈 Long-Term Investing: Short-term noise like this will always be there — long-term investing discipline was never built on today's Fed-probability reading.</div>
+    </div>
+  </div>
+
+  <div class="nc">
+    <div class="ntop"><span class="badge br">YIELDS</span><span class="nsrc">Yahoo Finance · 已验证</span></div>
+    <div class="nhz zh-t">30年期美债殖利率飙至5.52%,创2004年以来新高附近</div>
+    <div class="nhe en-t">30-year Treasury yield surges to 5.52%, near a 2004-era high</div>
+    <div class="nb zh-t">Yahoo Finance周一稍早的市场综述指出,30年期美债殖利率已升至5.5185%,逼近2004年以来的高点,本月累计上升27个基点;2年期殖利率本月更是暴涨55个基点。市场解读是典型的"好消息也是坏消息"——经济数据偏强反而让联储更有理由维持鹰派立场,推升整条殖利率曲线。亚太股市周一表现分化:日经指数上涨0.8%,韩股下跌0.6%,MSCI亚太(除日本)指数微跌0.2%,反映区域投资人对这波殖利率与油价的双重压力仍保持谨慎。</div>
+    <div class="nb en en-t">Yahoo Finance's Monday market roundup noted the 30-year Treasury yield has climbed to 5.5185%, near its highest since 2004, up 27 basis points this month, while the 2-year yield has jumped 55 basis points over the same span. The read is a classic "good news is bad news" dynamic — strong economic data gives the Fed more room to stay hawkish, pulling the whole yield curve higher. Asian markets were mixed Monday: Japan's Nikkei rose 0.8%, South Korean stocks fell 0.6%, and the MSCI Asia-Pacific ex-Japan index slipped 0.2%, reflecting regional caution over the combined pressure of rising yields and oil.</div>
+    <a href="https://finance.yahoo.com/markets/articles/stocks-cautious-asia-oil-gains-005009179.html" target="_blank" class="rm">阅读全文 · Yahoo Finance ↗</a>
+    <div class="tri">
+      <div class="tri-h zh-t">💡 与您相关</div>
+      <div class="tri-h en-t">💡 What This Means For You</div>
+      <div class="tri-i zh-t">🎯 退休规划与PRS:殖利率走高对退休组合里的固定收益部分是双面刃——短期价格承压,但新资金进场的票息反而更甜,这正是为什么我们要分批配置,而不是一次全部押注。</div>
+      <div class="tri-i en en-t">🎯 Retirement &amp; PRS: Rising yields cut both ways for the fixed-income sleeve of a retirement portfolio — near-term prices feel it, but fresh money coming in earns a sweeter coupon, which is exactly why we stagger entries instead of betting it all at once.</div>
+      <div class="tri-i zh-t">💰 DDA定期定额:"好消息也是坏消息"这种反直觉的市场逻辑,正说明短线判断有多难——定期定额帮我们把这种复杂性直接交给纪律去处理。</div>
+      <div class="tri-i en en-t">💰 DCA: This "good news is bad news" logic is exactly why short-term calls are so hard — DCA hands that complexity straight over to discipline instead of guesswork.</div>
+      <div class="tri-i zh-t">📈 长期投资:亚太股市今天涨跌互见,提醒我们区域配置本来就该分散,不要把所有筹码押在单一市场的单日表现上。</div>
+      <div class="tri-i en en-t">📈 Long-Term Investing: Asia's mixed session today is a reminder that regional diversification exists precisely so one market's single-day move never carries your whole portfolio.</div>
+    </div>
+  </div>
+</div>
+
+<hr class="dv">
+
+<div class="sec">
+  <div class="sl">
+    <span class="zh-t">🛢️ 油价续扬 · 马股按兵不动</span>
+    <span class="en-t">🛢️ Oil Extends Its Climb, Malaysia Holds Steady</span>
+  </div>
+
+  <div class="nc">
+    <div class="ntop"><span class="badge ba">OIL</span><span class="nsrc">Trading Economics · 已验证</span></div>
+    <div class="nhz zh-t">WTI午后升破94美元,布伦特站上106美元</div>
+    <div class="nhe en-t">WTI breaks above $94 by afternoon, Brent tops $106</div>
+    <div class="nb zh-t">今早简报时WTI报93.35美元、布伦特105.82美元;截至本次更新,WTI已上涨1.90%至94.17美元,布伦特上涨2.46%至106.88美元,较今早再进一步走高。推动力仍是同一条主线——特朗普周六正式拒绝伊朗的霍尔木兹七日方案,谈判虽可能本周重启,但军事选项未被排除,市场持续为地缘风险溢价。霍尔木兹海峡的僵局没有新进展,但也没有缓解,油价的持续上行本身就是市场对"风险尚未解除"的投票。</div>
+    <div class="nb en en-t">WTI was at $93.35 and Brent at $105.82 at this morning's brief; as of this update, WTI has risen 1.90% to $94.17 and Brent 2.46% to $106.88 — extending, not reversing, the morning's move. The driver is the same thread: Trump's formal rejection of Iran's seven-day Hormuz roadmap Saturday, with talks possibly resuming this week but a military option still on the table. There's no fresh breakthrough or breakdown on Hormuz itself — the continued climb in oil is simply the market voting that the risk hasn't cleared.</div>
+    <a href="https://tradingeconomics.com/commodity/crude-oil" target="_blank" class="rm">阅读全文 · Trading Economics ↗</a>
+    <div class="tri">
+      <div class="tri-h zh-t">💡 与您相关</div>
+      <div class="tri-h en-t">💡 What This Means For You</div>
+      <div class="tri-i zh-t">🎯 退休规划与PRS:油价一天内再涨近2%,提醒我们通胀风险还没真正退场,PRS组合里适度的抗通胀配置依然有其道理。</div>
+      <div class="tri-i en en-t">🎯 Retirement &amp; PRS: Oil climbing another ~2% in a single day is a reminder that inflation risk hasn't really left the room — some inflation-resistant exposure in a PRS allocation still earns its place.</div>
+      <div class="tri-i zh-t">💰 DDA定期定额:油价这种一天一个价的走势,正是"不要猜、按计划进场"这句话最好的现实教材。</div>
+      <div class="tri-i en en-t">💰 DCA: A commodity that reprices this fast, day to day, is the clearest real-world lesson for "don't guess, just keep to the schedule."</div>
+      <div class="tri-i zh-t">📈 长期投资:霍尔木兹僵局没有新进展也没有缓解,这种"悬而未决"才是长期投资者最该习惯的常态,而不是等它消失才敢投资。</div>
+      <div class="tri-i en en-t">📈 Long-Term Investing: Hormuz staying unresolved — neither worse nor better — is exactly the kind of open-ended uncertainty long-term investors need to get comfortable holding through, rather than waiting for it to vanish before investing.</div>
+    </div>
+  </div>
+
+  <div class="nc">
+    <div class="ntop"><span class="badge bb">MALAYSIA</span><span class="nsrc">Trading Economics · 已验证</span></div>
+    <div class="nhz zh-t">富时隆综指与令吉暂无新收盘数据,维持今早水平</div>
+    <div class="nhe en-t">KLCI and ringgit show no fresh close yet, holding this morning's levels</div>
+    <div class="nb zh-t">截至本次更新,Trading Economics上的富时隆综指(KLCI)仍显示上周五(9月25日)收盘的1,672点(-0.04%),令吉兑美元维持在4.0813附近,与今早简报时一致,暂无新的当日收盘数据可供核实。如实跟大家说:这不代表本地市场"没有变化",只是我们目前能验证到的白名单信源还未更新今日收盘价,晚间若有新数据会在明天的简报中补上。美光(Micron)9月30日财报倒数进入最后两个交易日,仍是本周科技板块最受关注的焦点,目前没有新的分析变化需要更新。</div>
+    <div class="nb en en-t">As of this update, Trading Economics still shows the KLCI's Friday, September 25 close of 1,672 (-0.04%), with the ringgit holding near 4.0813 against the dollar — unchanged from this morning, with no verified new closing print available yet. Being upfront about it: that doesn't necessarily mean nothing moved locally — it means our whitelisted source hasn't refreshed today's close yet, and we'll fold in fresh numbers in tomorrow's brief. Micron's September 30 earnings countdown is down to its final two trading days and remains the week's most-watched tech catalyst, with no new analyst movement to report since this morning.</div>
+    <a href="https://tradingeconomics.com/malaysia/stock-market" target="_blank" class="rm">阅读全文 · Trading Economics ↗</a>
+    <div class="tri">
+      <div class="tri-h zh-t">💡 与您相关</div>
+      <div class="tri-h en-t">💡 What This Means For You</div>
+      <div class="tri-i zh-t">🎯 退休规划与PRS:本地市场"没有新消息"本身也是一种消息——它提醒我们退休规划不需要每天都有新动作,按部就班才是常态。</div>
+      <div class="tri-i en en-t">🎯 Retirement &amp; PRS: "No new news" locally is itself a kind of signal — a reminder that retirement planning doesn't need a fresh move every day; steady and unremarkable is the normal state.</div>
+      <div class="tri-i zh-t">💰 DDA定期定额:令吉汇率持平的日子,恰好是最适合按原计划扣款的日子——不用因为"消息真空"而犹豫要不要进场。</div>
+      <div class="tri-i en en-t">💰 DCA: A day when the ringgit sits flat is exactly the kind of day to let your scheduled contribution run as planned — no need to hesitate just because headlines went quiet.</div>
+      <div class="tri-i zh-t">📈 长期投资:美光财报倒数两天,提醒我们本周科技板块可能出现较大波动,但长期配置的答案从来不是提前猜赢家。</div>
+      <div class="tri-i en en-t">📈 Long-Term Investing: With Micron's earnings two trading days out, tech-sector volatility this week is likely — but the long-term answer was never guessing the winner ahead of time.</div>
+    </div>
+  </div>
+</div>
+
+<hr class="dv">
+
+<div class="sec">
+  <div class="sl">
+    <span class="zh-t">📝 今日新闻分析 · Today's News Analysis</span>
+    <span class="en-t">📝 Today's News Analysis</span>
+  </div>
+  <div class="adv">
+    <div class="ah">Kelly's Takeaways · 午间总结(顾问分析,非新闻引述)</div>
+    <div class="ai zh-t">今早我们才刚聊过"美股周涨、油价反弹、联储机率66.6%"这三件事,才过了短短一个下午,同样的三条线全部又往同一个方向走了一步——加息机率跳到73.5%,油价再涨近2%,殖利率飙向2004年以来高点。没有一个是突发的大新闻,更像是市场在同一份剧本上,把音量又调大了一格。这种"没有新剧情、却持续升温"的状态,其实才是最考验投资纪律的时候——因为它不会给你一个明确的"现在该做什么"的信号,只会让人忍不住想做点什么。而多数时候,按兵不动、维持既定配置,才是对的答案。</div>
+    <div class="ai en en-t">This morning we talked about three threads — US stocks' weekly gain, oil's rebound, and the Fed sitting at 66.6% — and in the span of one afternoon, all three moved another notch in the same direction: hike odds to 73.5%, oil up another ~2%, yields pushing toward a 2004-era high. None of it is a single dramatic headline — it's more like the market turning up the volume on the same script. This kind of "nothing new, just intensifying" state is actually the hardest test of discipline, because it never hands you a clear "do something now" signal — it just tempts you to act anyway. Most of the time, staying put with your existing allocation is still the right call.</div>
+
+    <div class="ah2 zh-t">🎯 退休规划与PRS</div>
+    <div class="ah2 en-t">🎯 Retirement &amp; PRS</div>
+    <div class="ai zh-t">一个下午之内,利率机率、油价、殖利率同步往同一方向移动,这种"同步"本身就说明它们是同一个宏观故事的不同侧面——退休规划要抵御的,正是这种系统性的、会同时影响多种资产的风险,分散配置的意义就在这里。</div>
+    <div class="ai en en-t">Rate odds, oil, and yields all moving the same direction within one afternoon tells you they're different faces of the same macro story — and defending against exactly this kind of systemic, cross-asset risk is what diversified retirement allocation is for.</div>
+
+    <div class="ah2 zh-t">💰 DDA定期定额</div>
+    <div class="ah2 en-t">💰 DCA</div>
+    <div class="ai zh-t">今天没有任何一条消息值得您临时改变定期定额的节奏——机率数字跳动、油价续涨,都是我们早就预期会发生的"常态波动",而不是需要重新评估策略的信号。</div>
+    <div class="ai en en-t">Nothing today warrants changing your dollar-cost-averaging rhythm — a probability tick, oil extending its climb — these are the "normal volatility" we already expected, not a signal to reassess strategy.</div>
+
+    <div class="ah2 zh-t">📈 长期投资</div>
+    <div class="ah2 en-t">📈 Long-Term Investing</div>
+    <div class="ai zh-t">同一个故事讲了一整天,恰恰提醒我们:新闻的"更新频率"和它对您长期回报的"重要程度"其实是两件事。今天的更新,更多是提醒大家保持耐心,而不是催促大家采取行动。</div>
+    <div class="ai en en-t">The same story running all day is itself a reminder: how often news updates and how much it actually matters to your long-term return are two different things. Today's update is more a nudge toward patience than a call to act.</div>
+
+    <div class="disc">
+      <div class="disc-h zh-t">⚠️ 免责声明</div>
+      <div class="disc-h en-t">⚠️ Disclaimer</div>
+      <span class="zh-t">本网站内容仅供一般教育及市场参考,不构成任何个性化投资、财务、税务或法律建议,亦不构成购买、出售、转换或持有任何特定基金的建议。Unit Trust 及 PRS 涉及投资风险,包括可能的本金损失。过往表现并不代表未来表现。部分市场资讯可能由 AI 根据第三方公开资料协助整理,并可能存在延迟、遗漏或错误。投资前请参考相关基金最新 Prospectus、PHS 及官方资料。</span>
+      <span class="en-t">This content is provided for general educational and market-reference purposes only. It does not constitute personalized investment, financial, tax, or legal advice, nor a recommendation to buy, sell, switch, or hold any specific fund. Unit Trust and PRS investments carry risk, including possible loss of principal. Past performance is not indicative of future performance. Some market information may be compiled with AI assistance from third-party public sources and may contain delays, omissions, or errors. Please refer to the relevant fund's latest Prospectus, PHS, and official materials before investing.</span>
+    </div>
+  </div>
+</div>
+
+</div>
+<script>
+function setL(l) {
+  document.querySelectorAll('.lb').forEach((b, i) => b.classList.toggle('active', ['both','zh','en'][i] === l));
+  document.querySelectorAll('.zh-t').forEach(el => {
+    el.style.display = (l === 'en') ? 'none' : '';
+  });
+  document.querySelectorAll('.en-t').forEach(el => {
+    el.style.display = (l === 'zh') ? 'none' : '';
+  });
+}
+</script>
+
+<script src="../assets/brief-bar.js" defer></script>
+</body></html>

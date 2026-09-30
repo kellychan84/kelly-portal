@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="zh-Hans" data-lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>退休缺口计算器 · Kelly Chan</title>
+<meta name="kp-title-zh" content="免费退休缺口计算器 · Kelly Chan">
+<meta name="kp-title-en" content="Free Retirement Gap Calculator · Kelly Chan">
+<meta name="description" content="3 分钟算出你的退休缺口：EPF、储蓄与通胀一次算清。Find your retirement gap in 3 minutes — EPF, savings and inflation in one view.">
+<meta property="og:title" content="你的退休金够用到几岁？免费退休缺口计算器">
+<meta property="og:description" content="EPF + 储蓄 + 通胀，3 分钟算清楚。Will your retirement savings last? Find out in 3 minutes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%239A7B3E'/><text x='32' y='44' font-size='34' text-anchor='middle' fill='white' font-family='Georgia'>K</text></svg>">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  .calc-grid { display: grid; grid-template-columns: minmax(0, 400px) minmax(0, 1fr); gap: 20px; align-items: start; padding-bottom: 56px; }
+  @media (max-width: 900px) { .calc-grid { grid-template-columns: minmax(0, 1fr); } }
+  .grp { margin-bottom: 18px; }
+  .grp-title { font-size: 13px; font-weight: 700; color: var(--gold); letter-spacing: .04em; margin: 0 0 10px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .calc-grid .field { margin-bottom: 10px; }
+  .calc-grid .field label { font-size: 12.5px; color: var(--muted); font-weight: 500; }
+  .calc-grid input[type=number] { padding: 9px 10px; font-size: 15px; }
+  details.adv { border: 1px dashed var(--border); border-radius: 10px; padding: 10px 12px; }
+  details.adv summary { cursor: pointer; font-size: 13.5px; font-weight: 600; color: var(--muted); }
+  details.adv[open] summary { margin-bottom: 10px; }
+  .results { position: sticky; top: 84px; }
+  @media (max-width: 900px) { .results { position: static; } }
+  .status { border-radius: 12px; padding: 14px 16px; font-weight: 600; font-size: 14.5px; margin-bottom: 14px; }
+  .status.good { background: var(--up-bg); color: var(--up); }
+  .status.bad { background: var(--dn-bg); color: var(--dn); }
+  .gap-card { text-align: center; padding: 26px 18px; }
+  .gap-label { font-size: 14px; color: var(--muted); }
+  .gap-num { font-family: var(--serif); font-size: clamp(36px, 6vw, 50px); font-weight: 600; line-height: 1.1; margin: 6px 0 4px; font-variant-numeric: tabular-nums; }
+  .gap-sub { font-size: 13.5px; color: var(--muted); }
+  .kpis { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 14px 0; }
+  @media (max-width: 560px) { .kpis { grid-template-columns: minmax(0, 1fr); } }
+  .kpi { background: var(--gold-bg); border-radius: 12px; padding: 12px 14px; }
+  .kpi .k { font-size: 12px; color: var(--muted); }
+  .kpi .v { font-size: 19px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .locked-wrap { position: relative; }
+  .locked-wrap.locked { min-height: 600px; }
+  .locked-wrap.locked .locked-body { filter: blur(7px); pointer-events: none; user-select: none; }
+  .gate {
+    position: absolute; inset: 0; display: flex; align-items: flex-start; justify-content: center; padding: 18px 0;
+  }
+  .locked-wrap:not(.locked) .gate { display: none; }
+  .gate .card { width: min(460px, 100%); }
+  .gate h3 { font-family: var(--serif); font-size: 20px; margin: 0 0 4px; }
+  .gate p.sub { font-size: 13.5px; color: var(--muted); margin: 0 0 14px; }
+  .gate .field { margin-bottom: 10px; }
+  .chart-box { height: 260px; position: relative; }
+  .solve { background: var(--gold-bg); border: 1px solid var(--gold-light); border-radius: 12px; padding: 16px; margin-top: 14px; }
+  .solve b.big { font-family: var(--serif); font-size: 26px; color: var(--gold); font-variant-numeric: tabular-nums; }
+  .next { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+  .fine { font-size: 12px; color: var(--muted2); line-height: 1.7; margin-top: 16px; }
+</style>
+</head>
+<body data-page="calculator" data-root="">
+<div id="site-header"></div>
+
+<main>
+  <div class="container page-head">
+    <p class="section-eyebrow"><span class="zh">免费工具</span><span class="en">Free tool</span></p>
+    <h1><span class="zh">你的退休金，够用到几岁？</span><span class="en">Will your retirement savings last?</span></h1>
+    <p><span class="zh">填入几个数字，立刻看到你的退休缺口。所有计算都在你的浏览器里完成。</span><span class="en">Fill in a few numbers and see your retirement gap instantly. All calculations run in your browser.</span></p>
+  </div>
+
+  <div class="container calc-grid">
+    <!-- INPUTS -->
+    <div class="card">
+      <div class="grp">
+        <p class="grp-title"><span class="zh">① 关于你</span><span class="en">① About you</span></p>
+        <div class="two">
+          <div class="field"><label for="currentAge"><span class="zh">现在年龄</span><span class="en">Current age</span></label><input type="number" id="currentAge" value="35" min="18" max="80" inputmode="numeric"></div>
+          <div class="field"><label for="retireAge"><span class="zh">计划退休年龄</span><span class="en">Retirement age</span></label><input type="number" id="retireAge" value="60" min="40" max="80" inputmode="numeric"></div>
+        </div>
+        <div class="field"><label for="lifeExp"><span class="zh">资金要用到几岁</span><span class="en">Money should last until age</span></label><input type="number" id="lifeExp" value="85" min="60" max="110" inputmode="numeric"></div>
+      </div>
+
+      <div class="grp">
+        <p class="grp-title"><span class="zh">② 退休生活</span><span class="en">② Retirement lifestyle</span></p>
+        <div class="field">
+          <label for="monthlyExpense"><span class="zh">退休后每月想用多少（按今天的物价，RM）</span><span class="en">Monthly spending in retirement (today's prices, RM)</span></label>
+          <input type="number" id="monthlyExpense" value="4000" min="0" step="100" inputmode="numeric">
+          <div class="hint"><span class="zh">我们会自动按通胀换算到你退休那一年。</span><span class="en">We'll adjust this for inflation up to your retirement year.</span></div>
+        </div>
+      </div>
+
+      <div class="grp">
+        <p class="grp-title"><span class="zh">③ EPF 公积金</span><span class="en">③ EPF</span></p>
+        <div class="two">
+          <div class="field"><label for="epfBalance"><span class="zh">目前结余 (RM)</span><span class="en">Current balance (RM)</span></label><input type="number" id="epfBalance" value="80000" min="0" step="1000" inputmode="numeric"></div>
+          <div class="field"><label for="epfMonthly"><span class="zh">每月供款（雇员+雇主，RM）</span><span class="en">Monthly contribution (you + employer, RM)</span></label><input type="number" id="epfMonthly" value="1100" min="0" step="50" inputmode="numeric"></div>
+        </div>
+      </div>
+
+      <div class="grp">
+        <p class="grp-title"><span class="zh">④ 其他退休储蓄 / 投资</span><span class="en">④ Other retirement savings / investments</span></p>
+        <div class="two">
+          <div class="field"><label for="rsBalance"><span class="zh">目前总额 (RM)</span><span class="en">Current total (RM)</span></label><input type="number" id="rsBalance" value="30000" min="0" step="1000" inputmode="numeric"></div>
+          <div class="field"><label for="rsMonthly"><span class="zh">每月投入 (RM)</span><span class="en">Monthly savings (RM)</span></label><input type="number" id="rsMonthly" value="500" min="0" step="50" inputmode="numeric"></div>
+        </div>
+        <div class="hint"><span class="zh">例如信托基金、PRS、定存、股票等。</span><span class="en">E.g. unit trusts, PRS, fixed deposits, shares.</span></div>
+      </div>
+
+      <details class="adv">
+        <summary><span class="zh">调整假设（可选）</span><span class="en">Adjust assumptions (optional)</span></summary>
+        <div class="two">
+          <div class="field"><label for="preInfl"><span class="zh">退休前通胀 (%/年)</span><span class="en">Inflation before retirement (%/yr)</span></label><input type="number" id="preInfl" value="3" step="0.1"></div>
+          <div class="field"><label for="postInfl"><span class="zh">退休后通胀 (%/年)</span><span class="en">Inflation after retirement (%/yr)</span></label><input type="number" id="postInfl" value="3.5" step="0.1"></div>
+          <div class="field"><label for="epfReturn"><span class="zh">EPF 派息率 (%/年)</span><span class="en">EPF dividend (%/yr)</span></label><input type="number" id="epfReturn" value="5.5" step="0.1"></div>
+          <div class="field"><label for="epfGrowth"><span class="zh">EPF 供款年增长 (%/年)</span><span class="en">EPF contribution growth (%/yr)</span></label><input type="number" id="epfGrowth" value="3" step="0.1"></div>
+          <div class="field"><label for="rsReturn"><span class="zh">储蓄/投资回报 (%/年)</span><span class="en">Savings return (%/yr)</span></label><input type="number" id="rsReturn" value="5" step="0.1"></div>
+          <div class="field"><label for="rsGrowth"><span class="zh">每月投入年增长 (%/年)</span><span class="en">Savings growth (%/yr)</span></label><input type="number" id="rsGrowth" value="3" step="0.1"></div>
+          <div class="field"><label for="postReturn"><span class="zh">退休后回报 (%/年)</span><span class="en">Return after retirement (%/yr)</span></label><input type="number" id="postReturn" value="4" step="0.1"></div>
+          <div class="field"><label for="passiveMonthly"><span class="zh">退休后每月被动收入 (RM)</span><span class="en">Monthly passive income (RM)</span></label><input type="number" id="passiveMonthly" value="0" step="100"></div>
+        </div>
+        <div class="hint"><span class="zh">以上为假设，非保证回报。被动收入例如租金，按每年 2% 增长。</span><span class="en">These are assumptions, not guaranteed returns. Passive income (e.g. rent) is assumed to grow 2% a year.</span></div>
+      </details>
+    </div>
+
+    <!-- RESULTS -->
+    <div class="results">
+      <div id="status" class="status good">…</div>
+
+      <div class="card gap-card">
+        <div class="gap-label" id="gapLabel">…</div>
+        <div class="gap-num" id="gapNum">…</div>
+        <div class="gap-sub" id="gapSub"></div>
+      </div>
+
+      <div class="locked-wrap locked" id="lockWrap">
+        <div class="locked-body" aria-hidden="true" id="lockedBody">
+          <div class="kpis">
+            <div class="kpi"><div class="k" id="needLabel"></div><div class="v" id="needVal">RM –</div></div>
+            <div class="kpi"><div class="k"><span class="zh">退休时预计累积</span><span class="en">Projected at retirement</span></div><div class="v" id="haveVal">RM –</div></div>
+            <div class="kpi"><div class="k"><span class="zh">资金能用到</span><span class="en">Money lasts until</span></div><div class="v" id="lastsVal">–</div></div>
+          </div>
+          <div class="card">
+            <p class="grp-title" style="margin-bottom:8px"><span class="zh">资金累积与提领轨迹</span><span class="en">Savings build-up and drawdown</span></p>
+            <div class="chart-box"><canvas id="chart"></canvas></div>
+          </div>
+          <div class="solve" id="solveBox"></div>
+          <div class="next">
+            <a class="btn btn-primary" href="book.html?from=calculator"><span class="zh">预约免费咨询，一起补上缺口</span><span class="en">Book a free consult to close the gap</span></a>
+            <a class="btn btn-wa" id="waBtn" href="#" target="_blank" rel="noopener" hidden>WhatsApp</a>
+          </div>
+        </div>
+
+        <!-- LEAD GATE -->
+        <div class="gate">
+          <form class="card" id="gateForm" novalidate>
+            <h3><span class="zh">解锁你的完整退休报告</span><span class="en">Unlock your full retirement report</span></h3>
+            <p class="sub"><span class="zh">包括：退休所需总额、资金轨迹图、每月还需多存多少。</span><span class="en">Includes your total needed, a savings trajectory chart, and how much more to save each month.</span></p>
+            <div class="field"><label for="gName"><span class="zh">姓名</span><span class="en">Name</span> <span class="req">*</span></label><input type="text" id="gName" autocomplete="name" required></div>
+            <div class="field"><label for="gPhone"><span class="zh">手机号码（WhatsApp）</span><span class="en">Mobile (WhatsApp)</span> <span class="req">*</span></label><input type="tel" id="gPhone" autocomplete="tel" data-ph-zh="例如 012-345 6789" data-ph-en="e.g. 012-345 6789" required></div>
+            <div class="field"><label for="gEmail"><span class="zh">电邮</span><span class="en">Email</span> <span class="req">*</span></label><input type="email" id="gEmail" autocomplete="email" required></div>
+            <input type="text" class="hp" id="gWebsite" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <label class="check" style="margin:6px 0"><input type="checkbox" id="gConsult" checked><span><span class="zh">我希望 Kelly 联系我，安排一次免费咨询</span><span class="en">I'd like Kelly to contact me for a free consultation</span></span></label>
+            <label class="check" style="margin:6px 0 14px"><input type="checkbox" id="gConsent" required><span><span class="zh">我同意 Kelly Chan 依据<a href="privacy.html" target="_blank">隐私政策</a>收集及使用我的资料，以便联系我并提供理财资讯。</span><span class="en">I agree that Kelly Chan may collect and use my details, per the <a href="privacy.html" target="_blank">privacy notice</a>, to contact me and share financial information.</span> <span class="req">*</span></span></label>
+            <button class="btn btn-primary btn-block" type="submit" id="gSubmit"><span class="zh">查看完整报告</span><span class="en">See my full report</span></button>
+            <div class="form-msg" id="gMsg" role="status"></div>
+          </form>
+        </div>
+      </div>
+
+      <p class="fine">
+        <span class="zh">本计算器根据你输入的假设（通胀率、回报率、供款增长等）进行估算，仅供规划参考，并非保证的投资回报或个人化财务建议。实际结果会因市场表现、EPF 派息率、通胀等因素而不同。</span>
+        <span class="en">This calculator estimates outcomes from the assumptions you enter (inflation, returns, contribution growth, etc.). It is for planning reference only and is not a guaranteed return or personalised financial advice. Actual results will vary with market performance, EPF dividends, inflation and other factors.</span>
+      </p>
+    </div>
+  </div>
+</main>
+
+<div id="site-footer"></div>
+
+<script src="assets/config.js"></script>
+<script src="assets/site.js"></script>
+<script>
+(function () {
+  const $ = id => document.getElementById(id);
+  const num = id => { const v = parseFloat($(id).value); return isFinite(v) ? v : 0; };
+  const fmt = n => (n < 0 ? '-' : '') + 'RM ' + Math.round(Math.abs(n)).toLocaleString('en-MY');
+  const L = (zh, en) => kpLang() === 'zh' ? zh : en;
+  const cfg = window.SITE_CONFIG || {};
+  let unlocked = kpStore.get('kp-calc-unlocked') === '1';
+  let last = null, chart = null;
+
+  function inputs() {
+    return {
+      currentAge: Math.round(num('currentAge')), retireAge: Math.round(num('retireAge')), lifeExp: Math.round(num('lifeExp')),
+      monthlyExpense: num('monthlyExpense'), preInfl: num('preInfl') / 100, postInfl: num('postInfl') / 100,
+      epfBalance: num('epfBalance'), epfContrib: num('epfMonthly') * 12, epfReturn: num('epfReturn') / 100, epfGrowth: num('epfGrowth') / 100,
+      rsBalance: num('rsBalance'), rsContrib: num('rsMonthly') * 12, rsReturn: num('rsReturn') / 100, rsGrowth: num('rsGrowth') / 100,
+      postReturn: num('postReturn') / 100, passive: num('passiveMonthly') * 12, passiveGrowth: 0.02
+    };
+  }
+
+  // Year-by-year projection (same engine as Kelly's advisor calculator, monthly-spending mode).
+  function simulate(inp, rsContribOverride) {
+    const rsContrib = rsContribOverride !== undefined ? rsContribOverride : inp.rsContrib;
+    const years = inp.lifeExp - inp.currentAge, R = inp.retireAge - inp.currentAge;
+    if (years <= 0 || R <= 0 || R >= years) return null;
+    const age = [], T = [];
+    let rs = inp.rsBalance, epf = inp.epfBalance, m = 0, p = 0, spend = 0, total = 0, passive = inp.passive, need = 0;
+    age.push(inp.currentAge); T.push(rs + epf);
+    for (let t = 1; t <= years; t++) {
+      age.push(inp.currentAge + t);
+      if (t <= R) {
+        m = t === 1 ? rsContrib : m * (1 + inp.rsGrowth);
+        p = t === 1 ? inp.epfContrib : p * (1 + inp.epfGrowth);
+        rs = rs * (1 + inp.rsReturn) + m;
+        epf = epf * (1 + inp.epfReturn) + p;
+        passive = passive * (1 + inp.passiveGrowth);
+        total = rs + epf;
+        if (t === R) spend = inp.monthlyExpense * 12 * Math.pow(1 + inp.preInfl, R);
+      } else {
+        // withdraw last year's spending (net of passive income), grow the rest
+        total = (total - Math.max(spend - passive, 0)) * (1 + inp.postReturn);
+        spend = spend * (1 + inp.postInfl);
+        passive = passive * (1 + inp.passiveGrowth);
+      }
+      T.push(total);
+    }
+    // Present value at retirement of all retirement-year spending (net of passive income)
+    let s = inp.monthlyExpense * 12 * Math.pow(1 + inp.preInfl, R), pas = inp.passive * Math.pow(1 + inp.passiveGrowth, R);
+    for (let k = 0; k < years - R; k++) {
+      need += Math.max(s - pas, 0) / Math.pow(1 + inp.postReturn, k);
+      s *= 1 + inp.postInfl; pas *= 1 + inp.passiveGrowth;
+    }
+    let depleteAge = null;
+    for (let t = R; t <= years; t++) if (T[t] < -1) { depleteAge = age[t]; break; }
+    return { age, T, need, have: T[R], final: T[years], depleteAge, R };
+  }
+
+  function solveMonthly(inp) {
+    let lo = 0, hi = Math.max(inp.monthlyExpense * 12 * 5, 120000);
+    for (let i = 0; i < 20; i++) { const r = simulate(inp, hi); if (!r || r.final >= 0) break; hi *= 2; }
+    for (let i = 0; i < 60; i++) {
+      const mid = (lo + hi) / 2, r = simulate(inp, mid);
+      if (!r) break;
+      if (r.final > 0) hi = mid; else lo = mid;
+    }
+    return hi / 12;
+  }
+
+  function render() {
+    const inp = inputs();
+    const r = simulate(inp);
+    const st = $('status');
+    if (!r) {
+      st.className = 'status bad';
+      st.textContent = L('请检查年龄：退休年龄需大于现在年龄，并小于"资金要用到几岁"。', 'Please check the ages: retirement age must be above your current age and below the "money should last until" age.');
+      $('gapNum').textContent = '–'; $('gapLabel').textContent = ''; $('gapSub').textContent = '';
+      last = null; return;
+    }
+    const gap = r.have - r.need;
+    last = { inp, r, gap };
+    const short = gap < 0 || r.depleteAge;
+
+    st.className = 'status ' + (short ? 'bad' : 'good');
+    st.textContent = r.depleteAge
+      ? L(`⚠️ 按目前的计划，资金大约在 ${r.depleteAge} 岁用完，比目标早 ${inp.lifeExp - r.depleteAge} 年。`, `⚠️ On your current plan, your money runs out around age ${r.depleteAge}, ${inp.lifeExp - r.depleteAge} years before your target.`)
+      : L(`✅ 按目前的计划，资金预计可以用到 ${inp.lifeExp} 岁。`, `✅ On your current plan, your money should last until age ${inp.lifeExp}.`);
+
+    $('gapLabel').textContent = gap < 0 ? L('你的预计退休缺口', 'Your projected retirement gap') : L('你的预计退休盈余', 'Your projected retirement surplus');
+    const g = $('gapNum');
+    g.textContent = fmt(Math.abs(gap));
+    g.style.color = gap < 0 ? 'var(--dn)' : 'var(--up)';
+    $('gapSub').textContent = L(`${inp.retireAge} 岁退休时 · 已计入通胀`, `At retirement (age ${inp.retireAge}) · inflation-adjusted`);
+
+    $('needLabel').textContent = L(`${inp.retireAge} 岁时需要`, `Needed at age ${inp.retireAge}`);
+    $('needVal').textContent = fmt(r.need);
+    $('haveVal').textContent = fmt(r.have);
+    $('lastsVal').textContent = r.depleteAge ? L(`约 ${r.depleteAge} 岁`, `≈ age ${r.depleteAge}`) : L(`${inp.lifeExp} 岁以上`, `${inp.lifeExp}+`);
+
+    if (unlocked) renderDetails();
+    else {
+      // blurred teaser behind the gate
+      $('solveBox').innerHTML = L('🎯 每月需要投入约 <b class="big">RM ●,●●●</b>', '🎯 You need to save about <b class="big">RM ●,●●●</b> a month');
+      drawChart();
+    }
+  }
+
+  function renderDetails() {
+    if (!last) return;
+    const { inp, r, gap } = last;
+    const box = $('solveBox');
+    if (gap < 0 || r.depleteAge) {
+      const need = solveMonthly(inp);
+      const extra = Math.max(need - inp.rsContrib / 12, 0);
+      box.innerHTML = L(
+        `🎯 要让资金用到 <b>${inp.lifeExp}</b> 岁，每月投入需要约 <b class="big">${fmt(need)}</b><br><span style="font-size:13.5px;color:var(--muted)">比现在每月多约 ${fmt(extra)}（每年再按 ${(inp.rsGrowth * 100).toFixed(1)}% 递增）。好消息是：越早开始，每月需要的金额越少。</span>`,
+        `🎯 To make your money last until <b>${inp.lifeExp}</b>, you'd need to save about <b class="big">${fmt(need)}</b> a month<br><span style="font-size:13.5px;color:var(--muted)">That's about ${fmt(extra)} more than now (rising ${(inp.rsGrowth * 100).toFixed(1)}% a year). The good news: the earlier you start, the less you need each month.</span>`);
+    } else {
+      box.innerHTML = L(
+        `🎉 你目前的计划看起来不错！下一步可以检视：投资组合的风险是否合适、是否善用 PRS 税务减免，以及如何为医疗和意外做好准备。`,
+        `🎉 Your plan looks on track! Next steps worth reviewing: whether your portfolio's risk level suits you, whether you're using the PRS tax relief, and how you're prepared for medical and unexpected costs.`);
+    }
+    drawChart();
+  }
+
+  function drawChart() {
+    if (!last || typeof Chart === 'undefined') return;
+    const { r } = last;
+    if (chart) chart.destroy();
+    chart = new Chart($('chart'), {
+      type: 'line',
+      data: { labels: r.age, datasets: [{
+        data: r.T.map(v => Math.max(v, 0)), borderColor: '#9A7B3E', backgroundColor: 'rgba(154,123,62,.14)',
+        fill: true, tension: .25, pointRadius: 0, borderWidth: 2 }] },
+      options: {
+        responsive: true, maintainAspectRatio: false, animation: false,
+        plugins: { legend: { display: false }, tooltip: { callbacks: {
+          title: i => L('年龄 ', 'Age ') + i[0].label, label: i => fmt(i.raw) } } },
+        scales: {
+          x: { grid: { display: false }, ticks: { maxTicksLimit: 8, color: '#6B6560' } },
+          y: { grid: { color: '#EDE8DE' }, ticks: { color: '#6B6560', callback: v => 'RM ' + (v / 1e6).toFixed(1) + 'M' } }
+        }
+      }
+    });
+  }
+
+  function unlock() {
+    unlocked = true;
+    kpStore.set('kp-calc-unlocked', '1');
+    const w = $('lockWrap');
+    w.classList.remove('locked');
+    $('lockedBody').removeAttribute('aria-hidden');
+    renderDetails();
+  }
+
+  // ---- lead gate ----
+  const saved = kpSavedContact();
+  if (saved) { $('gName').value = saved.name || ''; $('gPhone').value = saved.phone || ''; $('gEmail').value = saved.email || ''; }
+
+  $('gateForm').addEventListener('submit', async e => {
+    e.preventDefault();
+    const msg = $('gMsg');
+    msg.className = 'form-msg err';
+    const name = $('gName').value, phone = $('gPhone').value, email = $('gEmail').value;
+    const bad = [];
+    [['gName', kpValid.name(name)], ['gPhone', kpValid.phone(phone)], ['gEmail', kpValid.email(email)]]
+      .forEach(([id, ok]) => { $(id).setAttribute('aria-invalid', !ok); if (!ok) bad.push(id); });
+    if (bad.length) { msg.textContent = L('请填写正确的姓名、手机号码和电邮。', 'Please enter a valid name, mobile number and email.'); $(bad[0]).focus(); return; }
+    if (!$('gConsent').checked) { msg.textContent = L('请勾选同意隐私政策。', 'Please tick the privacy consent box.'); return; }
+    if ($('gWebsite').value) { unlock(); return; } // bot honeypot
+
+    const btn = $('gSubmit'); btn.disabled = true;
+    const { inp, r, gap } = last || {};
+    const res = await kpSubmitLead({
+      source: 'calculator',
+      name: name.trim(), phone: phone.trim(), email: email.trim(),
+      wantsConsult: $('gConsult').checked ? 'yes' : 'no',
+      consent: 'yes',
+      calc: inp ? {
+        currentAge: inp.currentAge, retireAge: inp.retireAge, lifeExp: inp.lifeExp,
+        monthlyExpense: inp.monthlyExpense, epfBalance: inp.epfBalance, epfMonthly: inp.epfContrib / 12,
+        savingsBalance: inp.rsBalance, savingsMonthly: inp.rsContrib / 12,
+        neededAtRetirement: Math.round(r.need), projectedAtRetirement: Math.round(r.have),
+        gap: Math.round(gap), moneyRunsOutAge: r.depleteAge || '',
+        requiredMonthly: (gap < 0 || r.depleteAge) ? Math.round(solveMonthly(inp)) : ''
+      } : null
+    });
+    btn.disabled = false;
+    if (!res.ok) { msg.textContent = L('提交失败，请稍后再试或直接 WhatsApp 我。', 'Something went wrong. Please try again or WhatsApp me directly.'); return; }
+    msg.textContent = '';
+    unlock();
+  });
+
+  if (cfg.whatsapp) {
+    const wa = $('waBtn');
+    wa.hidden = false;
+    wa.addEventListener('click', () => {
+      const t = last ? L(`你好 Kelly，我刚用了退休计算器，缺口大约 ${fmt(Math.abs(last.gap))}，想了解怎么规划。`,
+                         `Hi Kelly, I just used your retirement calculator (gap about ${fmt(Math.abs(last.gap))}) and would like to learn how to plan for it.`) : '';
+      wa.href = 'https://wa.me/' + cfg.whatsapp + '?text=' + encodeURIComponent(t);
+    });
+  }
+
+  document.querySelectorAll('.calc-grid input[type=number]').forEach(el => el.addEventListener('input', render));
+  document.addEventListener('kp:lang', () => { render(); });
+  if (unlocked) { $('lockWrap').classList.remove('locked'); $('lockedBody').removeAttribute('aria-hidden'); }
+  render();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,336 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Sep 25 Morning Brief</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --gold:#9A7B3E;--gold-light:#C4A05A;--gold-bg:#FBF7EE;
+  --border:#EDE8DE;--text:#1A1A1A;--muted:#6B6560;--muted2:#9A9590;
+  --up:#1A6B3C;--up-bg:#EDF7F1;--dn:#B02020;--dn-bg:#FEF2F2;
+  --amber:#8A5A00;--amber-bg:#FEF9EC;--blue:#1A5FA8;--blue-bg:#EBF5FB;
+  --teal:#0F6B5A;--teal-bg:#E8F8F5;--pur:#4A1FA8;--pur-bg:#F0EDFD;
+  --surface:#FFFFFF;--page:#F8F6F1;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--page);color:var(--text);font-family:'DM Sans',sans-serif;font-weight:300;font-size:16px;line-height:1.65;}
+.container{max-width:820px;margin:0 auto;padding:2rem 1.4rem 4rem;}
+.mast{text-align:center;padding:2rem 0;border-bottom:1px solid var(--border);margin-bottom:1.5rem;}
+.mast::before{content:'';display:block;width:40px;height:2px;background:var(--gold);margin:0 auto 1.25rem;}
+.mast-eye{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem;}
+.mast-title{font-family:'Playfair Display',serif;font-size:28px;font-weight:600;margin-bottom:.25rem;}
+.mast-sub{font-size:14px;color:var(--muted);}
+.mast-date{font-size:13px;color:var(--gold);margin-top:.4rem;}
+.alert{border-radius:8px;padding:.85rem 1.1rem;margin-bottom:.7rem;display:flex;align-items:flex-start;gap:10px;font-size:14px;line-height:1.55;}
+.a-amber{background:var(--amber-bg);border:.5px solid #E8C87A;color:var(--amber);}
+.a-green{background:var(--up-bg);border:.5px solid #B8DFC8;color:var(--up);}
+.a-red{background:var(--dn-bg);border:.5px solid #F5C6C6;color:var(--dn);}
+.a-blue{background:var(--blue-bg);border:.5px solid #A8C8E8;color:var(--blue);}
+.alert-icon{font-size:18px;flex-shrink:0;margin-top:1px;}
+.alert strong{font-weight:500;}
+.alert span{display:block;margin-top:3px;font-size:12.5px;opacity:.85;}
+.lang-row{display:flex;gap:6px;justify-content:center;margin:1.2rem 0 1.4rem;}
+.lb{padding:5px 18px;font-size:13px;border-radius:4px;cursor:pointer;border:.5px solid var(--border);background:transparent;color:var(--muted);font-family:'DM Sans',sans-serif;transition:all .15s;}
+.lb:hover{border-color:var(--gold);color:var(--gold);}
+.lb.active{background:var(--gold);color:#fff;border-color:var(--gold);font-weight:500;}
+.sl{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:.9rem;display:flex;align-items:center;gap:10px;font-weight:500;}
+.sl::after{content:'';flex:1;height:.5px;background:var(--border);}
+.sec{margin-bottom:1.75rem;}
+.mg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-bottom:1rem;}
+.mc{background:var(--surface);border:.5px solid var(--border);border-radius:8px;padding:.9rem;}
+.mn{font-size:11px;color:var(--muted2);text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px;}
+.mv{font-family:'Playfair Display',serif;font-size:20px;font-weight:600;}
+.mch{font-size:13px;margin-top:3px;}
+.mnote{font-size:11px;color:var(--muted2);margin-top:4px;}
+.up{color:var(--up);}.dn{color:var(--dn);}.nt{color:var(--amber);}
+.oil-strip{border-radius:8px;padding:.7rem 1rem;font-size:14px;margin-bottom:1.5rem;}
+.oil-a{background:var(--amber-bg);border:.5px solid #E8C87A;color:var(--amber);}
+.nc{background:var(--surface);border:.5px solid var(--border);border-radius:8px;padding:1rem 1.2rem;margin-bottom:9px;}
+.ntop{display:flex;align-items:center;gap:7px;margin-bottom:8px;flex-wrap:wrap;}
+.badge{font-size:11px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;padding:2px 9px;border-radius:4px;}
+.br{background:var(--dn-bg);color:var(--dn);}
+.ba{background:var(--amber-bg);color:var(--amber);}
+.bg2{background:var(--up-bg);color:var(--up);}
+.bb{background:var(--blue-bg);color:var(--blue);}
+.bstar{background:#FFF8E1;color:#7A5C00;border:.5px solid #FFD54F;}
+.bpur{background:var(--pur-bg);color:var(--pur);}
+.nsrc{font-size:12px;color:var(--muted2);}
+.nsrc-note{font-size:11px;color:var(--muted2);font-style:italic;display:block;margin-top:4px;}
+.nhz{font-family:'Playfair Display',serif;font-size:17px;font-weight:600;margin-bottom:4px;line-height:1.4;}
+.nhe{font-size:14px;font-style:italic;margin-bottom:7px;line-height:1.4;color:var(--muted);}
+.nb{font-size:15px;color:#444;line-height:1.65;margin-bottom:4px;}
+.nb.en{color:var(--muted);font-size:14px;}
+.rm{display:inline-flex;align-items:center;gap:3px;font-size:12px;color:var(--gold);text-decoration:none;margin-top:8px;border-bottom:.5px solid rgba(154,123,62,.35);padding-bottom:1px;}
+.rm:hover{color:var(--gold-light);}
+.scorecard{background:var(--surface);border:.5px solid var(--border);border-radius:8px;padding:1rem 1.2rem;margin-bottom:1rem;}
+.sc-title{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:.8rem;}
+.sc-row{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;}
+.sc-item{background:var(--page);border-radius:6px;padding:.6rem .8rem;}
+.sc-label{font-size:11px;color:var(--muted2);text-transform:uppercase;letter-spacing:.07em;margin-bottom:3px;}
+.sc-val{font-family:'Playfair Display',serif;font-size:16px;font-weight:600;}
+.sc-sub{font-size:12px;color:var(--muted);margin-top:2px;}
+.adv{border:.5px solid var(--gold-light);border-radius:8px;padding:1.2rem;background:var(--gold-bg);}
+.ah{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;font-weight:500;}
+.ah2{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin:1.1rem 0 .6rem;font-weight:500;}
+.ai{font-size:15px;color:#444;margin-bottom:5px;padding-left:.9rem;border-left:2px solid var(--gold-light);line-height:1.65;}
+.ai.en{color:var(--muted);font-size:14px;margin-bottom:14px;}
+hr.dv{border:none;border-top:.5px solid var(--border);margin:1.75rem 0;}
+.tri{margin-top:10px;padding-top:10px;border-top:1px dashed var(--border);}
+.tri-h{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:6px;}
+.tri-i{font-size:12.5px;color:var(--muted);line-height:1.55;margin-bottom:3px;}
+.tri-i b{color:var(--text);font-weight:500;}
+.disc{border-top:.5px solid var(--gold-light);margin-top:14px;padding-top:12px;font-size:11px;color:var(--muted2);line-height:1.6;}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="mast">
+  <div class="mast-eye">Kelly · 信托基金顾问 · Unit Trust Consultant</div>
+  <div class="mast-title">Market Intelligence Brief</div>
+  <div class="mast-sub">每日早报 · Daily Morning Brief</div>
+  <div class="mast-date">星期五 · Friday, September 25, 2026</div>
+</div>
+
+<div class="alert a-red">
+  <div class="alert-icon">📈</div>
+  <div>
+    <strong class="zh-t">10年期美债殖利率飙至5.11%,创2007年以来新高——债市正在敲警钟。</strong>
+    <strong class="en-t">10-year Treasury yield spiked to 5.11%, the highest since 2007 — the bond market is flashing a warning.</strong>
+    <span class="zh-t">30年期同步触及2004年来高点5.438%;房贷利率已升破7.37%。 · 来源:TheStreet(已验证)</span>
+    <span class="en-t">The 30-year hit a post-2004 high of 5.438%; mortgage rates broke above 7.37%. · Source: TheStreet (verified)</span>
+  </div>
+</div>
+
+<div class="alert a-amber">
+  <div class="alert-icon">🛢️</div>
+  <div>
+    <strong class="zh-t">美伊传出"分阶段"协议以重开霍尔木兹海峡,但油价周四不跌反涨。</strong>
+    <strong class="en-t">US and Iran are discussing a "phased" deal to reopen the Strait of Hormuz — yet oil still rose Thursday.</strong>
+    <span class="zh-t">WTI收93.66美元/桶(+1.63%),布伦特涨至104.70美元。 · 来源:Investing.com、TheStreet(已验证)</span>
+    <span class="en-t">WTI closed $93.66/barrel +1.63%, Brent climbed to $104.70. · Source: Investing.com, TheStreet (verified)</span>
+  </div>
+</div>
+
+<div class="alert a-green">
+  <div class="alert-icon">🤝</div>
+  <div>
+    <strong class="zh-t">特朗普与习近平白宫国宴同框AI巨头:Altman、黄仁勋等悉数到场,中美贸易休战延至明年1月。</strong>
+    <strong class="en-t">Trump and Xi's White House state dinner brought AI titans together — Altman, Jensen Huang and more attended; the US-China trade truce was extended to January.</strong>
+    <span class="zh-t">来源:CBS News、Al Jazeera(已验证)</span>
+    <span class="en-t">Source: CBS News, Al Jazeera (verified)</span>
+  </div>
+</div>
+
+<div class="lang-row">
+  <button class="lb active" onclick="setL('both')">双语 Both</button>
+  <button class="lb" onclick="setL('zh')">华语</button>
+  <button class="lb" onclick="setL('en')">English</button>
+</div>
+
+<div class="sec">
+  <div class="sl">📊 今日市场总结 · Today's Scorecard</div>
+  <div class="scorecard">
+    <div class="sc-title zh-t">2026年9月25日 · 债市高烧未退,地缘缓和曙光初现</div>
+    <div class="sc-title en-t">September 25, 2026 · Bond market fever persists, geopolitical thaw shows early signs</div>
+    <div class="sc-row">
+      <div class="sc-item">
+        <div class="sc-label">10-Year Treasury Yield</div>
+        <div class="sc-val dn">5.11%</div>
+        <div class="sc-sub zh-t">2007年以来最高</div>
+        <div class="sc-sub en-t">Highest since 2007</div>
+      </div>
+      <div class="sc-item">
+        <div class="sc-label">Fed Oct 28 Odds (加息)</div>
+        <div class="sc-val nt">73.5%</div>
+        <div class="sc-sub zh-t">4.00–4.25% 区间,Investing.com</div>
+        <div class="sc-sub en-t">4.00–4.25% range, per Investing.com</div>
+      </div>
+      <div class="sc-item">
+        <div class="sc-label">WTI Crude</div>
+        <div class="sc-val up">$93.66</div>
+        <div class="sc-sub zh-t">+1.63%,霍尔木兹不确定性支撑</div>
+        <div class="sc-sub en-t">+1.63%, Hormuz uncertainty still supportive</div>
+      </div>
+      <div class="sc-item">
+        <div class="sc-label">USD/MYR</div>
+        <div class="sc-val up">4.0690</div>
+        <div class="sc-sub zh-t">-0.37%,9/25 上午 · FX168</div>
+        <div class="sc-sub en-t">-0.37%, AM Sept 25 · FX168</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="dv">
+
+<!-- STORY GROUP 1: 债市亮红灯 + 马来西亚 -->
+<div class="sec">
+  <div class="sl zh-t">🚨 债市亮红灯,经济却在加速</div>
+  <div class="sl en-t">🚨 The Bond Market Is Flashing Red — While the Economy Accelerates</div>
+
+  <div class="nc">
+    <div class="ntop"><span class="badge br">YIELDS</span><span class="nsrc">TheStreet · 已验证</span></div>
+    <div class="nhz zh-t">殖利率全线飙升,10年期触及18年新高</div>
+    <div class="nhe en-t">Yields surge across the curve, 10-year hits an 18-year high</div>
+    <div class="nb zh-t">周四(9/24),10年期美债殖利率一度冲上5.11%,创2007年以来新高;2年期升至4.897%(2023年以来最高),30年期更触及5.438%的2004年后新高。推手并非经济疲弱,而是"太热":标普全球公布的商业活动数据创下五年多来最强增速。Capital.com分析师Daniela Hathorn直言:"经济不只是在避免衰退,它看起来正在加速。"对债市而言,这意味着通胀与利率的压力可能比市场原先预期的更持久。房贷利率已升破7.37%,是两年多来最高。</div>
+    <div class="nb en en-t">On Thursday (Sept 24) the 10-year Treasury yield briefly touched 5.11%, its highest since 2007; the 2-year climbed to 4.897% (highest since 2023), and the 30-year hit a post-2004 peak of 5.438%. The driver isn't weakness — it's the opposite: S&P Global's business activity data showed the strongest growth in over five years. Capital.com's Daniela Hathorn put it plainly: "The economy is not merely avoiding recession; it appears to be accelerating." For bond markets, that means inflation and rate pressure may persist longer than expected. Mortgage rates have broken above 7.37%, the highest in over two years.</div>
+    <a href="https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-24-2026" target="_blank" class="rm">阅读全文 · TheStreet ↗</a>
+    <div class="tri">
+      <div class="tri-h zh-t">💡 与您相关</div>
+      <div class="tri-h en en-t">💡 What This Means For You</div>
+      <div class="tri-i zh-t">🎯 <b>退休规划与PRS:</b>高殖利率环境下,固定收益类资产的"新钱"吸引力其实在上升——这是重新检视PRS配置比重的好时机,而不是恐慌。</div>
+      <div class="tri-i en en-t">🎯 <b>Retirement & PRS:</b> A high-yield environment actually makes new fixed-income allocations more attractive — a good moment to review your PRS mix, not to panic.</div>
+      <div class="tri-i zh-t">💰 <b>DDA定期定额:</b>殖利率飙升常伴随股市短期震荡,定期定额反而能在波动中拉低平均成本,纪律比择时更重要。</div>
+      <div class="tri-i en en-t">💰 <b>DCA (定期定额):</b> Yield spikes often bring short-term equity volatility — regular contributions let you average into the dip rather than trying to time it.</div>
+      <div class="tri-i zh-t">📈 <b>长期投资:</b>"经济加速但利率也加速"是典型的晚周期信号,建议维持分散配置,不因单一数据追高杀低。</div>
+      <div class="tri-i en en-t">📈 <b>Long-Term Investing:</b> "Accelerating growth, accelerating rates" is a classic late-cycle signal — stay diversified rather than chasing or dumping on any single data point.</div>
+    </div>
+  </div>
+
+  <div class="nc">
+    <div class="ntop"><span class="badge bb">MALAYSIA</span><span class="nsrc">FX168 · 已验证</span><span class="nsrc-note zh-t">(KLCI最新验证收盘为9/18,1,665.56;Trading Economics与Investing.com本节点暂无更新数据)</span><span class="nsrc-note en-t">(KLCI's last verified close is Sept 18 at 1,665.56; Trading Economics and Investing.com had no fresher print available this session)</span></div>
+    <div class="nhz zh-t">全球殖利率飙升下,令吉周五早盘逆势走强</div>
+    <div class="nhe en-t">Amid the global yield spike, the ringgit firms against the greenback Friday morning</div>
+    <div class="nb zh-t">令吉周五(9/25)上午报USD/MYR 4.0690,较前一交易日走强0.37%,在美债殖利率飙升、美元理应受益的背景下显得相对抗跌,反映市场对马来西亚基本面(包括央行维持稳定利率立场)仍有一定信心。KLCI方面,本节点各白名单来源(Trading Economics、Investing.com、Yahoo Finance)均只能取得9月18日的验证收盘价1,665.56点(-0.55%),本地财经媒体已有更新报道但不在信源白名单内,故如实标注为"暂无白名单来源更新",不做臆测。</div>
+    <div class="nb en en-t">The ringgit traded at USD/MYR 4.0690 on Friday (Sept 25) morning, +0.37% firmer than the prior session — notably resilient given the dollar would typically benefit from surging US yields, suggesting some continued confidence in Malaysia's fundamentals. On the KLCI, every whitelisted source available this session (Trading Economics, Investing.com, Yahoo Finance) still only returned the verified Sept 18 close of 1,665.56 (-0.55%); local financial outlets have newer figures but sit outside the source whitelist, so this brief honestly notes "no whitelist-source update yet" rather than guessing.</div>
+    <a href="https://www.fx168news.com/quote/MYR" target="_blank" class="rm">阅读全文 · FX168 ↗</a>
+    <div class="tri">
+      <div class="tri-h zh-t">💡 与您相关</div>
+      <div class="tri-h en en-t">💡 What This Means For You</div>
+      <div class="tri-i zh-t">🎯 <b>退休规划与PRS:</b>令吉走势相对平稳,对以马币计价的退休金资产是好消息——短期汇率波动不该左右长期退休配置的决策。</div>
+      <div class="tri-i en en-t">🎯 <b>Retirement & PRS:</b> A relatively steady ringgit is good news for MYR-denominated retirement assets — short-term FX swings shouldn't drive long-term retirement allocation decisions.</div>
+      <div class="tri-i zh-t">💰 <b>DDA定期定额:</b>若您的定投组合涉及美元计价基金,令吉走强意味着换汇成本略降,是补仓的友善窗口。</div>
+      <div class="tri-i en en-t">💰 <b>DCA (定期定额):</b> If your regular investments include USD-denominated funds, a firmer ringgit means a slightly friendlier conversion window to top up.</div>
+      <div class="tri-i zh-t">📈 <b>长期投资:</b>数据缺口本身也是提醒——不要只看单一指数点位,应关注基本面(如OPR、GDP)的中期走向。</div>
+      <div class="tri-i en en-t">📈 <b>Long-Term Investing:</b> The data gap itself is a reminder — don't fixate on a single index print; watch the medium-term fundamentals (OPR, GDP) instead.</div>
+    </div>
+  </div>
+</div>
+
+<hr class="dv">
+
+<!-- STORY GROUP 2: 霍尔木兹 + 油价 -->
+<div class="sec">
+  <div class="sl zh-t">🕊️ 霍尔木兹曙光乍现,但油价"先涨后谈"</div>
+  <div class="sl en-t">🕊️ A Glimmer of Hope on Hormuz — But Oil Rallies Before the Deal Is Done</div>
+
+  <div class="nc">
+    <div class="ntop"><span class="badge ba">HORMUZ</span><span class="nsrc">Investing.com(路透) · 已验证</span></div>
+    <div class="nhz zh-t">美伊探讨"分阶段"方案:伊朗重开海峡,美国解除封锁</div>
+    <div class="nhe en-t">US and Iran explore a "phased" framework: Iran reopens the strait, US lifts the blockade</div>
+    <div class="nb zh-t">路透社(经Investing.com转发,9/24发布)报道,美伊双方正探讨分阶段协议:伊朗恢复霍尔木兹海峡的自由通行,换取美国解除对伊朗的经济封锁,并可能释放被冻结的伊朗资产。核心障碍在于"谁先让步"的互信问题——伊朗希望制裁先松绑,华府则希望以施压换取实质让步,而8月一度达成又告吹的协议更加深了双方的疑虑。一位资深伊朗官员表示:"分阶段解决危机是一条可行之路,第一步是结束封锁、重开霍尔木兹。"前中东特使Dennis Ross评估,在11月3日中期选举前达成协议的机率约为三成。这与9月23日联合国大会期间美方特使Witkoff、Kushner、鲁比奥与伊朗外长Araghchi在卡塔尔、阿曼斡旋下的间接会谈相互呼应——伊朗官员称,若美方解除军事压力与封锁,海峡最快可在七天内重新开放。</div>
+    <div class="nb en en-t">Reuters, via Investing.com (published Sept 24), reports the US and Iran are discussing a phased deal: Iran restores free passage through the Strait of Hormuz in exchange for the US lifting its economic blockade and potentially unfreezing Iranian assets. The core obstacle is a trust problem over sequencing — Iran wants sanctions relief first, Washington wants concessions first, and a collapsed August agreement has deepened mutual suspicion. A senior Iranian official said: "One way forward would be to solve the crisis in stages. The first would be to end the blockade and reopen Hormuz." Former US Middle East envoy Dennis Ross puts the odds of a deal before the Nov 3 midterms at roughly 30%. This echoes the Sept 23 UNGA-sidelines talks where US envoys Witkoff, Kushner and Secretary Rubio met Iranian FM Araghchi via Qatari and Omani mediation — an Iranian official said the strait could reopen within seven days if US military pressure and the blockade ease.</div>
+    <a href="https://www.investing.com/news/commodities-news/us-and-iran-discuss-phased-deal-to-reopen-hormuz-and-end-us-blockade-sources-say-4915884" target="_blank" class="rm">阅读全文 · Investing.com ↗</a>
+    <div class="tri">
+      <div class="tri-h zh-t">💡 与您相关</div>
+      <div class="tri-h en en-t">💡 What This Means For You</div>
+      <div class="tri-i zh-t">🎯 <b>退休规划与PRS:</b>地缘局势仍有变数,退休组合应保留一定的防御性资产比重,而非单押"战争结束"或"战争持续"任何一边。</div>
+      <div class="tri-i en en-t">🎯 <b>Retirement & PRS:</b> With geopolitics still fluid, retirement portfolios should keep a defensive cushion rather than betting on either "war ends" or "war continues."</div>
+      <div class="tri-i zh-t">💰 <b>DDA定期定额:</b>消息面反复,单日涨跌不该影响定投节奏——协议进度以"周"为单位推进,您的定投也该以"月"为单位坚持。</div>
+      <div class="tri-i en en-t">💰 <b>DCA (定期定额):</b> Headlines will swing day to day — don't let them shake your contribution schedule; the deal moves in weeks, your DCA plan should move in months.</div>
+      <div class="tri-i zh-t">📈 <b>长期投资:</b>三成成交机率提醒我们:地缘风险溢价短期内不会完全消失,能源与相关板块的波动仍值得留意。</div>
+      <div class="tri-i en en-t">📈 <b>Long-Term Investing:</b> A 30% deal probability is a reminder that the geopolitical risk premium won't vanish overnight — energy-related volatility is still worth watching.</div>
+    </div>
+  </div>
+
+  <div class="nc">
+    <div class="ntop"><span class="badge br">OIL</span><span class="nsrc">TheStreet、Investing.com · 已验证</span></div>
+    <div class="nhz zh-t">"利好"消息下,油价为何不跌反涨?</div>
+    <div class="nhe en-t">If the news is "good," why did oil still climb?</div>
+    <div class="nb zh-t">照理说,重开海峡的谈判进展应压低油价,但周四WTI原油仍上涨1.63%收93.66美元/桶,布伦特原油涨1.53%至104.70美元。这恰恰说明市场的逻辑:在协议真正签署、海峡实际重新畅通之前,风险溢价不会消失,"谈判中的乐观"与"落地的确定性"是两回事。同一天,10年期殖利率触顶、经济数据偏热,也让部分资金转向大宗商品作为通胀对冲。对投资人而言,这是一堂生动的"消息与价格"课:利好新闻不等于价格立刻反映利好,市场永远在为"万一谈崩"的情境定价。</div>
+    <div class="nb en en-t">In theory, progress toward reopening the strait should push oil lower — but WTI still rose 1.63% Thursday to close at $93.66/barrel, with Brent up 1.53% to $104.70. That's exactly the market's logic at work: the risk premium doesn't disappear until a deal is actually signed and the strait genuinely reopens — "optimism in negotiation" and "certainty on the ground" are two different things. The same day's yield spike and hot economic data also pushed some capital toward commodities as an inflation hedge. It's a good real-time lesson: good news doesn't mean prices react immediately — markets are always pricing in the chance the deal falls apart.</div>
+    <a href="https://www.investing.com/commodities/crude-oil-historical-data" target="_blank" class="rm">阅读全文 · Investing.com ↗</a>
+  </div>
+</div>
+
+<hr class="dv">
+
+<!-- STORY GROUP 3: 特习AI晚宴 + Micron -->
+<div class="sec">
+  <div class="sl zh-t">🍽️ 白宫"AI晚宴":贸易缓和延长,科技巨头同框</div>
+  <div class="sl en-t">🍽️ The White House "AI Dinner": Trade Truce Extended, Tech Titans in the Room</div>
+
+  <div class="nc">
+    <div class="ntop"><span class="badge bg2">AI DINNER</span><span class="nsrc">CBS News、Al Jazeera · 已验证</span></div>
+    <div class="nhz zh-t">特朗普盛情款待习近平,Altman、黄仁勋齐聚白宫国宴</div>
+    <div class="nhe en-t">Trump rolls out the red carpet for Xi, with Altman and Jensen Huang among the state dinner guests</div>
+    <div class="nb zh-t">周四(9/24)晚,白宫为到访的习近平举行国宴,OpenAI的Sam Altman、英伟达的黄仁勋、高通的Cristiano Amon、摩根大通的Jamie Dimon等科技与金融领袖悉数到场。特朗普形容:"所有人都想来,整个科技界、整个银行界,还有更多人都到齐了。"会谈中,习近平强调中美都是AI领域的领先者,呼吁"AI的发展应始终受人类掌控";美方则提出建立AI事故通报机制,以在涉及国家安全的AI事件上互相知会,但特朗普对具体监管路线仍语焉不详,一贯态度是抵制正式的AI限制。财政部长贝森特同时宣布中美贸易休战延长至明年1月10日(原定11月10日到期的"釜山协议")。不过据Al Jazeera的四大要点分析,伊朗议题在会谈中仍无突破——中国作为伊朗最大贸易伙伴,对孤立伊朗态度保留,习近平反而提议回到6月已破裂的临时协议框架;台湾问题上,习近平也向特朗普施压反对"台独"。</div>
+    <div class="nb en en-t">Thursday evening (Sept 24), the White House hosted a state dinner for visiting President Xi, with tech and finance leaders including OpenAI's Sam Altman, Nvidia's Jensen Huang, Qualcomm's Cristiano Amon, and JPMorgan's Jamie Dimon all in attendance. Trump described it: "Everybody wanted to be there. I would say you have the entire tech world, the entire banking world, and a lot more." During talks, Xi stressed both nations are AI leaders and called for "development of AI, always under human control"; the US proposed a notification system for AI incidents touching national security, though Trump's own regulatory stance stayed vague — he has consistently resisted formal AI restrictions. Treasury Secretary Bessent separately confirmed the US-China trade truce (the "Busan Agreement," originally set to expire Nov 10) is extended to January 10. Per Al Jazeera's four-takeaways analysis, however, the Iran issue saw no breakthrough — China, Iran's largest trading partner, remains reluctant to back isolating Tehran, with Xi instead proposing a return to the collapsed June interim framework; Xi also pressed Trump on opposing Taiwanese independence.</div>
+    <a href="https://www.cbsnews.com/live-updates/trump-china-xi-jinping-state-visit-dinner-tariffs-ai/" target="_blank" class="rm">阅读全文 · CBS News ↗</a>
+    <div class="tri">
+      <div class="tri-h zh-t">💡 与您相关</div>
+      <div class="tri-h en en-t">💡 What This Means For You</div>
+      <div class="tri-i zh-t">🎯 <b>退休规划与PRS:</b>贸易休战延长到明年1月,为科技类资产提供了确定性窗口,但AI监管仍是未知数,建议PRS配置保留多元行业分散。</div>
+      <div class="tri-i en en-t">🎯 <b>Retirement & PRS:</b> The trade-truce extension to January gives tech assets a window of certainty, but AI regulation remains an open question — keep your PRS diversified across sectors.</div>
+      <div class="tri-i zh-t">💰 <b>DDA定期定额:</b>AI基础设施投资的政治关注度提高,相关基金短期可能更波动,定投正好能平滑这类"新闻驱动型"震荡。</div>
+      <div class="tri-i en en-t">💰 <b>DCA (定期定额):</b> Heightened political attention on AI infrastructure may add near-term volatility to related funds — DCA is well-suited to smoothing out this kind of headline-driven swing.</div>
+      <div class="tri-i zh-t">📈 <b>长期投资:</b>贸易休战 + AI合作意向,长期看有利于跨境科技供应链稳定,但落地监管前不宜过度乐观追高。</div>
+      <div class="tri-i en en-t">📈 <b>Long-Term Investing:</b> A trade truce plus AI-cooperation intent is constructive for cross-border tech supply chains long-term — but don't get ahead of yourself before actual regulation lands.</div>
+    </div>
+  </div>
+
+  <div class="nc">
+    <div class="ntop"><span class="badge bstar">EARNINGS PREVIEW</span><span class="nsrc">Benzinga · 已验证</span></div>
+    <div class="nhz zh-t">美光9月30日财报倒数:AI记忆体热潮的"体检报告"</div>
+    <div class="nhe en-t">Micron's Sept 30 earnings countdown: a health check on the AI-memory boom</div>
+    <div class="nb zh-t">美光(Micron)将于9月30日公布第四财季业绩,市场预期每股盈余31.16美元,对比去年同期的3.03美元,几乎是十倍增长;营收预估约504亿美元(去年同期113.2亿美元)。驱动力是AI服务器对记忆体的需求持续超越供给,DRAM合约价格在今年首季飙涨90-95%,第二季58-63%,不过增速正在放缓,预期未来季度回落至13-18%。Benzinga追踪的27位分析师中,26位给予"买入"评级,平均目标价1,303美元,较现价(约974美元)仍有33.4%上行空间。风险在于估值——目前股价仅约6-8倍远期盈余,反映市场对"当前获利能否持续"仍存疑虑,记忆体产业历来周期性强,扩张期后往往伴随供过于求与价格回落。缓冲垫是美光已签下16份长期战略客户合约,涉及约1,000亿美元的未来履约金额,有助稳定订价。这份财报,某种程度上就是这一整年AI资本支出叙事的"期中考"。</div>
+    <div class="nb en en-t">Micron reports its fiscal Q4 on Sept 30. Wall Street expects EPS of $31.16, versus $3.03 a year ago — nearly a tenfold jump — on revenue of roughly $50.4 billion (vs. $11.32 billion a year ago). The driver is AI-server memory demand continuing to outpace supply: DRAM contract prices surged 90-95% in Q1 2026 and 58-63% in Q2, though the pace is cooling toward 13-18% quarterly gains ahead. Of the 27 analysts Benzinga tracks, 26 rate it Buy, with an average price target of $1,303 — 33.4% above the current ~$974 share price. The risk is valuation: the stock trades at just 6-8x forward earnings, reflecting skepticism that today's profit levels will hold, given memory's historically cyclical boom-bust pattern. The cushion: Micron has locked in 16 multi-year strategic customer contracts worth roughly $100 billion in future commitments. In a sense, this earnings report is the mid-year exam for the whole AI-capex narrative.</div>
+    <a href="https://www.benzinga.com/markets/large-cap/26/09/61855575/micron-earnings-preview-31-per-share-vs-3-a-year-ago" target="_blank" class="rm">阅读全文 · Benzinga ↗</a>
+    <div class="tri">
+      <div class="tri-h zh-t">💡 与您相关</div>
+      <div class="tri-h en en-t">💡 What This Means For You</div>
+      <div class="tri-i zh-t">🎯 <b>退休规划与PRS:</b>单一科技股财报不该左右退休组合方向,但可作为观察AI资本支出是否降温的领先指标。</div>
+      <div class="tri-i en en-t">🎯 <b>Retirement & PRS:</b> One company's earnings shouldn't steer your retirement portfolio — but it's a useful leading indicator of whether AI capex is cooling.</div>
+      <div class="tri-i zh-t">💰 <b>DDA定期定额:</b>财报前后股价常见大幅波动,若定投涉及科技/半导体基金,建议维持既定节奏,不因单次财报加码或减码。</div>
+      <div class="tri-i en en-t">💰 <b>DCA (定期定额):</b> Earnings-week swings are common — if your DCA plan touches tech/semiconductor funds, stick to the schedule rather than reacting to one print.</div>
+      <div class="tri-i zh-t">📈 <b>长期投资:</b>6-8倍远期本益比其实不算贵,但"AI热潮是否可持续"仍是长期投资人该持续追问的问题。</div>
+      <div class="tri-i en en-t">📈 <b>Long-Term Investing:</b> A 6-8x forward P/E isn't actually expensive — but "is the AI boom durable?" remains the question long-term investors should keep asking.</div>
+    </div>
+  </div>
+</div>
+
+<hr class="dv">
+
+<div class="sec">
+  <div class="sl zh-t">📝 今日新闻分析 · Today's News Analysis</div>
+  <div class="sl en-t">📝 今日新闻分析 · Today's News Analysis</div>
+  <div class="adv">
+    <div class="ah zh-t">Kelly's Takeaways · 今日总结(顾问分析,非新闻引述)</div>
+    <div class="ah en en-t">Kelly's Takeaways · Today's Summary (advisor analysis, not news reporting)</div>
+    <div class="ai zh-t">今天最值得记住的,其实不是任何一条单一新闻,而是"三条线同时在动":债市在为强劲经济定价更高更久的利率,油市在为"万一谈崩"定价风险溢价,而AI与贸易的外交场面则在为"合作仍有空间"定价乐观。三者同时存在,说明现在不是一个可以用单一叙事简单概括的市场。</div>
+    <div class="ai en en-t">The one thing worth remembering today isn't any single headline — it's that three storylines are moving at once. Bonds are pricing higher-for-longer rates on a strong economy; oil is pricing a risk premium for the deal falling apart; and the AI/trade diplomacy is pricing in optimism that cooperation still has room. All three coexisting tells you this isn't a market you can sum up with one simple narrative right now.</div>
+
+    <div class="ah2 zh-t">🎯 退休规划与PRS</div>
+    <div class="ah2 en en-t">🎯 Retirement Planning & PRS</div>
+    <div class="ai zh-t">殖利率来到近20年高点,对退休组合其实是"喜忧参半":喜的是新配置的固定收益类资产收益率更有吸引力;忧的是若组合中股票占比过高,短期估值压力会更明显。建议趁这个时点,重新检视您的PRS股债配置比例是否仍贴合退休年期与风险承受度,而不是被地缘新闻牵着走。</div>
+    <div class="ai en en-t">Yields near a two-decade high are genuinely a mixed bag for retirement portfolios: the upside is that new fixed-income allocations now carry more attractive yields; the downside is that heavily equity-weighted portfolios will feel more valuation pressure short-term. This is a good moment to revisit whether your PRS stock/bond mix still fits your time horizon and risk tolerance — rather than letting geopolitical headlines drive the decision.</div>
+
+    <div class="ah2 zh-t">💰 DDA定期定额</div>
+    <div class="ah2 en en-t">💰 DCA (定期定额)</div>
+    <div class="ai zh-t">今天的三条新闻线,每一条单独看都足以让人心慌——殖利率飙升、油价不确定、AI监管未定。但这正是定期定额存在的意义:它不要求您预判哪条线会赢,只要求您持续、按纪律地参与市场。今天特别适合把这句话讲给客户听。</div>
+    <div class="ai en en-t">Any one of today's three storylines — spiking yields, uncertain oil, unresolved AI regulation — could rattle someone on its own. But that's exactly the point of dollar-cost averaging: it doesn't ask you to predict which storyline wins, only to keep showing up, on schedule. Today is a good day to say that out loud to a client.</div>
+
+    <div class="ah2 zh-t">📈 长期投资</div>
+    <div class="ah2 en en-t">📈 Long-Term Investing</div>
+    <div class="ai zh-t">中美贸易休战延长、AI合作对话仍在继续,这些都是长期正面信号,但"晚周期高利率"的背景意味着波动不会立刻消失。给客户的建议始终如一:分散配置、拉长时间轴、别因单日新闻调整长期策略。</div>
+    <div class="ai en en-t">The extended US-China trade truce and continuing AI-cooperation dialogue are genuinely constructive long-term signals — but the late-cycle, high-rate backdrop means volatility isn't going away overnight. The advice for clients stays the same: diversify, extend your time horizon, and don't let one day's headlines reshape a long-term strategy.</div>
+
+    <div class="disc zh-t">⚠️ 免责声明 本网站内容仅供一般教育及市场参考,不构成任何个性化投资、财务、税务或法律建议,亦不构成购买、出售、转换或持有任何特定基金的建议。Unit Trust 及 PRS 涉及投资风险,包括可能的本金损失。过往表现并不代表未来表现。部分市场资讯可能由 AI 根据第三方公开资料协助整理,并可能存在延迟、遗漏或错误。投资前请参考相关基金最新 Prospectus、PHS 及官方资料。</div>
+    <div class="disc en en-t">⚠️ Disclaimer This content is provided for general educational and market-reference purposes only. It does not constitute personalized investment, financial, tax, or legal advice, nor a recommendation to buy, sell, switch, or hold any specific fund. Unit Trust and PRS investments carry risk, including possible loss of principal. Past performance is not indicative of future performance. Some market information may be compiled with AI assistance from third-party public sources and may contain delays, omissions, or errors. Please refer to the relevant fund's latest Prospectus, PHS, and official materials before investing.</div>
+  </div>
+</div>
+
+</div>
+
+<script>
+function setL(l) {
+  document.querySelectorAll('.lb').forEach((b, i) => b.classList.toggle('active', ['both','zh','en'][i] === l));
+  document.querySelectorAll('.zh-t').forEach(el => {
+    el.style.display = (l === 'en') ? 'none' : '';
+  });
+  document.querySelectorAll('.en-t').forEach(el => {
+    el.style.display = (l === 'zh') ? 'none' : '';
+  });
+}
+</script>
+<script src="../assets/brief-bar.js" defer></script>
+</body></html>
