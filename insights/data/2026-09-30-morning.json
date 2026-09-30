@@ -1,0 +1,137 @@
+[
+  {
+    "id": "2026-09-30-m1",
+    "time": "2026-09-30T09:00:00+08:00",
+    "brief": "2026-09-30-morning.html",
+    "tags": ["fed", "prs"],
+    "title": {
+      "zh": "消费者信心跌至12年低点，联储局10月加息概率一夜从74.6%降至49.4%",
+      "en": "Consumer confidence hits a 12-year low; Fed October hike odds fall from 74.6% to 49.4% overnight"
+    },
+    "analysis": {
+      "zh": "美国谘商会消费者信心指数9月骤降6.7点至81.9，是2014年4月以来最低，远逊预期的89.2；认为\"工作好找\"的比例跌到23.6%。一份惨淡的数据，就让市场对10月28日加息的押注从74.6%降到49.4%。这就像天气预报：前天还说\"大概率下雨\"，今天变成\"五五开\"——不是天气突然变好，而是新的云图让预测变得更不确定。联储局同时被通胀和增长放缓两头拉扯，利率路径远没有几天前看起来那么明确。",
+      "en": "The Conference Board index plunged 6.7 points to 81.9 in September — the lowest since April 2014 and well below the 89.2 consensus — with only 23.6% saying jobs are \"plentiful\". One grim report was enough to cut Oct 28 hike odds from 74.6% to 49.4%. Think of it like a weather forecast that goes from \"likely rain\" to \"50/50\" overnight: the weather didn't suddenly improve, the new data just made the outlook less certain. The Fed is being pulled between inflation and slowing growth, and the rate path is far less settled than it looked days ago."
+    },
+    "dda": {
+      "zh": "利率预期反复摇摆时，定期定额最能发挥\"纪律战胜情绪\"的作用——不需要猜对每一次联储局的决定，照计划持续投入即可。",
+      "en": "When rate expectations swing like this, regular investing does its best work: you don't need to call every Fed decision, just keep investing on schedule."
+    },
+    "lump": {
+      "zh": "在利率方向不明朗时，单笔资金可以考虑分批投入以分散进场时机的风险；具体比例和节奏，应按个人的风险承受度与资金用途来定。",
+      "en": "With the rate direction unclear, a lump sum can be phased in over time to spread out timing risk; the right pace and amount depend on your own risk tolerance and goals."
+    },
+    "prs": {
+      "zh": "当大家对未来收入越来越没把握，退休储蓄更需要一套不受情绪左右的自动机制。PRS 每年最高可享 RM3,000 税务减免，是建立这个习惯的好起点。",
+      "en": "When people feel less sure about future income, retirement saving needs an automatic habit that doesn't depend on mood. PRS offers up to RM3,000 in annual tax relief — a good place to start."
+    },
+    "source": { "name": "Investing.com", "url": "https://www.investing.com/news/economic-indicators/us-consumer-confidence-dives-to-more-than-12year-low-in-september-4923037" }
+  },
+  {
+    "id": "2026-09-30-m2",
+    "time": "2026-09-30T09:00:00+08:00",
+    "brief": "2026-09-30-morning.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "AI 巨头签署安全自律公约，日经、韩股芯片股领涨",
+      "en": "AI giants sign a safety accord; chipmakers lead the Nikkei and Kospi higher"
+    },
+    "analysis": {
+      "zh": "特朗普9月29日与 OpenAI、Anthropic、Meta、Google、Nvidia 的领导人签署自愿性 AI 安全公约，要求建立内部控制、独立审计与董事会监督。消息带动日经225收涨至66,350.59点、KOSPI 收报6,941.91点，SK 海力士涨1.93%、软银涨3.68%。不过同一时间恒生指数开盘下跌0.53%，区内情绪并不一致。自愿设立\"护栏\"降低的是监管突袭的尾部风险，并不是把风险归零。",
+      "en": "On Sept 29, Trump signed a voluntary AI safety accord with the leaders of OpenAI, Anthropic, Meta, Google and Nvidia, covering internal controls, independent audits and board oversight. The Nikkei 225 closed at 66,350.59 and the KOSPI at 6,941.91, with SK Hynix up 1.93% and SoftBank up 3.68% — while the Hang Seng opened 0.53% lower, a sign regional sentiment is far from uniform. Voluntary guardrails lower the tail risk of a regulatory crackdown; they don't remove risk altogether."
+    },
+    "dda": {
+      "zh": "政策性利好容易带来单日跳涨。与其追高，不如让定期定额按自己的节奏继续买入。",
+      "en": "Policy headlines often spark one-day pops. Rather than chasing, let regular investing keep buying at its own steady pace."
+    },
+    "lump": {
+      "zh": "单日大涨后最容易冲动加码。若考虑投入科技主题，可先检视现有组合中科技的比重，避免过度集中在单一行业。",
+      "en": "Big up-days are when it's most tempting to add in a rush. Before adding tech exposure, check how much your portfolio already holds, to avoid concentrating in one sector."
+    },
+    "prs": {
+      "zh": "长期退休组合可以包含成长型资产，但区域与行业分散同样重要——今天日韩涨、香港跌，就是最好的提醒。",
+      "en": "A long-term retirement mix can include growth assets, but spreading across regions and sectors matters just as much — today's split between Tokyo/Seoul and Hong Kong is a good reminder."
+    },
+    "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/amp/news/2026/9/29/trump-top-tech-firms-sign-accord-to-self-police-ai-development" }
+  },
+  {
+    "id": "2026-09-30-m3",
+    "time": "2026-09-30T09:00:00+08:00",
+    "brief": "2026-09-30-morning.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "油价连两日走软，WTI 跌破90美元；美伊间接谈判仍在拉锯",
+      "en": "Oil eases for a second day as WTI slips below $90; US–Iran talks still at a stalemate"
+    },
+    "analysis": {
+      "zh": "WTI 原油跌至89.22美元，布兰特约96.11美元。美伊仍通过卡塔尔在纽约间接谈判：伊朗提出\"7天内重开霍尔木兹海峡、解冻120亿美元资产\"的分阶段方案，美方则坚持所有议题同步解决，特朗普也被指已回绝七天提案。油价降温，更像是市场在为\"僵局但不升级\"重新定价，而不是地缘风险已经解除。",
+      "en": "WTI fell to $89.22 and Brent traded near $96.11. Indirect US–Iran talks continue in New York via Qatar: Tehran proposes reopening the Strait of Hormuz within seven days and unfreezing $12 billion in assets first, while Washington wants everything resolved at once, and Trump has reportedly rejected the seven-day offer. The pullback looks like the market repricing a standoff that isn't escalating — not a sign the geopolitical risk is gone."
+    },
+    "dda": {
+      "zh": "油价一天一个样，正是\"不猜价格、按计划买入\"的定期定额最能派上用场的时候。",
+      "en": "Oil swings day to day — exactly where a \"don't guess the price, keep buying on schedule\" approach earns its keep."
+    },
+    "lump": {
+      "zh": "大宗商品受地缘消息影响大、波动高，单笔投入前宜先确认它在整体组合中扮演的角色，并考虑分批进场。",
+      "en": "Commodities react sharply to geopolitical news. Before a lump-sum move, be clear about the role they play in your overall portfolio, and consider phasing in."
+    },
+    "prs": {
+      "zh": "油价降温有助控制通胀，但地缘局势未解。退休组合保持适度分散，能减轻单一事件对长期计划的冲击。",
+      "en": "Cooler oil helps on inflation, but the standoff isn't resolved. Keeping a retirement portfolio diversified softens the impact of any single event on your long-term plan."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil" }
+  },
+  {
+    "id": "2026-09-30-m4",
+    "time": "2026-09-30T09:00:00+08:00",
+    "brief": "2026-09-30-morning.html",
+    "tags": ["tech"],
+    "title": {
+      "zh": "美光今晚公布财报：历史数据显示，赌财报当晚涨跌往往事与愿违",
+      "en": "Micron reports tonight — history shows betting on the earnings-night move rarely pays"
+    },
+    "analysis": {
+      "zh": "Benzinga 引述研究，给出美光\"全面超越22项分析师预期\"的概率达80%，背景是 AI 存储需求供不应求。但同一篇报道也整理了历史：过去10次财报，隔天上涨只有4次（中位数-1.9%），一周后下跌6次（中位数-5.4%）；可是拉长到3个月后，上涨7次，平均涨幅34.2%。短线押注财报的人常常失望，愿意持有更久的人反而笑到最后。",
+      "en": "Benzinga cites research putting 80% odds on Micron beating all 22 analyst estimates, on the back of AI-memory demand outstripping supply. But the same report lays out the history: over the last 10 reports the stock rose the next day only 4 times (median -1.9%) and was lower a week later 6 times (median -5.4%) — yet three months out it was higher 7 times, averaging +34.2%. Short-term earnings bets often disappoint; patience has tended to be rewarded."
+    },
+    "dda": {
+      "zh": "如果你的基金有科技或半导体成分，今晚的波动完全在预期之内。定期定额会帮你把这种波动摊平。",
+      "en": "If your fund holds tech or semiconductors, tonight's swing is expected noise — regular investing helps smooth it out."
+    },
+    "lump": {
+      "zh": "不建议为了\"赶在财报前\"而单笔进场。若本来就计划增加配置，可以把时间拉长、分批完成，而不是押注单一日期。",
+      "en": "Avoid rushing a lump sum in \"ahead of earnings\". If you were already planning to add, spread it over time rather than betting on a single date."
+    },
+    "prs": {
+      "zh": "退休资产应以\"持有多年\"的心态来配置，而不是赌单日涨跌——美光自己的历史数据就是一堂活生生的课。",
+      "en": "Retirement money is best positioned with a multi-year mindset, not a bet on one day's move — Micron's own history is the lesson."
+    },
+    "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/09/62048428/micron-earnings-buy-mu-stock-before-results-history" }
+  },
+  {
+    "id": "2026-09-30-m5",
+    "time": "2026-09-30T09:00:00+08:00",
+    "brief": "2026-09-30-morning.html",
+    "tags": ["my", "prs"],
+    "title": {
+      "zh": "马来西亚：综指稳步爬升至1,674点，令吉温和走强",
+      "en": "Malaysia: KLCI edges up to 1,674 as the ringgit firms modestly"
+    },
+    "analysis": {
+      "zh": "富时大马综合指数周二收报1,674.74点，单日小跌0.27%，但相较本周稍早约1,670点仍是稳步爬升；美元兑令吉报4.0266，回落0.43%。这与联储局加息概率下降的逻辑一致：市场对美国进一步收紧的预期降温，美元支撑减弱，令吉得以喘口气。对本地投资人来说，油价降温有利入口成本，令吉走强也让海外资产换算回令吉时更有利。",
+      "en": "The FBM KLCI closed Tuesday at 1,674.74, down 0.27% on the day but still up from around 1,670 earlier in the week, while USD/MYR slipped 0.43% to 4.0266. It fits the same logic as the falling Fed hike odds: as expectations of further US tightening cool, the dollar loses some support and the ringgit gets breathing room. For local investors, softer oil helps import costs, and a firmer ringgit is kinder when translating overseas assets back into ringgit."
+    },
+    "dda": {
+      "zh": "本地市场稳步爬升，正说明定期定额可以在背景里默默耕耘，不必因短期消息暂停扣款。",
+      "en": "A steadily climbing local market shows why regular investing can keep working quietly — no need to pause over short-term headlines."
+    },
+    "lump": {
+      "zh": "汇率变动会影响海外资产换算后的回报。单笔投入海外基金前，可以一并考虑本地与海外、令吉与外币资产的平衡。",
+      "en": "Currency moves affect the ringgit value of overseas returns. Before a lump sum into foreign funds, consider your balance of local vs overseas and ringgit vs foreign-currency assets."
+    },
+    "prs": {
+      "zh": "令吉走强的窗口，是检视退休组合海外比例的好时机——不必大动作，但值得和顾问聊聊汇率对整体组合的影响。",
+      "en": "A firmer ringgit is a good moment to review the overseas share of your retirement portfolio — not a reason for a big move, but worth a chat with your advisor."
+    },
+    "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
+  }
+]

@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-Hans" data-lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>市场洞察 · Kelly Chan</title>
+<meta name="kp-title-zh" content="市场洞察 · 全球宏观与理财观点 | Kelly Chan">
+<meta name="kp-title-en" content="Market Insights · Global Macro & Wealth Perspectives | Kelly Chan">
+<meta name="description" content="每日精选全球宏观、科技AI、黄金原油与马来西亚市场要点，附定期定额、单笔投资与PRS退休规划的思考方向。Daily market insights with DDA, lump-sum and PRS perspectives.">
+<meta property="og:title" content="市场洞察 · Kelly Chan">
+<meta property="og:description" content="每日精选市场要点 + DDA / 单笔投资 / PRS 思考方向">
+<meta property="og:image" content="https://kellychan84.github.io/kelly-portal/assets/kelly.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css?v=7">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%239A7B3E'/><text x='32' y='44' font-size='34' text-anchor='middle' fill='white' font-family='Georgia'>K</text></svg>">
+</head>
+<body data-page="insights" data-root="">
+<div id="site-header"></div>
+
+<main>
+  <div class="container page-head">
+    <p class="section-eyebrow"><span class="zh">全球宏观与理财洞察</span><span class="en">Market Trends & Insights</span></p>
+    <h1><span class="zh">市场洞察</span><span class="en">Market Insights</span></h1>
+    <p><span class="zh">每天从早报与午后速递中精选重点：发生了什么、为什么重要，以及对定期定额、单笔投资和 PRS 退休规划的思考方向。</span><span class="en">The key stories from each morning and afternoon brief: what happened, why it matters, and what to think about for regular investing, lump sums and PRS retirement planning.</span></p>
+  </div>
+
+  <div class="container" style="padding-bottom:56px">
+    <div class="ifilters">
+      <div class="irow">
+        <label class="isearch">
+          <span aria-hidden="true">🔍</span>
+          <input type="search" id="q" data-ph-zh="搜索关键词，例如：美光、令吉、黄金" data-ph-en="Search, e.g. Micron, ringgit, gold" aria-label="Search">
+        </label>
+        <select id="month" aria-label="Month"></select>
+      </div>
+      <div class="filter-row" id="chips" role="group" aria-label="Category"></div>
+    </div>
+    <p class="icount" id="count" aria-live="polite"></p>
+    <div id="feed"></div>
+    <div style="text-align:center;margin-top:18px"><button class="btn btn-ghost" id="more" hidden><span class="zh">显示更多</span><span class="en">Show more</span></button></div>
+  </div>
+
+  <section class="cta-band">
+    <div class="container">
+      <h2 class="section-title"><span class="zh">这些市场变化，对你的计划意味着什么？</span><span class="en">What do these moves mean for your plan?</span></h2>
+      <p><span class="zh">每个人的目标和风险承受度都不同。算一算你的退休缺口，或约我聊聊。</span><span class="en">Everyone's goals and risk tolerance are different. Check your retirement gap, or book a chat with me.</span></p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="calculator.html"><span class="zh">免费计算退休缺口</span><span class="en">Calculate my gap</span></a>
+        <a class="btn btn-ghost" href="book.html"><span class="zh">预约咨询</span><span class="en">Book a consult</span></a>
+      </div>
+      <p style="font-size:12px;margin-top:22px"><span class="zh">🎯 部分为一般性的理财思考方向，并非针对个人的投资建议；具体配置请依个人情况与顾问讨论。</span><span class="en">🎯 notes are general educational perspectives, not personal investment advice; please discuss your own allocation with an advisor.</span></p>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+
+<script src="assets/config.js?v=5"></script>
+<script src="insights/insights.js"></script>
+<script src="assets/insights-ui.js?v=2"></script>
+<script src="assets/site.js?v=5"></script>
+<script>
+(function () {
+  const PAGE = 10;
+  const $ = id => document.getElementById(id);
+  const all = kpInsights.all();
+  let tag = 'all', shown = PAGE;
+
+  // month archive
+  const months = [...new Set(all.map(i => kpInsights.month(i.time)))];
+  const monthLabel = m => { const [y, mo] = m.split('-'); return { zh: `${y}年${+mo}月`, en: new Date(y, mo - 1, 1).toLocaleDateString('en-GB', { month: 'long', year: 'numeric' }) }; };
+  function fillMonths() {
+    const lang = kpLang(), cur = $('month').value;
+    $('month').innerHTML = `<option value="all">${lang === 'zh' ? '全部月份' : 'All months'}</option>` +
+      months.map((m, i) => `<option value="${m}">${monthLabel(m)[lang]}${i === 0 ? (lang === 'zh' ? '（最新）' : ' (latest)') : ''}</option>`).join('');
+    $('month').value = cur || 'all';
+  }
+
+  // category chips
+  const chipKeys = ['all'].concat(Object.keys(kpInsights.TAGS));
+  $('chips').innerHTML = chipKeys.map(k => {
+    const t = k === 'all' ? { zh: '🌟 全部', en: '🌟 All' } : kpInsights.TAGS[k];
+    return `<button class="chip" data-t="${k}" aria-pressed="${k === 'all'}"><span class="zh">${t.zh}</span><span class="en">${t.en}</span></button>`;
+  }).join('');
+  $('chips').addEventListener('click', e => {
+    const b = e.target.closest('.chip'); if (!b) return;
+    tag = b.dataset.t; shown = PAGE;
+    $('chips').querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', c === b));
+    render();
+  });
+
+  function matches(it, q) {
+    if (!q) return true;
+    const hay = [it.title, it.analysis, it.dda, it.lump, it.prs].map(o => o ? (o.zh || '') + ' ' + (o.en || '') : '').join(' ') + ' ' + (it.source ? it.source.name : '');
+    return hay.toLowerCase().includes(q);
+  }
+
+  function render() {
+    const q = $('q').value.trim().toLowerCase(), m = $('month').value;
+    const list = all.filter(it => (tag === 'all' || (it.tags || []).includes(tag)) && (m === 'all' || kpInsights.month(it.time) === m) && matches(it, q));
+    $('feed').innerHTML = list.length
+      ? list.slice(0, shown).map(it => kpInsights.card(it, '')).join('')
+      : '<p class="empty"><span class="zh">没有符合条件的洞察。</span><span class="en">No insights match.</span></p>';
+    $('count').innerHTML = `<span class="zh">共 ${list.length} 则</span><span class="en">${list.length} insight${list.length === 1 ? '' : 's'}</span>`;
+    $('more').hidden = list.length <= shown;
+  }
+
+  $('q').addEventListener('input', () => { shown = PAGE; render(); });
+  $('month').addEventListener('change', () => { shown = PAGE; render(); });
+  $('more').addEventListener('click', () => { shown += PAGE; render(); });
+  document.addEventListener('kp:lang', fillMonths);
+  fillMonths();
+  render();
+
+  // deep link from the home page: #<insight id>
+  if (location.hash) {
+    const id = decodeURIComponent(location.hash.slice(1));
+    const idx = all.findIndex(i => i.id === id);
+    if (idx >= shown) { shown = idx + 1; render(); }
+    const el = document.getElementById(id);
+    if (el) { el.classList.add('is-target'); setTimeout(() => el.scrollIntoView({ block: 'start' }), 50); }
+  }
+})();
+</script>
+</body>
+</html>

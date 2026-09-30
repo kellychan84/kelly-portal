@@ -221,6 +221,48 @@ section { padding: 56px 0; }
 .pill-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
 .pill { background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 6px 12px; font-size: 13.5px; }
 
+/* ---------- Insight feed ---------- */
+.ifilters { position: sticky; top: 64px; z-index: 20; background: var(--page); padding: 10px 0 4px; margin-bottom: 8px; }
+.irow { display: flex; gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
+.isearch { flex: 1 1 260px; display: flex; align-items: center; gap: 8px; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 0 12px; }
+.isearch input { border: 0; background: transparent; padding: 11px 0; box-shadow: none !important; }
+.isearch:focus-within { border-color: var(--gold); box-shadow: 0 0 0 3px rgba(154, 123, 62, .15); }
+#month { flex: 0 0 auto; width: auto; min-width: 170px; background: var(--surface); }
+.icount { font-size: 13px; color: var(--muted2); margin: 4px 0 12px; }
+.icard {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+  padding: 22px; margin-bottom: 16px; box-shadow: 0 4px 12px rgba(26, 26, 26, .04); scroll-margin-top: 150px;
+}
+.icard.is-target { border-color: var(--gold-light); box-shadow: 0 0 0 3px rgba(196, 160, 90, .25); }
+.icard-top { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
+.itags { display: flex; flex-wrap: wrap; gap: 6px; }
+.itag { font-size: 12px; font-weight: 600; padding: 3px 8px; border-radius: 6px; white-space: nowrap; }
+.it-my { background: #F5F3FF; color: #6D28D9; }
+.it-tech { background: #EFF6FF; color: #1E40AF; }
+.it-com { background: #FFFBEB; color: #B45309; }
+.it-fed { background: #FEF2F2; color: #B91C1C; }
+.it-prs { background: #F0FDF4; color: #15803D; }
+.itime { font-size: 12.5px; color: var(--muted2); font-variant-numeric: tabular-nums; }
+.ititle { font-size: 18px; line-height: 1.5; margin: 0 0 10px; font-weight: 700; }
+.ianalysis { color: #3a3632; margin: 0 0 16px; line-height: 1.8; }
+.iboxes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+@media (max-width: 820px) { .iboxes { grid-template-columns: minmax(0, 1fr); } }
+.ibox { background: var(--gold-bg); border: 1px solid #F0E6D2; border-radius: 10px; padding: 12px 14px; }
+.ibox-h { font-size: 13px; font-weight: 700; color: var(--gold); margin-bottom: 4px; }
+.ibox p { margin: 0; font-size: 14px; line-height: 1.7; color: #3a3632; }
+.ifoot { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-top: 14px; padding-top: 12px; border-top: 1px dashed var(--border); font-size: 13.5px; font-weight: 600; }
+.ifoot a { text-decoration: none; }
+/* home page teaser */
+.imini-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 14px; }
+.imini {
+  display: flex; flex-direction: column; gap: 10px; text-decoration: none; color: var(--text);
+  background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px;
+  transition: border-color .15s ease, box-shadow .15s ease, transform .15s ease;
+}
+.imini:hover { border-color: var(--gold-light); box-shadow: var(--shadow); transform: translateY(-2px); color: var(--text); }
+.imini-title { margin: 0; font-weight: 700; line-height: 1.5; }
+.imini-time { font-size: 12.5px; color: var(--muted2); margin-top: auto; }
+
 /* ---------- Social links ---------- */
 .social-row { display: flex; flex-wrap: wrap; gap: 8px; }
 .social-link {
@@ -273,7 +315,7 @@ input[aria-invalid="true"] { border-color: var(--dn); }
 .radio-row label:has(input:checked) { border-color: var(--gold); background: var(--gold-bg); color: var(--gold); }
 
 /* ---------- Page header ---------- */
-.page-head { padding: 48px 0 28px; }
+.page-head { padding-top: 48px; padding-bottom: 28px; }
 .page-head h1 { font-family: var(--serif); font-size: clamp(28px, 4.4vw, 40px); margin: 0 0 10px; font-weight: 600; line-height: 1.25; }
 .page-head p { color: var(--muted); margin: 0; max-width: 640px; }
 

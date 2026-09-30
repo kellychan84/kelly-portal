@@ -14,7 +14,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/site.css?v=5">
+<link rel="stylesheet" href="assets/site.css?v=7">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%239A7B3E'/><text x='32' y='44' font-size='34' text-anchor='middle' fill='white' font-family='Georgia'>K</text></svg>">
 </head>
 <body data-page="home" data-root="">
@@ -61,6 +61,21 @@
         <div class="hc-meta" id="latestMeta"></div>
         <a class="hc-link" id="latestLink" href="briefs/index.html"><span class="zh">立即阅读 →</span><span class="en">Read now →</span></a>
       </div>
+    </div>
+  </section>
+
+  <!-- LATEST INSIGHTS -->
+  <section id="insightsSection">
+    <div class="container">
+      <div class="row-between">
+        <div>
+          <p class="section-eyebrow"><span class="zh">市场洞察</span><span class="en">Market Insights</span></p>
+          <h2 class="section-title"><span class="zh">今日重点</span><span class="en">Today's key stories</span></h2>
+          <p class="section-lead"><span class="zh">发生了什么、为什么重要，以及对定期定额、单笔投资与 PRS 的思考方向。</span><span class="en">What happened, why it matters, and what it means for regular investing, lump sums and PRS.</span></p>
+        </div>
+        <a class="btn btn-ghost" href="insights.html"><span class="zh">全部洞察</span><span class="en">All insights</span></a>
+      </div>
+      <div class="imini-grid" id="recentInsights"></div>
     </div>
   </section>
 
@@ -145,8 +160,17 @@
 <script src="assets/config.js?v=5"></script>
 <script src="briefs/briefs.js"></script>
 <script src="assets/briefs-ui.js"></script>
-<script src="assets/site.js?v=4"></script>
+<script src="insights/insights.js"></script>
+<script src="assets/insights-ui.js?v=2"></script>
+<script src="assets/site.js?v=5"></script>
 <script src="assets/ticker.js?v=2"></script>
+<script>
+  (function () {
+    const list = kpInsights.all();
+    if (!list.length) { document.getElementById('insightsSection').remove(); return; }
+    document.getElementById('recentInsights').innerHTML = list.slice(0, 3).map(i => kpInsights.mini(i, '')).join('');
+  })();
+</script>
 <script>
   (function () {
     const list = kpBriefs.all();

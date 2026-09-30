@@ -1,0 +1,56 @@
+[
+  {
+    "id": "2026-09-30-a1",
+    "time": "2026-09-30T17:00:00+08:00",
+    "brief": "2026-09-30-afternoon.html",
+    "tags": ["fed"],
+    "title": {
+      "zh": "加息概率再降至47.1%：两天内几乎腰斩，市场天平略偏向\"按兵不动\"",
+      "en": "Hike odds slip again to 47.1% — nearly halved in two days as the market tilts toward a hold"
+    },
+    "analysis": {
+      "zh": "截至9月30日凌晨（美东时间），Investing.com 的 Fed Rate Monitor 显示，市场认为10月28日维持3.75%-4.00%的概率升至52.9%，加息概率降至47.1%，比早报的49.4%再低一截，而周一还是74.6%。这不是逆转，而是\"消费者信心探底\"的延续：数据越弱，市场就越倾向相信联储局会按兵不动。离议息还有近一个月，任何一份新数据都可能再次改变预期。",
+      "en": "As of early Sept 30 (US time), Investing.com's Fed Rate Monitor shows 52.9% odds of holding at 3.75%-4.00% on Oct 28 and 47.1% odds of a hike — below this morning's 49.4% and far from Monday's 74.6%. It isn't a reversal but a continuation of the weak-confidence story: the softer the data, the more the market leans toward a Fed that stands pat. With nearly a month to go, any new data point could shift expectations again."
+    },
+    "dda": {
+      "zh": "预期来回摆动时，定期定额的价值在于你不需要预测结果。维持原本的扣款计划即可。",
+      "en": "When expectations swing back and forth, regular investing means you don't have to predict the outcome — just keep your plan running."
+    },
+    "lump": {
+      "zh": "利率若维持不变或加息，对债券与股票的影响各不相同。单笔投入前，先确认组合在股、债、货币市场之间的分配是否符合你的目标。",
+      "en": "A hold or a hike affects bonds and equities differently. Before a lump sum, check that your mix of equities, bonds and money market suits your goals."
+    },
+    "prs": {
+      "zh": "利率剧本难以预测，正是退休组合应分散在不同资产类别的理由，而不是押注某一种利率走向。",
+      "en": "Rate paths are hard to call, which is exactly why a retirement portfolio should be spread across asset classes rather than betting on one scenario."
+    },
+    "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
+  },
+  {
+    "id": "2026-09-30-a2",
+    "time": "2026-09-30T17:00:00+08:00",
+    "brief": "2026-09-30-afternoon.html",
+    "tags": ["commodities"],
+    "title": {
+      "zh": "美国财政部加码对伊制裁：谈判桌外的另一手，油价降温不等于局势已解",
+      "en": "US Treasury adds Iran sanctions — pressure continues outside the talks, so cooler oil doesn't mean the standoff is over"
+    },
+    "analysis": {
+      "zh": "美国财政部9月29日晚宣布制裁10名个人及企业，指其协助向伊朗军方后勤机构供应武器与电子设备。财长贝森特表示将\"持续识别、揭露、孤立\"伊朗的协助者。这与卡塔尔斡旋的霍尔木兹海峡间接谈判是两条并行的轨道：谈判还在进行，经济施压并没有暂停。油价这两天的回落，背后的地缘风险仍在。",
+      "en": "On the evening of Sept 29, the US Treasury sanctioned 10 individuals and entities accused of helping supply weapons and electronics to Iran's military logistics agency, with Secretary Bessent vowing to \"identify, expose, and isolate\" Iran's enablers. This runs in parallel with the Qatar-mediated Hormuz talks: negotiations continue, but economic pressure hasn't paused. The geopolitical risk behind oil's recent dip is still very much there."
+    },
+    "dda": {
+      "zh": "地缘新闻天天有转折。持续、定额地投入，能避免被每一则头条牵着走。",
+      "en": "Geopolitical headlines turn daily. Investing steadily keeps you from being pulled around by each one."
+    },
+    "lump": {
+      "zh": "在消息面反复时，单笔投入宜保持耐心、分段进行，并确保组合不过度依赖单一地区或商品。",
+      "en": "When the news flow keeps flipping, be patient with lump sums, phase them in, and make sure your portfolio doesn't lean too heavily on one region or commodity."
+    },
+    "prs": {
+      "zh": "退休计划看的是十年、二十年。短期地缘事件值得关注，但不应打乱长期的储蓄纪律。",
+      "en": "Retirement plans run for decades. Short-term geopolitical events are worth watching, but shouldn't derail long-term saving discipline."
+    },
+    "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-strait-of-hormuz/" }
+  }
+]
