@@ -189,11 +189,12 @@ section { padding: 56px 0; }
 .about-grid { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 40px; align-items: center; }
 @media (max-width: 700px) { .about-grid { grid-template-columns: minmax(0, 1fr); gap: 24px; } }
 .portrait {
-  display: block; width: 100%; max-width: 280px; height: auto; aspect-ratio: 4 / 5;
-  object-fit: cover; object-position: 50% 0%;
-  border-radius: 20px; border: 1px solid var(--border); box-shadow: var(--shadow); background: #3a3a3a;
+  display: block; width: 100%; max-width: 260px; height: auto; aspect-ratio: 1;
+  object-fit: cover; border-radius: 50%; background: #383836;
+  border: 6px solid var(--surface); box-shadow: 0 0 0 1px var(--gold-light), var(--shadow);
+  justify-self: center;
 }
-@media (max-width: 700px) { .portrait { max-width: 240px; } }
+@media (max-width: 700px) { .portrait { max-width: 200px; } }
 .headshot {
   width: 64px; height: 64px; border-radius: 50%; object-fit: cover;
   border: 2px solid var(--gold-soft); flex-shrink: 0;
