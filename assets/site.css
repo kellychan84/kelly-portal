@@ -252,15 +252,6 @@ section { padding: 56px 0; }
 .ibox p { margin: 0; font-size: 14px; line-height: 1.7; color: #3a3632; }
 .ifoot { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-top: 14px; padding-top: 12px; border-top: 1px dashed var(--border); font-size: 13.5px; font-weight: 600; }
 .ifoot a { text-decoration: none; }
-.archive-link {
-  display: grid; grid-template-columns: auto 1fr auto; gap: 14px; align-items: center; margin-top: 28px;
-  padding: 16px 18px; border: 1px dashed var(--gold-light); border-radius: 12px; background: var(--gold-bg);
-  text-decoration: none; color: var(--muted); font-size: 14px;
-}
-.archive-link b { display: block; color: var(--text); font-size: 15.5px; margin-bottom: 2px; }
-.archive-link:hover { border-style: solid; color: var(--muted); }
-.archive-ico { font-size: 26px; }
-.archive-go { font-size: 20px; color: var(--gold); }
 /* home page teaser */
 .imini-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 14px; }
 .imini {
