@@ -2,6 +2,105 @@
 window.INSIGHTS = [].concat(
 [
   {
+    "id": "2026-10-01-m1",
+    "time": "2026-10-01T09:00:00+08:00",
+    "brief": "2026-10-01-morning.html",
+    "tags": [
+      "tech",
+      "prs"
+    ],
+    "title": {
+      "zh": "美光财报大超预期:营收542.3亿美元,下季指引约615亿美元",
+      "en": "Micron crushes estimates: $54.23B revenue and ~$61.5B guidance for next quarter"
+    },
+    "analysis": {
+      "zh": "美光2026财年第四季度营收542.3亿美元(预期510.7亿美元),经调整每股盈余33.42美元,数据中心营收超过250亿美元;下一季营收指引约615亿美元。盘后股价仅小幅上扬,而股价一年内已大涨逾500%,说明好消息已大量反映在价格里。就像大家都知道会放晴,出门前早已穿好衣服。",
+      "en": "Micron's fiscal Q4 revenue was $54.23B (vs $51.07B expected), adjusted EPS $33.42, data center revenue topped $25B, and it guided next-quarter revenue to about $61.5B. Shares rose only slightly after hours after a 500%+ gain in a year, suggesting much of the good news is already priced in — like everyone knowing it'll be sunny and having dressed for it."
+    },
+    "dda": {
+      "zh": "股价热门时最容易追高;定期定额按计划持续投入,不需要判断进场时机,是一种分散时机风险的思路。",
+      "en": "When a theme is hot, chasing is tempting; regular investing on a schedule removes the need to time the entry and spreads timing risk."
+    },
+    "lump": {
+      "zh": "单笔资金可以考虑分批投入以分散进场时机的风险,同时留意科技类持仓是否过于集中;具体做法应按个人的风险承受度与资金用途来定。",
+      "en": "For a lump sum, phasing in can spread timing risk, and it's worth checking whether tech exposure has become too concentrated; the right approach depends on your risk tolerance and goals."
+    },
+    "prs": {
+      "zh": "长期退休储蓄需要一套自动、不受情绪左右的机制。PRS每年最高可享RM3,000税务减免,是建立习惯的好起点。",
+      "en": "Long-term retirement saving works best as an automatic habit that doesn't depend on mood. PRS offers up to RM3,000 in annual tax relief — a good place to start."
+    },
+    "source": {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html"
+    }
+  },
+  {
+    "id": "2026-10-01-m2",
+    "time": "2026-10-01T09:00:00+08:00",
+    "brief": "2026-10-01-morning.html",
+    "tags": [
+      "fed"
+    ],
+    "title": {
+      "zh": "PCE年增3.4%低于预期,但10年期美债收益率仍升至约5.30%",
+      "en": "PCE at 3.4% y/y undershoots forecasts, yet the 10-year yield still rises to ~5.30%"
+    },
+    "analysis": {
+      "zh": "美国PCE物价指数按月升0.3%、年增3.4%,低于预期的3.7%;核心PCE年增3.0%。然而10年期美债收益率仍上升约4个基点至约5.298%,道指当天跌0.86%。通胀降温不等于风险消失,市场仍在等待就业报告。",
+      "en": "US PCE rose 0.3% m/m and 3.4% y/y, below the 3.7% forecast; core PCE was 3.0% y/y. Yet the 10-year Treasury yield still rose about 4 bps to ~5.298% and the Dow fell 0.86%. Cooler inflation doesn't mean the risk is gone — the market is waiting on the jobs report."
+    },
+    "dda": {
+      "zh": "数据好坏难以预测,定期定额的价值在于不必猜对每一次数据公布后的反应,照计划持续投入即可。",
+      "en": "Data surprises are hard to predict; the value of regular investing is that you needn't call each reaction — you just keep investing on plan."
+    },
+    "lump": {
+      "zh": "利率路径不明朗时,单笔资金可以考虑分批投入以分散时机风险,并检视组合是否与自己的目标和风险承受度相符。",
+      "en": "With the rate path unclear, a lump sum can be phased in to spread timing risk, and the portfolio should be checked against your goals and risk tolerance."
+    },
+    "prs": {
+      "zh": "长期退休储蓄需要一套自动、不受情绪左右的机制。PRS每年最高可享RM3,000税务减免,是建立习惯的好起点。",
+      "en": "Long-term retirement saving works best as an automatic habit that doesn't depend on mood. PRS offers up to RM3,000 in annual tax relief — a good place to start."
+    },
+    "source": {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/30/inflation-moves-in-the-right-direction-but-markets-are-still-not-out-of-the-woods.html"
+    }
+  },
+  {
+    "id": "2026-10-01-m3",
+    "time": "2026-10-01T09:00:00+08:00",
+    "brief": "2026-10-01-morning.html",
+    "tags": [
+      "fed"
+    ],
+    "title": {
+      "zh": "联储局10月加息押注降温至约35%–37%",
+      "en": "Odds of an October Fed hike cool to roughly 35%–37%"
+    },
+    "analysis": {
+      "zh": "据CME FedWatch工具,交易员对10月28日加息25个基点的押注降至约35%–37%,前一日约51%。纽约联储主席Williams称\"没有紧迫感\"再加息。这是加息概率,并非降息;数字会随数据快速变化。",
+      "en": "Per CME FedWatch, bets on a 25bp hike on Oct 28 fell to roughly 35%–37% from about 51% a day earlier. NY Fed President John Williams said there is \"no need for urgency\" on more hikes. These are hike odds, not cut odds, and they move quickly with data."
+    },
+    "dda": {
+      "zh": "概率几天内就能大幅摆动,说明预测本身充满不确定性;定期定额让你不必依赖预测。",
+      "en": "Odds can swing sharply within days, showing how uncertain forecasts are; regular investing means you don't depend on them."
+    },
+    "lump": {
+      "zh": "在利率预期反复时,单笔资金可以分批投入以分散时机风险,具体节奏按个人情况而定。",
+      "en": "When rate expectations flip-flop, a lump sum can be phased in to spread timing risk; the pace depends on your situation."
+    },
+    "prs": {
+      "zh": "长期退休储蓄需要一套自动、不受情绪左右的机制。PRS每年最高可享RM3,000税务减免,是建立习惯的好起点。",
+      "en": "Long-term retirement saving works best as an automatic habit that doesn't depend on mood. PRS offers up to RM3,000 in annual tax relief — a good place to start."
+    },
+    "source": {
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/economy/policy/articles/fed-raise-interest-rates-october-211951757.html"
+    }
+  }
+],
+[
+  {
     "id": "2026-09-30-m1",
     "time": "2026-09-30T09:00:00+08:00",
     "brief": "2026-09-30-morning.html",
