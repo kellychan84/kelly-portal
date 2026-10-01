@@ -23,8 +23,10 @@ Kelly Chan is a Malaysian **信托基金顾问 (unit trust consultant)**. The br
 
 Coverage (Kelly, 2026-10-01 — cover news more broadly): besides the Fed, tech/AI, oil/gold and Malaysia, actively look for
 **US** stories (Wall Street indices, major US companies/earnings, US economic data and policy) and **China** stories (China
-economy and data, PBoC / yuan, China and Hong Kong stocks, Chinese companies, US–China trade/tech). FX168 is a good whitelisted
-source for China news. Same rules apply: whitelist sources only, and if there is no real update for a region, leave it out.
+economy and data, PBoC / yuan, China and Hong Kong stocks, Chinese companies, US–China trade/tech), and **Asian tech &
+semiconductors** (TSMC / Taiwan, Samsung and SK Hynix / Korea, Japanese chip and equipment makers, China chip makers, Malaysia's
+semiconductor and data-centre sector, Asian chip-stock moves, export controls and supply chains). FX168 is a good whitelisted
+source for China and Asia news. Same rules apply: whitelist sources only, and if there is no real update for a region, leave it out.
 
 Slot-specific focus:
 - **morning** (masthead 9:00 AM MYT, sub-line "本周回顾 + 每日早报 · Weekly Recap & Daily Brief"): full brief with all sections.

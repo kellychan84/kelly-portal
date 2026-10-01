@@ -37,4 +37,5 @@ Then run `tools\build-index.ps1` (add-brief.ps1 already runs it) to rebuild `ins
 Tags: `my` 🌏 马来西亚/东盟 · `us` 🗽 美国 · `cn` 🏮 中国 · `tech` 💻 科技与AI · `commodities` 🟡 黄金与原油 · `fed` 🏦 美联储与宏观 · `prs` 🌱 PRS退休与养老.
 
 - `us`: US stock market (Dow / S&P 500 / Nasdaq), US companies and earnings, US economy and policy (tariffs, Treasury, jobs, consumers). Fed decisions keep `fed`; add `us` too when the story is about US markets.
+- `tech`: global tech/AI **including Asian tech & semiconductors** (TSMC, Samsung, SK Hynix, Japanese/Chinese chip makers, Malaysia's semiconductor and data-centre sector). Add `cn` or `my` too when the company/market is Chinese or Malaysian.
 - `cn`: China and Hong Kong — Chinese economy and data, PBoC / yuan, China and HK stocks, Chinese companies, US–China trade and tech relations.
