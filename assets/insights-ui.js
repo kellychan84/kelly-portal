@@ -6,8 +6,7 @@
     cn:          { zh: '🏮 中国',           en: '🏮 China',           cls: 'it-cn' },
     tech:        { zh: '💻 科技与AI',       en: '💻 Tech & AI',       cls: 'it-tech' },
     commodities: { zh: '🟡 黄金与原油',     en: '🟡 Gold & Oil',      cls: 'it-com' },
-    fed:         { zh: '🏦 美联储与宏观',   en: '🏦 Fed & Macro',     cls: 'it-fed' },
-    prs:         { zh: '🌱 PRS退休与养老',  en: '🌱 PRS & Retirement', cls: 'it-prs' }
+    fed:         { zh: '🏦 美联储与宏观',   en: '🏦 Fed & Macro',     cls: 'it-fed' }
   };
   const esc = s => String(s || '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const bi = (o, cls) => `<span class="zh${cls ? ' ' + cls : ''}">${esc(o && (o.zh || o.en))}</span><span class="en${cls ? ' ' + cls : ''}">${esc(o && (o.en || o.zh))}</span>`;

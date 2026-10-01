@@ -3,7 +3,7 @@
     "id": "2026-10-01-a1",
     "time": "2026-10-01T17:00:00+08:00",
     "brief": "2026-10-01-afternoon.html",
-    "tags": ["fed", "prs"],
+    "tags": ["fed"],
     "title": { "zh": "10年期美债收益率升至约5.33%,为2002年以来高位", "en": "The 10-year Treasury yield edges up to ~5.33%, the highest since 2002" },
     "analysis": {
       "zh": "据搜索结果摘要,10年期美债收益率周四升约4个基点至约5.3338%,30年期突破5.6%,早报时约为5.30%。道指期货下跌约250点,纳指100期货上涨约0.51%(均为早盘期货数字)。就像房贷利率走高会改变家庭预算,收益率上升也会让市场对股票估值更挑剔。",
@@ -27,7 +27,7 @@
     "id": "2026-10-01-a2",
     "time": "2026-10-01T17:00:00+08:00",
     "brief": "2026-10-01-afternoon.html",
-    "tags": ["fed","us"],
+    "tags": ["fed", "us"],
     "title": { "zh": "今晚Nike财报、明晚就业报告:市场在等待下一批数据", "en": "Nike tonight, jobs report tomorrow: markets wait for the next data" },
     "analysis": {
       "zh": "CNBC实时报道指出,市场在高企的美债收益率下等待本周的美国就业报告;Nike预计周四收市后公布财报。截至撰稿,我们没有取得结果。重要数据出炉前后,波动常会放大,就像出发前一晚的天气预报总是特别受关注。",

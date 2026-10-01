@@ -3,10 +3,7 @@
     "id": "2026-10-01-m1",
     "time": "2026-10-01T09:00:00+08:00",
     "brief": "2026-10-01-morning.html",
-    "tags": [
-      "tech",
-      "prs"
-    ],
+    "tags": ["tech"],
     "title": {
       "zh": "美光财报大超预期:营收542.3亿美元,下季指引约615亿美元",
       "en": "Micron crushes estimates: $54.23B revenue and ~$61.5B guidance for next quarter"
@@ -36,9 +33,7 @@
     "id": "2026-10-01-m2",
     "time": "2026-10-01T09:00:00+08:00",
     "brief": "2026-10-01-morning.html",
-    "tags": [
-      "fed"
-    ],
+    "tags": ["fed"],
     "title": {
       "zh": "PCE年增3.4%低于预期,但10年期美债收益率仍升至约5.30%",
       "en": "PCE at 3.4% y/y undershoots forecasts, yet the 10-year yield still rises to ~5.30%"
@@ -68,9 +63,7 @@
     "id": "2026-10-01-m3",
     "time": "2026-10-01T09:00:00+08:00",
     "brief": "2026-10-01-morning.html",
-    "tags": [
-      "fed"
-    ],
+    "tags": ["fed"],
     "title": {
       "zh": "联储局10月加息押注降温至约35%–37%",
       "en": "Odds of an October Fed hike cool to roughly 35%–37%"
