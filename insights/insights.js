@@ -128,7 +128,7 @@ window.INSIGHTS = [].concat(
     "id": "2026-10-01-a2",
     "time": "2026-10-01T17:00:00+08:00",
     "brief": "2026-10-01-afternoon.html",
-    "tags": ["fed"],
+    "tags": ["fed","us"],
     "title": { "zh": "今晚Nike财报、明晚就业报告:市场在等待下一批数据", "en": "Nike tonight, jobs report tomorrow: markets wait for the next data" },
     "analysis": {
       "zh": "CNBC实时报道指出,市场在高企的美债收益率下等待本周的美国就业报告;Nike预计周四收市后公布财报。截至撰稿,我们没有取得结果。重要数据出炉前后,波动常会放大,就像出发前一晚的天气预报总是特别受关注。",
@@ -154,7 +154,7 @@ window.INSIGHTS = [].concat(
     "id": "2026-09-30-m1",
     "time": "2026-09-30T09:00:00+08:00",
     "brief": "2026-09-30-morning.html",
-    "tags": ["fed", "prs"],
+    "tags": ["fed","us","prs"],
     "title": {
       "zh": "消费者信心跌至12年低点，联储局10月加息概率一夜从74.6%降至49.4%",
       "en": "Consumer confidence hits a 12-year low; Fed October hike odds fall from 74.6% to 49.4% overnight"
@@ -347,7 +347,7 @@ window.INSIGHTS = [].concat(
     "id": "2026-09-29-m1",
     "time": "2026-09-29T09:00:00+08:00",
     "brief": "2026-09-29-morning.html",
-    "tags": ["fed"],
+    "tags": ["fed","us"],
     "title": {
       "zh": "美股收黑，10年期收益率触及5.24%创19年高点；高盛：估值泡沫正被慢慢挤出",
       "en": "Stocks fall as the 10-year yield hits 5.24%, a 19-year high; Goldman: valuation froth is being squeezed out"
@@ -486,7 +486,7 @@ window.INSIGHTS = [].concat(
     "id": "2026-09-28-m1",
     "time": "2026-09-28T09:00:00+08:00",
     "brief": "2026-09-28-morning.html",
-    "tags": ["prs"],
+    "tags": ["prs","us"],
     "title": {
       "zh": "美股三大指数录得周涨幅，道指终结三连跌；贝莱德：债市波动\"不是危机，而是一次提醒\"",
       "en": "All three US indices post weekly gains as the Dow ends a three-week skid; BlackRock: bond volatility is \"a reminder, not a crisis\""
@@ -708,7 +708,7 @@ window.INSIGHTS = [].concat(
     "id": "2026-09-26-w1",
     "time": "2026-09-26T09:00:00+08:00",
     "brief": "2026-09-26-weekend.html",
-    "tags": ["fed"],
+    "tags": ["fed","us"],
     "title": {
       "zh": "10年期收益率触及5.225%创近20年高点，美股却仍收高：\"不是危机，而是警钟\"",
       "en": "10-year yield touches 5.225%, a near-20-year high, yet stocks close higher: \"not a crisis, a wake-up call\""
@@ -762,7 +762,7 @@ window.INSIGHTS = [].concat(
     "id": "2026-09-26-w3",
     "time": "2026-09-26T09:00:00+08:00",
     "brief": "2026-09-26-weekend.html",
-    "tags": ["tech"],
+    "tags": ["tech","us","cn"],
     "title": {
       "zh": "特朗普-习近平会晤落幕：贸易休战延至明年1月、设AI\"红色热线\"，但台湾与伊朗议题原地踏步",
       "en": "Trump–Xi visit ends: trade truce extended to January and an AI \"red phone\" set up, but no movement on Taiwan or Iran"
@@ -930,7 +930,7 @@ window.INSIGHTS = [].concat(
     "id": "2026-09-24-m1",
     "time": "2026-09-24T09:00:00+08:00",
     "brief": "2026-09-24-morning.html",
-    "tags": ["fed"],
+    "tags": ["fed","us"],
     "title": {
       "zh": "美债收益率狂飙：5年期19年来首破5%，10年期升至5.11%，美股全线下跌",
       "en": "Treasury yields surge: the 5-year tops 5% for the first time since 2007 and the 10-year hits 5.11% as stocks slide"
@@ -1040,7 +1040,7 @@ window.INSIGHTS = [].concat(
     "id": "2026-09-24-a2",
     "time": "2026-09-24T17:00:00+08:00",
     "brief": "2026-09-24-afternoon.html",
-    "tags": ["tech"],
+    "tags": ["tech","us","cn"],
     "title": {
       "zh": "中美贸易休战延长至2027年1月10日，AI巨头齐聚白宫国宴",
       "en": "US–China trade truce extended to Jan 10, 2027 as AI leaders gather for the White House dinner"
@@ -1096,7 +1096,7 @@ window.INSIGHTS = [].concat(
     "id": "2026-09-23-m2",
     "time": "2026-09-23T09:00:00+08:00",
     "brief": "2026-09-23-morning.html",
-    "tags": ["tech"],
+    "tags": ["tech","us"],
     "title": {
       "zh": "Meta 的 Muse AI 12天280万次下载，带动纳指再创历史新高",
       "en": "Meta's Muse AI hits 2.8 million downloads in 12 days, lifting the Nasdaq to another record"
@@ -1208,7 +1208,7 @@ window.INSIGHTS = [].concat(
     "id": "2026-09-22-m1",
     "time": "2026-09-22T09:00:00+08:00",
     "brief": "2026-09-22-morning.html",
-    "tags": ["tech"],
+    "tags": ["tech","us"],
     "title": {
       "zh": "芯片股全面反弹，纳指单日涨2.26%创历史新高，AMD市值突破1万亿美元",
       "en": "Chip stocks rally broadly: Nasdaq jumps 2.26% to a record as AMD tops $1 trillion"
@@ -1430,7 +1430,7 @@ window.INSIGHTS = [].concat(
     "id": "2026-09-21-a1",
     "time": "2026-09-21T17:00:00+08:00",
     "brief": "2026-09-21-afternoon.html",
-    "tags": ["tech"],
+    "tags": ["tech","us","cn"],
     "title": {
       "zh": "特朗普周四会晤习近平，科技巨头CEO齐聚晚宴：关税与AI合作成焦点",
       "en": "Trump to meet Xi on Thursday with tech CEOs at dinner: tariffs and AI cooperation in focus"
@@ -1569,7 +1569,7 @@ window.INSIGHTS = [].concat(
     "id": "2026-09-19-w1",
     "time": "2026-09-19T09:00:00+08:00",
     "brief": "2026-09-19-weekend.html",
-    "tags": ["prs"],
+    "tags": ["prs","us"],
     "title": {
       "zh": "96岁巴菲特卸任伯克希尔董事长：\"时间永远是赢家\"",
       "en": "Buffett, 96, steps down as Berkshire chairman: \"Father Time always wins\""
@@ -1652,7 +1652,7 @@ window.INSIGHTS = [].concat(
     "id": "2026-09-18-m1",
     "time": "2026-09-18T09:00:00+08:00",
     "brief": "2026-09-18-morning.html",
-    "tags": ["fed", "my"],
+    "tags": ["fed","us","my"],
     "title": {
       "zh": "加息后道指重挫631点，隔天标普大涨1.14%收复部分失地",
       "en": "Dow sheds 631 points after the hike, then the S&P rebounds 1.14% the next day"
@@ -1845,7 +1845,7 @@ window.INSIGHTS = [].concat(
     "id": "2026-09-17-m3",
     "time": "2026-09-17T09:00:00+08:00",
     "brief": "2026-09-17-morning.html",
-    "tags": ["tech"],
+    "tags": ["tech","us"],
     "title": {
       "zh": "业绩全部超预期，股价却下杀：软件股遭遇\"AI基建成本\"焦虑",
       "en": "Blowout earnings, falling shares: software stocks hit by AI-cost worries"
@@ -1901,7 +1901,7 @@ window.INSIGHTS = [].concat(
     "id": "2026-09-16-a2",
     "time": "2026-09-16T17:00:00+08:00",
     "brief": "2026-09-16-afternoon.html",
-    "tags": ["fed", "tech"],
+    "tags": ["fed","tech","us"],
     "title": {
       "zh": "10年期美债收益率触及5.04%，创2007年以来新高，科技股承压",
       "en": "10-year Treasury yield touches 5.04%, highest since 2007, as tech stocks slide"

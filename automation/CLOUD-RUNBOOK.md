@@ -21,6 +21,11 @@ Kelly Chan is a Malaysian **信托基金顾问 (unit trust consultant)**. The br
 - Every link you put in the brief must be a URL you actually fetched or saw in search results **in this run**. Never write a URL from memory.
 - If a category has no whitelisted update, **leave it out entirely** — no card, alert, scorecard cell or takeaway saying "no update / 暂无更新 / could not verify" (Kelly's rule, 2026-10-01). Never fill the gap with invented or stale numbers either. Only publish what you actually have.
 
+Coverage (Kelly, 2026-10-01 — cover news more broadly): besides the Fed, tech/AI, oil/gold and Malaysia, actively look for
+**US** stories (Wall Street indices, major US companies/earnings, US economic data and policy) and **China** stories (China
+economy and data, PBoC / yuan, China and Hong Kong stocks, Chinese companies, US–China trade/tech). FX168 is a good whitelisted
+source for China news. Same rules apply: whitelist sources only, and if there is no real update for a region, leave it out.
+
 Slot-specific focus:
 - **morning** (masthead 9:00 AM MYT, sub-line "本周回顾 + 每日早报 · Weekly Recap & Daily Brief"): full brief with all sections.
 - **afternoon** (5:00 PM MYT, sub-line "午后新进展 · What's Changed Since This Morning"): first read `briefs/$DATE-morning.html`

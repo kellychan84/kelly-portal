@@ -227,6 +227,8 @@ section { padding: 56px 0; }
 .itags { display: flex; flex-wrap: wrap; gap: 6px; }
 .itag { font-size: 12px; font-weight: 600; padding: 3px 8px; border-radius: 6px; white-space: nowrap; }
 .it-my { background: #F5F3FF; color: #6D28D9; }
+.it-us { background: #ECFEFF; color: #0E7490; }
+.it-cn { background: #FFF1F2; color: #BE123C; }
 .it-tech { background: #EFF6FF; color: #1E40AF; }
 .it-com { background: #FFFBEB; color: #B45309; }
 .it-fed { background: #FEF2F2; color: #B91C1C; }

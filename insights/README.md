@@ -25,7 +25,7 @@ Then run `tools\build-index.ps1` (add-brief.ps1 already runs it) to rebuild `ins
   "id": "2026-10-01-m1",                    // <date>-<m|a|w><n>, unique
   "time": "2026-10-01T09:00:00+08:00",      // brief time, Malaysia time
   "brief": "2026-10-01-morning.html",       // file in briefs/
-  "tags": ["fed", "prs"],                   // 1–3 of: my, tech, commodities, fed, prs
+  "tags": ["fed", "prs"],                   // 1–3 of: my, us, cn, tech, commodities, fed, prs
   "title":    { "zh": "...", "en": "..." },
   "analysis": { "zh": "...", "en": "..." },
   "dda":      { "zh": "...", "en": "..." },
@@ -34,4 +34,7 @@ Then run `tools\build-index.ps1` (add-brief.ps1 already runs it) to rebuild `ins
   "source":   { "name": "Investing.com", "url": "https://..." }
 }
 ```
-Tags: `my` 🌏 马来西亚/东盟 · `tech` 💻 科技与AI · `commodities` 🟡 黄金与原油 · `fed` 🏦 美联储与宏观 · `prs` 🌱 PRS退休与养老.
+Tags: `my` 🌏 马来西亚/东盟 · `us` 🗽 美国 · `cn` 🏮 中国 · `tech` 💻 科技与AI · `commodities` 🟡 黄金与原油 · `fed` 🏦 美联储与宏观 · `prs` 🌱 PRS退休与养老.
+
+- `us`: US stock market (Dow / S&P 500 / Nasdaq), US companies and earnings, US economy and policy (tariffs, Treasury, jobs, consumers). Fed decisions keep `fed`; add `us` too when the story is about US markets.
+- `cn`: China and Hong Kong — Chinese economy and data, PBoC / yuan, China and HK stocks, Chinese companies, US–China trade and tech relations.

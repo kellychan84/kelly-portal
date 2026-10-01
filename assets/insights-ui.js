@@ -2,6 +2,8 @@
 (function () {
   const TAGS = {
     my:          { zh: '🌏 马来西亚/东盟', en: '🌏 Malaysia/ASEAN', cls: 'it-my' },
+    us:          { zh: '🗽 美国',           en: '🗽 US',              cls: 'it-us' },
+    cn:          { zh: '🏮 中国',           en: '🏮 China',           cls: 'it-cn' },
     tech:        { zh: '💻 科技与AI',       en: '💻 Tech & AI',       cls: 'it-tech' },
     commodities: { zh: '🟡 黄金与原油',     en: '🟡 Gold & Oil',      cls: 'it-com' },
     fed:         { zh: '🏦 美联储与宏观',   en: '🏦 Fed & Macro',     cls: 'it-fed' },
