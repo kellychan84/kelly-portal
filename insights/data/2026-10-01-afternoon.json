@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2026-10-01-a1",
+    "time": "2026-10-01T17:00:00+08:00",
+    "brief": "2026-10-01-afternoon.html",
+    "tags": ["fed", "prs"],
+    "title": { "zh": "10年期美债收益率升至约5.33%,为2002年以来高位", "en": "The 10-year Treasury yield edges up to ~5.33%, the highest since 2002" },
+    "analysis": {
+      "zh": "据搜索结果摘要,10年期美债收益率周四升约4个基点至约5.3338%,30年期突破5.6%,早报时约为5.30%。道指期货下跌约250点,纳指100期货上涨约0.51%(均为早盘期货数字)。就像房贷利率走高会改变家庭预算,收益率上升也会让市场对股票估值更挑剔。",
+      "en": "Per a search-result summary, the 10-year Treasury yield rose about 4 bps on Thursday to ~5.3338% and the 30-year topped 5.6%, versus ~5.30% in the morning brief. Dow futures fell about 250 points while Nasdaq-100 futures gained ~0.51% (early futures figures). Like a higher mortgage rate reshaping a household budget, higher yields make markets pickier about stock valuations."
+    },
+    "dda": {
+      "zh": "🎯 DDA定期定额:当收益率与指数每天都在变动时,定期投入的做法不需要判断入场时机,关键是纪律与是否符合个人目标。",
+      "en": "🎯 DDA: when yields and indices move every day, regular investing removes the need to time an entry; what matters is discipline and fit with personal goals."
+    },
+    "lump": {
+      "zh": "🎯 一次性投入(Lump Sum):一般原则是可以考虑分阶段投入以分散时机风险,并检查集中度,同时配合个人目标与风险承受能力。",
+      "en": "🎯 Lump Sum: as a general principle, phasing in can spread timing risk; also check concentration and match the approach to personal goals and risk tolerance."
+    },
+    "prs": {
+      "zh": "🎯 PRS退休:退休储蓄着眼数十年,单日的收益率变动只是过程中的一个点;PRS每年最高RM3,000的税务减免也是长期储蓄的考量之一。",
+      "en": "🎯 PRS: retirement saving spans decades, so one day's yield move is a single point along the way; the PRS tax relief of up to RM3,000 a year is one consideration for long-term saving."
+    },
+    "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/dow-p-500-nasdaq-futures-023846562.html" }
+  },
+  {
+    "id": "2026-10-01-a2",
+    "time": "2026-10-01T17:00:00+08:00",
+    "brief": "2026-10-01-afternoon.html",
+    "tags": ["fed"],
+    "title": { "zh": "今晚Nike财报、明晚就业报告:市场在等待下一批数据", "en": "Nike tonight, jobs report tomorrow: markets wait for the next data" },
+    "analysis": {
+      "zh": "CNBC实时报道指出,市场在高企的美债收益率下等待本周的美国就业报告;Nike预计周四收市后公布财报。截至撰稿,我们没有取得结果。重要数据出炉前后,波动常会放大,就像出发前一晚的天气预报总是特别受关注。",
+      "en": "CNBC's live coverage says markets are waiting on this week's US jobs report amid elevated Treasury yields, and Nike is due to report after Thursday's close. We had no results at time of writing. Volatility often rises around key data, like the weather forecast getting extra attention the night before a trip."
+    },
+    "dda": {
+      "zh": "🎯 DDA定期定额:数据与财报日的波动很常见,定期投入的纪律不依赖于预测某一份数据的结果。",
+      "en": "🎯 DDA: swings around data and earnings days are common; the discipline of regular investing does not depend on predicting any single release."
+    },
+    "lump": {
+      "zh": "🎯 一次性投入(Lump Sum):一般原则是分阶段投入有助分散时机风险,并检查组合是否过度集中于单一主题。",
+      "en": "🎯 Lump Sum: as a general principle, phasing in can help spread timing risk, and it is worth checking that a portfolio is not over-concentrated in one theme."
+    },
+    "prs": {
+      "zh": "🎯 PRS退休:退休组合讲求长期与分散,短期的数据波动不应改变既定的退休目标;PRS每年最高RM3,000的税务减免亦可纳入考量。",
+      "en": "🎯 PRS: a retirement portfolio is about the long term and diversification, so short-term data swings need not change the retirement goal; the PRS tax relief of up to RM3,000 a year can also be considered."
+    },
+    "source": { "name": "CNBC", "url": "https://www.cnbc.com/2026/09/30/stock-market-today-live-updates.html" }
+  }
+]
