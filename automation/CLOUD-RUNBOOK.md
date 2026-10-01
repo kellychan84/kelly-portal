@@ -19,7 +19,7 @@ Kelly Chan is a Malaysian **信托基金顾问 (unit trust consultant)**. The br
 ## 1. Research (per brief-rules.md)
 - Use WebSearch / WebFetch against **whitelist sources only**; never use Bloomberg, Axios or NPR.
 - Every link you put in the brief must be a URL you actually fetched or saw in search results **in this run**. Never write a URL from memory.
-- If a category has no whitelisted update, say so honestly in the brief ("今日该类别暂无白名单来源更新").
+- If a category has no whitelisted update, **leave it out entirely** — no card, alert, scorecard cell or takeaway saying "no update / 暂无更新 / could not verify" (Kelly's rule, 2026-10-01). Never fill the gap with invented or stale numbers either. Only publish what you actually have.
 
 Slot-specific focus:
 - **morning** (masthead 9:00 AM MYT, sub-line "本周回顾 + 每日早报 · Weekly Recap & Daily Brief"): full brief with all sections.
@@ -73,4 +73,4 @@ the summary that it needs merging into `main` before it appears on the site.
 - Brief file + the 2–3 top headlines
 - Insight cards added (count)
 - Push result: "live on the site" / "pushed to branch X, needs merge" / error details
-- Anything flagged as unverified or with no whitelisted update
+- Categories left out of the brief because there was no whitelisted update (mention them here only, never on the site)

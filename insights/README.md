@@ -17,6 +17,7 @@ Then run `tools\build-index.ps1` (add-brief.ps1 already runs it) to rebuild `ins
 - PRS box: may mention the PRS tax relief of up to RM3,000 a year.
 - Analysis (💡): 2–4 sentences — what happened (with the brief's numbers), why it matters; one everyday analogy is welcome, keep it short.
 - Bilingual: every text field has `zh` and `en`. Tone: Kelly's warm-professional voice.
+- **Never make a card about missing data** ("no update", "暂无更新", "could not verify"), and don't mention gaps inside a card (Kelly, 2026-10-01). Only card real news.
 
 ## Schema
 ```json
