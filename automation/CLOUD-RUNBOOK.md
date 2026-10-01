@@ -37,6 +37,7 @@ Voice (short version of Kelly's style guide): warm and professional, like explai
 - Write the finished HTML to `briefs/$DATE-$SLOT.html` (there is no Artifact publishing in the cloud — the website is the destination).
 - `<title>`: e.g. `Oct 1 Morning Brief`, `Oct 1 Afternoon Check`, `Oct 3 Weekend Brief`.
 - The language toggle must really work (zh-t / en-t classes + the template's `setL` function).
+- **No WhatsApp copy/share section** (no waZh/waEn message, no copy buttons) — Kelly removed it from the website. The brief ends after Kelly's Takeaways + disclaimer. (`add_brief.py` also strips it as a safety net.)
 - Run the self-check list from brief-rules.md. Fix anything that fails before continuing.
 
 ## 3. Insight cards

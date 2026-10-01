@@ -76,17 +76,6 @@ body{background:var(--page);color:var(--text);font-family:'DM Sans',sans-serif;f
 .ai{font-size:15px;color:#444;margin-bottom:5px;padding-left:.9rem;border-left:2px solid var(--gold-light);line-height:1.65;}
 .ai.en{color:var(--muted);font-size:14px;margin-bottom:14px;}
 hr.dv{border:none;border-top:.5px solid var(--border);margin:1.75rem 0;}
-.wa-s{margin-top:1.75rem;}
-.wa-tabs{display:flex;gap:6px;margin-bottom:.8rem;}
-.wt{padding:5px 18px;font-size:13px;border-radius:4px;cursor:pointer;border:.5px solid var(--border);background:transparent;color:var(--muted);font-family:'DM Sans',sans-serif;transition:all .15s;}
-.wt.active{background:#25D366;color:#fff;border-color:#25D366;font-weight:500;}
-.wb{width:100%;background:var(--surface);border:.5px solid var(--border);border-radius:8px;padding:1.1rem 1.2rem;font-size:14px;color:#444;line-height:1.7;min-height:200px;font-family:'DM Sans',sans-serif;resize:none;cursor:text;outline:none;}
-.wa-actions{display:flex;align-items:center;gap:10px;margin-top:9px;flex-wrap:wrap;}
-.bc{padding:9px 24px;font-size:14px;font-weight:500;background:#25D366;border:none;color:#fff;border-radius:4px;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .15s;}
-.bc:hover{background:#1EA855;}
-.bc-select{padding:9px 24px;font-size:14px;background:transparent;border:.5px solid var(--border);color:var(--muted);border-radius:4px;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .15s;}
-.copy-hint{font-size:12px;color:var(--muted2);margin-top:6px;line-height:1.5;}
-.copy-hint strong{color:var(--up);}
 .tri{margin-top:10px;padding-top:9px;border-top:1px dashed var(--border);}
 .tri-h{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:7px;}
 .tri-i{font-size:13px;color:#444;line-height:1.6;margin-bottom:4px;}
@@ -174,61 +163,8 @@ hr.dv{border:none;border-top:.5px solid var(--border);margin:1.75rem 0;}
 <div class="disc-b zh-t">本网站内容仅供一般教育及市场参考,不构成任何个性化投资、财务、税务或法律建议,亦不构成购买、出售、转换或持有任何特定基金的建议。信托基金及PRS涉及投资风险,包括可能的本金损失。过往表现并不代表未来表现。部分市场资讯可能由AI根据第三方公开资料协助整理,请以原始来源为准。</div>
 <div class="disc-b en-t">This content is for general educational and market-reference purposes only and is not personalised investment, financial, tax or legal advice, nor a recommendation to buy, sell, switch or hold any specific fund. Unit trusts and PRS carry investment risk, including possible loss of principal. Past performance is not indicative of future performance. Some market information may be compiled with AI assistance from public third-party sources; please refer to the original sources.</div></div>
 </div></div>
-<div class="wa-s"><div class="sl">💬 WhatsApp — Copy &amp; Share · 直接分享</div>
-<div class="wa-tabs"><button class="wt active" id="wt-zh" onclick="showWA('zh')">华语版本</button><button class="wt" id="wt-en" onclick="showWA('en')">English</button></div>
-<textarea class="wb" id="wb" readonly onclick="this.select()"></textarea>
-<div class="wa-actions"><button class="bc" onclick="cpWA()">📋 Copy to WhatsApp</button><button class="bc-select" onclick="document.getElementById('wb').select()">Select All</button></div>
-<p class="copy-hint"><strong>✓ 点击绿色按钮自动复制</strong> · 或点击 "Select All" 再按 Ctrl+C / Cmd+C<br><strong>✓ Click green button to copy</strong> · Or "Select All" then Ctrl+C / Cmd+C</p></div>
 </div>
 <script>
-// waZh / waEn: 完整、独立、可以直接发出去的WhatsApp消息全文(称呼+正文+署名),不是新闻摘录拼接
-const waZh = `大家下午好!Kelly在这里 🌤️
-
-今早我们聊过通胀降温,下午有个小变化:美国10年期国债收益率又往上走了一点,期货显示约5.33%,是2002年以来的高位。简单说,就是"借钱的价格"还在高位。
-
-就像家里的开销忽然涨了一点,我们不会马上乱了阵脚,而是回头看看长期计划有没有跟上。今晚还有Nike财报,明天有美国就业报告,短期数字会继续跳动。
-
-作为信托基金顾问,我的提醒还是一样:按计划、定期投入、分散配置,不被一天的数字牵着走。有疑问随时找我聊聊 🙂
-
-Kelly / 信托基金顾问`;
-const waEn = `Good afternoon everyone! Kelly here 🌤️
-
-This morning we talked about cooling inflation. One small change this afternoon: the US 10-year Treasury yield has edged higher again, around 5.33% in futures-market reports, the highest since 2002. In plain words, the price of borrowing is still high.
-
-Like when household costs suddenly tick up, we don't panic. We look back at whether the long-term plan is still on track. Nike reports tonight and the US jobs report is due tomorrow, so short-term numbers will keep moving.
-
-As your unit trust consultant, my reminder is the same: stick to a plan, invest regularly, stay diversified, and don't be pushed around by one day's numbers. Message me anytime 🙂
-
-Kelly / Unit Trust Consultant`;
-
-let waActive = 'zh';
-document.getElementById('wb').value = waZh;
-
-function showWA(l) {
-  waActive = l;
-  document.getElementById('wt-zh').classList.toggle('active', l === 'zh');
-  document.getElementById('wt-en').classList.toggle('active', l === 'en');
-  document.getElementById('wb').value = l === 'zh' ? waZh : waEn;
-}
-function cpWA() {
-  const ta = document.getElementById('wb');
-  const text = waActive === 'zh' ? waZh : waEn;
-  if (navigator.clipboard && navigator.clipboard.writeText) {
-    navigator.clipboard.writeText(text).then(showCopied).catch(() => fallbackCopy(ta));
-  } else { fallbackCopy(ta); }
-}
-function fallbackCopy(ta) {
-  ta.select(); ta.setSelectionRange(0, 99999);
-  try { document.execCommand('copy'); showCopied(); }
-  catch(e) { ta.select(); alert('Text selected! Press Ctrl+C (Windows) or Cmd+C (Mac) to copy.'); }
-}
-function showCopied() {
-  const btn = document.querySelector('.bc');
-  const orig = btn.innerHTML;
-  btn.innerHTML = '✓ Copied!';
-  btn.style.background = '#1A6B3C';
-  setTimeout(() => { btn.innerHTML = orig; btn.style.background = ''; }, 2500);
-}
 function setL(l) {
   document.querySelectorAll('.lb').forEach((b, i) => b.classList.toggle('active', ['both','zh','en'][i] === l));
   document.querySelectorAll('.zh-t').forEach(el => {

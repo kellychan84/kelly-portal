@@ -12,6 +12,11 @@ $root = Split-Path -Parent $PSScriptRoot
 $utf8 = New-Object System.Text.UTF8Encoding($false)
 
 $html = [IO.File]::ReadAllText((Resolve-Path $Source), $utf8)
+# The website never shows the WhatsApp copy/share box (Kelly's request, 2026-10-01).
+$html = [regex]::Replace($html, '(?s)<!--\s*WHATSAPP.*?-->\s*', '')
+$html = [regex]::Replace($html, '(?s)<div class="wa-s">.*?class="copy-hint".*?</p>\s*</div>\s*', '')
+$html = [regex]::Replace($html, '(?s)(?://[^\n]*waZh[^\n]*\n)?const waZh.*?(?=function setL)', '')
+$html = [regex]::Replace($html, '(?m)^\.(?:wa-s|wa-tabs|wt|wb|wa-actions|bc|bc-select|copy-hint)\b[^\n]*\n', '')
 $tag = '<script src="../assets/brief-bar.js?v=2" defer></script>'
 if ($html -notmatch [regex]::Escape('assets/brief-bar.js')) {
     if ($html -match '</body>') { $html = $html -replace '</body>', "$tag`n</body>" } else { $html += "`n$tag`n" }

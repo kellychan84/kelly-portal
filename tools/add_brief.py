@@ -12,6 +12,20 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 TAG = '<script src="../assets/brief-bar.js?v=2" defer></script>'
 
+# The website never shows the WhatsApp copy/share box (Kelly's request, 2026-10-01).
+WA_PATTERNS = [
+    (r"<!--\s*WHATSAPP.*?-->\s*", re.S),
+    (r'<div class="wa-s">.*?class="copy-hint".*?</p>\s*</div>\s*', re.S),
+    (r"(?://[^\n]*waZh[^\n]*\n)?const waZh.*?(?=function setL)", re.S),
+    (r"^\.(?:wa-s|wa-tabs|wt|wb|wa-actions|bc|bc-select|copy-hint)\b[^\n]*\n", re.M),
+]
+
+
+def strip_whatsapp(doc):
+    for pattern, flags in WA_PATTERNS:
+        doc = re.sub(pattern, "", doc, flags=flags)
+    return doc
+
 
 def main():
     if len(sys.argv) != 4:
@@ -21,7 +35,7 @@ def main():
         sys.exit("date must be YYYY-MM-DD")
     if slot not in ("morning", "afternoon", "weekend"):
         sys.exit("slot must be morning, afternoon or weekend")
-    doc = src.read_text(encoding="utf-8")
+    doc = strip_whatsapp(src.read_text(encoding="utf-8"))
     if "assets/brief-bar.js" not in doc:
         doc = doc.replace("</body>", TAG + "\n</body>", 1) if "</body>" in doc else doc + "\n" + TAG + "\n"
     dest = ROOT / "briefs" / f"{date}-{slot}.html"
