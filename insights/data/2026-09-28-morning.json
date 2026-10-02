@@ -24,6 +24,7 @@
       "zh": "一套经得起波动的退休配置，加上持续的 PRS 供款（每年最高 RM3,000 税务减免），比猜测市场更可靠。",
       "en": "A retirement allocation built for volatility, plus steady PRS contributions (up to RM3,000 in annual tax relief), beats trying to guess the market."
     },
+    "bond": { "zh": "贝莱德形容债市波动是一次提醒而非危机。债券价格会随利率起伏，但长期持有时，利息收入通常是债券基金回报的主要部分。", "en": "BlackRock calls the bond-market volatility a reminder rather than a crisis. Bond prices move with rates, but over a long holding period interest income is usually the main part of a bond fund's return." },
     "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-25-dow-sp-500-nasdaq-081738529.html" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "油价反复会影响通胀与生活成本。退休组合保留适度抗通胀资产，并保持整体分散。",
       "en": "Swinging oil prices affect inflation and living costs. Keep some inflation-resilient assets in retirement savings, within a diversified whole."
     },
+    "bond": { "zh": "谈判仍可能重启，但油价已反弹，通胀与利率预期可能随之变化。大马债券基金较受本地因素影响，可以按计划持有。", "en": "Talks may resume, but oil has bounced, so inflation and rate expectations may shift. Malaysian bond funds are driven more by local factors and can be held to plan." },
     "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/9/27/better-deal-whats-behind-trumps-rejection-of-irans-truce-offer" }
   },
   {
@@ -78,6 +80,7 @@
       "zh": "退休组合需要广度，而不只是热门股。行业与地区分散，是长期稳健的基础。",
       "en": "Retirement portfolios need breadth, not just hot stocks. Sector and regional diversification is the base of long-term stability."
     },
+    "bond": { "zh": "涨势集中在少数科技龙头，提醒我们组合需要分散。债券基金与股票的风险不同，有助于平衡集中度。", "en": "Gains concentrated in a few tech leaders are a reminder to diversify. Bond funds carry different risks from stocks and can help balance concentration." },
     "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/equities/26/09/61997060/micron-earnings-80-odds-beat-every-analyst-estimate" }
   }
 ]

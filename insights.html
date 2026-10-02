@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/site.css?v=13">
+<link rel="stylesheet" href="assets/site.css?v=14">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%239A7B3E'/><text x='32' y='44' font-size='34' text-anchor='middle' fill='white' font-family='Georgia'>K</text></svg>">
 </head>
 <body data-page="insights" data-root="">
@@ -26,7 +26,7 @@
   <div class="container page-head">
     <p class="section-eyebrow"><span class="zh">全球宏观与理财洞察</span><span class="en">Market Trends & Insights</span></p>
     <h1><span class="zh">市场洞察</span><span class="en">Market Insights</span></h1>
-    <p><span class="zh">每天从早报与午后速递中精选重点：发生了什么、为什么重要，以及对定期定额、单笔投资和 PRS 退休规划的思考方向。</span><span class="en">The key stories from each morning and afternoon brief: what happened, why it matters, and what to think about for regular investing, lump sums and PRS retirement planning.</span></p>
+    <p><span class="zh">每个交易日早上与下午、以及周末更新：发生了什么、为什么重要，以及对长期投资与定期定额、退休规划与 PRS、单笔投资和债券基金的思考方向。</span><span class="en">Updated every weekday morning and afternoon, and at weekends: what happened, why it matters, and what to think about for long-term and regular investing, retirement and PRS, lump sums and bond funds.</span></p>
   </div>
 
   <div class="container" style="padding-bottom:56px">
@@ -62,8 +62,8 @@
 
 <script src="assets/config.js?v=5"></script>
 <script src="insights/insights.js"></script>
-<script src="assets/insights-ui.js?v=4"></script>
-<script src="assets/site.js?v=6"></script>
+<script src="assets/insights-ui.js?v=5"></script>
+<script src="assets/site.js?v=7"></script>
 <script>
 (function () {
   const PAGE = 10;
@@ -96,15 +96,16 @@
 
   function matches(it, q) {
     if (!q) return true;
-    const hay = [it.title, it.analysis, it.dda, it.lump, it.prs].map(o => o ? (o.zh || '') + ' ' + (o.en || '') : '').join(' ') + ' ' + (it.source ? it.source.name : '');
+    const hay = [it.title, it.analysis, it.dda, it.lump, it.prs, it.bond, it.takeaway].concat(it.points || [], (it.figures || []).map(f => f.label)).map(o => o ? (o.zh || '') + ' ' + (o.en || '') : '').join(' ') + ' ' + (it.source ? it.source.name : '');
     return hay.toLowerCase().includes(q);
   }
 
   function render() {
     const q = $('q').value.trim().toLowerCase(), m = $('month').value;
-    const list = all.filter(it => (tag === 'all' || (it.tags || []).includes(tag)) && (m === 'all' || kpInsights.month(it.time) === m) && matches(it, q));
+    // the 今日速览 snapshots only show in the unfiltered (全部) view
+    const list = all.filter(it => (tag === 'all' || (!kpInsights.isSummary(it) && (it.tags || []).includes(tag))) &&(m === 'all' || kpInsights.month(it.time) === m) && matches(it, q));
     $('feed').innerHTML = list.length
-      ? list.slice(0, shown).map(it => kpInsights.card(it, '')).join('')
+      ? list.slice(0, shown).map(it => kpInsights.card(it)).join('')
       : '<p class="empty"><span class="zh">没有符合条件的洞察。</span><span class="en">No insights match.</span></p>';
     $('count').innerHTML = `<span class="zh">共 ${list.length} 则</span><span class="en">${list.length} insight${list.length === 1 ? '' : 's'}</span>`;
     $('more').hidden = list.length <= shown;

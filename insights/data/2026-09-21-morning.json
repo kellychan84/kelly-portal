@@ -24,6 +24,7 @@
       "zh": "PRS 是长期计划，短期波动不影响它的核心价值。持续供款并善用每年最高 RM3,000 税务减免。",
       "en": "PRS is a long-term plan, and short-term swings don't change its core value. Keep contributing and use the up to RM3,000 annual tax relief."
     },
+    "bond": { "zh": "股市短期回落时，债券基金可以发挥平衡组合的作用。国行利率稳定，是本地债券市场的重要支撑因素之一。", "en": "When stocks dip in the short term, bond funds can help balance a portfolio. Stable Bank Negara rates are one important support for the local bond market." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/stock-market" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "退休组合适合以分散的全球或区域基金参与科技，而不是集中于单一周期行业。",
       "en": "Retirement portfolios are better served by diversified global or regional funds for tech exposure than by one cyclical industry."
     },
+    "bond": { "zh": "消费品涨价反映通胀压力，通胀若持续，利率可能维持较高，债券价格会受影响。留意本地通胀数据，有助于理解债券基金的表现。", "en": "Higher consumer prices reflect inflation pressure; if inflation persists, rates may stay high, which affects bond prices. Watching local inflation data helps in understanding bond-fund performance." },
     "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-18-dow-sp-500-nasdaq-080504071.html" }
   },
   {
@@ -78,6 +80,7 @@
       "zh": "退休计划不应随每周的战事新闻调整。定期检视配置、维持供款，才是长期的关键。",
       "en": "A retirement plan shouldn't change with each week's war news. Regular reviews and steady contributions are what count long term."
     },
+    "bond": { "zh": "地缘紧张但油价回落，说明市场已部分消化风险。大马债券基金较受本地因素影响，适合作为组合中较稳定的一部分。", "en": "Geopolitical tension alongside falling oil shows markets have partly priced in the risk. Malaysian bond funds are driven more by local factors and can be a steadier part of a portfolio." },
     "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-of-hormuz-oil-houthis/" }
   }
 ]

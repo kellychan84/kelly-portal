@@ -24,6 +24,7 @@
       "zh": "油价跌破100美元有助控制通胀。长期退休组合维持均衡，才能在局势反复时保持稳定。",
       "en": "Oil below $100 helps contain inflation. A balanced long-term retirement mix stays steady if the situation flips back."
     },
+    "bond": { "zh": "油价跌破100美元有助于降低通胀预期，一般对债券市场较为有利。债券基金投资者可以多关注本地通胀与国行利率动向。", "en": "Oil dropping below $100 helps lower inflation expectations, generally supportive for bond markets. Bond-fund investors can keep an eye on local inflation and Bank Negara's rate moves." },
     "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-decision-tehran-warns-of-expansion/" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "退休组合可以包含科技成长，但比重需要控制，并定期再平衡。",
       "en": "Retirement portfolios can include tech growth, but keep the weighting in check and rebalance regularly."
     },
+    "bond": { "zh": "科技股创新高的时候，债券基金看起来较平淡，但它的作用是在市场回调时提供稳定。股债搭配，是长期组合的重要原则。", "en": "When tech stocks hit records, bond funds can look dull, but their job is to provide stability when markets pull back. Mixing stocks and bonds is a key principle for long-term portfolios." },
     "source": { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-22-2026" }
   },
   {
@@ -78,6 +80,7 @@
       "zh": "本地资产能为退休组合提供令吉收益来源。持续 PRS 供款，每年最高可享 RM3,000 税务减免。",
       "en": "Local assets give a retirement portfolio ringgit-based returns. Keep contributing to PRS, with up to RM3,000 in annual tax relief."
     },
+    "bond": { "zh": "联储官员认为供应冲击并非短暂，意味着利率可能维持较高一段时间，全球债券价格或继续承压。大马债券更受国行政策影响，可以从中长期角度看待。", "en": "A Fed official saying the supply shock is not transitory suggests rates may stay high for a while, which can keep pressure on global bond prices. Malaysian bonds depend more on Bank Negara policy and are best viewed over the medium to long term." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/stock-market" }
   }
 ]

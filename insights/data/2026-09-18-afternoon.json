@@ -24,6 +24,7 @@
       "zh": "退休计划要经得起各种新闻周期。定期检视、少做冲动调整，是长期最有效的做法。",
       "en": "A retirement plan has to outlast many news cycles. Regular reviews and fewer impulsive changes work best over the long run."
     },
+    "bond": { "zh": "油价变化会影响通胀预期，进而影响利率与债券价格。马来西亚作为能源出口国，油价对本地财政的影响较为复杂，债券基金投资者可多留意本地通胀数据。", "en": "Oil prices shape inflation expectations, which feed into interest rates and bond prices. As an energy exporter, Malaysia's fiscal picture is affected in mixed ways, so bond-fund investors may want to watch local inflation data." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "利率预期每天都在变，退休组合的股、债、现金比例应以年龄与目标为准，而不是每日新闻。",
       "en": "Rate expectations change daily; a retirement mix of equities, bonds and cash should follow your age and goals, not the daily news."
     },
+    "bond": { "zh": "加息概率每天变动，债券价格也会随之起伏。对债券基金而言，短期的价格波动之外，持续收取的利息才是长期回报的主要来源。", "en": "As rate-hike odds shift day to day, bond prices move with them. For bond funds, beyond short-term price swings, the steady interest income is the main source of long-term returns." },
     "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
   }
 ]

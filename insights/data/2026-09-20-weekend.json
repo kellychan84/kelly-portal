@@ -24,6 +24,7 @@
       "zh": "油价通过通胀影响退休后的生活成本。长期组合保持分散，比预测地缘局势更实际。",
       "en": "Oil affects retirement living costs through inflation. Staying diversified is more practical than forecasting geopolitics."
     },
+    "bond": { "zh": "油价连续回落有助于降低通胀担忧，一般对债券市场较为友善。但中东局势仍有变数，债券基金投资者不必因单周走势而调整。", "en": "Several days of falling oil ease inflation worries, which is generally friendly for bond markets. The Middle East remains uncertain, so bond-fund investors need not adjust on one week's moves." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/brent-crude-oil" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "PRS 供款可以持续累积本地与海外资产，每年最高 RM3,000 税务减免，让纪律性储蓄更有效率。",
       "en": "PRS contributions can build both local and overseas holdings over time, with up to RM3,000 in annual tax relief for disciplined saving."
     },
+    "bond": { "zh": "美联储加息预期升温，加上令吉承压，可能让外资对大马债券更谨慎，短期价格或有波动。国行的利率立场仍是本地债券的主要影响因素。", "en": "Rising Fed-hike expectations and a softer ringgit can make foreign investors more cautious on Malaysian bonds, which may cause short-term price swings. Bank Negara's rate stance remains the main driver for local bonds." },
     "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
   },
   {
@@ -78,6 +80,7 @@
       "zh": "成长主题可以为退休组合增添长期动力，但比重应与年龄、风险承受度相匹配。",
       "en": "Growth themes can add long-term drive to a retirement portfolio, sized to your age and risk tolerance."
     },
+    "bond": { "zh": "科技企业的营收前景对债券基金没有直接影响。股债搭配，能让组合在科技股大起大落时较为平稳。", "en": "Tech companies' revenue outlooks do not directly affect bond funds. Combining stocks and bonds can keep a portfolio steadier when tech stocks swing widely." },
     "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/09/61873424/what-is-going-on-with-broadcom-stock-on-friday-2" }
   }
 ]

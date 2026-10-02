@@ -24,6 +24,7 @@
       "zh": "利率走向影响股债表现，但退休计划看的是几十年。维持分散配置，比押注某一次议息结果更重要。",
       "en": "Rates move stocks and bonds, but retirement plans span decades. Staying diversified matters more than betting on any single meeting."
     },
+    "bond": { "zh": "加息预期升温时，全球债券价格通常承压。马来西亚债券基金主要投资大马政府债券与企业债券，更直接受国行利率走向影响，但外资流动也会带来短期波动。", "en": "When rate-hike expectations rise, global bond prices usually come under pressure. Malaysian bond funds mainly hold Malaysian government and corporate bonds and are more directly driven by Bank Negara's rate path, though foreign flows can add short-term swings." },
     "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/economic-data/26/09/61788155/fed-rate-hike-september-2026-dot-plot-projections-what-to-watch" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "收益率走高也意味着债券类资产的收益吸引力上升。退休组合中股债的比例，值得定期检视。",
       "en": "Higher yields also make bond-type assets more attractive. The equity–bond mix in a retirement portfolio is worth reviewing regularly."
     },
+    "bond": { "zh": "美债收益率升高，可能让部分外资减持新兴市场债券，大马债券价格短期或受牵动。另一方面，收益率较高时，新投入债券基金的资金未来可获得的利息水平也较高。", "en": "Higher US yields can lead some foreign investors to trim emerging-market bonds, which may weigh on Malaysian bond prices in the short term. On the other hand, when yields are higher, new money going into bond funds can lock in higher income over time." },
     "source": { "name": "Schwab", "url": "https://www.schwab.com/learn/story/stock-market-update-open" }
   }
 ]

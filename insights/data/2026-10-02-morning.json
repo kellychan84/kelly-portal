@@ -1,5 +1,32 @@
 [
   {
+    "id": "2026-10-02-m0",
+    "kind": "summary",
+    "time": "2026-10-02T09:00:00+08:00",
+    "tags": [],
+    "title": { "zh": "美股10月首日小幅收高,美债收益率从高位回落;今晚美国就业报告", "en": "Wall Street edges up on October's first day as yields ease; US jobs report tonight" },
+    "figures": [
+      { "label": { "zh": "标普500", "en": "S&P 500" }, "value": "7,666.45", "change": "+0.19%", "dir": "up" },
+      { "label": { "zh": "道琼斯", "en": "Dow Jones" }, "value": "50,926.56", "change": "+0.04%", "dir": "up" },
+      { "label": { "zh": "纳斯达克综合", "en": "Nasdaq Composite" }, "value": "26,871.60", "change": "+0.04%", "dir": "up" },
+      { "label": { "zh": "10年期美债收益率", "en": "10-yr Treasury yield" }, "value": "≈5.24%", "change": { "zh": "盘中一度升至5.3%", "en": "Touched 5.3% intraday" }, "dir": "" }
+    ],
+    "points": [
+      { "zh": "美股10月首个交易日小幅收高,美债收益率从逾20年高位回落,芯片股领涨。", "en": "Wall Street closed slightly higher on October's first trading day as Treasury yields eased from 20-plus-year highs; chip stocks led." },
+      { "zh": "美光营收542.3亿美元,下季指引615亿美元高于预期;Nike盈利胜预期但营收逊色,盘后跌约3%。", "en": "Micron posted $54.23B revenue with $61.5B guidance above expectations; Nike beat on earnings but missed on revenue and fell about 3% after hours." },
+      { "zh": "美国9月就业报告今晚(马来西亚时间)公布,可能带来波动。", "en": "The US September jobs report is out tonight (Malaysia time) and may bring volatility." }
+    ],
+    "takeaway": {
+      "zh": "昨天收益率先升后落,指数只是小幅波动——最吵的头条不一定最重要。先看自己的目标和时间线,再看市场;今晚的就业报告可能带来波动,按计划定期投入、保持分散,比猜测数据更实际。",
+      "en": "Yields rose then eased yesterday while indices barely moved; the loudest headline is not always the most important. Start with your goals and timeline, then the market. Tonight's jobs report may bring volatility, and investing regularly on a plan while staying diversified is more practical than guessing the data."
+    },
+    "sources": [
+      { "name": "Yahoo Finance", "url": "https://uk.finance.yahoo.com/news/major-us-stock-indexes-fared-202018293.html" },
+      { "name": "Investing.com", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-micron-tops-q4-2026-estimates-as-demand-stays-hot-93CH-4925992" },
+      { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/01/nike-nke-q1-2027-earnings.html" }
+    ]
+  },
+  {
     "id": "2026-10-02-m1",
     "time": "2026-10-02T09:00:00+08:00",
     "brief": "2026-10-02-morning.html",
@@ -10,17 +37,18 @@
       "en": "Per a search-result summary, the S&P 500 closed at 7,666.45 (+0.19%), the Dow +0.04% and the Nasdaq +0.04%. The 10-year Treasury yield touched 5.3% intraday before easing to about 5.24%. Yields act like the market's baseline interest rate; when they retreat, pressure on stocks eases, but they remain at 20-plus-year highs, so markets stay sensitive."
     },
     "dda": {
-      "zh": "🎯 DDA定期定额:当收益率与指数每天都在变动时,定期投入的做法不需要判断入场时机,关键是纪律与是否符合个人目标。",
-      "en": "🎯 DDA: when yields and indices move every day, regular investing removes the need to time an entry; what matters is discipline and fit with personal goals."
+      "zh": "当收益率与指数每天都在变动时,定期投入的做法不需要判断入场时机,关键是纪律与是否符合个人目标。",
+      "en": "when yields and indices move every day, regular investing removes the need to time an entry; what matters is discipline and fit with personal goals."
     },
     "lump": {
-      "zh": "🎯 一次性投入(Lump Sum):一般原则是可以考虑分阶段投入以分散时机风险,并检查集中度,同时配合个人目标与风险承受能力。",
-      "en": "🎯 Lump Sum: as a general principle, phasing in can spread timing risk; also check concentration and match the approach to personal goals and risk tolerance."
+      "zh": "一般原则是可以考虑分阶段投入以分散时机风险,并检查集中度,同时配合个人目标与风险承受能力。",
+      "en": "as a general principle, phasing in can spread timing risk; also check concentration and match the approach to personal goals and risk tolerance."
     },
     "prs": {
-      "zh": "🎯 PRS退休:退休储蓄着眼数十年,单日的收益率变动只是过程中的一个点;PRS每年最高RM3,000的税务减免也是长期储蓄的考量之一。",
-      "en": "🎯 PRS: retirement saving spans decades, so one day's yield move is a single point along the way; the PRS tax relief of up to RM3,000 a year is one consideration for long-term saving."
+      "zh": "退休储蓄着眼数十年,单日的收益率变动只是过程中的一个点;PRS每年最高RM3,000的税务减免也是长期储蓄的考量之一。",
+      "en": "retirement saving spans decades, so one day's yield move is a single point along the way; the PRS tax relief of up to RM3,000 a year is one consideration for long-term saving."
     },
+    "bond": { "zh": "美债收益率从高位回落，一般对债券价格较为有利，也有助于减轻新兴市场债券的外资流出压力。不过收益率仍在20多年高位，短期波动仍可能出现。", "en": "US yields easing from their highs are generally supportive for bond prices and can reduce outflow pressure on emerging-market bonds. Yields remain at 20-plus-year highs, though, so short-term swings are still possible." },
     "source": { "name": "Yahoo Finance", "url": "https://uk.finance.yahoo.com/news/major-us-stock-indexes-fared-202018293.html" }
   },
   {
@@ -34,17 +62,18 @@
       "en": "Per the Investing.com earnings-call summary, Micron's fiscal Q4 revenue was $54.23 billion, up 379% year on year, with adjusted EPS of $33.42; next-quarter revenue guidance of $61.5 billion compares with a $56.8 billion consensus. AI data centres need large amounts of memory chips, much as a skyscraper needs a lot of steel."
     },
     "dda": {
-      "zh": "🎯 DDA定期定额:热门主题的涨跌往往较大,定期投入的做法不需要预测哪个板块下一个领涨。",
-      "en": "🎯 DDA: popular themes can swing sharply; regular investing does not require predicting which sector leads next."
+      "zh": "热门主题的涨跌往往较大,定期投入的做法不需要预测哪个板块下一个领涨。",
+      "en": "popular themes can swing sharply; regular investing does not require predicting which sector leads next."
     },
     "lump": {
-      "zh": "🎯 一次性投入(Lump Sum):一般原则是可以考虑分阶段投入以分散时机风险,并检查单一主题的集中度,同时配合个人目标与风险承受能力。",
-      "en": "🎯 Lump Sum: as a general principle, phasing in can spread timing risk; also check concentration in any single theme and match the approach to personal goals and risk tolerance."
+      "zh": "一般原则是可以考虑分阶段投入以分散时机风险,并检查单一主题的集中度,同时配合个人目标与风险承受能力。",
+      "en": "as a general principle, phasing in can spread timing risk; also check concentration in any single theme and match the approach to personal goals and risk tolerance."
     },
     "prs": {
-      "zh": "🎯 PRS退休:退休基金通常分散于多种资产,科技主题只是其中一部分;PRS每年最高RM3,000的税务减免也是长期储蓄的考量之一。",
-      "en": "🎯 PRS: retirement funds are typically spread across many assets, with technology only one part; the PRS tax relief of up to RM3,000 a year is one consideration for long-term saving."
+      "zh": "退休基金通常分散于多种资产,科技主题只是其中一部分;PRS每年最高RM3,000的税务减免也是长期储蓄的考量之一。",
+      "en": "retirement funds are typically spread across many assets, with technology only one part; the PRS tax relief of up to RM3,000 a year is one consideration for long-term saving."
     },
+    "bond": { "zh": "芯片企业业绩亮眼对债券基金没有直接影响。科技股表现强劲时，债券基金可以帮助组合保持平衡。", "en": "Strong chip-company results do not directly affect bond funds. When tech stocks run strong, bond funds can help keep a portfolio balanced." },
     "source": { "name": "Investing.com", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-micron-tops-q4-2026-estimates-as-demand-stays-hot-93CH-4925992" }
   },
   {
@@ -55,20 +84,21 @@
     "title": { "zh": "Nike盈利胜预期但营收逊色,大中华区下滑26%", "en": "Nike beats on earnings but misses on revenue; Greater China down 26%" },
     "analysis": {
       "zh": "据搜索结果摘要,Nike调整后每股盈利0.48美元(预期0.44美元),营收112.1亿美元,低于预期的约113.5亿美元;大中华区营收下降26%,公司预计2027财年营收高个位数下降,盘后股价跌约3%。好成绩单不一定带来好股价,市场更看重前景。",
-      "en": "Per search-result summaries, Nike's adjusted EPS was $0.48 (vs $0.44 expected) and revenue $11.21 billion, below about $11.35 billion expected; Greater China revenue fell 26%, the company expects fiscal 2027 revenue to fall by a high-single-digit rate, and shares dropped about 3% in extended trading. A good report card does not guarantee a good share price; the market looks at the outlook."
+      "en": "Per search-result summaries, Nike's adjusted EPS was $0.48 (vs $0.44 expected) and revenue $11.21 billion, below about $11.35 billion expected; Greater China revenue fell 26%, the company expects fiscal 2027 revenue to fall by a high-single-digit rate, and shares dropped about 3% in extended trading. A good report card does not always mean a good share price; the market looks at the outlook."
     },
     "dda": {
-      "zh": "🎯 DDA定期定额:单一公司的消息难以预测,定期投入于分散的基金,不需要押注某一家公司的财报结果。",
-      "en": "🎯 DDA: single-company news is hard to predict; investing regularly in diversified funds does not require betting on any one company's results."
+      "zh": "单一公司的消息难以预测,定期投入于分散的基金,不需要押注某一家公司的财报结果。",
+      "en": "single-company news is hard to predict; investing regularly in diversified funds does not require betting on any one company's results."
     },
     "lump": {
-      "zh": "🎯 一次性投入(Lump Sum):一般原则是留意单一公司或单一地区的集中度,并配合个人目标与风险承受能力。",
-      "en": "🎯 Lump Sum: as a general principle, watch concentration in any single company or region, and match the approach to personal goals and risk tolerance."
+      "zh": "一般原则是留意单一公司或单一地区的集中度,并配合个人目标与风险承受能力。",
+      "en": "as a general principle, watch concentration in any single company or region, and match the approach to personal goals and risk tolerance."
     },
     "prs": {
-      "zh": "🎯 PRS退休:分散投资有助于降低单一公司消息的影响;PRS每年最高RM3,000的税务减免也是长期储蓄的考量之一。",
-      "en": "🎯 PRS: diversification can help soften the effect of any single company's news; the PRS tax relief of up to RM3,000 a year is one consideration for long-term saving."
+      "zh": "分散投资有助于降低单一公司消息的影响;PRS每年最高RM3,000的税务减免也是长期储蓄的考量之一。",
+      "en": "diversification can help soften the effect of any single company's news; the PRS tax relief of up to RM3,000 a year is one consideration for long-term saving."
     },
+    "bond": { "zh": "单一企业财报对债券基金影响有限。债券基金的表现主要取决于利率、通胀与发债机构的信用状况。", "en": "One company's earnings have limited impact on bond funds. Their performance depends mainly on interest rates, inflation and the credit health of the issuers." },
     "source": { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/01/nike-nke-q1-2027-earnings.html" }
   }
 ]

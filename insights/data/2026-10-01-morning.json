@@ -24,6 +24,7 @@
       "zh": "长期退休储蓄需要一套自动、不受情绪左右的机制。PRS每年最高可享RM3,000税务减免,是建立习惯的好起点。",
       "en": "Long-term retirement saving works best as an automatic habit that doesn't depend on mood. PRS offers up to RM3,000 in annual tax relief — a good place to start."
     },
+    "bond": { "zh": "科技企业业绩强劲对债券基金没有直接影响。科技股表现亮眼时，检视股债比例是否仍符合个人目标，是较稳健的做法。", "en": "Strong tech earnings do not directly affect bond funds. When tech stocks shine, checking whether your stock–bond mix still fits your goals is a prudent habit." },
     "source": {
       "name": "CNBC",
       "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html"
@@ -54,6 +55,7 @@
       "zh": "长期退休储蓄需要一套自动、不受情绪左右的机制。PRS每年最高可享RM3,000税务减免,是建立习惯的好起点。",
       "en": "Long-term retirement saving works best as an automatic habit that doesn't depend on mood. PRS offers up to RM3,000 in annual tax relief — a good place to start."
     },
+    "bond": { "zh": "通胀降温一般对债券有利，但收益率仍高，显示市场对利率前景仍有疑虑。大马债券更受国行利率与本地通胀影响，可以从中长期角度看待。", "en": "Cooling inflation is generally good for bonds, but yields stay high, showing doubts about the rate outlook. Malaysian bonds depend more on Bank Negara rates and local inflation and are best viewed over the medium to long term." },
     "source": {
       "name": "CNBC",
       "url": "https://www.cnbc.com/2026/09/30/inflation-moves-in-the-right-direction-but-markets-are-still-not-out-of-the-woods.html"
@@ -84,6 +86,7 @@
       "zh": "长期退休储蓄需要一套自动、不受情绪左右的机制。PRS每年最高可享RM3,000税务减免,是建立习惯的好起点。",
       "en": "Long-term retirement saving works best as an automatic habit that doesn't depend on mood. PRS offers up to RM3,000 in annual tax relief — a good place to start."
     },
+    "bond": { "zh": "加息押注降温，一般对债券价格较为有利。对大马债券基金而言，全球利率预期回稳，有助于减少外资流动带来的波动。", "en": "Cooling hike bets are generally supportive for bond prices. For Malaysian bond funds, steadier global rate expectations can reduce swings from foreign flows." },
     "source": {
       "name": "Yahoo Finance",
       "url": "https://finance.yahoo.com/economy/policy/articles/fed-raise-interest-rates-october-211951757.html"

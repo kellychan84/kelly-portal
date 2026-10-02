@@ -24,6 +24,7 @@
       "zh": "长期利率上升会影响债券价格，也提高未来的收益机会。退休组合的债券部分，值得按年龄定期检视。",
       "en": "Rising long-term rates hit bond prices but raise future income. Review the bond portion of your retirement mix regularly as you age."
     },
+    "bond": { "zh": "收益率因经济过热而上升，意味着利率可能较长时间维持高位，全球债券价格短期承压。较高的收益率也让债券基金未来的利息收入更具吸引力。", "en": "Yields rising because the economy is running hot suggests rates may stay high for longer, pressuring global bond prices in the short term. Higher yields also make bond funds' future income more attractive." },
     "source": { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-24-2026" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "这是一堂\"消息与价格\"的课：退休投资看的是长期结果，而不是追着每一则新闻调整。",
       "en": "A lesson in news versus price: retirement investing is about long-term outcomes, not reacting to every headline."
     },
+    "bond": { "zh": "油价不跌反涨，提醒我们通胀风险仍在，利率走向也因此难以预测。债券基金适合以长期收入为目标来持有。", "en": "Oil rising instead of falling is a reminder that inflation risk remains, which makes the rate path hard to predict. Bond funds are best held with long-term income as the goal." },
     "source": { "name": "Investing.com", "url": "https://www.investing.com/news/commodities-news/us-and-iran-discuss-phased-deal-to-reopen-hormuz-and-end-us-blockade-sources-say-4915884" }
   },
   {
@@ -78,6 +80,7 @@
       "zh": "退休后的开销以令吉为主。PRS 组合保持足够的令吉资产，并适度分散到海外。",
       "en": "Retirement spending is mostly in ringgit. Keep enough ringgit assets in your PRS mix, with sensible overseas diversification."
     },
+    "bond": { "zh": "令吉在全球收益率飙升下仍走强，反映市场对大马的信心，一般有利于外资持有大马债券。", "en": "The ringgit firming despite surging global yields reflects confidence in Malaysia, which generally supports foreign holdings of Malaysian bonds." },
     "source": { "name": "FX168", "url": "https://www.fx168news.com/quote/MYR" }
   }
 ]

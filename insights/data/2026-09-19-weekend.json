@@ -24,6 +24,7 @@
       "zh": "退休规划与传承规划是一体两面。PRS 可设定受益人，每年最高 RM3,000 税务减免，适合作为长期计划的一部分。",
       "en": "Retirement and legacy planning go hand in hand. PRS lets you nominate beneficiaries and offers up to RM3,000 in annual tax relief — a good part of a long-term plan."
     },
+    "bond": { "zh": "长期投资的道理同样适用于债券：债券基金的回报主要来自长期累积的利息，时间是重要的帮手。", "en": "The same long-term principle applies to bonds: bond-fund returns mainly come from interest accumulated over time, so time is an important ally." },
     "source": { "name": "CBS News", "url": "https://www.cbsnews.com/news/warren-buffett-stepping-aside-berkshire-hathaway-chairman/" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "长期退休组合可以参与科技成长，但应与其他行业和地区平衡，降低单一主题的周期风险。",
       "en": "A long-term retirement portfolio can share in tech growth, balanced with other sectors and regions to limit single-theme cycle risk."
     },
+    "bond": { "zh": "关于AI泡沫的讨论，提醒我们组合不宜过度集中在单一主题。债券基金与股票的风险来源不同，有助于分散配置。", "en": "Debate about an AI bubble is a reminder not to concentrate a portfolio in one theme. Bond funds carry different risks from equities and can help diversify." },
     "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/09/61878323/goldman-sachs-profits-bubble-cyclical-peak" }
   },
   {
@@ -78,6 +80,7 @@
       "zh": "退休计划要能承受突发事件。适度分散、预留应急资金，比预测局势更可靠。",
       "en": "A retirement plan should withstand shocks. Sensible diversification and an emergency buffer are more reliable than forecasting events."
     },
+    "bond": { "zh": "地缘冲突消息频繁时，市场情绪容易波动。大马债券基金主要受本地利率与通胀影响，可以在组合中起到相对稳定的作用。", "en": "When geopolitical headlines are frequent, sentiment can swing. Malaysian bond funds are driven mainly by local rates and inflation and can play a relatively steadying role in a portfolio." },
     "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/liveblog/2026/9/18/iran-war-live-trump-weighs-big-decision-on-iran-tanker-hit-in-hormuz" }
   }
 ]

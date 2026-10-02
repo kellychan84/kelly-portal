@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/site.css?v=13">
+<link rel="stylesheet" href="assets/site.css?v=14">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%239A7B3E'/><text x='32' y='44' font-size='34' text-anchor='middle' fill='white' font-family='Georgia'>K</text></svg>">
 </head>
 <body data-page="home" data-root="">
@@ -34,8 +34,8 @@
           <span class="en">Understand the markets daily, <em>plan your retirement</em> step by step</span>
         </h1>
         <p class="lead">
-          <span class="zh">早报、午后速递、周末版——用双语把全球新闻翻译成"跟你的钱有什么关系"。再用 3 分钟，算出你离理想退休还差多少。</span>
-          <span class="en">Morning briefs, afternoon checks and weekend recaps that turn global headlines into "what this means for your money". Then take 3 minutes to see how far you are from the retirement you want.</span>
+          <span class="zh">每天早上、下午与周末更新的市场洞察——用双语把全球新闻翻译成"跟你的钱有什么关系"。再用 3 分钟，算出你离理想退休还差多少。</span>
+          <span class="en">Market insights updated every morning, afternoon and weekend, turning global headlines into "what this means for your money". Then take 3 minutes to see how far you are from the retirement you want.</span>
         </p>
         <div class="hero-ctas">
           <a class="btn btn-primary" href="calculator.html"><span class="zh">免费计算退休缺口</span><span class="en">Calculate my retirement gap</span></a>
@@ -48,10 +48,10 @@
         </div>
       </div>
       <div class="hero-card" id="latestCard" aria-live="polite">
-        <div class="hc-eyebrow"><span class="zh">最新简报</span><span class="en">Latest brief</span></div>
+        <div class="hc-eyebrow"><span class="zh">今日速览</span><span class="en">Market snapshot</span></div>
         <div class="hc-title" id="latestTitle">…</div>
         <div class="hc-meta" id="latestMeta"></div>
-        <a class="hc-link" id="latestLink" href="briefs/index.html"><span class="zh">立即阅读 →</span><span class="en">Read now →</span></a>
+        <a class="hc-link" id="latestLink" href="insights.html"><span class="zh">立即阅读 →</span><span class="en">Read now →</span></a>
       </div>
     </div>
   </section>
@@ -63,7 +63,7 @@
         <div>
           <p class="section-eyebrow"><span class="zh">市场洞察</span><span class="en">Market Insights</span></p>
           <h2 class="section-title"><span class="zh">今日重点</span><span class="en">Today's key stories</span></h2>
-          <p class="section-lead"><span class="zh">发生了什么、为什么重要，以及对定期定额、单笔投资与 PRS 的思考方向。</span><span class="en">What happened, why it matters, and what it means for regular investing, lump sums and PRS.</span></p>
+          <p class="section-lead"><span class="zh">发生了什么、为什么重要，以及对长期投资、退休规划、单笔投资与债券基金的思考方向。</span><span class="en">What happened, why it matters, and what it means for long-term investing, retirement, lump sums and bond funds.</span></p>
         </div>
         <a class="btn btn-ghost" href="insights.html"><span class="zh">全部洞察</span><span class="en">All insights</span></a>
       </div>
@@ -136,29 +136,25 @@
 <div id="site-footer"></div>
 
 <script src="assets/config.js?v=5"></script>
-<script src="briefs/briefs.js"></script>
-<script src="assets/briefs-ui.js"></script>
 <script src="insights/insights.js"></script>
-<script src="assets/insights-ui.js?v=4"></script>
-<script src="assets/site.js?v=6"></script>
+<script src="assets/insights-ui.js?v=5"></script>
+<script src="assets/site.js?v=7"></script>
 <script>
   (function () {
-    const list = kpInsights.all();
-    if (!list.length) { document.getElementById('insightsSection').remove(); return; }
-    document.getElementById('recentInsights').innerHTML = list.slice(0, 3).map(i => kpInsights.mini(i, '')).join('');
-  })();
-</script>
-<script>
-  (function () {
-    const list = kpBriefs.all();
-    if (!list.length) { document.getElementById('latestCard').remove(); return; }
-    const b = list[0], s = kpBriefs.SLOT[b.slot], d = kpBriefs.dateParts(b.date);
+    const news = kpInsights.news();
+    if (!news.length) { document.getElementById('insightsSection').remove(); document.getElementById('latestCard').remove(); return; }
+    document.getElementById('recentInsights').innerHTML = news.slice(0, 3).map(i => kpInsights.mini(i, '')).join('');
+
+    // hero card: the latest 今日速览 snapshot, or the newest story if there is none yet
+    const top = kpInsights.latestSummary() || news[0];
     const esc = t => String(t || '').replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+    const d = new Date(top.time);
     document.getElementById('latestTitle').innerHTML =
-      `<span class="zh">${esc(b.headlineZh || b.headlineEn)}</span><span class="en">${esc(b.headlineEn || b.headlineZh)}</span>`;
+      `<span class="zh">${esc(top.title.zh || top.title.en)}</span><span class="en">${esc(top.title.en || top.title.zh)}</span>`;
     document.getElementById('latestMeta').innerHTML =
-      `<span class="zh">${s.zh} · ${d.zh}</span><span class="en">${s.en} · ${d.en}</span>`;
-    document.getElementById('latestLink').href = kpBriefs.url(b, '');
+      `<span class="zh">${d.toLocaleDateString('zh-CN', { timeZone: 'Asia/Kuala_Lumpur', month: 'long', day: 'numeric', weekday: 'short' })}</span>` +
+      `<span class="en">${d.toLocaleDateString('en-GB', { timeZone: 'Asia/Kuala_Lumpur', weekday: 'short', day: 'numeric', month: 'short' })}</span>`;
+    document.getElementById('latestLink').href = 'insights.html#' + encodeURIComponent(top.id);
   })();
 </script>
 </body>

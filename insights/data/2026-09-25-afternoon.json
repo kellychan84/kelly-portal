@@ -24,6 +24,7 @@
       "zh": "利率周期会过去，退休计划却要持续几十年。维持供款，比等待\"利率见顶\"更重要。",
       "en": "Rate cycles pass; retirement plans run for decades. Staying consistent with contributions matters more than waiting for rates to peak."
     },
+    "bond": { "zh": "加息押注升温时，债券价格通常承压。对大马债券基金而言，国行的利率决策比美联储更直接，可以留意本地政策动向。", "en": "When rate-hike bets rise, bond prices usually come under pressure. For Malaysian bond funds, Bank Negara's decisions matter more directly than the Fed's, so local policy is worth watching." },
     "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "AI 改变消费模式是长期趋势，退休组合可以适度参与，但仍以分散为本。",
       "en": "AI reshaping consumption is a long-term trend; retirement portfolios can take part modestly, with diversification as the base."
     },
+    "bond": { "zh": "企业合作消息对债券基金没有直接影响。债券基金的表现主要取决于利率、通胀与发债机构的信用状况。", "en": "Corporate partnership news does not directly affect bond funds. Their performance depends mainly on interest rates, inflation and the credit health of the issuers." },
     "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/09/61963074/mark-zuckerberg-muse-free-walmart-sephora-best-buy-ai-shopping" }
   }
 ]

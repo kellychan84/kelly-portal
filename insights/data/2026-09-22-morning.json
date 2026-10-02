@@ -24,6 +24,7 @@
       "zh": "科技板块的强势值得参与，但退休组合更需要稳定性。确保成长资产与稳健资产之间保持平衡。",
       "en": "Tech's strength is worth participating in, but retirement portfolios need stability too. Keep growth and defensive assets in balance."
     },
+    "bond": { "zh": "科技股强劲上涨时，有些人会减少债券配置去追涨。保持股债的平衡，有助于在市场回调时减少冲击。", "en": "When tech stocks surge, some people cut bonds to chase gains. Keeping a stock–bond balance can soften the impact when markets pull back." },
     "source": { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-21-2026" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "油价回落有助缓解通胀，对退休规划是好事；但长期计划仍应为能源价格反复做好准备。",
       "en": "Falling oil helps on inflation, which is good for retirement planning — but long-term plans should still allow for energy prices swinging back."
     },
+    "bond": { "zh": "外交消息令油价走软，有助于减轻通胀压力，一般对债券有利。但局势随时可能变化，债券基金宜按计划持有，而非追随消息。", "en": "Diplomatic headlines softening oil help ease inflation pressure, which is generally good for bonds. The situation can change at any time, so bond funds are best held to plan rather than traded on headlines." },
     "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-decision-tehran-warns-of-expansion/" }
   },
   {
@@ -78,6 +80,7 @@
       "zh": "本地市场是退休组合的重要基石之一。持续 PRS 供款，并善用每年最高 RM3,000 税务减免。",
       "en": "The local market is an important building block for retirement. Keep up PRS contributions and use the up to RM3,000 annual tax relief."
     },
+    "bond": { "zh": "令吉走强与本地市场稳定，一般有助于吸引外资投入大马债券，对本地债券基金是较正面的背景。", "en": "A firmer ringgit and a stable local market generally help attract foreign investment into Malaysian bonds, a relatively positive backdrop for local bond funds." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/stock-market" }
   }
 ]

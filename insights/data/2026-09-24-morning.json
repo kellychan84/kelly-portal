@@ -24,6 +24,7 @@
       "zh": "高收益率环境下，固定收益类资产的吸引力上升。退休组合中的股债比例，值得趁机检视。",
       "en": "High yields make fixed income more attractive. It's a good moment to review the equity–bond balance in your retirement portfolio."
     },
+    "bond": { "zh": "美债收益率大幅上升时，全球债券价格普遍下跌，大马债券也可能受外资流动影响。不过收益率上升也意味着新投入的资金未来可获得较高的利息。", "en": "When US yields jump, global bond prices generally fall, and Malaysian bonds can be affected through foreign flows. Higher yields also mean new money can earn more interest in the future." },
     "source": { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-23-2026" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "退休计划不宜押注任何一方的谈判结果。分散配置能兼顾\"谈成\"与\"谈不成\"两种情景。",
       "en": "Retirement plans shouldn't bet on how talks end. Diversification covers both the deal and no-deal scenarios."
     },
+    "bond": { "zh": "地缘事件反复，令油价与通胀预期难以预测。大马债券基金主要受本地利率影响，适合作为组合中相对稳定的部分。", "en": "Recurring geopolitical events make oil and inflation expectations hard to predict. Malaysian bond funds are driven mainly by local rates and can be a relatively stable part of a portfolio." },
     "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/9/23/us-iran-hold-mediated-unga-talks-on-ending-war-opening-strait-of-hormuz" }
   },
   {
@@ -78,6 +80,7 @@
       "zh": "本地与海外资产在不同环境下各有表现。PRS 组合保持两者平衡，并善用每年最高 RM3,000 税务减免。",
       "en": "Local and overseas assets each shine in different conditions. Keep your PRS balanced between them and use the up to RM3,000 annual tax relief."
     },
+    "bond": { "zh": "令吉年内仍升值，反映外资对大马的信心，这一般有利于本地债券市场。不过美国加息预期升温时，短期仍可能出现波动。", "en": "The ringgit's gain this year reflects foreign confidence in Malaysia, which generally supports the local bond market. Short-term swings remain possible when US rate-hike expectations rise." },
     "source": { "name": "FX168", "url": "https://www.fx168news.com/express/fastnews/1434861" }
   }
 ]

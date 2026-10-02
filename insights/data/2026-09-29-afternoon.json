@@ -24,6 +24,7 @@
       "zh": "局势时紧时松，退休计划更需要稳定的纪律：定期供款、定期检视。",
       "en": "As tensions rise and ease, retirement plans need steady discipline: regular contributions and regular reviews."
     },
+    "bond": { "zh": "谈判出现积极信号，若油价因此回稳，有助于缓和通胀，一般对债券较为有利。不过时序仍有分歧，不宜过早下定论。", "en": "Constructive signals from talks, if they steady oil, can help ease inflation, which is generally good for bonds. Timelines still differ, so it is too early to draw conclusions." },
     "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/9/29/irans-araghchi-meets-qatari-mediators-as-us-insists-on-nuclear-talks" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "退休资产不宜押注单一财报。通过分散基金参与科技成长，更符合长期目标。",
       "en": "Retirement money shouldn't ride on one earnings report. Participating in tech growth through diversified funds fits long-term goals better."
     },
+    "bond": { "zh": "个股财报预期对债券基金影响有限。在市场聚焦热门股时，债券基金可以为组合提供稳定的一面。", "en": "Expectations for one company's earnings have limited impact on bond funds. While markets focus on hot stocks, bond funds can add stability to a portfolio." },
     "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/micron-earnings-preview-analysts-see-022234081.html" }
   }
 ]

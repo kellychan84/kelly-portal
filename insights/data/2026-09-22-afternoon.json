@@ -24,6 +24,7 @@
       "zh": "通胀压力放缓对退休族的购买力有利，但退休规划仍应以长期平均通胀来估算。",
       "en": "Easing inflation helps retirees' purchasing power, but retirement plans should still be built on long-run average inflation."
     },
+    "bond": { "zh": "油价大幅回落，有助于缓和全球通胀预期，一般对债券市场较为正面。但正如分析师所说，局势难以预测，不宜据此做短期判断。", "en": "A sharp fall in oil helps ease global inflation expectations, which is generally positive for bond markets. But as the strategist notes, the situation is hard to predict, so it is not a basis for short-term calls." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "对退休储蓄来说，与其追踪每周利率概率，不如确保股、债、现金比例符合自己的年龄与目标。",
       "en": "For retirement savings, rather than tracking weekly rate odds, make sure your equity–bond–cash mix fits your age and goals."
     },
+    "bond": { "zh": "联储决策高度依赖数据，债券价格也会随每周数据起伏。债券基金的长期回报主要来自利息收入，不必被每周的预期变化牵着走。", "en": "With the Fed heavily data-dependent, bond prices move with each week's numbers. Bond-fund returns over time come mainly from interest income, so there is no need to be pulled around by weekly shifts in expectations." },
     "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
   }
 ]

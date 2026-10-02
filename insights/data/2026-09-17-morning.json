@@ -24,6 +24,7 @@
       "zh": "利率上升会影响股债估值，但对长期退休储蓄而言，持续供款与分散配置仍是最稳妥的基础。",
       "en": "Rising rates affect stock and bond valuations, but for long-term retirement saving, steady contributions and diversification remain the foundation."
     },
+    "bond": { "zh": "美联储加息后，债券市场往往需要时间消化。大马债券基金的表现更取决于国行是否跟随调整利率，以及令吉与外资流向，可以从中长期角度看待。", "en": "After a Fed hike, bond markets usually take time to adjust. Malaysian bond funds depend more on whether Bank Negara follows, plus the ringgit and foreign flows, so they are best viewed over the medium to long term." },
     "source": { "name": "FX168", "url": "https://www.fx168news.com/article/%E7%BE%8E%E8%81%94%E5%82%A8%E5%8A%A0%E6%81%AF-1093436" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "PRS 可以同时配置本地与海外基金，每年最高 RM3,000 税务减免，让退休储蓄更有效率。",
       "en": "PRS can hold both local and overseas funds, with up to RM3,000 in annual tax relief to make retirement saving more efficient."
     },
+    "bond": { "zh": "国行维持OPR不变，本地利率环境相对稳定，这对大马债券价格是较平稳的背景。债券基金在投资组合中，通常扮演稳定收入与平衡波动的角色。", "en": "With Bank Negara holding the OPR steady, the local rate backdrop is relatively stable, which is a calmer setting for Malaysian bond prices. In a portfolio, bond funds usually provide steadier income and help balance volatility." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/interest-rate" }
   },
   {
@@ -78,6 +80,7 @@
       "zh": "退休组合可以包含成长主题，但不宜押注单一赛道。行业分散能降低个别公司爆雷的冲击。",
       "en": "A retirement portfolio can include growth themes, but shouldn't bet on a single one. Sector diversification cushions any single company's surprise."
     },
+    "bond": { "zh": "科技股的波动对债券基金没有直接影响。股市震荡时，持有一部分债券基金，有助于让整体组合的起伏较为温和。", "en": "Tech-stock swings have little direct effect on bond funds. When equities are volatile, holding some bond funds can help make the overall portfolio's ups and downs gentler." },
     "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/equities/26/09/61584217/software-stocks-crash-despite-earnings-beats-fed-hike-odds-66-percent-markets-wednesday" }
   }
 ]

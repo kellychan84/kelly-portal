@@ -24,6 +24,7 @@
       "zh": "\"警钟\"的意义在于检视，而不是恐慌。这是检视退休组合风险水平是否仍适合你的好时机。",
       "en": "A wake-up call is a prompt to review, not to panic — a good time to check your retirement portfolio's risk still suits you."
     },
+    "bond": { "zh": "美债收益率创近20年高点，全球债券价格承压，但同时也意味着债券的利息回报回到较有吸引力的水平。大马债券基金可从中长期收入的角度看待。", "en": "US yields at near 20-year highs pressure global bond prices, but they also bring bond income back to more attractive levels. Malaysian bond funds can be viewed from a medium- to long-term income angle." },
     "source": { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-25-2026" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "PRS 可以同时持有本地与海外基金，每年最高 RM3,000 税务减免，是建立稳健退休组合的好工具。",
       "en": "PRS can hold both local and overseas funds, with up to RM3,000 in annual tax relief — a good tool for a steady retirement portfolio."
     },
+    "bond": { "zh": "令吉走强与本地市场稳定，是大马债券市场较正面的背景。债券基金在组合中可以提供相对稳定的收入。", "en": "A firmer ringgit and a steady local market are a relatively positive backdrop for Malaysian bonds. Bond funds can provide relatively steady income within a portfolio." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/stock-market" }
   },
   {
@@ -78,6 +80,7 @@
       "zh": "长期退休组合应能承受中美关系的反复，区域与行业分散是关键。",
       "en": "A long-term retirement portfolio should withstand swings in US–China relations; regional and sector diversification is key."
     },
+    "bond": { "zh": "中美会谈取得部分进展，有助于稳定区域市场情绪，一般对大马债券的外资流向较为有利。", "en": "Partial progress in US–China talks helps steady regional sentiment, which is generally supportive of foreign flows into Malaysian bonds." },
     "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/trump-china-xi-jinping-state-visit-dinner-tariffs-ai/" }
   }
 ]

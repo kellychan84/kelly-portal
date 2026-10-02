@@ -76,7 +76,8 @@ if (Test-Path $dataDir) {
         try {
             # PowerShell 5.1 emits a JSON array as ONE object; ForEach-Object unrolls it into its cards
             $arr = @(($raw | ConvertFrom-Json) | ForEach-Object { $_ })
-            $bad = @($arr | Where-Object { -not $_.id -or -not $_.time -or -not $_.title.zh -or -not $_.source.url })
+            # 今日速览 summaries (kind = summary) carry a sources list instead of one source.url
+            $bad = @($arr | Where-Object { -not $_.id -or -not $_.time -or -not $_.title.zh -or ($_.kind -ne 'summary' -and -not $_.source.url) })
             if ($bad.Count) { Write-Warning "$($_.Name): $($bad.Count) card(s) missing id/time/title.zh/source.url - skipped file"; return }
             $parts += $raw; $count += $arr.Count
         } catch {

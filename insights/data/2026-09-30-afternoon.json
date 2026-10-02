@@ -24,6 +24,7 @@
       "zh": "利率剧本难以预测，正是退休组合应分散在不同资产类别的理由，而不是押注某一种利率走向。",
       "en": "Rate paths are hard to call, which is exactly why a retirement portfolio should be spread across asset classes rather than betting on one scenario."
     },
+    "bond": { "zh": "加息概率明显下降，一般对债券价格较为有利。不过市场预期变化很快，债券基金的回报宜以较长时间来衡量。", "en": "A clear drop in rate-hike odds is generally supportive for bond prices. Market expectations shift quickly, though, so bond-fund returns are best judged over time." },
     "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "退休计划看的是十年、二十年。短期地缘事件值得关注，但不应打乱长期的储蓄纪律。",
       "en": "Retirement plans run for decades. Short-term geopolitical events are worth watching, but shouldn't derail long-term saving discipline."
     },
+    "bond": { "zh": "制裁消息可能让油价与通胀预期再起波动，债券价格也会受牵动。大马债券基金主要受本地利率影响，可以按计划持有。", "en": "Sanctions news can stir oil and inflation expectations again, and bond prices may move with them. Malaysian bond funds are driven mainly by local rates and can be held to plan." },
     "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-strait-of-hormuz/" }
   }
 ]

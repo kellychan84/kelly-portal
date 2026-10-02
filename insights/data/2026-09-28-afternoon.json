@@ -24,6 +24,7 @@
       "zh": "对退休族来说，较高的收益率意味着未来收益来源更多元。组合中的固定收益比例可随年龄逐步提高。",
       "en": "For retirees, higher yields mean more varied future income. The fixed-income share can rise gradually with age."
     },
+    "bond": { "zh": "长期美债收益率逼近20年高点，显示市场预期利率将维持较高水平，全球债券价格承压。大马债券更受国行政策影响，可以从中长期角度看待。", "en": "Long-term US yields near 20-year highs show markets expect rates to stay high, pressuring global bond prices. Malaysian bonds depend more on Bank Negara policy and are best viewed over the medium to long term." },
     "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "退休规划应把通胀视为长期因素。适度的抗通胀配置，能帮助守住退休后的生活水平。",
       "en": "Retirement plans should treat inflation as a long-term factor. Some inflation-resilient holdings help protect your standard of living later."
     },
+    "bond": { "zh": "油价上涨增加通胀压力，可能让利率预期上升，对债券价格不利。债券基金的利息收入则是在价格波动之外的稳定回报来源。", "en": "Rising oil adds inflation pressure and can lift rate expectations, which is unfavourable for bond prices. Bond funds' interest income remains a steady source of return beyond price swings." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil" }
   }
 ]

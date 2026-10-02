@@ -24,6 +24,7 @@
       "zh": "当大家对未来收入越来越没把握，退休储蓄更需要一套不受情绪左右的自动机制。PRS 每年最高可享 RM3,000 税务减免，是建立这个习惯的好起点。",
       "en": "When people feel less sure about future income, retirement saving needs an automatic habit that doesn't depend on mood. PRS offers up to RM3,000 in annual tax relief — a good place to start."
     },
+    "bond": { "zh": "消费者信心下滑、加息概率降低，一般对债券价格较为有利。对大马债券而言，全球利率预期回落，有助于减轻外资流出的压力。", "en": "Weaker consumer confidence and lower rate-hike odds are generally supportive for bond prices. For Malaysian bonds, easing global rate expectations can reduce pressure from foreign outflows." },
     "source": { "name": "Investing.com", "url": "https://www.investing.com/news/economic-indicators/us-consumer-confidence-dives-to-more-than-12year-low-in-september-4923037" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "长期退休组合可以包含成长型资产，但区域与行业分散同样重要——今天日韩涨、香港跌，就是最好的提醒。",
       "en": "A long-term retirement mix can include growth assets, but spreading across regions and sectors matters just as much — today's split between Tokyo/Seoul and Hong Kong is a good reminder."
     },
+    "bond": { "zh": "亚洲芯片股领涨对债券基金没有直接影响。股市热门时，保持一定的债券配置有助于组合平衡。", "en": "Asian chip stocks leading gains do not directly affect bond funds. When equities are hot, keeping some bond allocation helps keep a portfolio balanced." },
     "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/amp/news/2026/9/29/trump-top-tech-firms-sign-accord-to-self-police-ai-development" }
   },
   {
@@ -78,6 +80,7 @@
       "zh": "油价降温有助控制通胀，但地缘局势未解。退休组合保持适度分散，能减轻单一事件对长期计划的冲击。",
       "en": "Cooler oil helps on inflation, but the standoff isn't resolved. Keeping a retirement portfolio diversified softens the impact of any single event on your long-term plan."
     },
+    "bond": { "zh": "油价走软有助于缓和通胀，一般对债券市场较为友善。不过谈判仍在拉锯，油价仍可能反复。", "en": "Softer oil helps ease inflation, which is generally friendly for bond markets. Talks are still dragging on, so oil can still swing." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil" }
   },
   {
@@ -105,6 +108,7 @@
       "zh": "退休资产应以\"持有多年\"的心态来配置，而不是赌单日涨跌——美光自己的历史数据就是一堂活生生的课。",
       "en": "Retirement money is best positioned with a multi-year mindset, not a bet on one day's move — Micron's own history is the lesson."
     },
+    "bond": { "zh": "个股财报当晚的涨跌难以预测，对债券基金没有直接影响。债券基金的价值在于提供相对稳定的收入与平衡。", "en": "A stock's move on earnings night is hard to predict and does not directly affect bond funds. Their value lies in relatively steady income and balance." },
     "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/09/62048428/micron-earnings-buy-mu-stock-before-results-history" }
   },
   {
@@ -132,6 +136,7 @@
       "zh": "令吉走强的窗口，是检视退休组合海外比例的好时机——不必大动作，但值得和顾问聊聊汇率对整体组合的影响。",
       "en": "A firmer ringgit is a good moment to review the overseas share of your retirement portfolio — not a reason for a big move, but worth a chat with your advisor."
     },
+    "bond": { "zh": "综指稳步上升、令吉温和走强，是大马债券市场较正面的背景，一般有利于外资持有本地债券。", "en": "A steadily rising index and a mildly firmer ringgit are a relatively positive backdrop for Malaysian bonds, generally supporting foreign holdings of local bonds." },
     "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
   }
 ]

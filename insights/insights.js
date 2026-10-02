@@ -2,6 +2,33 @@
 window.INSIGHTS = [].concat(
 [
   {
+    "id": "2026-10-02-m0",
+    "kind": "summary",
+    "time": "2026-10-02T09:00:00+08:00",
+    "tags": [],
+    "title": { "zh": "美股10月首日小幅收高,美债收益率从高位回落;今晚美国就业报告", "en": "Wall Street edges up on October's first day as yields ease; US jobs report tonight" },
+    "figures": [
+      { "label": { "zh": "标普500", "en": "S&P 500" }, "value": "7,666.45", "change": "+0.19%", "dir": "up" },
+      { "label": { "zh": "道琼斯", "en": "Dow Jones" }, "value": "50,926.56", "change": "+0.04%", "dir": "up" },
+      { "label": { "zh": "纳斯达克综合", "en": "Nasdaq Composite" }, "value": "26,871.60", "change": "+0.04%", "dir": "up" },
+      { "label": { "zh": "10年期美债收益率", "en": "10-yr Treasury yield" }, "value": "≈5.24%", "change": { "zh": "盘中一度升至5.3%", "en": "Touched 5.3% intraday" }, "dir": "" }
+    ],
+    "points": [
+      { "zh": "美股10月首个交易日小幅收高,美债收益率从逾20年高位回落,芯片股领涨。", "en": "Wall Street closed slightly higher on October's first trading day as Treasury yields eased from 20-plus-year highs; chip stocks led." },
+      { "zh": "美光营收542.3亿美元,下季指引615亿美元高于预期;Nike盈利胜预期但营收逊色,盘后跌约3%。", "en": "Micron posted $54.23B revenue with $61.5B guidance above expectations; Nike beat on earnings but missed on revenue and fell about 3% after hours." },
+      { "zh": "美国9月就业报告今晚(马来西亚时间)公布,可能带来波动。", "en": "The US September jobs report is out tonight (Malaysia time) and may bring volatility." }
+    ],
+    "takeaway": {
+      "zh": "昨天收益率先升后落,指数只是小幅波动——最吵的头条不一定最重要。先看自己的目标和时间线,再看市场;今晚的就业报告可能带来波动,按计划定期投入、保持分散,比猜测数据更实际。",
+      "en": "Yields rose then eased yesterday while indices barely moved; the loudest headline is not always the most important. Start with your goals and timeline, then the market. Tonight's jobs report may bring volatility, and investing regularly on a plan while staying diversified is more practical than guessing the data."
+    },
+    "sources": [
+      { "name": "Yahoo Finance", "url": "https://uk.finance.yahoo.com/news/major-us-stock-indexes-fared-202018293.html" },
+      { "name": "Investing.com", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-micron-tops-q4-2026-estimates-as-demand-stays-hot-93CH-4925992" },
+      { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/01/nike-nke-q1-2027-earnings.html" }
+    ]
+  },
+  {
     "id": "2026-10-02-m1",
     "time": "2026-10-02T09:00:00+08:00",
     "brief": "2026-10-02-morning.html",
@@ -12,17 +39,18 @@ window.INSIGHTS = [].concat(
       "en": "Per a search-result summary, the S&P 500 closed at 7,666.45 (+0.19%), the Dow +0.04% and the Nasdaq +0.04%. The 10-year Treasury yield touched 5.3% intraday before easing to about 5.24%. Yields act like the market's baseline interest rate; when they retreat, pressure on stocks eases, but they remain at 20-plus-year highs, so markets stay sensitive."
     },
     "dda": {
-      "zh": "🎯 DDA定期定额:当收益率与指数每天都在变动时,定期投入的做法不需要判断入场时机,关键是纪律与是否符合个人目标。",
-      "en": "🎯 DDA: when yields and indices move every day, regular investing removes the need to time an entry; what matters is discipline and fit with personal goals."
+      "zh": "当收益率与指数每天都在变动时,定期投入的做法不需要判断入场时机,关键是纪律与是否符合个人目标。",
+      "en": "when yields and indices move every day, regular investing removes the need to time an entry; what matters is discipline and fit with personal goals."
     },
     "lump": {
-      "zh": "🎯 一次性投入(Lump Sum):一般原则是可以考虑分阶段投入以分散时机风险,并检查集中度,同时配合个人目标与风险承受能力。",
-      "en": "🎯 Lump Sum: as a general principle, phasing in can spread timing risk; also check concentration and match the approach to personal goals and risk tolerance."
+      "zh": "一般原则是可以考虑分阶段投入以分散时机风险,并检查集中度,同时配合个人目标与风险承受能力。",
+      "en": "as a general principle, phasing in can spread timing risk; also check concentration and match the approach to personal goals and risk tolerance."
     },
     "prs": {
-      "zh": "🎯 PRS退休:退休储蓄着眼数十年,单日的收益率变动只是过程中的一个点;PRS每年最高RM3,000的税务减免也是长期储蓄的考量之一。",
-      "en": "🎯 PRS: retirement saving spans decades, so one day's yield move is a single point along the way; the PRS tax relief of up to RM3,000 a year is one consideration for long-term saving."
+      "zh": "退休储蓄着眼数十年,单日的收益率变动只是过程中的一个点;PRS每年最高RM3,000的税务减免也是长期储蓄的考量之一。",
+      "en": "retirement saving spans decades, so one day's yield move is a single point along the way; the PRS tax relief of up to RM3,000 a year is one consideration for long-term saving."
     },
+    "bond": { "zh": "美债收益率从高位回落，一般对债券价格较为有利，也有助于减轻新兴市场债券的外资流出压力。不过收益率仍在20多年高位，短期波动仍可能出现。", "en": "US yields easing from their highs are generally supportive for bond prices and can reduce outflow pressure on emerging-market bonds. Yields remain at 20-plus-year highs, though, so short-term swings are still possible." },
     "source": { "name": "Yahoo Finance", "url": "https://uk.finance.yahoo.com/news/major-us-stock-indexes-fared-202018293.html" }
   },
   {
@@ -36,17 +64,18 @@ window.INSIGHTS = [].concat(
       "en": "Per the Investing.com earnings-call summary, Micron's fiscal Q4 revenue was $54.23 billion, up 379% year on year, with adjusted EPS of $33.42; next-quarter revenue guidance of $61.5 billion compares with a $56.8 billion consensus. AI data centres need large amounts of memory chips, much as a skyscraper needs a lot of steel."
     },
     "dda": {
-      "zh": "🎯 DDA定期定额:热门主题的涨跌往往较大,定期投入的做法不需要预测哪个板块下一个领涨。",
-      "en": "🎯 DDA: popular themes can swing sharply; regular investing does not require predicting which sector leads next."
+      "zh": "热门主题的涨跌往往较大,定期投入的做法不需要预测哪个板块下一个领涨。",
+      "en": "popular themes can swing sharply; regular investing does not require predicting which sector leads next."
     },
     "lump": {
-      "zh": "🎯 一次性投入(Lump Sum):一般原则是可以考虑分阶段投入以分散时机风险,并检查单一主题的集中度,同时配合个人目标与风险承受能力。",
-      "en": "🎯 Lump Sum: as a general principle, phasing in can spread timing risk; also check concentration in any single theme and match the approach to personal goals and risk tolerance."
+      "zh": "一般原则是可以考虑分阶段投入以分散时机风险,并检查单一主题的集中度,同时配合个人目标与风险承受能力。",
+      "en": "as a general principle, phasing in can spread timing risk; also check concentration in any single theme and match the approach to personal goals and risk tolerance."
     },
     "prs": {
-      "zh": "🎯 PRS退休:退休基金通常分散于多种资产,科技主题只是其中一部分;PRS每年最高RM3,000的税务减免也是长期储蓄的考量之一。",
-      "en": "🎯 PRS: retirement funds are typically spread across many assets, with technology only one part; the PRS tax relief of up to RM3,000 a year is one consideration for long-term saving."
+      "zh": "退休基金通常分散于多种资产,科技主题只是其中一部分;PRS每年最高RM3,000的税务减免也是长期储蓄的考量之一。",
+      "en": "retirement funds are typically spread across many assets, with technology only one part; the PRS tax relief of up to RM3,000 a year is one consideration for long-term saving."
     },
+    "bond": { "zh": "芯片企业业绩亮眼对债券基金没有直接影响。科技股表现强劲时，债券基金可以帮助组合保持平衡。", "en": "Strong chip-company results do not directly affect bond funds. When tech stocks run strong, bond funds can help keep a portfolio balanced." },
     "source": { "name": "Investing.com", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-micron-tops-q4-2026-estimates-as-demand-stays-hot-93CH-4925992" }
   },
   {
@@ -57,20 +86,21 @@ window.INSIGHTS = [].concat(
     "title": { "zh": "Nike盈利胜预期但营收逊色,大中华区下滑26%", "en": "Nike beats on earnings but misses on revenue; Greater China down 26%" },
     "analysis": {
       "zh": "据搜索结果摘要,Nike调整后每股盈利0.48美元(预期0.44美元),营收112.1亿美元,低于预期的约113.5亿美元;大中华区营收下降26%,公司预计2027财年营收高个位数下降,盘后股价跌约3%。好成绩单不一定带来好股价,市场更看重前景。",
-      "en": "Per search-result summaries, Nike's adjusted EPS was $0.48 (vs $0.44 expected) and revenue $11.21 billion, below about $11.35 billion expected; Greater China revenue fell 26%, the company expects fiscal 2027 revenue to fall by a high-single-digit rate, and shares dropped about 3% in extended trading. A good report card does not guarantee a good share price; the market looks at the outlook."
+      "en": "Per search-result summaries, Nike's adjusted EPS was $0.48 (vs $0.44 expected) and revenue $11.21 billion, below about $11.35 billion expected; Greater China revenue fell 26%, the company expects fiscal 2027 revenue to fall by a high-single-digit rate, and shares dropped about 3% in extended trading. A good report card does not always mean a good share price; the market looks at the outlook."
     },
     "dda": {
-      "zh": "🎯 DDA定期定额:单一公司的消息难以预测,定期投入于分散的基金,不需要押注某一家公司的财报结果。",
-      "en": "🎯 DDA: single-company news is hard to predict; investing regularly in diversified funds does not require betting on any one company's results."
+      "zh": "单一公司的消息难以预测,定期投入于分散的基金,不需要押注某一家公司的财报结果。",
+      "en": "single-company news is hard to predict; investing regularly in diversified funds does not require betting on any one company's results."
     },
     "lump": {
-      "zh": "🎯 一次性投入(Lump Sum):一般原则是留意单一公司或单一地区的集中度,并配合个人目标与风险承受能力。",
-      "en": "🎯 Lump Sum: as a general principle, watch concentration in any single company or region, and match the approach to personal goals and risk tolerance."
+      "zh": "一般原则是留意单一公司或单一地区的集中度,并配合个人目标与风险承受能力。",
+      "en": "as a general principle, watch concentration in any single company or region, and match the approach to personal goals and risk tolerance."
     },
     "prs": {
-      "zh": "🎯 PRS退休:分散投资有助于降低单一公司消息的影响;PRS每年最高RM3,000的税务减免也是长期储蓄的考量之一。",
-      "en": "🎯 PRS: diversification can help soften the effect of any single company's news; the PRS tax relief of up to RM3,000 a year is one consideration for long-term saving."
+      "zh": "分散投资有助于降低单一公司消息的影响;PRS每年最高RM3,000的税务减免也是长期储蓄的考量之一。",
+      "en": "diversification can help soften the effect of any single company's news; the PRS tax relief of up to RM3,000 a year is one consideration for long-term saving."
     },
+    "bond": { "zh": "单一企业财报对债券基金影响有限。债券基金的表现主要取决于利率、通胀与发债机构的信用状况。", "en": "One company's earnings have limited impact on bond funds. Their performance depends mainly on interest rates, inflation and the credit health of the issuers." },
     "source": { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/01/nike-nke-q1-2027-earnings.html" }
   }
 ],
@@ -100,6 +130,7 @@ window.INSIGHTS = [].concat(
       "zh": "长期退休储蓄需要一套自动、不受情绪左右的机制。PRS每年最高可享RM3,000税务减免,是建立习惯的好起点。",
       "en": "Long-term retirement saving works best as an automatic habit that doesn't depend on mood. PRS offers up to RM3,000 in annual tax relief — a good place to start."
     },
+    "bond": { "zh": "科技企业业绩强劲对债券基金没有直接影响。科技股表现亮眼时，检视股债比例是否仍符合个人目标，是较稳健的做法。", "en": "Strong tech earnings do not directly affect bond funds. When tech stocks shine, checking whether your stock–bond mix still fits your goals is a prudent habit." },
     "source": {
       "name": "CNBC",
       "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html"
@@ -130,6 +161,7 @@ window.INSIGHTS = [].concat(
       "zh": "长期退休储蓄需要一套自动、不受情绪左右的机制。PRS每年最高可享RM3,000税务减免,是建立习惯的好起点。",
       "en": "Long-term retirement saving works best as an automatic habit that doesn't depend on mood. PRS offers up to RM3,000 in annual tax relief — a good place to start."
     },
+    "bond": { "zh": "通胀降温一般对债券有利，但收益率仍高，显示市场对利率前景仍有疑虑。大马债券更受国行利率与本地通胀影响，可以从中长期角度看待。", "en": "Cooling inflation is generally good for bonds, but yields stay high, showing doubts about the rate outlook. Malaysian bonds depend more on Bank Negara rates and local inflation and are best viewed over the medium to long term." },
     "source": {
       "name": "CNBC",
       "url": "https://www.cnbc.com/2026/09/30/inflation-moves-in-the-right-direction-but-markets-are-still-not-out-of-the-woods.html"
@@ -160,6 +192,7 @@ window.INSIGHTS = [].concat(
       "zh": "长期退休储蓄需要一套自动、不受情绪左右的机制。PRS每年最高可享RM3,000税务减免,是建立习惯的好起点。",
       "en": "Long-term retirement saving works best as an automatic habit that doesn't depend on mood. PRS offers up to RM3,000 in annual tax relief — a good place to start."
     },
+    "bond": { "zh": "加息押注降温，一般对债券价格较为有利。对大马债券基金而言，全球利率预期回稳，有助于减少外资流动带来的波动。", "en": "Cooling hike bets are generally supportive for bond prices. For Malaysian bond funds, steadier global rate expectations can reduce swings from foreign flows." },
     "source": {
       "name": "Yahoo Finance",
       "url": "https://finance.yahoo.com/economy/policy/articles/fed-raise-interest-rates-october-211951757.html"
@@ -178,17 +211,18 @@ window.INSIGHTS = [].concat(
       "en": "Per a search-result summary, the 10-year Treasury yield rose about 4 bps on Thursday to ~5.3338% and the 30-year topped 5.6%, versus ~5.30% in the morning brief. Dow futures fell about 250 points while Nasdaq-100 futures gained ~0.51% (early futures figures). Like a higher mortgage rate reshaping a household budget, higher yields make markets pickier about stock valuations."
     },
     "dda": {
-      "zh": "🎯 DDA定期定额:当收益率与指数每天都在变动时,定期投入的做法不需要判断入场时机,关键是纪律与是否符合个人目标。",
-      "en": "🎯 DDA: when yields and indices move every day, regular investing removes the need to time an entry; what matters is discipline and fit with personal goals."
+      "zh": "当收益率与指数每天都在变动时,定期投入的做法不需要判断入场时机,关键是纪律与是否符合个人目标。",
+      "en": "when yields and indices move every day, regular investing removes the need to time an entry; what matters is discipline and fit with personal goals."
     },
     "lump": {
-      "zh": "🎯 一次性投入(Lump Sum):一般原则是可以考虑分阶段投入以分散时机风险,并检查集中度,同时配合个人目标与风险承受能力。",
-      "en": "🎯 Lump Sum: as a general principle, phasing in can spread timing risk; also check concentration and match the approach to personal goals and risk tolerance."
+      "zh": "一般原则是可以考虑分阶段投入以分散时机风险,并检查集中度,同时配合个人目标与风险承受能力。",
+      "en": "as a general principle, phasing in can spread timing risk; also check concentration and match the approach to personal goals and risk tolerance."
     },
     "prs": {
-      "zh": "🎯 PRS退休:退休储蓄着眼数十年,单日的收益率变动只是过程中的一个点;PRS每年最高RM3,000的税务减免也是长期储蓄的考量之一。",
-      "en": "🎯 PRS: retirement saving spans decades, so one day's yield move is a single point along the way; the PRS tax relief of up to RM3,000 a year is one consideration for long-term saving."
+      "zh": "退休储蓄着眼数十年,单日的收益率变动只是过程中的一个点;PRS每年最高RM3,000的税务减免也是长期储蓄的考量之一。",
+      "en": "retirement saving spans decades, so one day's yield move is a single point along the way; the PRS tax relief of up to RM3,000 a year is one consideration for long-term saving."
     },
+    "bond": { "zh": "10年期美债收益率升至2002年以来高位，全球债券价格承压，大马债券也可能受外资流动影响。较高的收益率同时意味着新资金未来可获得较高的利息。", "en": "With the 10-year US yield at its highest since 2002, global bond prices are under pressure, and Malaysian bonds may feel it through foreign flows. Higher yields also mean new money can earn more interest in the future." },
     "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/dow-p-500-nasdaq-futures-023846562.html" }
   },
   {
@@ -202,17 +236,18 @@ window.INSIGHTS = [].concat(
       "en": "CNBC's live coverage says markets are waiting on this week's US jobs report amid elevated Treasury yields, and Nike is due to report after Thursday's close. We had no results at time of writing. Volatility often rises around key data, like the weather forecast getting extra attention the night before a trip."
     },
     "dda": {
-      "zh": "🎯 DDA定期定额:数据与财报日的波动很常见,定期投入的纪律不依赖于预测某一份数据的结果。",
-      "en": "🎯 DDA: swings around data and earnings days are common; the discipline of regular investing does not depend on predicting any single release."
+      "zh": "数据与财报日的波动很常见,定期投入的纪律不依赖于预测某一份数据的结果。",
+      "en": "swings around data and earnings days are common; the discipline of regular investing does not depend on predicting any single release."
     },
     "lump": {
-      "zh": "🎯 一次性投入(Lump Sum):一般原则是分阶段投入有助分散时机风险,并检查组合是否过度集中于单一主题。",
-      "en": "🎯 Lump Sum: as a general principle, phasing in can help spread timing risk, and it is worth checking that a portfolio is not over-concentrated in one theme."
+      "zh": "一般原则是分阶段投入有助分散时机风险,并检查组合是否过度集中于单一主题。",
+      "en": "as a general principle, phasing in can help spread timing risk, and it is worth checking that a portfolio is not over-concentrated in one theme."
     },
     "prs": {
-      "zh": "🎯 PRS退休:退休组合讲求长期与分散,短期的数据波动不应改变既定的退休目标;PRS每年最高RM3,000的税务减免亦可纳入考量。",
-      "en": "🎯 PRS: a retirement portfolio is about the long term and diversification, so short-term data swings need not change the retirement goal; the PRS tax relief of up to RM3,000 a year can also be considered."
+      "zh": "退休组合讲求长期与分散,短期的数据波动不应改变既定的退休目标;PRS每年最高RM3,000的税务减免亦可纳入考量。",
+      "en": "a retirement portfolio is about the long term and diversification, so short-term data swings need not change the retirement goal; the PRS tax relief of up to RM3,000 a year can also be considered."
     },
+    "bond": { "zh": "就业报告可能影响利率预期，债券价格也会随之起伏。债券基金投资者不必因单一数据而调整，按计划持有即可。", "en": "The jobs report may shift rate expectations, and bond prices may move with it. Bond-fund investors need not adjust on a single data release and can hold to plan." },
     "source": { "name": "CNBC", "url": "https://www.cnbc.com/2026/09/30/stock-market-today-live-updates.html" }
   }
 ],
@@ -242,6 +277,7 @@ window.INSIGHTS = [].concat(
       "zh": "当大家对未来收入越来越没把握，退休储蓄更需要一套不受情绪左右的自动机制。PRS 每年最高可享 RM3,000 税务减免，是建立这个习惯的好起点。",
       "en": "When people feel less sure about future income, retirement saving needs an automatic habit that doesn't depend on mood. PRS offers up to RM3,000 in annual tax relief — a good place to start."
     },
+    "bond": { "zh": "消费者信心下滑、加息概率降低，一般对债券价格较为有利。对大马债券而言，全球利率预期回落，有助于减轻外资流出的压力。", "en": "Weaker consumer confidence and lower rate-hike odds are generally supportive for bond prices. For Malaysian bonds, easing global rate expectations can reduce pressure from foreign outflows." },
     "source": { "name": "Investing.com", "url": "https://www.investing.com/news/economic-indicators/us-consumer-confidence-dives-to-more-than-12year-low-in-september-4923037" }
   },
   {
@@ -269,6 +305,7 @@ window.INSIGHTS = [].concat(
       "zh": "长期退休组合可以包含成长型资产，但区域与行业分散同样重要——今天日韩涨、香港跌，就是最好的提醒。",
       "en": "A long-term retirement mix can include growth assets, but spreading across regions and sectors matters just as much — today's split between Tokyo/Seoul and Hong Kong is a good reminder."
     },
+    "bond": { "zh": "亚洲芯片股领涨对债券基金没有直接影响。股市热门时，保持一定的债券配置有助于组合平衡。", "en": "Asian chip stocks leading gains do not directly affect bond funds. When equities are hot, keeping some bond allocation helps keep a portfolio balanced." },
     "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/amp/news/2026/9/29/trump-top-tech-firms-sign-accord-to-self-police-ai-development" }
   },
   {
@@ -296,6 +333,7 @@ window.INSIGHTS = [].concat(
       "zh": "油价降温有助控制通胀，但地缘局势未解。退休组合保持适度分散，能减轻单一事件对长期计划的冲击。",
       "en": "Cooler oil helps on inflation, but the standoff isn't resolved. Keeping a retirement portfolio diversified softens the impact of any single event on your long-term plan."
     },
+    "bond": { "zh": "油价走软有助于缓和通胀，一般对债券市场较为友善。不过谈判仍在拉锯，油价仍可能反复。", "en": "Softer oil helps ease inflation, which is generally friendly for bond markets. Talks are still dragging on, so oil can still swing." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil" }
   },
   {
@@ -323,6 +361,7 @@ window.INSIGHTS = [].concat(
       "zh": "退休资产应以\"持有多年\"的心态来配置，而不是赌单日涨跌——美光自己的历史数据就是一堂活生生的课。",
       "en": "Retirement money is best positioned with a multi-year mindset, not a bet on one day's move — Micron's own history is the lesson."
     },
+    "bond": { "zh": "个股财报当晚的涨跌难以预测，对债券基金没有直接影响。债券基金的价值在于提供相对稳定的收入与平衡。", "en": "A stock's move on earnings night is hard to predict and does not directly affect bond funds. Their value lies in relatively steady income and balance." },
     "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/09/62048428/micron-earnings-buy-mu-stock-before-results-history" }
   },
   {
@@ -350,6 +389,7 @@ window.INSIGHTS = [].concat(
       "zh": "令吉走强的窗口，是检视退休组合海外比例的好时机——不必大动作，但值得和顾问聊聊汇率对整体组合的影响。",
       "en": "A firmer ringgit is a good moment to review the overseas share of your retirement portfolio — not a reason for a big move, but worth a chat with your advisor."
     },
+    "bond": { "zh": "综指稳步上升、令吉温和走强，是大马债券市场较正面的背景，一般有利于外资持有本地债券。", "en": "A steadily rising index and a mildly firmer ringgit are a relatively positive backdrop for Malaysian bonds, generally supporting foreign holdings of local bonds." },
     "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
   }
 ],
@@ -379,6 +419,7 @@ window.INSIGHTS = [].concat(
       "zh": "利率剧本难以预测，正是退休组合应分散在不同资产类别的理由，而不是押注某一种利率走向。",
       "en": "Rate paths are hard to call, which is exactly why a retirement portfolio should be spread across asset classes rather than betting on one scenario."
     },
+    "bond": { "zh": "加息概率明显下降，一般对债券价格较为有利。不过市场预期变化很快，债券基金的回报宜以较长时间来衡量。", "en": "A clear drop in rate-hike odds is generally supportive for bond prices. Market expectations shift quickly, though, so bond-fund returns are best judged over time." },
     "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
   },
   {
@@ -406,6 +447,7 @@ window.INSIGHTS = [].concat(
       "zh": "退休计划看的是十年、二十年。短期地缘事件值得关注，但不应打乱长期的储蓄纪律。",
       "en": "Retirement plans run for decades. Short-term geopolitical events are worth watching, but shouldn't derail long-term saving discipline."
     },
+    "bond": { "zh": "制裁消息可能让油价与通胀预期再起波动，债券价格也会受牵动。大马债券基金主要受本地利率影响，可以按计划持有。", "en": "Sanctions news can stir oil and inflation expectations again, and bond prices may move with them. Malaysian bond funds are driven mainly by local rates and can be held to plan." },
     "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-strait-of-hormuz/" }
   }
 ],
@@ -435,6 +477,7 @@ window.INSIGHTS = [].concat(
       "zh": "估值回归常态是健康的调整。退休组合持续供款，能在这段时间以较合理的价格累积资产。",
       "en": "Valuations normalising is a healthy adjustment. Steady retirement contributions build assets at fairer prices through it."
     },
+    "bond": { "zh": "收益率处于19年高点，债券价格承压，但这也意味着现在的利息水平较具吸引力。债券基金适合以收取长期收入的角度来看待。", "en": "With yields at a 19-year high, bond prices are under pressure, but it also means current interest levels are relatively attractive. Bond funds are best seen as a source of long-term income." },
     "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-28-dow-sp-500-nasdaq-080420627.html" }
   },
   {
@@ -462,6 +505,7 @@ window.INSIGHTS = [].concat(
       "zh": "今天韩股跌、港股涨，说明区域分散的重要。退休组合不宜集中于单一市场。",
       "en": "Korea down, Hong Kong up on the same day shows why regional diversification matters. Don't concentrate retirement savings in one market."
     },
+    "bond": { "zh": "企业回购与AI安全措施对债券基金没有直接影响。股债平衡，能让组合不那么依赖单一板块的表现。", "en": "Company buybacks and AI-safety measures do not directly affect bond funds. A stock–bond balance makes a portfolio less dependent on any single sector." },
     "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-upsizes-share-buyback-program-124458222.html" }
   },
   {
@@ -489,6 +533,7 @@ window.INSIGHTS = [].concat(
       "zh": "PRS 是长期计划，短期预测不影响它的核心价值。持续供款，并善用每年最高 RM3,000 税务减免。",
       "en": "PRS is a long-term plan; short-term forecasts don't change its core value. Keep contributing and use the up to RM3,000 annual tax relief."
     },
+    "bond": { "zh": "令吉本月走软，可能让部分外资对大马债券更谨慎。不过本地债券主要受国行利率与本地通胀影响，宜从中长期角度看待。", "en": "The ringgit's softness this month may make some foreign investors more cautious on Malaysian bonds. Local bonds are driven mainly by Bank Negara rates and local inflation, so a medium- to long-term view helps." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/stock-market" }
   }
 ],
@@ -518,6 +563,7 @@ window.INSIGHTS = [].concat(
       "zh": "局势时紧时松，退休计划更需要稳定的纪律：定期供款、定期检视。",
       "en": "As tensions rise and ease, retirement plans need steady discipline: regular contributions and regular reviews."
     },
+    "bond": { "zh": "谈判出现积极信号，若油价因此回稳，有助于缓和通胀，一般对债券较为有利。不过时序仍有分歧，不宜过早下定论。", "en": "Constructive signals from talks, if they steady oil, can help ease inflation, which is generally good for bonds. Timelines still differ, so it is too early to draw conclusions." },
     "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/9/29/irans-araghchi-meets-qatari-mediators-as-us-insists-on-nuclear-talks" }
   },
   {
@@ -545,6 +591,7 @@ window.INSIGHTS = [].concat(
       "zh": "退休资产不宜押注单一财报。通过分散基金参与科技成长，更符合长期目标。",
       "en": "Retirement money shouldn't ride on one earnings report. Participating in tech growth through diversified funds fits long-term goals better."
     },
+    "bond": { "zh": "个股财报预期对债券基金影响有限。在市场聚焦热门股时，债券基金可以为组合提供稳定的一面。", "en": "Expectations for one company's earnings have limited impact on bond funds. While markets focus on hot stocks, bond funds can add stability to a portfolio." },
     "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/micron-earnings-preview-analysts-see-022234081.html" }
   }
 ],
@@ -574,6 +621,7 @@ window.INSIGHTS = [].concat(
       "zh": "一套经得起波动的退休配置，加上持续的 PRS 供款（每年最高 RM3,000 税务减免），比猜测市场更可靠。",
       "en": "A retirement allocation built for volatility, plus steady PRS contributions (up to RM3,000 in annual tax relief), beats trying to guess the market."
     },
+    "bond": { "zh": "贝莱德形容债市波动是一次提醒而非危机。债券价格会随利率起伏，但长期持有时，利息收入通常是债券基金回报的主要部分。", "en": "BlackRock calls the bond-market volatility a reminder rather than a crisis. Bond prices move with rates, but over a long holding period interest income is usually the main part of a bond fund's return." },
     "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-25-dow-sp-500-nasdaq-081738529.html" }
   },
   {
@@ -601,6 +649,7 @@ window.INSIGHTS = [].concat(
       "zh": "油价反复会影响通胀与生活成本。退休组合保留适度抗通胀资产，并保持整体分散。",
       "en": "Swinging oil prices affect inflation and living costs. Keep some inflation-resilient assets in retirement savings, within a diversified whole."
     },
+    "bond": { "zh": "谈判仍可能重启，但油价已反弹，通胀与利率预期可能随之变化。大马债券基金较受本地因素影响，可以按计划持有。", "en": "Talks may resume, but oil has bounced, so inflation and rate expectations may shift. Malaysian bond funds are driven more by local factors and can be held to plan." },
     "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/9/27/better-deal-whats-behind-trumps-rejection-of-irans-truce-offer" }
   },
   {
@@ -628,6 +677,7 @@ window.INSIGHTS = [].concat(
       "zh": "退休组合需要广度，而不只是热门股。行业与地区分散，是长期稳健的基础。",
       "en": "Retirement portfolios need breadth, not just hot stocks. Sector and regional diversification is the base of long-term stability."
     },
+    "bond": { "zh": "涨势集中在少数科技龙头，提醒我们组合需要分散。债券基金与股票的风险不同，有助于平衡集中度。", "en": "Gains concentrated in a few tech leaders are a reminder to diversify. Bond funds carry different risks from stocks and can help balance concentration." },
     "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/equities/26/09/61997060/micron-earnings-80-odds-beat-every-analyst-estimate" }
   }
 ],
@@ -657,6 +707,7 @@ window.INSIGHTS = [].concat(
       "zh": "对退休族来说，较高的收益率意味着未来收益来源更多元。组合中的固定收益比例可随年龄逐步提高。",
       "en": "For retirees, higher yields mean more varied future income. The fixed-income share can rise gradually with age."
     },
+    "bond": { "zh": "长期美债收益率逼近20年高点，显示市场预期利率将维持较高水平，全球债券价格承压。大马债券更受国行政策影响，可以从中长期角度看待。", "en": "Long-term US yields near 20-year highs show markets expect rates to stay high, pressuring global bond prices. Malaysian bonds depend more on Bank Negara policy and are best viewed over the medium to long term." },
     "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
   },
   {
@@ -684,6 +735,7 @@ window.INSIGHTS = [].concat(
       "zh": "退休规划应把通胀视为长期因素。适度的抗通胀配置，能帮助守住退休后的生活水平。",
       "en": "Retirement plans should treat inflation as a long-term factor. Some inflation-resilient holdings help protect your standard of living later."
     },
+    "bond": { "zh": "油价上涨增加通胀压力，可能让利率预期上升，对债券价格不利。债券基金的利息收入则是在价格波动之外的稳定回报来源。", "en": "Rising oil adds inflation pressure and can lift rate expectations, which is unfavourable for bond prices. Bond funds' interest income remains a steady source of return beyond price swings." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil" }
   }
 ],
@@ -713,6 +765,7 @@ window.INSIGHTS = [].concat(
       "zh": "地缘风险会时起时落。退休计划应建立在分散配置与持续供款上，而不是押注谈判结果。",
       "en": "Geopolitical risk ebbs and flows. Retirement plans should rest on diversification and steady contributions, not on how talks end."
     },
+    "bond": { "zh": "地缘风险重新升温，可能推高油价与通胀预期，债券价格短期或受压。大马债券基金主要受本地利率影响，适合长期持有。", "en": "Renewed geopolitical risk can push up oil and inflation expectations, which may pressure bond prices in the short term. Malaysian bond funds are driven mainly by local rates and suit long-term holding." },
     "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/9/26/trump-rejects-irans-seven-day-roadmap-to-reopen-strait-of-hormuz" }
   },
   {
@@ -740,6 +793,7 @@ window.INSIGHTS = [].concat(
       "zh": "利率上升提高了固定收益部分的收益潜力。退休组合中股债比例，可按年龄与风险承受度调整。",
       "en": "Higher rates raise the income potential of fixed income. Adjust the equity–bond mix of your retirement savings to your age and risk tolerance."
     },
+    "bond": { "zh": "借贷成本若再上升，债券价格短期可能下跌，但新资金可获得的利息也会提高。债券基金的回报需要以较长时间来衡量。", "en": "If borrowing costs rise further, bond prices may dip in the short term, but the interest available on new money also rises. Bond-fund returns should be judged over a longer period." },
     "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
   },
   {
@@ -767,6 +821,7 @@ window.INSIGHTS = [].concat(
       "zh": "每周都有\"关键数据\"，但退休计划看的是几十年。定期检视配置，比追踪每一份报告更重要。",
       "en": "Every week has \"key data\", but retirement plans span decades. Regular reviews matter more than tracking every report."
     },
+    "bond": { "zh": "数据密集的一周，债券价格可能随数据起伏。债券基金投资者不必因单一数据而调整，按计划持有即可。", "en": "In a data-heavy week, bond prices may swing with each release. Bond-fund investors need not adjust on any single number and can hold to plan." },
     "source": { "name": "Schwab", "url": "https://www.schwab.com/learn/story/weekly-traders-outlook" }
   }
 ],
@@ -796,6 +851,7 @@ window.INSIGHTS = [].concat(
       "zh": "\"警钟\"的意义在于检视，而不是恐慌。这是检视退休组合风险水平是否仍适合你的好时机。",
       "en": "A wake-up call is a prompt to review, not to panic — a good time to check your retirement portfolio's risk still suits you."
     },
+    "bond": { "zh": "美债收益率创近20年高点，全球债券价格承压，但同时也意味着债券的利息回报回到较有吸引力的水平。大马债券基金可从中长期收入的角度看待。", "en": "US yields at near 20-year highs pressure global bond prices, but they also bring bond income back to more attractive levels. Malaysian bond funds can be viewed from a medium- to long-term income angle." },
     "source": { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-25-2026" }
   },
   {
@@ -823,6 +879,7 @@ window.INSIGHTS = [].concat(
       "zh": "PRS 可以同时持有本地与海外基金，每年最高 RM3,000 税务减免，是建立稳健退休组合的好工具。",
       "en": "PRS can hold both local and overseas funds, with up to RM3,000 in annual tax relief — a good tool for a steady retirement portfolio."
     },
+    "bond": { "zh": "令吉走强与本地市场稳定，是大马债券市场较正面的背景。债券基金在组合中可以提供相对稳定的收入。", "en": "A firmer ringgit and a steady local market are a relatively positive backdrop for Malaysian bonds. Bond funds can provide relatively steady income within a portfolio." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/stock-market" }
   },
   {
@@ -850,6 +907,7 @@ window.INSIGHTS = [].concat(
       "zh": "长期退休组合应能承受中美关系的反复，区域与行业分散是关键。",
       "en": "A long-term retirement portfolio should withstand swings in US–China relations; regional and sector diversification is key."
     },
+    "bond": { "zh": "中美会谈取得部分进展，有助于稳定区域市场情绪，一般对大马债券的外资流向较为有利。", "en": "Partial progress in US–China talks helps steady regional sentiment, which is generally supportive of foreign flows into Malaysian bonds." },
     "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/trump-china-xi-jinping-state-visit-dinner-tariffs-ai/" }
   }
 ],
@@ -879,6 +937,7 @@ window.INSIGHTS = [].concat(
       "zh": "长期利率上升会影响债券价格，也提高未来的收益机会。退休组合的债券部分，值得按年龄定期检视。",
       "en": "Rising long-term rates hit bond prices but raise future income. Review the bond portion of your retirement mix regularly as you age."
     },
+    "bond": { "zh": "收益率因经济过热而上升，意味着利率可能较长时间维持高位，全球债券价格短期承压。较高的收益率也让债券基金未来的利息收入更具吸引力。", "en": "Yields rising because the economy is running hot suggests rates may stay high for longer, pressuring global bond prices in the short term. Higher yields also make bond funds' future income more attractive." },
     "source": { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-24-2026" }
   },
   {
@@ -906,6 +965,7 @@ window.INSIGHTS = [].concat(
       "zh": "这是一堂\"消息与价格\"的课：退休投资看的是长期结果，而不是追着每一则新闻调整。",
       "en": "A lesson in news versus price: retirement investing is about long-term outcomes, not reacting to every headline."
     },
+    "bond": { "zh": "油价不跌反涨，提醒我们通胀风险仍在，利率走向也因此难以预测。债券基金适合以长期收入为目标来持有。", "en": "Oil rising instead of falling is a reminder that inflation risk remains, which makes the rate path hard to predict. Bond funds are best held with long-term income as the goal." },
     "source": { "name": "Investing.com", "url": "https://www.investing.com/news/commodities-news/us-and-iran-discuss-phased-deal-to-reopen-hormuz-and-end-us-blockade-sources-say-4915884" }
   },
   {
@@ -933,6 +993,7 @@ window.INSIGHTS = [].concat(
       "zh": "退休后的开销以令吉为主。PRS 组合保持足够的令吉资产，并适度分散到海外。",
       "en": "Retirement spending is mostly in ringgit. Keep enough ringgit assets in your PRS mix, with sensible overseas diversification."
     },
+    "bond": { "zh": "令吉在全球收益率飙升下仍走强，反映市场对大马的信心，一般有利于外资持有大马债券。", "en": "The ringgit firming despite surging global yields reflects confidence in Malaysia, which generally supports foreign holdings of Malaysian bonds." },
     "source": { "name": "FX168", "url": "https://www.fx168news.com/quote/MYR" }
   }
 ],
@@ -962,6 +1023,7 @@ window.INSIGHTS = [].concat(
       "zh": "利率周期会过去，退休计划却要持续几十年。维持供款，比等待\"利率见顶\"更重要。",
       "en": "Rate cycles pass; retirement plans run for decades. Staying consistent with contributions matters more than waiting for rates to peak."
     },
+    "bond": { "zh": "加息押注升温时，债券价格通常承压。对大马债券基金而言，国行的利率决策比美联储更直接，可以留意本地政策动向。", "en": "When rate-hike bets rise, bond prices usually come under pressure. For Malaysian bond funds, Bank Negara's decisions matter more directly than the Fed's, so local policy is worth watching." },
     "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
   },
   {
@@ -989,6 +1051,7 @@ window.INSIGHTS = [].concat(
       "zh": "AI 改变消费模式是长期趋势，退休组合可以适度参与，但仍以分散为本。",
       "en": "AI reshaping consumption is a long-term trend; retirement portfolios can take part modestly, with diversification as the base."
     },
+    "bond": { "zh": "企业合作消息对债券基金没有直接影响。债券基金的表现主要取决于利率、通胀与发债机构的信用状况。", "en": "Corporate partnership news does not directly affect bond funds. Their performance depends mainly on interest rates, inflation and the credit health of the issuers." },
     "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/09/61963074/mark-zuckerberg-muse-free-walmart-sephora-best-buy-ai-shopping" }
   }
 ],
@@ -1018,6 +1081,7 @@ window.INSIGHTS = [].concat(
       "zh": "高收益率环境下，固定收益类资产的吸引力上升。退休组合中的股债比例，值得趁机检视。",
       "en": "High yields make fixed income more attractive. It's a good moment to review the equity–bond balance in your retirement portfolio."
     },
+    "bond": { "zh": "美债收益率大幅上升时，全球债券价格普遍下跌，大马债券也可能受外资流动影响。不过收益率上升也意味着新投入的资金未来可获得较高的利息。", "en": "When US yields jump, global bond prices generally fall, and Malaysian bonds can be affected through foreign flows. Higher yields also mean new money can earn more interest in the future." },
     "source": { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-23-2026" }
   },
   {
@@ -1045,6 +1109,7 @@ window.INSIGHTS = [].concat(
       "zh": "退休计划不宜押注任何一方的谈判结果。分散配置能兼顾\"谈成\"与\"谈不成\"两种情景。",
       "en": "Retirement plans shouldn't bet on how talks end. Diversification covers both the deal and no-deal scenarios."
     },
+    "bond": { "zh": "地缘事件反复，令油价与通胀预期难以预测。大马债券基金主要受本地利率影响，适合作为组合中相对稳定的部分。", "en": "Recurring geopolitical events make oil and inflation expectations hard to predict. Malaysian bond funds are driven mainly by local rates and can be a relatively stable part of a portfolio." },
     "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/9/23/us-iran-hold-mediated-unga-talks-on-ending-war-opening-strait-of-hormuz" }
   },
   {
@@ -1072,6 +1137,7 @@ window.INSIGHTS = [].concat(
       "zh": "本地与海外资产在不同环境下各有表现。PRS 组合保持两者平衡，并善用每年最高 RM3,000 税务减免。",
       "en": "Local and overseas assets each shine in different conditions. Keep your PRS balanced between them and use the up to RM3,000 annual tax relief."
     },
+    "bond": { "zh": "令吉年内仍升值，反映外资对大马的信心，这一般有利于本地债券市场。不过美国加息预期升温时，短期仍可能出现波动。", "en": "The ringgit's gain this year reflects foreign confidence in Malaysia, which generally supports the local bond market. Short-term swings remain possible when US rate-hike expectations rise." },
     "source": { "name": "FX168", "url": "https://www.fx168news.com/express/fastnews/1434861" }
   }
 ],
@@ -1101,6 +1167,7 @@ window.INSIGHTS = [].concat(
       "zh": "油价反弹会重燃通胀担忧。退休组合保留适度抗通胀资产，能帮助守住长期购买力。",
       "en": "An oil rebound revives inflation worries. Keeping some inflation-resilient assets in a retirement portfolio helps protect purchasing power."
     },
+    "bond": { "zh": "油价重新上涨会增加通胀担忧，可能让利率预期上升，债券价格短期承压。债券基金的回报需要较长时间来衡量。", "en": "Oil rising again adds to inflation worries and can lift rate expectations, putting short-term pressure on bond prices. Bond-fund returns need a longer horizon to judge." },
     "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/9/23/irans-president-slams-trumps-bullying-in-defiant-unga-speech" }
   },
   {
@@ -1128,6 +1195,7 @@ window.INSIGHTS = [].concat(
       "zh": "中美关系稳定对亚洲市场有利。退休组合适度配置亚洲资产，并维持地区分散。",
       "en": "Stable US–China relations help Asian markets. Hold a sensible share of Asian assets in retirement savings, with regional diversification."
     },
+    "bond": { "zh": "中美贸易休战延长，有助于减少区域市场的不确定性，一般对大马债券的外资流向较为正面。", "en": "An extended US–China trade truce reduces uncertainty for regional markets, which is generally positive for foreign flows into Malaysian bonds." },
     "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-24-dow-sp-500-nasdaq-080352893.html" }
   }
 ],
@@ -1157,6 +1225,7 @@ window.INSIGHTS = [].concat(
       "zh": "油价跌破100美元有助控制通胀。长期退休组合维持均衡，才能在局势反复时保持稳定。",
       "en": "Oil below $100 helps contain inflation. A balanced long-term retirement mix stays steady if the situation flips back."
     },
+    "bond": { "zh": "油价跌破100美元有助于降低通胀预期，一般对债券市场较为有利。债券基金投资者可以多关注本地通胀与国行利率动向。", "en": "Oil dropping below $100 helps lower inflation expectations, generally supportive for bond markets. Bond-fund investors can keep an eye on local inflation and Bank Negara's rate moves." },
     "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-decision-tehran-warns-of-expansion/" }
   },
   {
@@ -1184,6 +1253,7 @@ window.INSIGHTS = [].concat(
       "zh": "退休组合可以包含科技成长，但比重需要控制，并定期再平衡。",
       "en": "Retirement portfolios can include tech growth, but keep the weighting in check and rebalance regularly."
     },
+    "bond": { "zh": "科技股创新高的时候，债券基金看起来较平淡，但它的作用是在市场回调时提供稳定。股债搭配，是长期组合的重要原则。", "en": "When tech stocks hit records, bond funds can look dull, but their job is to provide stability when markets pull back. Mixing stocks and bonds is a key principle for long-term portfolios." },
     "source": { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-22-2026" }
   },
   {
@@ -1211,6 +1281,7 @@ window.INSIGHTS = [].concat(
       "zh": "本地资产能为退休组合提供令吉收益来源。持续 PRS 供款，每年最高可享 RM3,000 税务减免。",
       "en": "Local assets give a retirement portfolio ringgit-based returns. Keep contributing to PRS, with up to RM3,000 in annual tax relief."
     },
+    "bond": { "zh": "联储官员认为供应冲击并非短暂，意味着利率可能维持较高一段时间，全球债券价格或继续承压。大马债券更受国行政策影响，可以从中长期角度看待。", "en": "A Fed official saying the supply shock is not transitory suggests rates may stay high for a while, which can keep pressure on global bond prices. Malaysian bonds depend more on Bank Negara policy and are best viewed over the medium to long term." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/stock-market" }
   }
 ],
@@ -1240,6 +1311,7 @@ window.INSIGHTS = [].concat(
       "zh": "外交进展是分秒变化的新闻，不是调整退休配置的理由。PRS 应以10年、20年的周期来看。",
       "en": "Diplomatic news changes by the hour — not a reason to touch a retirement allocation. PRS is built for a 10–20 year horizon."
     },
+    "bond": { "zh": "外交进展让油价维持在较低水平，有助于缓和通胀，一般对债券价格较为友善。", "en": "Diplomatic progress keeping oil lower helps ease inflation, which is generally friendly for bond prices." },
     "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-decision-tehran-warns-of-expansion/" }
   },
   {
@@ -1267,6 +1339,7 @@ window.INSIGHTS = [].concat(
       "zh": "PRS 的价值在于分散，而不是追逐当红个股的短期动能。长期要看的是需求周期能撑多久。",
       "en": "PRS's value is diversification, not chasing today's momentum stock. Long term, the question is how long the demand cycle lasts."
     },
+    "bond": { "zh": "个股大涨对债券基金没有直接影响。若组合因科技股上涨而偏重股票，可以定期检视股债比例是否仍符合自己的目标。", "en": "A single stock's surge does not directly affect bond funds. If tech gains have tilted a portfolio toward equities, it may be worth reviewing whether the stock–bond mix still fits your goals." },
     "source": { "name": "TheStreet", "url": "https://www.thestreet.com/investing/stocks/mu-micron-sndk-sandisk-lynx-research-stock-price-targets-september-2026" }
   }
 ],
@@ -1296,6 +1369,7 @@ window.INSIGHTS = [].concat(
       "zh": "科技板块的强势值得参与，但退休组合更需要稳定性。确保成长资产与稳健资产之间保持平衡。",
       "en": "Tech's strength is worth participating in, but retirement portfolios need stability too. Keep growth and defensive assets in balance."
     },
+    "bond": { "zh": "科技股强劲上涨时，有些人会减少债券配置去追涨。保持股债的平衡，有助于在市场回调时减少冲击。", "en": "When tech stocks surge, some people cut bonds to chase gains. Keeping a stock–bond balance can soften the impact when markets pull back." },
     "source": { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-21-2026" }
   },
   {
@@ -1323,6 +1397,7 @@ window.INSIGHTS = [].concat(
       "zh": "油价回落有助缓解通胀，对退休规划是好事；但长期计划仍应为能源价格反复做好准备。",
       "en": "Falling oil helps on inflation, which is good for retirement planning — but long-term plans should still allow for energy prices swinging back."
     },
+    "bond": { "zh": "外交消息令油价走软，有助于减轻通胀压力，一般对债券有利。但局势随时可能变化，债券基金宜按计划持有，而非追随消息。", "en": "Diplomatic headlines softening oil help ease inflation pressure, which is generally good for bonds. The situation can change at any time, so bond funds are best held to plan rather than traded on headlines." },
     "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-decision-tehran-warns-of-expansion/" }
   },
   {
@@ -1350,6 +1425,7 @@ window.INSIGHTS = [].concat(
       "zh": "本地市场是退休组合的重要基石之一。持续 PRS 供款，并善用每年最高 RM3,000 税务减免。",
       "en": "The local market is an important building block for retirement. Keep up PRS contributions and use the up to RM3,000 annual tax relief."
     },
+    "bond": { "zh": "令吉走强与本地市场稳定，一般有助于吸引外资投入大马债券，对本地债券基金是较正面的背景。", "en": "A firmer ringgit and a stable local market generally help attract foreign investment into Malaysian bonds, a relatively positive backdrop for local bond funds." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/stock-market" }
   }
 ],
@@ -1379,6 +1455,7 @@ window.INSIGHTS = [].concat(
       "zh": "通胀压力放缓对退休族的购买力有利，但退休规划仍应以长期平均通胀来估算。",
       "en": "Easing inflation helps retirees' purchasing power, but retirement plans should still be built on long-run average inflation."
     },
+    "bond": { "zh": "油价大幅回落，有助于缓和全球通胀预期，一般对债券市场较为正面。但正如分析师所说，局势难以预测，不宜据此做短期判断。", "en": "A sharp fall in oil helps ease global inflation expectations, which is generally positive for bond markets. But as the strategist notes, the situation is hard to predict, so it is not a basis for short-term calls." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil" }
   },
   {
@@ -1406,6 +1483,7 @@ window.INSIGHTS = [].concat(
       "zh": "对退休储蓄来说，与其追踪每周利率概率，不如确保股、债、现金比例符合自己的年龄与目标。",
       "en": "For retirement savings, rather than tracking weekly rate odds, make sure your equity–bond–cash mix fits your age and goals."
     },
+    "bond": { "zh": "联储决策高度依赖数据，债券价格也会随每周数据起伏。债券基金的长期回报主要来自利息收入，不必被每周的预期变化牵着走。", "en": "With the Fed heavily data-dependent, bond prices move with each week's numbers. Bond-fund returns over time come mainly from interest income, so there is no need to be pulled around by weekly shifts in expectations." },
     "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
   }
 ],
@@ -1435,6 +1513,7 @@ window.INSIGHTS = [].concat(
       "zh": "PRS 是长期计划，短期波动不影响它的核心价值。持续供款并善用每年最高 RM3,000 税务减免。",
       "en": "PRS is a long-term plan, and short-term swings don't change its core value. Keep contributing and use the up to RM3,000 annual tax relief."
     },
+    "bond": { "zh": "股市短期回落时，债券基金可以发挥平衡组合的作用。国行利率稳定，是本地债券市场的重要支撑因素之一。", "en": "When stocks dip in the short term, bond funds can help balance a portfolio. Stable Bank Negara rates are one important support for the local bond market." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/stock-market" }
   },
   {
@@ -1462,6 +1541,7 @@ window.INSIGHTS = [].concat(
       "zh": "退休组合适合以分散的全球或区域基金参与科技，而不是集中于单一周期行业。",
       "en": "Retirement portfolios are better served by diversified global or regional funds for tech exposure than by one cyclical industry."
     },
+    "bond": { "zh": "消费品涨价反映通胀压力，通胀若持续，利率可能维持较高，债券价格会受影响。留意本地通胀数据，有助于理解债券基金的表现。", "en": "Higher consumer prices reflect inflation pressure; if inflation persists, rates may stay high, which affects bond prices. Watching local inflation data helps in understanding bond-fund performance." },
     "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-18-dow-sp-500-nasdaq-080504071.html" }
   },
   {
@@ -1489,6 +1569,7 @@ window.INSIGHTS = [].concat(
       "zh": "退休计划不应随每周的战事新闻调整。定期检视配置、维持供款，才是长期的关键。",
       "en": "A retirement plan shouldn't change with each week's war news. Regular reviews and steady contributions are what count long term."
     },
+    "bond": { "zh": "地缘紧张但油价回落，说明市场已部分消化风险。大马债券基金较受本地因素影响，适合作为组合中较稳定的一部分。", "en": "Geopolitical tension alongside falling oil shows markets have partly priced in the risk. Malaysian bond funds are driven more by local factors and can be a steadier part of a portfolio." },
     "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-of-hormuz-oil-houthis/" }
   }
 ],
@@ -1518,6 +1599,7 @@ window.INSIGHTS = [].concat(
       "zh": "中美关系影响亚洲市场与科技板块。退休组合维持区域与行业分散，能降低单一事件的影响。",
       "en": "US–China relations move Asian markets and tech. Regional and sector diversification limits any single event's impact on retirement savings."
     },
+    "bond": { "zh": "中美关系缓和有助于改善市场整体情绪。对大马债券而言，区域风险情绪改善，一般有利于外资流入本地债市。", "en": "Easing US–China tension can improve overall market sentiment. For Malaysian bonds, better regional risk appetite is generally supportive of foreign inflows into the local bond market." },
     "source": { "name": "Yahoo Finance", "url": "https://sg.finance.yahoo.com/news/stock-market-today-monday-september-21-dow-sp-500-nasdaq-080214605.html" }
   },
   {
@@ -1545,6 +1627,7 @@ window.INSIGHTS = [].concat(
       "zh": "通胀压力减轻对退休族是好消息，但长期规划仍应假设通胀存在，保持抗通胀资产的配置。",
       "en": "Easing inflation pressure is good news for retirees, but long-term plans should still assume inflation and keep inflation-resilient assets."
     },
+    "bond": { "zh": "油价回落与加息预期降温同时出现，一般对债券价格较为有利。不过这些预期变化很快，债券基金适合以较长的时间来衡量。", "en": "Falling oil and cooling rate-hike expectations together are generally supportive for bond prices. These expectations change quickly, so bond funds are best judged over a longer period." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil" }
   }
 ],
@@ -1574,6 +1657,7 @@ window.INSIGHTS = [].concat(
       "zh": "油价通过通胀影响退休后的生活成本。长期组合保持分散，比预测地缘局势更实际。",
       "en": "Oil affects retirement living costs through inflation. Staying diversified is more practical than forecasting geopolitics."
     },
+    "bond": { "zh": "油价连续回落有助于降低通胀担忧，一般对债券市场较为友善。但中东局势仍有变数，债券基金投资者不必因单周走势而调整。", "en": "Several days of falling oil ease inflation worries, which is generally friendly for bond markets. The Middle East remains uncertain, so bond-fund investors need not adjust on one week's moves." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/brent-crude-oil" }
   },
   {
@@ -1601,6 +1685,7 @@ window.INSIGHTS = [].concat(
       "zh": "PRS 供款可以持续累积本地与海外资产，每年最高 RM3,000 税务减免，让纪律性储蓄更有效率。",
       "en": "PRS contributions can build both local and overseas holdings over time, with up to RM3,000 in annual tax relief for disciplined saving."
     },
+    "bond": { "zh": "美联储加息预期升温，加上令吉承压，可能让外资对大马债券更谨慎，短期价格或有波动。国行的利率立场仍是本地债券的主要影响因素。", "en": "Rising Fed-hike expectations and a softer ringgit can make foreign investors more cautious on Malaysian bonds, which may cause short-term price swings. Bank Negara's rate stance remains the main driver for local bonds." },
     "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
   },
   {
@@ -1628,6 +1713,7 @@ window.INSIGHTS = [].concat(
       "zh": "成长主题可以为退休组合增添长期动力，但比重应与年龄、风险承受度相匹配。",
       "en": "Growth themes can add long-term drive to a retirement portfolio, sized to your age and risk tolerance."
     },
+    "bond": { "zh": "科技企业的营收前景对债券基金没有直接影响。股债搭配，能让组合在科技股大起大落时较为平稳。", "en": "Tech companies' revenue outlooks do not directly affect bond funds. Combining stocks and bonds can keep a portfolio steadier when tech stocks swing widely." },
     "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/09/61873424/what-is-going-on-with-broadcom-stock-on-friday-2" }
   }
 ],
@@ -1657,6 +1743,7 @@ window.INSIGHTS = [].concat(
       "zh": "退休规划与传承规划是一体两面。PRS 可设定受益人，每年最高 RM3,000 税务减免，适合作为长期计划的一部分。",
       "en": "Retirement and legacy planning go hand in hand. PRS lets you nominate beneficiaries and offers up to RM3,000 in annual tax relief — a good part of a long-term plan."
     },
+    "bond": { "zh": "长期投资的道理同样适用于债券：债券基金的回报主要来自长期累积的利息，时间是重要的帮手。", "en": "The same long-term principle applies to bonds: bond-fund returns mainly come from interest accumulated over time, so time is an important ally." },
     "source": { "name": "CBS News", "url": "https://www.cbsnews.com/news/warren-buffett-stepping-aside-berkshire-hathaway-chairman/" }
   },
   {
@@ -1684,6 +1771,7 @@ window.INSIGHTS = [].concat(
       "zh": "长期退休组合可以参与科技成长，但应与其他行业和地区平衡，降低单一主题的周期风险。",
       "en": "A long-term retirement portfolio can share in tech growth, balanced with other sectors and regions to limit single-theme cycle risk."
     },
+    "bond": { "zh": "关于AI泡沫的讨论，提醒我们组合不宜过度集中在单一主题。债券基金与股票的风险来源不同，有助于分散配置。", "en": "Debate about an AI bubble is a reminder not to concentrate a portfolio in one theme. Bond funds carry different risks from equities and can help diversify." },
     "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/09/61878323/goldman-sachs-profits-bubble-cyclical-peak" }
   },
   {
@@ -1711,6 +1799,7 @@ window.INSIGHTS = [].concat(
       "zh": "退休计划要能承受突发事件。适度分散、预留应急资金，比预测局势更可靠。",
       "en": "A retirement plan should withstand shocks. Sensible diversification and an emergency buffer are more reliable than forecasting events."
     },
+    "bond": { "zh": "地缘冲突消息频繁时，市场情绪容易波动。大马债券基金主要受本地利率与通胀影响，可以在组合中起到相对稳定的作用。", "en": "When geopolitical headlines are frequent, sentiment can swing. Malaysian bond funds are driven mainly by local rates and inflation and can play a relatively steadying role in a portfolio." },
     "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/liveblog/2026/9/18/iran-war-live-trump-weighs-big-decision-on-iran-tanker-hit-in-hormuz" }
   }
 ],
@@ -1740,6 +1829,7 @@ window.INSIGHTS = [].concat(
       "zh": "退休资产最怕在恐慌中卖出。事先设定好配置与供款计划，能帮助你在波动中守住长期目标。",
       "en": "The biggest risk to retirement money is selling in a panic. A pre-set allocation and contribution plan helps you hold your course through volatility."
     },
+    "bond": { "zh": "美股大跌时，资金有时会转向较稳健的资产。大马债券基金与股票的走势不完全同步，适度配置有助于分散风险。", "en": "When US stocks drop sharply, money sometimes moves to steadier assets. Malaysian bond funds do not move in lockstep with equities, so a sensible allocation can help spread risk." },
     "source": { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-16-2026" }
   },
   {
@@ -1767,6 +1857,7 @@ window.INSIGHTS = [].concat(
       "zh": "油价影响通胀，也影响退休后的生活成本。组合中保留一定的抗通胀资产，有助长期购买力。",
       "en": "Oil feeds inflation and retirement living costs. Holding some inflation-resilient assets helps protect long-term purchasing power."
     },
+    "bond": { "zh": "油价回落有助于缓和通胀压力，一般对债券价格较为有利。不过地缘局势未定，油价仍可能反复，债券基金适合以中长期眼光持有。", "en": "Lower oil prices help ease inflation pressure, which is generally supportive for bond prices. With geopolitics unresolved, oil can still swing, so bond funds are best held with a medium- to long-term view." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil" }
   },
   {
@@ -1794,6 +1885,7 @@ window.INSIGHTS = [].concat(
       "zh": "增速放缓不等于趋势结束，但提醒我们成长主题在退休组合中宜适度、不宜过重。",
       "en": "Slower growth isn't the end of a trend, but it's a reminder that growth themes belong in a retirement portfolio in moderation."
     },
+    "bond": { "zh": "个别科技公司的财报对债券基金影响有限。如果组合中科技股比重较高，债券基金可以作为平衡波动的一部分。", "en": "A single tech company's earnings have limited impact on bond funds. If a portfolio leans heavily toward tech stocks, bond funds can serve as part of the balance." },
     "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/large-cap/26/09/61855575/micron-earnings-preview-31-per-share-vs-3-a-year-ago" }
   }
 ],
@@ -1823,6 +1915,7 @@ window.INSIGHTS = [].concat(
       "zh": "退休计划要经得起各种新闻周期。定期检视、少做冲动调整，是长期最有效的做法。",
       "en": "A retirement plan has to outlast many news cycles. Regular reviews and fewer impulsive changes work best over the long run."
     },
+    "bond": { "zh": "油价变化会影响通胀预期，进而影响利率与债券价格。马来西亚作为能源出口国，油价对本地财政的影响较为复杂，债券基金投资者可多留意本地通胀数据。", "en": "Oil prices shape inflation expectations, which feed into interest rates and bond prices. As an energy exporter, Malaysia's fiscal picture is affected in mixed ways, so bond-fund investors may want to watch local inflation data." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil" }
   },
   {
@@ -1850,6 +1943,7 @@ window.INSIGHTS = [].concat(
       "zh": "利率预期每天都在变，退休组合的股、债、现金比例应以年龄与目标为准，而不是每日新闻。",
       "en": "Rate expectations change daily; a retirement mix of equities, bonds and cash should follow your age and goals, not the daily news."
     },
+    "bond": { "zh": "加息概率每天变动，债券价格也会随之起伏。对债券基金而言，短期的价格波动之外，持续收取的利息才是长期回报的主要来源。", "en": "As rate-hike odds shift day to day, bond prices move with them. For bond funds, beyond short-term price swings, the steady interest income is the main source of long-term returns." },
     "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
   }
 ],
@@ -1879,6 +1973,7 @@ window.INSIGHTS = [].concat(
       "zh": "利率上升会影响股债估值，但对长期退休储蓄而言，持续供款与分散配置仍是最稳妥的基础。",
       "en": "Rising rates affect stock and bond valuations, but for long-term retirement saving, steady contributions and diversification remain the foundation."
     },
+    "bond": { "zh": "美联储加息后，债券市场往往需要时间消化。大马债券基金的表现更取决于国行是否跟随调整利率，以及令吉与外资流向，可以从中长期角度看待。", "en": "After a Fed hike, bond markets usually take time to adjust. Malaysian bond funds depend more on whether Bank Negara follows, plus the ringgit and foreign flows, so they are best viewed over the medium to long term." },
     "source": { "name": "FX168", "url": "https://www.fx168news.com/article/%E7%BE%8E%E8%81%94%E5%82%A8%E5%8A%A0%E6%81%AF-1093436" }
   },
   {
@@ -1906,6 +2001,7 @@ window.INSIGHTS = [].concat(
       "zh": "PRS 可以同时配置本地与海外基金，每年最高 RM3,000 税务减免，让退休储蓄更有效率。",
       "en": "PRS can hold both local and overseas funds, with up to RM3,000 in annual tax relief to make retirement saving more efficient."
     },
+    "bond": { "zh": "国行维持OPR不变，本地利率环境相对稳定，这对大马债券价格是较平稳的背景。债券基金在投资组合中，通常扮演稳定收入与平衡波动的角色。", "en": "With Bank Negara holding the OPR steady, the local rate backdrop is relatively stable, which is a calmer setting for Malaysian bond prices. In a portfolio, bond funds usually provide steadier income and help balance volatility." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/interest-rate" }
   },
   {
@@ -1933,6 +2029,7 @@ window.INSIGHTS = [].concat(
       "zh": "退休组合可以包含成长主题，但不宜押注单一赛道。行业分散能降低个别公司爆雷的冲击。",
       "en": "A retirement portfolio can include growth themes, but shouldn't bet on a single one. Sector diversification cushions any single company's surprise."
     },
+    "bond": { "zh": "科技股的波动对债券基金没有直接影响。股市震荡时，持有一部分债券基金，有助于让整体组合的起伏较为温和。", "en": "Tech-stock swings have little direct effect on bond funds. When equities are volatile, holding some bond funds can help make the overall portfolio's ups and downs gentler." },
     "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/equities/26/09/61584217/software-stocks-crash-despite-earnings-beats-fed-hike-odds-66-percent-markets-wednesday" }
   }
 ],
@@ -1962,6 +2059,7 @@ window.INSIGHTS = [].concat(
       "zh": "利率走向影响股债表现，但退休计划看的是几十年。维持分散配置，比押注某一次议息结果更重要。",
       "en": "Rates move stocks and bonds, but retirement plans span decades. Staying diversified matters more than betting on any single meeting."
     },
+    "bond": { "zh": "加息预期升温时，全球债券价格通常承压。马来西亚债券基金主要投资大马政府债券与企业债券，更直接受国行利率走向影响，但外资流动也会带来短期波动。", "en": "When rate-hike expectations rise, global bond prices usually come under pressure. Malaysian bond funds mainly hold Malaysian government and corporate bonds and are more directly driven by Bank Negara's rate path, though foreign flows can add short-term swings." },
     "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/economic-data/26/09/61788155/fed-rate-hike-september-2026-dot-plot-projections-what-to-watch" }
   },
   {
@@ -1989,6 +2087,7 @@ window.INSIGHTS = [].concat(
       "zh": "收益率走高也意味着债券类资产的收益吸引力上升。退休组合中股债的比例，值得定期检视。",
       "en": "Higher yields also make bond-type assets more attractive. The equity–bond mix in a retirement portfolio is worth reviewing regularly."
     },
+    "bond": { "zh": "美债收益率升高，可能让部分外资减持新兴市场债券，大马债券价格短期或受牵动。另一方面，收益率较高时，新投入债券基金的资金未来可获得的利息水平也较高。", "en": "Higher US yields can lead some foreign investors to trim emerging-market bonds, which may weigh on Malaysian bond prices in the short term. On the other hand, when yields are higher, new money going into bond funds can lock in higher income over time." },
     "source": { "name": "Schwab", "url": "https://www.schwab.com/learn/story/stock-market-update-open" }
   }
 ]

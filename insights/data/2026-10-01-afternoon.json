@@ -10,17 +10,18 @@
       "en": "Per a search-result summary, the 10-year Treasury yield rose about 4 bps on Thursday to ~5.3338% and the 30-year topped 5.6%, versus ~5.30% in the morning brief. Dow futures fell about 250 points while Nasdaq-100 futures gained ~0.51% (early futures figures). Like a higher mortgage rate reshaping a household budget, higher yields make markets pickier about stock valuations."
     },
     "dda": {
-      "zh": "🎯 DDA定期定额:当收益率与指数每天都在变动时,定期投入的做法不需要判断入场时机,关键是纪律与是否符合个人目标。",
-      "en": "🎯 DDA: when yields and indices move every day, regular investing removes the need to time an entry; what matters is discipline and fit with personal goals."
+      "zh": "当收益率与指数每天都在变动时,定期投入的做法不需要判断入场时机,关键是纪律与是否符合个人目标。",
+      "en": "when yields and indices move every day, regular investing removes the need to time an entry; what matters is discipline and fit with personal goals."
     },
     "lump": {
-      "zh": "🎯 一次性投入(Lump Sum):一般原则是可以考虑分阶段投入以分散时机风险,并检查集中度,同时配合个人目标与风险承受能力。",
-      "en": "🎯 Lump Sum: as a general principle, phasing in can spread timing risk; also check concentration and match the approach to personal goals and risk tolerance."
+      "zh": "一般原则是可以考虑分阶段投入以分散时机风险,并检查集中度,同时配合个人目标与风险承受能力。",
+      "en": "as a general principle, phasing in can spread timing risk; also check concentration and match the approach to personal goals and risk tolerance."
     },
     "prs": {
-      "zh": "🎯 PRS退休:退休储蓄着眼数十年,单日的收益率变动只是过程中的一个点;PRS每年最高RM3,000的税务减免也是长期储蓄的考量之一。",
-      "en": "🎯 PRS: retirement saving spans decades, so one day's yield move is a single point along the way; the PRS tax relief of up to RM3,000 a year is one consideration for long-term saving."
+      "zh": "退休储蓄着眼数十年,单日的收益率变动只是过程中的一个点;PRS每年最高RM3,000的税务减免也是长期储蓄的考量之一。",
+      "en": "retirement saving spans decades, so one day's yield move is a single point along the way; the PRS tax relief of up to RM3,000 a year is one consideration for long-term saving."
     },
+    "bond": { "zh": "10年期美债收益率升至2002年以来高位，全球债券价格承压，大马债券也可能受外资流动影响。较高的收益率同时意味着新资金未来可获得较高的利息。", "en": "With the 10-year US yield at its highest since 2002, global bond prices are under pressure, and Malaysian bonds may feel it through foreign flows. Higher yields also mean new money can earn more interest in the future." },
     "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/dow-p-500-nasdaq-futures-023846562.html" }
   },
   {
@@ -34,17 +35,18 @@
       "en": "CNBC's live coverage says markets are waiting on this week's US jobs report amid elevated Treasury yields, and Nike is due to report after Thursday's close. We had no results at time of writing. Volatility often rises around key data, like the weather forecast getting extra attention the night before a trip."
     },
     "dda": {
-      "zh": "🎯 DDA定期定额:数据与财报日的波动很常见,定期投入的纪律不依赖于预测某一份数据的结果。",
-      "en": "🎯 DDA: swings around data and earnings days are common; the discipline of regular investing does not depend on predicting any single release."
+      "zh": "数据与财报日的波动很常见,定期投入的纪律不依赖于预测某一份数据的结果。",
+      "en": "swings around data and earnings days are common; the discipline of regular investing does not depend on predicting any single release."
     },
     "lump": {
-      "zh": "🎯 一次性投入(Lump Sum):一般原则是分阶段投入有助分散时机风险,并检查组合是否过度集中于单一主题。",
-      "en": "🎯 Lump Sum: as a general principle, phasing in can help spread timing risk, and it is worth checking that a portfolio is not over-concentrated in one theme."
+      "zh": "一般原则是分阶段投入有助分散时机风险,并检查组合是否过度集中于单一主题。",
+      "en": "as a general principle, phasing in can help spread timing risk, and it is worth checking that a portfolio is not over-concentrated in one theme."
     },
     "prs": {
-      "zh": "🎯 PRS退休:退休组合讲求长期与分散,短期的数据波动不应改变既定的退休目标;PRS每年最高RM3,000的税务减免亦可纳入考量。",
-      "en": "🎯 PRS: a retirement portfolio is about the long term and diversification, so short-term data swings need not change the retirement goal; the PRS tax relief of up to RM3,000 a year can also be considered."
+      "zh": "退休组合讲求长期与分散,短期的数据波动不应改变既定的退休目标;PRS每年最高RM3,000的税务减免亦可纳入考量。",
+      "en": "a retirement portfolio is about the long term and diversification, so short-term data swings need not change the retirement goal; the PRS tax relief of up to RM3,000 a year can also be considered."
     },
+    "bond": { "zh": "就业报告可能影响利率预期，债券价格也会随之起伏。债券基金投资者不必因单一数据而调整，按计划持有即可。", "en": "The jobs report may shift rate expectations, and bond prices may move with it. Bond-fund investors need not adjust on a single data release and can hold to plan." },
     "source": { "name": "CNBC", "url": "https://www.cnbc.com/2026/09/30/stock-market-today-live-updates.html" }
   }
 ]

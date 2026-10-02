@@ -24,6 +24,7 @@
       "zh": "地缘风险会时起时落。退休计划应建立在分散配置与持续供款上，而不是押注谈判结果。",
       "en": "Geopolitical risk ebbs and flows. Retirement plans should rest on diversification and steady contributions, not on how talks end."
     },
+    "bond": { "zh": "地缘风险重新升温，可能推高油价与通胀预期，债券价格短期或受压。大马债券基金主要受本地利率影响，适合长期持有。", "en": "Renewed geopolitical risk can push up oil and inflation expectations, which may pressure bond prices in the short term. Malaysian bond funds are driven mainly by local rates and suit long-term holding." },
     "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/9/26/trump-rejects-irans-seven-day-roadmap-to-reopen-strait-of-hormuz" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "利率上升提高了固定收益部分的收益潜力。退休组合中股债比例，可按年龄与风险承受度调整。",
       "en": "Higher rates raise the income potential of fixed income. Adjust the equity–bond mix of your retirement savings to your age and risk tolerance."
     },
+    "bond": { "zh": "借贷成本若再上升，债券价格短期可能下跌，但新资金可获得的利息也会提高。债券基金的回报需要以较长时间来衡量。", "en": "If borrowing costs rise further, bond prices may dip in the short term, but the interest available on new money also rises. Bond-fund returns should be judged over a longer period." },
     "source": { "name": "Investing.com", "url": "https://www.investing.com/central-banks/fed-rate-monitor" }
   },
   {
@@ -78,6 +80,7 @@
       "zh": "每周都有\"关键数据\"，但退休计划看的是几十年。定期检视配置，比追踪每一份报告更重要。",
       "en": "Every week has \"key data\", but retirement plans span decades. Regular reviews matter more than tracking every report."
     },
+    "bond": { "zh": "数据密集的一周，债券价格可能随数据起伏。债券基金投资者不必因单一数据而调整，按计划持有即可。", "en": "In a data-heavy week, bond prices may swing with each release. Bond-fund investors need not adjust on any single number and can hold to plan." },
     "source": { "name": "Schwab", "url": "https://www.schwab.com/learn/story/weekly-traders-outlook" }
   }
 ]

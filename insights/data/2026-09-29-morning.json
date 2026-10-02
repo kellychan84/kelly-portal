@@ -24,6 +24,7 @@
       "zh": "估值回归常态是健康的调整。退休组合持续供款，能在这段时间以较合理的价格累积资产。",
       "en": "Valuations normalising is a healthy adjustment. Steady retirement contributions build assets at fairer prices through it."
     },
+    "bond": { "zh": "收益率处于19年高点，债券价格承压，但这也意味着现在的利息水平较具吸引力。债券基金适合以收取长期收入的角度来看待。", "en": "With yields at a 19-year high, bond prices are under pressure, but it also means current interest levels are relatively attractive. Bond funds are best seen as a source of long-term income." },
     "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-28-dow-sp-500-nasdaq-080420627.html" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "今天韩股跌、港股涨，说明区域分散的重要。退休组合不宜集中于单一市场。",
       "en": "Korea down, Hong Kong up on the same day shows why regional diversification matters. Don't concentrate retirement savings in one market."
     },
+    "bond": { "zh": "企业回购与AI安全措施对债券基金没有直接影响。股债平衡，能让组合不那么依赖单一板块的表现。", "en": "Company buybacks and AI-safety measures do not directly affect bond funds. A stock–bond balance makes a portfolio less dependent on any single sector." },
     "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-upsizes-share-buyback-program-124458222.html" }
   },
   {
@@ -78,6 +80,7 @@
       "zh": "PRS 是长期计划，短期预测不影响它的核心价值。持续供款，并善用每年最高 RM3,000 税务减免。",
       "en": "PRS is a long-term plan; short-term forecasts don't change its core value. Keep contributing and use the up to RM3,000 annual tax relief."
     },
+    "bond": { "zh": "令吉本月走软，可能让部分外资对大马债券更谨慎。不过本地债券主要受国行利率与本地通胀影响，宜从中长期角度看待。", "en": "The ringgit's softness this month may make some foreign investors more cautious on Malaysian bonds. Local bonds are driven mainly by Bank Negara rates and local inflation, so a medium- to long-term view helps." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/malaysia/stock-market" }
   }
 ]

@@ -24,6 +24,7 @@
       "zh": "外交进展是分秒变化的新闻，不是调整退休配置的理由。PRS 应以10年、20年的周期来看。",
       "en": "Diplomatic news changes by the hour — not a reason to touch a retirement allocation. PRS is built for a 10–20 year horizon."
     },
+    "bond": { "zh": "外交进展让油价维持在较低水平，有助于缓和通胀，一般对债券价格较为友善。", "en": "Diplomatic progress keeping oil lower helps ease inflation, which is generally friendly for bond prices." },
     "source": { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-decision-tehran-warns-of-expansion/" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "PRS 的价值在于分散，而不是追逐当红个股的短期动能。长期要看的是需求周期能撑多久。",
       "en": "PRS's value is diversification, not chasing today's momentum stock. Long term, the question is how long the demand cycle lasts."
     },
+    "bond": { "zh": "个股大涨对债券基金没有直接影响。若组合因科技股上涨而偏重股票，可以定期检视股债比例是否仍符合自己的目标。", "en": "A single stock's surge does not directly affect bond funds. If tech gains have tilted a portfolio toward equities, it may be worth reviewing whether the stock–bond mix still fits your goals." },
     "source": { "name": "TheStreet", "url": "https://www.thestreet.com/investing/stocks/mu-micron-sndk-sandisk-lynx-research-stock-price-targets-september-2026" }
   }
 ]

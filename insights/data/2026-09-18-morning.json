@@ -24,6 +24,7 @@
       "zh": "退休资产最怕在恐慌中卖出。事先设定好配置与供款计划，能帮助你在波动中守住长期目标。",
       "en": "The biggest risk to retirement money is selling in a panic. A pre-set allocation and contribution plan helps you hold your course through volatility."
     },
+    "bond": { "zh": "美股大跌时，资金有时会转向较稳健的资产。大马债券基金与股票的走势不完全同步，适度配置有助于分散风险。", "en": "When US stocks drop sharply, money sometimes moves to steadier assets. Malaysian bond funds do not move in lockstep with equities, so a sensible allocation can help spread risk." },
     "source": { "name": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-16-2026" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "油价影响通胀，也影响退休后的生活成本。组合中保留一定的抗通胀资产，有助长期购买力。",
       "en": "Oil feeds inflation and retirement living costs. Holding some inflation-resilient assets helps protect long-term purchasing power."
     },
+    "bond": { "zh": "油价回落有助于缓和通胀压力，一般对债券价格较为有利。不过地缘局势未定，油价仍可能反复，债券基金适合以中长期眼光持有。", "en": "Lower oil prices help ease inflation pressure, which is generally supportive for bond prices. With geopolitics unresolved, oil can still swing, so bond funds are best held with a medium- to long-term view." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil" }
   },
   {
@@ -78,6 +80,7 @@
       "zh": "增速放缓不等于趋势结束，但提醒我们成长主题在退休组合中宜适度、不宜过重。",
       "en": "Slower growth isn't the end of a trend, but it's a reminder that growth themes belong in a retirement portfolio in moderation."
     },
+    "bond": { "zh": "个别科技公司的财报对债券基金影响有限。如果组合中科技股比重较高，债券基金可以作为平衡波动的一部分。", "en": "A single tech company's earnings have limited impact on bond funds. If a portfolio leans heavily toward tech stocks, bond funds can serve as part of the balance." },
     "source": { "name": "Benzinga", "url": "https://www.benzinga.com/markets/large-cap/26/09/61855575/micron-earnings-preview-31-per-share-vs-3-a-year-ago" }
   }
 ]

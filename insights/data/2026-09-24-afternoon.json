@@ -24,6 +24,7 @@
       "zh": "油价反弹会重燃通胀担忧。退休组合保留适度抗通胀资产，能帮助守住长期购买力。",
       "en": "An oil rebound revives inflation worries. Keeping some inflation-resilient assets in a retirement portfolio helps protect purchasing power."
     },
+    "bond": { "zh": "油价重新上涨会增加通胀担忧，可能让利率预期上升，债券价格短期承压。债券基金的回报需要较长时间来衡量。", "en": "Oil rising again adds to inflation worries and can lift rate expectations, putting short-term pressure on bond prices. Bond-fund returns need a longer horizon to judge." },
     "source": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/9/23/irans-president-slams-trumps-bullying-in-defiant-unga-speech" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "中美关系稳定对亚洲市场有利。退休组合适度配置亚洲资产，并维持地区分散。",
       "en": "Stable US–China relations help Asian markets. Hold a sensible share of Asian assets in retirement savings, with regional diversification."
     },
+    "bond": { "zh": "中美贸易休战延长，有助于减少区域市场的不确定性，一般对大马债券的外资流向较为正面。", "en": "An extended US–China trade truce reduces uncertainty for regional markets, which is generally positive for foreign flows into Malaysian bonds." },
     "source": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-24-dow-sp-500-nasdaq-080352893.html" }
   }
 ]

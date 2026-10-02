@@ -24,6 +24,7 @@
       "zh": "中美关系影响亚洲市场与科技板块。退休组合维持区域与行业分散，能降低单一事件的影响。",
       "en": "US–China relations move Asian markets and tech. Regional and sector diversification limits any single event's impact on retirement savings."
     },
+    "bond": { "zh": "中美关系缓和有助于改善市场整体情绪。对大马债券而言，区域风险情绪改善，一般有利于外资流入本地债市。", "en": "Easing US–China tension can improve overall market sentiment. For Malaysian bonds, better regional risk appetite is generally supportive of foreign inflows into the local bond market." },
     "source": { "name": "Yahoo Finance", "url": "https://sg.finance.yahoo.com/news/stock-market-today-monday-september-21-dow-sp-500-nasdaq-080214605.html" }
   },
   {
@@ -51,6 +52,7 @@
       "zh": "通胀压力减轻对退休族是好消息，但长期规划仍应假设通胀存在，保持抗通胀资产的配置。",
       "en": "Easing inflation pressure is good news for retirees, but long-term plans should still assume inflation and keep inflation-resilient assets."
     },
+    "bond": { "zh": "油价回落与加息预期降温同时出现，一般对债券价格较为有利。不过这些预期变化很快，债券基金适合以较长的时间来衡量。", "en": "Falling oil and cooling rate-hike expectations together are generally supportive for bond prices. These expectations change quickly, so bond funds are best judged over a longer period." },
     "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/crude-oil" }
   }
 ]
