@@ -82,9 +82,10 @@
   }
 
   // category chips
-  const chipKeys = ['all'].concat(Object.keys(kpInsights.TAGS));
+  const chipKeys = ['all', 'summary'].concat(Object.keys(kpInsights.TAGS));
+  const CHIP = { all: { zh: '🌟 全部', en: '🌟 All' }, summary: { zh: '📰 每日速览', en: '📰 Daily snapshots' } };
   $('chips').innerHTML = chipKeys.map(k => {
-    const t = k === 'all' ? { zh: '🌟 全部', en: '🌟 All' } : kpInsights.TAGS[k];
+    const t = CHIP[k] || kpInsights.TAGS[k];
     return `<button class="chip" data-t="${k}" aria-pressed="${k === 'all'}"><span class="zh">${t.zh}</span><span class="en">${t.en}</span></button>`;
   }).join('');
   $('chips').addEventListener('click', e => {
@@ -102,8 +103,9 @@
 
   function render() {
     const q = $('q').value.trim().toLowerCase(), m = $('month').value;
-    // the 今日速览 snapshots only show in the unfiltered (全部) view
-    const list = all.filter(it => (tag === 'all' || (!kpInsights.isSummary(it) && (it.tags || []).includes(tag))) &&(m === 'all' || kpInsights.month(it.time) === m) && matches(it, q));
+    // 今日速览 snapshots show under 全部 and 每日速览, not under the topic chips
+    const byTag = it => tag === 'all' || (tag === 'summary' ? kpInsights.isSummary(it) : !kpInsights.isSummary(it) && (it.tags || []).includes(tag));
+    const list = all.filter(it => byTag(it) && (m === 'all' || kpInsights.month(it.time) === m) && matches(it, q));
     $('feed').innerHTML = list.length
       ? list.slice(0, shown).map(it => kpInsights.card(it)).join('')
       : '<p class="empty"><span class="zh">没有符合条件的洞察。</span><span class="en">No insights match.</span></p>';
