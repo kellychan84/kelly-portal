@@ -2,6 +2,80 @@
 window.INSIGHTS = [].concat(
 [
   {
+    "id": "2026-10-02-m1",
+    "time": "2026-10-02T09:00:00+08:00",
+    "brief": "2026-10-02-morning.html",
+    "tags": ["us", "fed"],
+    "title": { "zh": "美股10月首日小涨,美债收益率从高位回落至约5.24%", "en": "Wall St edges up on the first day of October as the 10-year yield eases to ~5.24%" },
+    "analysis": {
+      "zh": "据搜索结果摘要,标普500收报7,666.45点(+0.19%),道指+0.04%,纳指+0.04%。10年期美债收益率盘中升至5.3%后回落至约5.24%。收益率就像整个市场的「利率底价」,回落时股市压力减轻,但仍在20多年高位,市场依然敏感。",
+      "en": "Per a search-result summary, the S&P 500 closed at 7,666.45 (+0.19%), the Dow +0.04% and the Nasdaq +0.04%. The 10-year Treasury yield touched 5.3% intraday before easing to about 5.24%. Yields act like the market's baseline interest rate; when they retreat, pressure on stocks eases, but they remain at 20-plus-year highs, so markets stay sensitive."
+    },
+    "dda": {
+      "zh": "🎯 DDA定期定额:当收益率与指数每天都在变动时,定期投入的做法不需要判断入场时机,关键是纪律与是否符合个人目标。",
+      "en": "🎯 DDA: when yields and indices move every day, regular investing removes the need to time an entry; what matters is discipline and fit with personal goals."
+    },
+    "lump": {
+      "zh": "🎯 一次性投入(Lump Sum):一般原则是可以考虑分阶段投入以分散时机风险,并检查集中度,同时配合个人目标与风险承受能力。",
+      "en": "🎯 Lump Sum: as a general principle, phasing in can spread timing risk; also check concentration and match the approach to personal goals and risk tolerance."
+    },
+    "prs": {
+      "zh": "🎯 PRS退休:退休储蓄着眼数十年,单日的收益率变动只是过程中的一个点;PRS每年最高RM3,000的税务减免也是长期储蓄的考量之一。",
+      "en": "🎯 PRS: retirement saving spans decades, so one day's yield move is a single point along the way; the PRS tax relief of up to RM3,000 a year is one consideration for long-term saving."
+    },
+    "source": { "name": "Yahoo Finance", "url": "https://uk.finance.yahoo.com/news/major-us-stock-indexes-fared-202018293.html" }
+  },
+  {
+    "id": "2026-10-02-m2",
+    "time": "2026-10-02T09:00:00+08:00",
+    "brief": "2026-10-02-morning.html",
+    "tags": ["tech", "us"],
+    "title": { "zh": "美光营收542亿美元,指引高于预期,带动芯片股", "en": "Micron posts $54.23B revenue with above-consensus guidance, lifting chip stocks" },
+    "analysis": {
+      "zh": "据Investing.com财报电话会议摘要,美光第四财季营收542.3亿美元,同比增长379%,调整后每股盈利33.42美元;下一财季营收指引615亿美元,高于市场预期的568亿美元。AI数据中心需要大量内存芯片,就像盖大楼需要大量钢筋。",
+      "en": "Per the Investing.com earnings-call summary, Micron's fiscal Q4 revenue was $54.23 billion, up 379% year on year, with adjusted EPS of $33.42; next-quarter revenue guidance of $61.5 billion compares with a $56.8 billion consensus. AI data centres need large amounts of memory chips, much as a skyscraper needs a lot of steel."
+    },
+    "dda": {
+      "zh": "🎯 DDA定期定额:热门主题的涨跌往往较大,定期投入的做法不需要预测哪个板块下一个领涨。",
+      "en": "🎯 DDA: popular themes can swing sharply; regular investing does not require predicting which sector leads next."
+    },
+    "lump": {
+      "zh": "🎯 一次性投入(Lump Sum):一般原则是可以考虑分阶段投入以分散时机风险,并检查单一主题的集中度,同时配合个人目标与风险承受能力。",
+      "en": "🎯 Lump Sum: as a general principle, phasing in can spread timing risk; also check concentration in any single theme and match the approach to personal goals and risk tolerance."
+    },
+    "prs": {
+      "zh": "🎯 PRS退休:退休基金通常分散于多种资产,科技主题只是其中一部分;PRS每年最高RM3,000的税务减免也是长期储蓄的考量之一。",
+      "en": "🎯 PRS: retirement funds are typically spread across many assets, with technology only one part; the PRS tax relief of up to RM3,000 a year is one consideration for long-term saving."
+    },
+    "source": { "name": "Investing.com", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-micron-tops-q4-2026-estimates-as-demand-stays-hot-93CH-4925992" }
+  },
+  {
+    "id": "2026-10-02-m3",
+    "time": "2026-10-02T09:00:00+08:00",
+    "brief": "2026-10-02-morning.html",
+    "tags": ["us", "cn"],
+    "title": { "zh": "Nike盈利胜预期但营收逊色,大中华区下滑26%", "en": "Nike beats on earnings but misses on revenue; Greater China down 26%" },
+    "analysis": {
+      "zh": "据搜索结果摘要,Nike调整后每股盈利0.48美元(预期0.44美元),营收112.1亿美元,低于预期的约113.5亿美元;大中华区营收下降26%,公司预计2027财年营收高个位数下降,盘后股价跌约3%。好成绩单不一定带来好股价,市场更看重前景。",
+      "en": "Per search-result summaries, Nike's adjusted EPS was $0.48 (vs $0.44 expected) and revenue $11.21 billion, below about $11.35 billion expected; Greater China revenue fell 26%, the company expects fiscal 2027 revenue to fall by a high-single-digit rate, and shares dropped about 3% in extended trading. A good report card does not guarantee a good share price; the market looks at the outlook."
+    },
+    "dda": {
+      "zh": "🎯 DDA定期定额:单一公司的消息难以预测,定期投入于分散的基金,不需要押注某一家公司的财报结果。",
+      "en": "🎯 DDA: single-company news is hard to predict; investing regularly in diversified funds does not require betting on any one company's results."
+    },
+    "lump": {
+      "zh": "🎯 一次性投入(Lump Sum):一般原则是留意单一公司或单一地区的集中度,并配合个人目标与风险承受能力。",
+      "en": "🎯 Lump Sum: as a general principle, watch concentration in any single company or region, and match the approach to personal goals and risk tolerance."
+    },
+    "prs": {
+      "zh": "🎯 PRS退休:分散投资有助于降低单一公司消息的影响;PRS每年最高RM3,000的税务减免也是长期储蓄的考量之一。",
+      "en": "🎯 PRS: diversification can help soften the effect of any single company's news; the PRS tax relief of up to RM3,000 a year is one consideration for long-term saving."
+    },
+    "source": { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/01/nike-nke-q1-2027-earnings.html" }
+  }
+],
+[
+  {
     "id": "2026-10-01-m1",
     "time": "2026-10-01T09:00:00+08:00",
     "brief": "2026-10-01-morning.html",
