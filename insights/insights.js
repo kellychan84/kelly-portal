@@ -105,6 +105,89 @@ window.INSIGHTS = [].concat(
   }
 ],
 [
+  {
+    "id": "2026-10-02-a1",
+    "time": "2026-10-02T17:00:00+08:00",
+    "tags": ["cn", "us"],
+    "title": { "zh": "亚洲股市喜忧参半:港股重开大跌约3%,日股跌约0.9%", "en": "Asian stocks mixed: Hong Kong drops about 3% on reopening, Nikkei down about 0.9%" },
+    "analysis": {
+      "zh": "据Investing.com报道,周五亚洲股市在美国就业数据公布前趋于谨慎:恒生指数下跌约3%,至约23,900点的11周低位,日经225指数跌0.9%,东证指数跌1.1%,韩国KOSPI微升0.3%。较高的债券收益率和油价压低了市场的风险胃口。就像大考前夕,大家都先按兵不动,等成绩出来再做决定。",
+      "en": "Per Investing.com, Asian stocks turned cautious on Friday ahead of the US jobs data: the Hang Seng fell about 3% to an 11-week low near 23,900, the Nikkei 225 slipped 0.9% and the TOPIX 1.1%, while South Korea's KOSPI edged up 0.3%. Elevated bond yields and oil prices weighed on risk appetite. It is a bit like the night before an exam: everyone holds still and waits for the result."
+    },
+    "dda": {
+      "zh": "区域市场一天内涨跌不一很常见,定期投入的做法不需要判断哪个市场明天领先,重点是持续性以及是否符合个人目标。",
+      "en": "Regional markets often move in different directions within a day; regular investing does not require guessing which market leads tomorrow. Consistency and fit with personal goals matter more."
+    },
+    "prs": {
+      "zh": "退休储蓄着眼数十年,单日的港股波动只是漫长过程中的一个点;PRS每年最高RM3,000的税务减免也是长期储蓄的考量之一。",
+      "en": "Retirement saving spans decades, so one day's Hong Kong swing is a single point along the way; the PRS tax relief of up to RM3,000 a year is one consideration for long-term saving."
+    },
+    "lump": {
+      "zh": "一般原则是可以考虑分阶段投入以分散时机风险,并检查对单一地区的集中度,同时配合个人目标与风险承受能力。",
+      "en": "As a general principle, phasing in can spread timing risk; also check concentration in any single region and match the approach to personal goals and risk tolerance."
+    },
+    "bond": {
+      "zh": "港股的短期波动对马来西亚债券基金没有直接影响;债券基金的表现主要与利率、通胀和发债机构的信用相关。股市波动较大时,债券基金可以帮助组合保持平衡。",
+      "en": "A short-term swing in Hong Kong shares has no direct effect on Malaysian bond funds, whose performance mainly depends on interest rates, inflation and issuer credit. When equity markets are choppy, bond funds can help keep a portfolio balanced."
+    },
+    "source": { "name": "Investing.com", "url": "https://www.investing.com/news/stock-market-news/asia-stocks-mixed-ahead-of-us-jobs-data-hong-kong-shares-drop-3-4928868" }
+  },
+  {
+    "id": "2026-10-02-a2",
+    "time": "2026-10-02T17:00:00+08:00",
+    "tags": ["fed", "us"],
+    "title": { "zh": "美国9月就业报告今晚公布,市场预期新增约8.4万个职位", "en": "US September jobs report due tonight; consensus is about 84,000 new jobs" },
+    "analysis": {
+      "zh": "据CNBC报道,道琼斯调查的共识预期为9月非农新增就业8.4万个,失业率维持在4.1%;标普500期货小幅上升约0.26%。8月数据显示新增16.2万个职位,当时推高了市场对美联储加息的预期,因此今晚的数字会影响市场对利率路径的判断。就业数据就像经济的体检报告,太强或太弱都可能牵动利率预期。",
+      "en": "Per CNBC, the Dow Jones consensus calls for 84,000 new nonfarm jobs in September with unemployment steady at 4.1%, and S&P 500 futures were up about 0.26%. August's gain of 162,000 jobs had lifted expectations of a Fed rate hike, so tonight's figure may shape views on the rate path. Jobs data is like an economy's health check; a reading that is too strong or too weak can shift rate expectations."
+    },
+    "dda": {
+      "zh": "数据公布前后市场可能出现较大波动,定期投入的做法不需要预测数字,重点是按计划持续并保持分散。",
+      "en": "Markets may swing around the release; regular investing does not require predicting the number. Staying on plan and diversified is what matters."
+    },
+    "prs": {
+      "zh": "退休规划着眼长期,利率预期的变化是过程中的一部分;PRS每年最高RM3,000的税务减免也是长期储蓄的考量之一。",
+      "en": "Retirement planning is long term, and shifts in rate expectations are part of the journey; the PRS tax relief of up to RM3,000 a year is one consideration for long-term saving."
+    },
+    "lump": {
+      "zh": "重要数据公布前后,一般原则是可以考虑分阶段投入以分散时机风险,并检查集中度,同时配合个人目标与风险承受能力。",
+      "en": "Around major data releases, a general principle is that phasing in can spread timing risk; also check concentration and match the approach to personal goals and risk tolerance."
+    },
+    "bond": {
+      "zh": "美国利率预期上升,通常会推高美债收益率,并可能影响新兴市场的外资流向与令吉;这可能间接影响马来西亚政府债券(MGS)的价格。反之,预期降温通常对债券较为有利。",
+      "en": "Rising US rate expectations generally push US Treasury yields higher and may affect foreign flows into emerging markets and the ringgit, which can indirectly affect Malaysian Government Securities (MGS) prices. Cooling expectations are generally more supportive for bonds."
+    },
+    "source": { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/01/the-september-jobs-report-will-be-released-friday-heres-what-to-expect.html" }
+  },
+  {
+    "id": "2026-10-02-a3",
+    "time": "2026-10-02T17:00:00+08:00",
+    "tags": ["commodities"],
+    "title": { "zh": "金价约4,189.50美元,原油约92.63美元", "en": "Gold near $4,189.50 an ounce, crude oil near $92.63 a barrel" },
+    "analysis": {
+      "zh": "据Trading Economics的搜索结果摘要,10月2日黄金上涨0.28%至每盎司4,189.50美元,过去一个月仍下跌约6.35%;原油下跌0.26%至每桶92.63美元,较一年前高出约52%。油价处于高位,会通过运输和生产成本影响通胀预期,就像水电费上涨会推高整体家庭开销。",
+      "en": "Per a Trading Economics search-result summary, gold rose 0.28% to $4,189.50 an ounce on 2 October, still down about 6.35% over the past month; crude oil fell 0.26% to $92.63 a barrel, about 52% above a year ago. High oil prices can feed into inflation expectations through transport and production costs, much as higher utility bills lift a household's overall spending."
+    },
+    "dda": {
+      "zh": "商品价格波动较大,定期投入于分散的基金,不需要押注黄金或原油的短期方向。",
+      "en": "Commodity prices can swing sharply; investing regularly in diversified funds does not require betting on the short-term direction of gold or oil."
+    },
+    "prs": {
+      "zh": "通胀会逐渐侵蚀购买力,这是退休规划需要考虑长期通胀的原因;PRS每年最高RM3,000的税务减免也是长期储蓄的考量之一。",
+      "en": "Inflation gradually erodes purchasing power, which is why retirement planning takes long-term inflation into account; the PRS tax relief of up to RM3,000 a year is one consideration for long-term saving."
+    },
+    "lump": {
+      "zh": "一般原则是留意对单一资产或主题的集中度,可以考虑分阶段投入以分散时机风险,并配合个人目标与风险承受能力。",
+      "en": "As a general principle, watch concentration in any single asset or theme; phasing in can spread timing risk, and the approach should match personal goals and risk tolerance."
+    },
+    "bond": {
+      "zh": "油价高企可能推高通胀预期,而通胀与利率预期是影响马来西亚债券基金(MGS与企业债券、伊斯兰债券)的重要因素,也与国家银行的OPR决策相关。",
+      "en": "High oil prices may lift inflation expectations, and inflation and rate expectations are key drivers for Malaysian bond funds (MGS, corporate bonds and sukuk) and relevant to Bank Negara's OPR decisions."
+    },
+    "source": { "name": "Trading Economics", "url": "https://tradingeconomics.com/commodity/gold" }
+  }
+],
+[
   {"id":"2026-10-01-m0","kind":"summary","time":"2026-10-01T09:00:00+08:00","tags":[],"title":{"zh":"美光财报大超预期;PCE通胀降温,但美债收益率仍高","en":"Micron smashes estimates; PCE inflation cools but Treasury yields stay high"},"figures":[{"label":{"zh":"道琼斯","en":"Dow Jones"},"value":"50,906.05","change":"-0.86%","dir":"dn"},{"label":{"zh":"纳斯达克综合","en":"Nasdaq Composite"},"value":"26,861.06","change":"+0.24%","dir":"up"},{"label":{"zh":"PCE年增率","en":"PCE (y/y)"},"value":"3.4%","change":{"zh":"预期3.7%","en":"vs 3.7% expected"},"dir":""},{"label":{"zh":"10年期美债收益率","en":"10-yr Treasury yield"},"value":"≈5.298%","change":{"zh":"升约4个基点","en":"Up ~4 bps"},"dir":""}],"points":[{"zh":"美光营收542.3亿美元,下季指引约615亿美元,盘后股价小幅上扬。","en":"Micron posted $54.23B revenue with ~$61.5B next-quarter guidance; shares edged higher after hours."},{"zh":"PCE通胀年增3.4%,低于预期,但10年期美债收益率仍升至约5.30%,股市涨跌互见。","en":"PCE inflation came in at 3.4% year on year, below forecasts, yet the 10-year yield rose to about 5.30% and stocks were mixed."}],"takeaway":{"zh":"美光的数字惊人,但市场只是小涨,说明好消息早已写进价格:好公司不等于任何价位都好。通胀降温、收益率却仍高,按计划定期投入往往比预测更可靠。","en":"Micron\u0027s numbers are staggering, yet the stock only edged up: good news was already priced in, and a great company is not a great buy at any price. With inflation cooling but yields high, investing on a plan beats trying to predict."},"sources":[{"name":"CNBC","url":"https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html"},{"name":"CNBC","url":"https://www.cnbc.com/2026/09/30/inflation-moves-in-the-right-direction-but-markets-are-still-not-out-of-the-woods.html"},{"name":"Yahoo Finance","url":"https://finance.yahoo.com/economy/policy/articles/fed-raise-interest-rates-october-211951757.html"}]},
   {
     "id": "2026-10-01-m1",
