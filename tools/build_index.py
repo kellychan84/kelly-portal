@@ -148,6 +148,9 @@ def build_insights():
             problems += 1
             continue
         for c in arr:
+            if c.get("kind") == "summary" and "-afternoon" in f.name:
+                print(f"WARNING: {f.name} {c.get('id')}: afternoon updates have no 每日速览 snapshot - remove it", file=sys.stderr)
+                problems += 1
             for issue in card_issues(c):
                 print(f"WARNING: {f.name} {c.get('id')}: {issue}", file=sys.stderr)
                 problems += 1

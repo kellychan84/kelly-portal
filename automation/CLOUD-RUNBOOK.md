@@ -6,7 +6,8 @@ The routine prompt tells you the **slot**: `morning`, `afternoon` or `weekend`. 
 Kelly Chan is a Malaysian **信托基金顾问 (unit trust consultant)**. Her public website
 (https://kellychan84.github.io/your-wealth-compass/) shows all market news on ONE page, **市场洞察 Market Insights**
 (`insights.html`). Since 2026-10-02 there are **no separate brief pages** — do not create anything in `briefs/`.
-Each run adds one JSON file: a **今日速览 snapshot** plus one **insight card per news story**.
+Each run adds one JSON file of **insight cards, one per news story**. Morning and weekend runs also put a **每日速览 snapshot**
+first (it feeds the home-page hero card); **afternoon runs have NO snapshot** (Kelly, 2026-10-02).
 
 ---
 
@@ -43,8 +44,9 @@ Voice: warm and professional, like explaining to a friend. Always say **信托�
 
 ## 2. Write `insights/data/$DATE-$SLOT.json`
 A valid JSON array (no comments), exactly as specified in `insights/README.md`:
-1. **First item: the 今日速览 snapshot** (`"kind": "summary"`, id `$DATE-m0` / `$DATE-a0` / `$DATE-w0`) — headline, 3–6 key
-   figures that you verified this run, 2–3 bullet points, Kelly's view, and the sources.
+1. **Morning and weekend only — first item: the 每日速览 snapshot** (`"kind": "summary"`, id `$DATE-m0` / `$DATE-w0`) —
+   headline, 4 key figures that you verified this run (the home page shows the first 4), 2–3 bullet points, Kelly's view,
+   and the sources. **Afternoon: no snapshot** — the file holds only news cards.
 2. **Then one card per news story** — morning and weekend **4–8 cards**, afternoon **3–6 cards**; ids `$DATE-m1…` / `$DATE-a1…` /
    `$DATE-w1…`. Every card has **all four** 🎯 boxes (`dda`, `prs`, `lump`, `bond`), each written for that specific story in
    both zh and en. Do not copy the same box text across cards.

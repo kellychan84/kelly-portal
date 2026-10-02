@@ -6,7 +6,8 @@ Each morning / afternoon / weekend update adds ONE file: `insights/data/<YYYY-MM
 `insights/insights.js`. The Python build also checks every card and prints a WARNING for anything that breaks these rules.
 
 The array holds:
-1. one **今日速览 snapshot** (`"kind": "summary"`) — first item;
+1. **morning and weekend only:** one **每日速览 snapshot** (`"kind": "summary"`) as the first item — it also feeds the
+   home-page hero card. **Afternoon files have no snapshot** (Kelly, 2026-10-02);
 2. one **news card per story** — morning/weekend 4–8, afternoon 3–6.
 
 ## Source rules (non-negotiable)
@@ -51,15 +52,15 @@ Every news card has all four, in zh and en, written for **that** story (no copy-
 }
 ```
 
-## Schema — 今日速览 snapshot (first item of the array)
+## Schema — 每日速览 snapshot (first item; morning and weekend files only)
 ```json
 {
-  "id": "2026-10-02-m0",                    // n = 0
+  "id": "2026-10-02-m0",                    // n = 0; m (morning) or w (weekend), never a (afternoon)
   "kind": "summary",
   "time": "2026-10-02T09:00:00+08:00",
   "tags": [],
   "title":  { "zh": "一句话总结今天", "en": "One-line summary of the day" },
-  "figures": [                              // 3–6 verified numbers; only ones you have
+  "figures": [                              // 4 verified numbers (home page shows the first 4); only ones you have
     { "label": { "zh": "标普500", "en": "S&P 500" }, "value": "7,666.45", "change": "+0.19%", "dir": "up" }
   ],                                        // dir: "up" | "dn" | "" (neutral); change may also be { "zh", "en" } for words
   "points": [ { "zh": "...", "en": "..." } ],   // 2–3 key headlines
@@ -67,7 +68,8 @@ Every news card has all four, in zh and en, written for **that** story (no copy-
   "sources": [ { "name": "Yahoo Finance", "url": "https://..." } ]
 }
 ```
-The snapshot shows at the top of each update in the 全部 view (not under category filters) and on the home page hero card.
+The snapshot shows at the top of its update in the 全部 view, under the 📰 每日速览 chip, and on the home-page hero card
+(headline, first 4 figures, Kelly's view).
 
 ## Tags
 `my` 🌏 马来西亚/东盟 · `us` 🗽 美国 · `cn` 🏮 中国 · `tech` 💻 科技与AI · `commodities` 🟡 黄金与原油 · `fed` 🏦 美联储与宏观.

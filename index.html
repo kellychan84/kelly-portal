@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/site.css?v=14">
+<link rel="stylesheet" href="assets/site.css?v=15">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%239A7B3E'/><text x='32' y='44' font-size='34' text-anchor='middle' fill='white' font-family='Georgia'>K</text></svg>">
 </head>
 <body data-page="home" data-root="">
@@ -28,7 +28,7 @@
   <section class="hero">
     <div class="container hero-grid">
       <div>
-        <p class="section-eyebrow"><span class="zh">每日市场简报 · 退休规划</span><span class="en">Daily Market Briefs · Retirement Planning</span></p>
+        <p class="section-eyebrow"><span class="zh">每日市场洞察 · 退休规划</span><span class="en">Daily Market Insights · Retirement Planning</span></p>
         <h1>
           <span class="zh">每天读懂市场，<br><em>一步步</em>规划退休</span>
           <span class="en">Understand the markets daily, <em>plan your retirement</em> step by step</span>
@@ -48,10 +48,11 @@
         </div>
       </div>
       <div class="hero-card" id="latestCard" aria-live="polite">
-        <div class="hc-eyebrow"><span class="zh">今日速览</span><span class="en">Market snapshot</span></div>
+        <div class="hc-eyebrow">📰 <span class="zh">每日速览</span><span class="en">Daily snapshot</span> · <span id="latestMeta"></span></div>
         <div class="hc-title" id="latestTitle">…</div>
-        <div class="hc-meta" id="latestMeta"></div>
-        <a class="hc-link" id="latestLink" href="insights.html"><span class="zh">立即阅读 →</span><span class="en">Read now →</span></a>
+        <div class="hc-figs" id="latestFigs"></div>
+        <p class="hc-take" id="latestTake"></p>
+        <a class="hc-link" id="latestLink" href="insights.html"><span class="zh">查看完整速览 →</span><span class="en">See the full snapshot →</span></a>
       </div>
     </div>
   </section>
@@ -136,7 +137,8 @@
 <div id="site-footer"></div>
 
 <script src="assets/config.js?v=5"></script>
-<script src="insights/insights.js"></script>
+<!-- news data changes several times a day: bust the browser cache every 5 minutes -->
+<script>document.write('<script src="insights/insights.js?t=' + Math.floor(Date.now() / 300000) + '"><\/script>');</script>
 <script src="assets/insights-ui.js?v=5"></script>
 <script src="assets/site.js?v=7"></script>
 <script>
@@ -145,15 +147,19 @@
     if (!news.length) { document.getElementById('insightsSection').remove(); document.getElementById('latestCard').remove(); return; }
     document.getElementById('recentInsights').innerHTML = news.slice(0, 3).map(i => kpInsights.mini(i, '')).join('');
 
-    // hero card: the latest 今日速览 snapshot, or the newest story if there is none yet
+    // hero card: the latest 每日速览 snapshot (morning / weekend), or the newest story if there is none yet
     const top = kpInsights.latestSummary() || news[0];
     const esc = t => String(t || '').replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+    const bi = o => o ? `<span class="zh">${esc(o.zh || o.en)}</span><span class="en">${esc(o.en || o.zh)}</span>` : '';
     const d = new Date(top.time);
-    document.getElementById('latestTitle').innerHTML =
-      `<span class="zh">${esc(top.title.zh || top.title.en)}</span><span class="en">${esc(top.title.en || top.title.zh)}</span>`;
+    document.getElementById('latestTitle').innerHTML = bi(top.title);
     document.getElementById('latestMeta').innerHTML =
       `<span class="zh">${d.toLocaleDateString('zh-CN', { timeZone: 'Asia/Kuala_Lumpur', month: 'long', day: 'numeric', weekday: 'short' })}</span>` +
       `<span class="en">${d.toLocaleDateString('en-GB', { timeZone: 'Asia/Kuala_Lumpur', weekday: 'short', day: 'numeric', month: 'short' })}</span>`;
+    document.getElementById('latestFigs').innerHTML = (top.figures || []).slice(0, 4).map(f => `
+      <div class="hc-fig"><div class="hc-fig-l">${bi(f.label)}</div><div class="hc-fig-v">${esc(f.value)}</div>${f.change ? `<div class="hc-fig-c ${f.dir === 'up' ? 'up' : f.dir === 'dn' ? 'dn' : ''}">${typeof f.change === 'object' ? bi(f.change) : esc(f.change)}</div>` : ''}</div>`).join('');
+    if (top.takeaway) document.getElementById('latestTake').innerHTML = '💬 ' + bi(top.takeaway);
+    else document.getElementById('latestTake').remove();
     document.getElementById('latestLink').href = 'insights.html#' + encodeURIComponent(top.id);
   })();
 </script>
