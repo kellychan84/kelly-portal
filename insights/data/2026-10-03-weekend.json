@@ -1,0 +1,268 @@
+[
+ {
+  "id": "2026-10-03-w0",
+  "kind": "summary",
+  "time": "2026-10-03T09:00:00+08:00",
+  "title": {
+   "zh": "美国9月新增就业仅2.9万、失业率升至4.2%,加息预期降温;港股节后大跌2.6%",
+   "en": "US September payrolls only 29,000 and unemployment rises to 4.2%, easing hike bets; Hong Kong sheds 2.6% after the holiday"
+  },
+  "figures": [
+   {
+    "label": {
+     "zh": "美国9月新增非农就业",
+     "en": "US Sept nonfarm payrolls"
+    },
+    "value": "+29,000",
+    "change": {
+     "zh": "远低于预期",
+     "en": "well below forecasts"
+    },
+    "dir": "dn"
+   },
+   {
+    "label": {
+     "zh": "美国失业率",
+     "en": "US unemployment rate"
+    },
+    "value": "4.2%",
+    "change": {
+     "zh": "较上月上升",
+     "en": "up from prior month"
+    },
+    "dir": "dn"
+   },
+   {
+    "label": {
+     "zh": "10月加息概率(CME)",
+     "en": "Oct hike odds (CME)"
+    },
+    "value": "~16%",
+    "change": {
+     "zh": "一周前约64%",
+     "en": "vs ~64% a week ago"
+    },
+    "dir": "up"
+   },
+   {
+    "label": {
+     "zh": "恒生指数(周五)",
+     "en": "Hang Seng (Fri)"
+    },
+    "value": "23,972.29",
+    "change": "-2.60%",
+    "dir": "dn"
+   }
+  ],
+  "points": [
+   {
+    "zh": "美国9月就业报告意外疲弱,市场押注联储10月按兵不动,纳斯达克创新高。",
+    "en": "A surprisingly weak US jobs report led markets to bet the Fed holds in October, with the Nasdaq reaching a fresh high."
+   },
+   {
+    "zh": "港股国庆假期后重开大跌2.6%,南向资金休市至10月8日。",
+    "en": "Hong Kong reopened after the holiday down 2.6% with Southbound flows shut until Oct 8."
+   },
+   {
+    "zh": "下周经济日程偏淡,第三季财报季要到10月13日才正式开锣;焦点仍是油价与美债收益率。",
+    "en": "The calendar is light next week and Q3 earnings season starts on Oct 13; oil and Treasury yields stay in focus."
+   }
+  ],
+  "takeaway": {
+   "zh": "这一周的主线是\"利率\"。坏消息有时反而让市场松一口气,但这种反应并不稳定。对长期投资者来说,与其猜下一份数据,不如把注意力放回自己的目标和定期的纪律上。",
+   "en": "The week's story was interest rates. Bad news can sometimes bring relief, but that reaction is not stable. Rather than guessing the next data point, long-term investors may do better focusing on their goals and steady habits."
+  },
+  "sources": [
+   {
+    "name": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/economy/articles/september-2026-jobs-report-payrolls-123334753.html"
+   },
+   {
+    "name": "CNBC",
+    "url": "https://www.cnbc.com/2026/10/02/stock-market-next-week-outlook-for-oct-5-9-2026-.html"
+   },
+   {
+    "name": "FX168",
+    "url": "https://www.fx168news.com/express/fastnews/1440858"
+   }
+  ]
+ },
+ {
+  "id": "2026-10-03-w1",
+  "time": "2026-10-03T09:00:00+08:00",
+  "tags": [
+   "us",
+   "fed"
+  ],
+  "title": {
+   "zh": "美国9月仅新增2.9万个职位,失业率升至4.2%",
+   "en": "US adds just 29,000 jobs in September as unemployment rises to 4.2%"
+  },
+  "analysis": {
+   "zh": "美国9月非农新增就业2.9万个,远低于市场预期,也低于过去12个月平均每月4.5万个的增幅;失业率升至4.2%,时薪按年增长3.0%。就业放缓让市场重新评估联储的下一步,按CME FedWatch,10月会议加息概率降至约18%,一周前约为64%。就像开车时看到油表跳动,单一读数不代表全局,但会改变大家的预期。",
+   "en": "US nonfarm payrolls rose by just 29,000 in September, far below forecasts and under the prior 12-month average of 45,000 a month; unemployment rose to 4.2% and hourly wages were up 3.0% year on year. The slowdown made markets rethink the Fed's next move, with CME FedWatch showing the odds of an October hike falling to around 18% from about 64% a week earlier. Like a flickering fuel gauge, one reading is not the whole picture, but it does change expectations."
+  },
+  "dda": {
+   "zh": "单月数据起伏大,定期定额的好处就是不必为每一份报告调整节奏,用时间平摊进场成本。",
+   "en": "Monthly data swings a lot; the benefit of regular (DDA) investing is that you need not change your rhythm for each report, as time spreads out your entry cost."
+  },
+  "prs": {
+   "zh": "退休是以数十年计的事。经济放缓与利率走向是周期性的变化,持续供款并定期检视目标,比追逐短期消息更重要。每年最高RM3,000的PRS税务减免也可作为规划参考。",
+   "en": "Retirement is measured in decades. Slowdowns and rate paths are cyclical, so steady contributions and regular goal reviews matter more than chasing headlines. The PRS tax relief of up to RM3,000 a year can also be part of planning."
+  },
+  "lump": {
+   "zh": "数据转弱可能令市场情绪快速转向。单笔资金通常可考虑分阶段投入以分散时机风险,并检查组合是否过度集中,配合自己的目标与风险承受度。",
+   "en": "Weaker data can swing sentiment quickly. A lump sum may be phased in to spread timing risk, while checking concentration and matching goals and risk tolerance."
+  },
+  "bond": {
+   "zh": "美国加息预期降温,有助缓解全球收益率的压力,对大马政府债券(MGS)与企业债券、伊斯兰债券的情绪一般偏正面。但马来西亚债券基金仍主要受国家银行OPR、本地通胀与外资流向影响。",
+   "en": "Cooler US hike expectations may ease pressure on global yields, which is generally supportive for sentiment on MGS, corporate bonds and sukuk. Malaysian bond funds are still driven mainly by Bank Negara's OPR, local inflation and foreign flows."
+  },
+  "source": {
+   "name": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/economy/articles/september-2026-jobs-report-payrolls-123334753.html"
+  }
+ },
+ {
+  "id": "2026-10-03-w2",
+  "time": "2026-10-03T09:00:00+08:00",
+  "tags": [
+   "us",
+   "tech"
+  ],
+  "title": {
+   "zh": "利率预期降温,纳斯达克升至新高,科技与芯片股领涨",
+   "en": "Rate-hike bets fade as the Nasdaq hits a fresh high, led by tech and chips"
+  },
+  "analysis": {
+   "zh": "周五疲弱的就业数据压低美债收益率,债券交易员迅速削减10月加息押注,股市顺势走高。纳斯达克综合指数升至新高,由英伟达创纪录与芯片股回暖带动。不过CNBC指出,油价与美债收益率仍是左右市场的两股力量。好比天秤的两端,利率下行时成长股的估值压力会减轻。",
+   "en": "Friday's soft jobs data pulled Treasury yields down, bond traders quickly pared October hike bets, and stocks moved higher. The Nasdaq Composite reached a fresh high, powered by a record in Nvidia and a revival in chip makers. CNBC notes, however, that oil prices and Treasury yields remain the two forces driving the market. Like a balance scale, falling rates ease valuation pressure on growth stocks."
+  },
+  "dda": {
+   "zh": "市场创新高时,定期定额不需要刻意等回调,也不必因为高位而停手,重点是持续并保持分散。",
+   "en": "When markets hit highs, regular investing need not wait for a pullback or pause because of a high; the focus is staying consistent and diversified."
+  },
+  "prs": {
+   "zh": "科技股比重往往会悄悄抬高退休组合的集中度。定期检视配置是否仍符合退休年限与风险承受度,是更实际的做法。",
+   "en": "Tech weightings can quietly raise concentration in a retirement portfolio. Reviewing whether the mix still suits your time horizon and risk tolerance is a practical habit."
+  },
+  "lump": {
+   "zh": "指数创新高时投入单笔资金,可考虑分阶段进场以分散时机风险,并留意是否过度集中在少数科技股。",
+   "en": "When deploying a lump sum near highs, phasing in may spread timing risk, and it helps to check for over-concentration in a few tech names."
+  },
+  "bond": {
+   "zh": "股市走强与债券基金的直接关联不大,但收益率回落一般对债券价格有利。债券基金在组合中仍扮演平衡角色,在股市波动时提供缓冲。",
+   "en": "A stock rally has little direct link to Malaysian bond funds, though lower yields generally help bond prices. Bond funds still act as a portfolio balancer, cushioning equity volatility."
+  },
+  "source": {
+   "name": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-2-dow-sp-500-nasdaq-september-jobs-report-080623878.html"
+  }
+ },
+ {
+  "id": "2026-10-03-w3",
+  "time": "2026-10-03T09:00:00+08:00",
+  "tags": [
+   "cn"
+  ],
+  "title": {
+   "zh": "港股国庆后重开大跌2.6%,恒指失守24,000点",
+   "en": "Hong Kong reopens after National Day down 2.6%, Hang Seng loses 24,000"
+  },
+  "analysis": {
+   "zh": "恒生指数周五收跌640.98点或2.60%,报23,972.29点;恒生科技指数跌2.26%至4,157.94点,国企指数跌2.31%至8,030.54点。FX168报道指出,港股在假期后补跌,与全球美债收益率高企相呼应;10年期美债收益率曾触及5.34%,为2002年以来最高。此外,内地与港股通休市至10月8日,南向资金暂缺席,让市场更容易放大波动。",
+   "en": "The Hang Seng Index closed down 640.98 points, or 2.60%, at 23,972.29 on Friday; the Hang Seng Tech Index fell 2.26% to 4,157.94 and the China Enterprises Index fell 2.31% to 8,030.54. FX168 reported that Hong Kong was catching up with the global sell-off after the holiday, with the US 10-year yield touching 5.34%, the highest since 2002. With Stock Connect shut until Oct 8, Southbound buying is absent, which can amplify moves."
+  },
+  "dda": {
+   "zh": "单日大跌往往是市场流动性与假期因素造成的短期波动,定期定额的长期纪律不需因此改变。",
+   "en": "A big one-day fall is often short-term volatility from liquidity and holiday effects; the long-term discipline of regular investing need not change."
+  },
+  "prs": {
+   "zh": "若退休组合含有中国或亚洲市场的基金,可借此机会了解其占比与波动特性,确保与退休年限和风险承受度相符。",
+   "en": "If your retirement portfolio includes China or Asia funds, this is a good moment to understand their weighting and volatility and check they fit your horizon and risk tolerance."
+  },
+  "lump": {
+   "zh": "港股波动较大时,单笔投入宜分阶段,并留意单一市场的集中度,避免因短期下跌而仓促决定。",
+   "en": "When Hong Kong is volatile, phasing in a lump sum and watching single-market concentration may help avoid rushed decisions after a short-term drop."
+  },
+  "bond": {
+   "zh": "港股下跌对大马债券基金的直接影响有限,但全球收益率与资金流向的变化可能间接影响令吉与外资流入。债券基金仍可发挥分散股市风险的作用。",
+   "en": "The Hong Kong drop has limited direct effect on Malaysian bond funds, though shifts in global yields and fund flows may indirectly affect the ringgit and foreign inflows. Bond funds can still diversify equity risk."
+  },
+  "source": {
+   "name": "FX168",
+   "url": "https://www.fx168news.com/express/fastnews/1440858"
+  }
+ },
+ {
+  "id": "2026-10-03-w4",
+  "time": "2026-10-03T09:00:00+08:00",
+  "tags": [
+   "my"
+  ],
+  "title": {
+   "zh": "富时隆综指周五报约1,631点,较上月下滑近5%",
+   "en": "FBM KLCI near 1,631 on Friday, down almost 5% over the past month"
+  },
+  "analysis": {
+   "zh": "据Trading Economics,富时隆综指周五微升0.03%至约1,631点,但过去一个月累计下跌约4.91%,按年则小幅下跌0.26%。在美债收益率处于高位、全球风险偏好反复的背景下,本地股市近期偏弱。就像一场长跑中的上坡段,速度放慢不代表方向改变。",
+   "en": "According to Trading Economics, the FBM KLCI edged up 0.03% to about 1,631 on Friday, but it is down about 4.91% over the past month and 0.26% over the past year. With US yields high and global risk appetite shifting, the local market has been soft recently. Like an uphill stretch in a long run, slowing down does not mean the direction has changed."
+  },
+  "dda": {
+   "zh": "本地市场下滑期间持续定期投入,可能以较低的平均成本累积单位,这是定期定额的长期意义。",
+   "en": "Continuing regular contributions during a local dip may accumulate units at a lower average cost, which is the long-term point of DDA investing."
+  },
+  "prs": {
+   "zh": "PRS是长期工具,短期的指数起伏不应主导决定。把每年最高RM3,000的税务减免与稳定供款结合,有助于耐心积累。",
+   "en": "PRS is a long-term vehicle, so short-term index swings should not drive decisions. Combining the tax relief of up to RM3,000 a year with steady contributions supports patient accumulation."
+  },
+  "lump": {
+   "zh": "本地市场回落时,单笔资金可考虑分阶段投入,并检查组合是否过度集中于单一行业或市场。",
+   "en": "After a local pullback, a lump sum can be phased in, with a check on concentration in one sector or market."
+  },
+  "bond": {
+   "zh": "股市偏弱时,大马债券基金(MGS、企业债券与伊斯兰债券)通常提供较平稳的收益来源,价格主要受国家银行OPR与国内通胀影响。",
+   "en": "When equities are soft, Malaysian bond funds (MGS, corporate bonds and sukuk) generally offer a steadier income source, with prices driven mainly by Bank Negara's OPR and domestic inflation."
+  },
+  "source": {
+   "name": "Trading Economics",
+   "url": "https://tradingeconomics.com/malaysia/stock-market"
+  }
+ },
+ {
+  "id": "2026-10-03-w5",
+  "time": "2026-10-03T09:00:00+08:00",
+  "tags": [
+   "us",
+   "fed"
+  ],
+  "title": {
+   "zh": "下周展望:经济日程偏淡,10月13日起银行股财报季开锣",
+   "en": "Week ahead: a light calendar, with bank earnings kicking off Q3 season on Oct 13"
+  },
+  "analysis": {
+   "zh": "CNBC指出,下周经济日程偏淡,第三季财报季要到10月13日才正式开始,油价与美债收益率仍是主导市场的两大因素。较早公布的财报包括10月8日的百事(PEP)与9日的达美航空(DAL);10月13日摩根大通、富国银行、花旗与高盛公布业绩,10月14日轮到美国银行与摩根士丹利。联储10月政策会议在10月27至28日举行。",
+   "en": "CNBC notes the economic calendar is light next week and Q3 earnings season does not really start until Oct 13, with oil prices and Treasury yields the main drivers. Early reports include Pepsi (PEP) on Oct 8 and Delta (DAL) on the 9th; JPMorgan, Wells Fargo, Citigroup and Goldman Sachs report on Oct 13, followed by Bank of America and Morgan Stanley on Oct 14. The Fed's October meeting is on Oct 27–28."
+  },
+  "dda": {
+   "zh": "财报季与会议期间市场情绪容易波动,但长期的定期定额靠的是时间与纪律,而不是预测每一次公布的结果。",
+   "en": "Sentiment can swing during earnings and meeting seasons, but long-term regular investing relies on time and discipline rather than predicting each release."
+  },
+  "prs": {
+   "zh": "银行财报与利率会议反映的是经济的周期,退休规划应建立在多元配置与持续供款上,并按年检视。",
+   "en": "Bank earnings and rate meetings reflect the economic cycle; retirement plans rest on diversification, steady contributions and a yearly review."
+  },
+  "lump": {
+   "zh": "重要事件前后单笔投入较易遇到波动,分阶段进场可分散时机风险,同时留意组合集中度并配合自身目标。",
+   "en": "Lump sums can meet more volatility around key events; phasing in may spread timing risk, alongside a check on concentration and fit with your goals."
+  },
+  "bond": {
+   "zh": "联储10月会议的结果与美债收益率走向,可能影响全球利率情绪,间接牵动大马债券的外资流向。不过本地债券基金仍主要受国家银行OPR与通胀影响,在组合中扮演平衡角色。",
+   "en": "The Fed's October meeting and the path of Treasury yields may shape global rate sentiment and indirectly affect foreign flows into Malaysian bonds. Local bond funds are still driven mainly by the OPR and inflation, and act as a portfolio balancer."
+  },
+  "source": {
+   "name": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/02/stock-market-next-week-outlook-for-oct-5-9-2026-.html"
+  }
+ }
+]
